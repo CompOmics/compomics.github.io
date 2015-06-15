@@ -2,7 +2,7 @@
 name: Usageandexamples
 project: mascotdatfile
 layout: default
-url: /mascotdatfile/wiki/usageandexamples.html
+permalink: /mascotdatfile/wiki/usageandexamples.html
 ---
 
 # Usage And Examples

@@ -2,7 +2,7 @@
 name: Releasenotes
 project: mascotdatfile
 layout: default
-url: /mascotdatfile/wiki/releasenotes.html
+permalink: /mascotdatfile/wiki/releasenotes.html
 ---
 
 Starting from MascotDatfile version 3.0, all subsequent versions of the library are listed here.
