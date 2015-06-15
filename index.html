@@ -2,22 +2,14 @@
 layout: default
 ---
 
-<div class="home">
+<p>Welcome to the website for software projects created and maintained by the Computational Omics and Systems Biology Group (<a href="http://compomics.com">Compomics</a>). Below you can find a list of software we have developed, and on the subsequent pages are documentation and links to downloads and source code (hosted on our <a href="https://github.com/compomics">Github</a> page).</p>
 
-  <h1 class="page-heading">Posts</h1>
+<hr>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<ul>
+  {% for project in site.projects %}
+    <li>
+        <a href="{{ project.url | prepend: site.baseurl | append: site.projects.output_ext }}">{{ project.name }}</a>
+    </li>
+  {% endfor %}
+</ul>
