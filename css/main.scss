@@ -1368,3 +1368,11 @@ pre .javascript .function {
 .tagcloud a {
   margin-right: 5px;
 }
+
+.noheader thead {
+  display: none;
+}
+
+.noheader tr td {
+  border-bottom: 0;
+}
