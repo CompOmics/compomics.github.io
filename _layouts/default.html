@@ -21,48 +21,7 @@
             </article>
           </section>
 
-          <aside id="sidebar">
-            {% if page.page_type == "project" %}
-            <div class="widget-wrap">
-              <h3 class="widget-title">Wiki</h3>
-              <div class="widget">
-                <ul class="post-list">
-                  {% for page in site.categories.[page.name] %}
-                    <li>
-                        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.name }}</a>
-                    </li>
-                  {% endfor %}
-                </ul>
-              </div>
-            </div>
-            {% endif %}
-            {% if page.date %}
-            <div class="widget-wrap">
-              <h3 class="widget-title">Wiki</h3>
-              <div class="widget">
-                <ul class="post-list">
-                  {% for page in site.categories.[page.project] %}
-                    <li>
-                        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.name }}</a>
-                    </li>
-                  {% endfor %}
-                </ul>
-              </div>
-            </div>
-            {% endif %}
-            <div class="widget-wrap">
-              <h3 class="widget-title">Projects</h3>
-              <div class="widget">
-                <ul class="post-list">
-                  {% for project in site.projects %}
-                    <li>
-                        <a href="{{ project.url | prepend: site.baseurl | append: site.projects.output_ext }}">{{ project.name }}</a>
-                    </li>
-                  {% endfor %}
-                </ul>
-              </div>
-            </div>
-          </aside>
+          {% include sidebar.html %}
         </div>
         {% include footer.html %}
       </div>
