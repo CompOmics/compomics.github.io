@@ -1,5 +1,18 @@
 <aside id="sidebar">
-  {% if page.page_type == "project" %}
+  <div class="widget-wrap">
+    <h3 class="widget-title">Links</h3>
+    <div class="widget">
+      <ul class="post-list">
+        <li>
+            <i class="fa fa-github"></i> <a href="{{ page.url | prepend: site.baseurl }}">Source</a>
+        </li>
+        <li>
+            <i class="fa fa-exclamation-circle"></i> <a href="{{ page.url | prepend: site.baseurl }}">Issues</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  {% if page.page_type == "project" and site.categories.[page.name].size > 0 %}
   <div class="widget-wrap">
     <h3 class="widget-title">Wiki</h3>
     <div class="widget">
