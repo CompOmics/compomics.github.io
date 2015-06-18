@@ -5,10 +5,13 @@ echo "building project page"
 project_name=$1
 readme=$2
 wiki=$3
+
+github_page="${wiki%."wiki.git"}"
+
 project_filename="${project_name/ /_}"
 project_filename=${project_filename,,}
 
-header="---\nname: \"$project_name\"\n---\n"
+header="---\nname: \"$project_name\"\ngithub_project: \"$github_page\"\n---\n"
 
 # sort out project filename
 
@@ -30,7 +33,7 @@ for filename in temp_wiki/*.md; do
 	page_name=${page_name,,}
 
 	if [ $page_name != "home" ]; then
-		header="---\nname: ${page_name^}\nproject: $project_name\nlayout: default\npermalink: /$project_name/wiki/$page_name.html\n---\n"
+		header="---\nname: ${page_name^}\nproject: $project_name\nlayout: default\npermalink: /$project_name/wiki/$page_name.html\ngithub_project: $github_page\n---\n"
 
 		echo -e "$header" > "$directory/$(date +%F)-$page_name.md"
 		echo -e "$(cat $filename)" >> "$directory/$(date +%F)-$page_name.md"

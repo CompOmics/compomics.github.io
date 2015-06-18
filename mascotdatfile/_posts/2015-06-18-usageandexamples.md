@@ -3,7 +3,7 @@ name: Usageandexamples
 project: mascotdatfile
 layout: default
 permalink: /mascotdatfile/wiki/usageandexamples.html
-github_project: 
+github_project: https://github.com/compomics/mascotdatfile
 ---
 
 # Usage And Examples
