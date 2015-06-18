@@ -3,6 +3,7 @@ name: Releasenotes
 project: mascotdatfile
 layout: default
 permalink: /mascotdatfile/wiki/releasenotes.html
+github_project: 
 ---
 
 Starting from MascotDatfile version 3.0, all subsequent versions of the library are listed here.
