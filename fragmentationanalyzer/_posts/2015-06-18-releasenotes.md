@@ -3,27 +3,31 @@ name: Releasenotes
 project: FragmentationAnalyzer
 layout: default
 permalink: /FragmentationAnalyzer/wiki/releasenotes.html
+github_project: https://github.com/compomics/fragmentation-analyzer
 ---
 
-*Changes in FragmentationAnalyzer v1.5.11 - (May 21. 2013):*
+# Release notes
+
+### Changes in FragmentationAnalyzer v1.5.11 - (May 21. 2013):
+
  * LIBRARY UPDATE: Updated mascotdatfile to version 3.4.11, fixing a possible null pointer.
 
 ----
 
-*Changes in FragmentationAnalyzer v1.5.10 - (April 26. 2013):*
+### Changes in FragmentationAnalyzer v1.5.10 - (April 26. 2013):
+
  * BUG FIX: Fixed a problem with starting the tool on the latest Java release. 
 
 Download Count: 20
 
 ----
 
-*Changes in FragmentationAnalyzer v1.5.9 - (April 2. 2013):*
+### Changes in FragmentationAnalyzer v1.5.9 - (April 2. 2013):
+
  * FEATURE IMPROVEMENT: Improved the look and feel of the spectra.
  * FEATURE IMPROVEMENT: The project now supports Maven 3.
-
  * BUG FIX: Fixed an issue with the pom file that could results in issues on NetBeans 7.2.
  * BUG FIX: Made it possible to run the tool from inside NetBeans.
-
  * LIBRARY UPDATE: Updated ms-lims to version 7.7.7.
  * LIBRARY UPDATE: Updated utilities to version 3.11.29.
  * LIBRARY UPDATE: Updated ommsa parser to version 1.5.9.
@@ -34,14 +38,16 @@ Download Count: 17
 
 ----
 
-*Changes in FragmentationAnalyzer v1.5.8 - (March 10. 2011):*
+### Changes in FragmentationAnalyzer v1.5.8 - (March 10. 2011):
+
  * LIBRARY UPDATE: utilities updated to 3.0.46.
 
 Download Count: 671
 
 ----
 
-*Changes in FragmentationAnalyzer v1.5.7 - (February 27. 2011):*
+### Changes in FragmentationAnalyzer v1.5.7 - (February 27. 2011):
+
  * NEW FEATURE: Added JSparklines to the tables displaying some of the numbers as numbers and bar charts.
  * LIBRARY UPDATE: utilities updated to 3.0.40.
 
@@ -49,14 +55,16 @@ Download Count: 9
 
 ----
 
-*Changes in FragmentationAnalyzer v1.5.6 - (January 25. 2011):*
+### Changes in FragmentationAnalyzer v1.5.6 - (January 25. 2011):
+
  * BUG FIX: Fixed a bug in the Fragment Ion Probability plots x-axis labelling.
 
 Download Count: 13
 
 ----
 
-*Changes in FragmentationAnalyzer v1.5.5 - (November 7. 2010):*
+### Changes in FragmentationAnalyzer v1.5.5 - (November 7. 2010):
+
  * FEATURE IMPROVEMENT: Changed the x-axis of the Fragment Ion Probability plots from "Fragment Ion Number" to "Residue Number" when analyzing a single peptide sequence.
  * LIBRARY UPDATE: utilities updated to 3.0.23.
 
@@ -64,7 +72,8 @@ Download Count: 80
 
 ----
 
-*Changes in FragmentationAnalyzer v1.5.4 - (September 9. 2010):*
+### Changes in FragmentationAnalyzer v1.5.4 - (September 9. 2010):
+
  * BUG FIX: Fixed a bug in the export figure to file feature that resulted in only parts of the figure being exported.
  * LIBRARY UPDATE: utilities updated to 3.0.21.
 
@@ -72,7 +81,8 @@ Download Count: 30
 
 ----
 
-*Changes in FragmentationAnalyzer v1.5.3 - (Aug. 17. 2010):*
+### Changes in FragmentationAnalyzer v1.5.3 - (Aug. 17. 2010):
+
  * LIBRARY UPDATE: ms_lims updated to 7.4.1 
  * LIBRARY UPDATE: mascotdatfile updated to 3.2 
  * LIBRARY UPDATE: omssa-parser updated to 1.4 
@@ -81,7 +91,8 @@ Download Count: 16
 
 ----
 
-*Changes in FragmentationAnalyzer v1.5.2 - (July 4. 2010):*
+### Changes in FragmentationAnalyzer v1.5.2 - (July 4. 2010):
+
  * FEATURE IMPROVEMENT: Lots of minor changes to the GUI to make it look better on Windows 7.
  * LIBRARY UPDATE: utilities updated to 3.0.9 
 
@@ -89,7 +100,8 @@ Download Count: 32
 
 ----
 
-*Changes in FragmentationAnalyzer v1.5.1 - (May 18. 2010):*
+### Changes in FragmentationAnalyzer v1.5.1 - (May 18. 2010):
+
  * NEW FEATURE: ms_lims version 7.3 is now supported.
  * LIBRARY UPDATE: ms_lims updated to 7.3
  * LIBRARY UPDATE: mascotdatfile updated to 3.0.2
@@ -99,7 +111,8 @@ Download Count: 32
 
 ----
 
-*Changes in FragmentationAnalyzer v1.5 - (Feb. 27. 2010):*
+### Changes in FragmentationAnalyzer v1.5 - (Feb. 27. 2010):
+
  * NEW FEATURE: New plotting type: Intensity Correlation.
  * NEW FEATURE: New plotting type: Intensity Meta Plots.
  * FEATURE IMPROVEMENT: Made sure that b ions are blue and y ions red in all plots.
@@ -108,7 +121,8 @@ Download Count: 144
 
 ----
 
-*Changes in FragmentationAnalyzer v1.4.3 - (Jan. 11. 2010):*
+### Changes in FragmentationAnalyzer v1.4.3 - (Jan. 11. 2010):
+
  * FEATURE IMPROVEMENT: Renamed and reordered the scoring types in the preference dialog.
  * BUG FIX: The value selected in the accuracy drop down menu for the 'Individual Spectra' table was sometimes replaced by the current value from the 'Search Results' accuract drop down menu when doing the analysis. Has now been fixed.
  * LIBRARY UPDATE: mascot_datfile updated from 2.2.2 to 2.2.3.
@@ -117,7 +131,8 @@ Download Count: 21
 
 ----
 
-*Changes in FragmentationAnalyzer v1.4.2 - (Dec. 04. 2009):*
+### Changes in FragmentationAnalyzer v1.4.2 - (Dec. 04. 2009):
+
  * NEW FEATURE: It's now possible to duplicate some of the plot internal frames without having to redo the plotting. 
  * FEATURE IMPROVEMENT: Moved the text for the fragment ion markers so that singly charged b and y ions no longer overlap.
  * BUG FIX: A bug occurred if a bar chart was created when the legends were hidden.
@@ -127,7 +142,8 @@ Download Count: 8
 
 ----
 
-*Changes in FragmentationAnalyzer v1.4.1 - (Nov. 25. 2009):*
+### Changes in FragmentationAnalyzer v1.4.1 - (Nov. 25. 2009):
+
  * NEW FEATURE: All plots can now be exported as PDF, PNG, JPG and TIFF (in addition to the already supported SVG format).
  * NEW FEATURE: On Windows platforms `FragmentationAnalyzer` can now be run from paths containing spaces.
  * BUG FIX: Plot title names containing < or > (mainly for modifications) will now be altered before suggesting them as export plot title. (In order to make the suggested file names valid).
@@ -137,7 +153,8 @@ Download Count: 3
 
 ----
 
-*Changes in FragmentationAnalyzer v1.4 - (Nov. 23. 2009):*
+### Changes in FragmentationAnalyzer v1.4 - (Nov. 23. 2009):
+
  * NEW FEATURE: All plots can now be exported as SVG files.
  * NEW FEATURE: Heat Maps with correlation data for comparing fragmentation patterns have been added.
  * NEW FEATURE: Box plots showing the spead for the combined fragment ion probability plots have been added.
@@ -153,7 +170,8 @@ Download Count: 0
 
 ----
 
-*Changes in FragmentationAnalyzer v1.3.2 - (Nov. 16. 2009):*
+### Changes in FragmentationAnalyzer v1.3.2 - (Nov. 16. 2009):
+
  * NEW FEATURE: It is now possible to edit the title of the plots/analyses frames. 
  * FEATURE IMPROVEMENT: The numbers in the results dialog are now formatted, e.g., 12345 becomes 12,345. 
  * FEATURE IMPROVEMENT: The coloring scheme for bubble and scatter plots when using the fragment ion type label type is now the same as for fragment ion probability plots.
@@ -166,7 +184,8 @@ Download Count: 3
 
 ----
 
-*Changes in FragmentationAnalyzer v1.3.1 - (Nov. 06. 2009):*
+### Changes in FragmentationAnalyzer v1.3.1 - (Nov. 06. 2009):
+
  * NEW FEATURE: The search parameters section can now be hidden or shown by the user. 
  * NEW FEATURE: The number of plots per row and column in the plotting panel can now be set by the user in the Preferences dialog.
  * NEW FEATURE: Importing user settings from previous versions is now supported.
@@ -179,7 +198,8 @@ Download Count: 5
 
 ----
 
-*Changes in FragmentationAnalyzer v1.3 - (Nov. 04. 2009):*
+### Changes in FragmentationAnalyzer v1.3 - (Nov. 04. 2009):
+
  * NEW FEATURE: Fragment Ion Probability plots can now be created.
  * NEW FEATURE: Intensity box plot is now supported for the spectra table as well.
  * NEW FEATURE: Made it possible to plot the unnormalized intensities as well. (Selected on the Edit menu.)
@@ -200,7 +220,8 @@ Download Count: 0
 
 ----
 
-*Changes in FragmentationAnalyzer v1.2 - (Oct. 29. 2009):*
+### Changes in FragmentationAnalyzer v1.2 - (Oct. 29. 2009):
+
  * NEW FEATURE: Resizing of the main frame is now supported.
  * NEW FEATURE: The total number of fragment ions is now shown in the title bar of some of the mass error plots.
  * NEW FEATURE: Mass Error Box Plots can now be created.
@@ -215,7 +236,8 @@ Download Count: 1
 
 ----
 
-*Changes in FragmentationAnalyzer v1.1.1 - (Oct. 20. 2009):*
+### Changes in FragmentationAnalyzer v1.1.1 - (Oct. 20. 2009):
+
  * NEW FEATURE: The spectrum total intensity is now extracted from the ms_lims database (if avaiable) (requires ms_lims 7.1). This drastically decreased the time required to plot Mass Error Bubble Plots and Intensity Box Plots.
  * NEW FEATURE: The option of using the mass error threshold as the data label has been added (for ms_lims only). 
  * BUG FIX: Empty ms_lims data sets (and folder) are now deleted if the data extraction is canceled. 
@@ -227,7 +249,8 @@ Download Count: 4
 
 ----
 
-*Changes in FragmentationAnalyzer v1.1 - (Oct. 17. 2009):*
+### Changes in FragmentationAnalyzer v1.1 - (Oct. 17. 2009):
+
  * NEW FEATURE: Tooltips have been added to both mass error plot types. 
  * NEW FEATURE: Instrument, fragment ion type or fragment ion scoring type (ms_lims only) can now be selected as the data point label when plotting the mass error.
  * NEW FEATURE: It is now possible to add markers highlighting the different fragment ion types to the mass error plots.
@@ -250,7 +273,8 @@ Download Count: 1
 
 ----
 
-*Changes in FragmentationAnalyzer v1.0.2 - (Oct. 08. 2009):*
+### Changes in FragmentationAnalyzer v1.0.2 - (Oct. 08. 2009):
+
  * NEW FEATURE: Added support for selecting/deselecting highlighted rows in the tables.
  * FEATURE IMPROVEMENT: The selection popup menus are now available for all columns and not just the selection column.
  * BUG FIX: Fixed a bug in the inverse selection in the search results table.
@@ -262,7 +286,8 @@ Download Count: 3
 
 ----
 
-*Changes in FragmentationAnalyzer v1.0.1 - (Sep. 17. 2009):*
+### Changes in FragmentationAnalyzer v1.0.1 - (Sep. 17. 2009):
+
  * FEATURE IMPROVEMENT: The search button is now always enabled, and instead a message is shown if the required parameters are not selected.
  * FEATURE IMPROVEMENT: Minor updates of the help files.
  * BUG FIX: Fixed a bug where the ms_lims database connection was closed before it could be used.
@@ -271,7 +296,8 @@ Download Count: 21
 
 ----
 
-*Changes in FragmentationAnalyzer v1.0 - (Sep. 10. 2009):*
+### Changes in FragmentationAnalyzer v1.0 - (Sep. 10. 2009):
+
  * (initial version)
 
 Download Count: 2
