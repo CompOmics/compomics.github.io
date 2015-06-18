@@ -1,5 +1,6 @@
 ---
 name: "colims"
+github_project: "https://github.com/compomics/colims"
 ---
 
 # colims

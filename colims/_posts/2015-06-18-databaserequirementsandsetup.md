@@ -3,9 +3,14 @@ name: Databaserequirementsandsetup
 project: colims
 layout: default
 permalink: /colims/wiki/databaserequirementsandsetup.html
+github_project: https://github.com/compomics/colims
 ---
 
 # Database requirements and setup 
+ 
+  * [Introduction](#introduction)
+  * [System requirements](#system-requirements)
+  * [Database](#database)
 
 ## Introduction
 
@@ -22,6 +27,7 @@ Colims uses a relational database as data repository. The system is able to run 
 
 ### Schema
 Once the database server is installed, the schema with the colims tables, fields and relationships can be created.
+
   1. connect to the database server (with the database command line tool or a database client like [MySQL Workbench](http://www.mysql.com/products/workbench/) or [SQuirreL SQL](http://www.squirrelsql.org/))
   2. create a new schema in the connected server and set it as the default schema
   3. MySQL or MariaDB: run the [MySQL setup script](http://genesis.ugent.be/colims/colims_db_setup.sql). PostgreSQL: run the [setup script](http://genesis.ugent.be/colims/colims_db_setup_postgres.sql PostgreQL). The script creates the necessary tables, indexes, keys and inserts some default records into the database.

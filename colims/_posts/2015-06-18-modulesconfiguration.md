@@ -3,22 +3,30 @@ name: Modulesconfiguration
 project: colims
 layout: default
 permalink: /colims/wiki/modulesconfiguration.html
+github_project: https://github.com/compomics/colims
 ---
 
 # Modules Configuration
 
+  * [Introduction](#introduction)
+  * [Client module](#client-module)
+  * [Storage queueing module](#storage-queueing-module)
+  * [Distributed module](#distributed-module)
+
 ## Introduction
 
 Colims x.y.z can be downloaded from the [Downloads](https://github.com/compomics/colims/#downloads) section on the home page. The zipped archive contains 3 folders:
+
   * `colims-client-x.y.z`: the graphical user interface module
   * `apache-activemq-5.9.0`: the storage queueing module
   * `colims-distributed-x.y.z`: the storage engine module
 
 ----
 
-### Client module
+## Client module
 
 The client module contains the graphical user interface (GUI). A user can run it on his local machine to
+ 
   * manage metadata of projects, experiments, samples, runs, users, instruments, materials, protocols...
   * send analytical run storage tasks to the storage queueing module
   * monitor the storage queueing module   
@@ -28,6 +36,7 @@ Multiple clients can be active simultaneously.
 ### Configuration
 
 Before running the colims client module for the first time, some database related properties - located in the `colims-client.properties` file in the *config* folder - need to be modified if necessary.
+
 ```
 db.default_schema = colims
 db.url = jdbc:mysql://localhost:3306/colims
@@ -35,18 +44,22 @@ db.driver = com.mysql.jdbc.Driver
 db.dialect = org.hibernate.dialect.MySQL5Dialect
 db.username = root
 ```
+
 Change these property values according to your database settings. The client module will use these values to establish a database connection.
 
 The client module needs to connect to the storage queueing module as well. Following properties located in the same properties file hold the ActiveMQ connection parameters:
+
 ```
 distributed.connectionfactory.broker.url = tcp://localhost:61616
 distributed.jmx.service.url = service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
 ```
+
 Adjust these URLs if necessary.
 
 ### Running
 
 Run the colims client by double clicking the *.jar* file in the *colims-client-x.y.z* folder. First, the client module needs to connect to the database. The default database url and username values are retrieved from the `colims-client.properties` file, while the database password is not stored for security reasons. Once the connection to the database has been established, a loading screen is shown. Next, the user needs to provide application level log in credentials. The default admin user credentials are
+
   * name: admin
   * password: adminadmin
 
@@ -55,6 +68,7 @@ It is highly recommended to change the default admin password once the admin use
 #### Admin section
 
 If a user belongs to the admin group, the admin management menu is visible. It has four sub menus
+
   1. users: manage users and associated groups, roles and permissions
   2. instruments: manage instrument metadata
   3. materials: manage material metadata
@@ -63,6 +77,7 @@ If a user belongs to the admin group, the admin management menu is visible. It h
 Colims uses controlled vocabularies (see [ols](http://www.ebi.ac.uk/ontology-lookup/)) for defining instrument, material and protocol properties.
 
 A user can be linked to groups, a group to roles and roles to permissions. Colims has four default self explanatory permissions:
+
   1. read: read data from the database
   2. create: insert new records into the database
   3. update: update existing records
@@ -84,11 +99,13 @@ The stored data can be explored in this panel.
 
 ### Purpose
 [Apache ActiveMQ](http://activemq.apache.org/) is used as an intermediate layer between the client(s) and the storage engine. It contains 3 messaging queues:
+
   * storage queue: clients send analytical run storage tasks to this queue
   * stored queue: once a run has been stored successfully, the storage engine sends a confirmation message to this queue
   * error queue: if something went wrong while storing, the storage engine wraps the storage task in a storage error and sends it to this queue
 
 Using a separate queueing server has several advantages:
+
   * ActiveMQ is widely used and has proven to be a stable component in distributed architectures.
   * The storage engine listens to the storage queue and processes storage tasks sequentially. This way, the entries in the protein and modifications tables can be kept unique.
   * If the storage engine cannot be reached by the queueing module (network problems, distributed module crash), the different messages reside on the queues and nothing gets lost.
@@ -151,7 +168,9 @@ Like the client module, the distributed module needs to connect with the databas
 ### Running
 
 Execute the following command in the `colims-distributed-x.y.z` folder where the *.jar* file is located:
+
 ```
 java -jar colims-distributed-<version>.jar
 ```
+
 As mentioned before, this module listens to the storage queue and processes incoming storage tasks. The storage engine keeps on trying to make a connection with the storage queue if the queueing module cannot be reached.
