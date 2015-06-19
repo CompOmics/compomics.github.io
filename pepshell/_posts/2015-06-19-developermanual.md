@@ -3,11 +3,15 @@ name: Developermanual
 project: pepshell
 layout: default
 permalink: /pepshell/wiki/developermanual.html
+github_project: https://github.com/DavyMaddelein/pepshell
 ---
 
-# Use PepShell as Maven dependency
+# Developer manual
+
+## Use PepShell as Maven dependency
 
 Include the following dependency
+
 ```
     <dependency>
         <groupId>com.compomics</groupId>
@@ -15,7 +19,9 @@ Include the following dependency
         <version>X.Y</version>
     </dependency>
 ```
+
 and the following repository in your _pom.xml_ file:
+
 ```
     <repositories>                   
         <repository>
@@ -26,7 +32,3 @@ and the following repository in your _pom.xml_ file:
         </repository>              
     </repositories>
 ```
-
-[Go to top of page](#use-pepshell-as-maven-dependency)
-
-----
