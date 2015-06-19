@@ -1,6 +1,6 @@
 ---
 name: "pride-asa-pipeline"
-github_project: ""
+github_project: "https://github.com/compomics/pride-asa-pipeline"
 ---
 
 # pride-asa-pipeline
