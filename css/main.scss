@@ -143,6 +143,10 @@ body {
 .outer:after {
   clear: both;
 }
+#main-outer {
+  background: url(/images/linedpaper.png);
+  padding: 20px 20px 10px;
+}
 .inner {
   display: inline;
   float: left;
@@ -312,8 +316,11 @@ body {
   font-weight: bold;
 }
 #header {
-  height: 300px;
+  height: 120px;
+  background: #fff;
   position: relative;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
 }
 #header:before,
 #header:after {
@@ -321,7 +328,7 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  height: 86px;
+  height: 1px;
 }
 #header:after {
   bottom: 0;
@@ -339,13 +346,19 @@ body {
   overflow: hidden;
 }
 #banner {
-  position: absolute;
+  /*position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("https://compomics.files.wordpress.com/2012/01/cropped-header_120124-011.jpg") center #fff no-repeat;
-  z-index: -1;
+  background: url("/images/small_CompOmics_logo.png") left center #fff no-repeat;
+  background-size: 200px;
+  z-index: -1;*/
+  margin-left: 30px;
+}
+#banner img {
+  border: 0;
+  height: 120px;
 }
 #header-title {
   text-align: center;
@@ -379,10 +392,18 @@ body {
   float: left;
   margin-left: -15px;
 }
+#header-nav {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+}
+#header-nav li {
+  display: inline;
+}
 .nav-icon,
 .main-nav-link {
   float: left;
-  color: #999;
+  color: #707070;
   text-decoration: none;
   text-shadow: 0 1px rgba(0,0,0,0.2);
   -webkit-transition: opacity 0.2s;
@@ -407,7 +428,7 @@ body {
   cursor: pointer;
 }
 .main-nav-link {
-  font-weight: 300;
+  font-weight: 600;
   letter-spacing: 1px;
 }
 @media screen and (max-width: 479px) {
