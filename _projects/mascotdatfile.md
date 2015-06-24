@@ -1,6 +1,7 @@
 ---
 name: "mascotdatfile"
 github_project: "https://github.com/compomics/mascotdatfile"
+description: ""
 ---
 
 # MascotDatfile
