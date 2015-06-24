@@ -1,7 +1,7 @@
 ---
 name: "mascotdatfile"
 github_project: "https://github.com/compomics/mascotdatfile"
-description: ""
+description: "Java API for MS/MS search results by Mascot (Matrix Science)."
 ---
 
 # MascotDatfile
