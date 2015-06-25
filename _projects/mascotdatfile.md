@@ -27,14 +27,14 @@ Proteomics bioinformatics deals with organising and analysing large amounts of i
 
 | Download | Version | Release info |
 |:--:|:--:|:--:|
-| [![download](https://github.com/compomics/mascotdatfile/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/com/compomics/mascotdatfile/3.4.29/mascotdatfile-3.4.29.zip) | *3.4.29 - All platforms* |    [Release notes](https://github.com/compomics/mascotdatfile/wiki/ReleaseNotes) |
+| [![download](https://github.com/compomics/mascotdatfile/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/com/compomics/mascotdatfile/3.4.29/mascotdatfile-3.4.29.zip) | *3.4.29 - All platforms* |    [Release notes](/mascotdatfile/wiki/releasenotes.html) |
 
 [Go to top of page](#mascotdatfile)
 
 ----
 
 ## Usage
-See the [wiki](https://github.com/compomics/mascotdatfile/wiki) for additional information on how to setup, run and configure *MascotDatfile*.
+See the [wiki](/mascotdatfile/wiki/home.html) for additional information on how to setup, run and configure *MascotDatfile*.
 
 [Go to top of page](#mascotdatfile)
 

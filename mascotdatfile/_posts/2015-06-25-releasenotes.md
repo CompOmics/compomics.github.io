@@ -109,7 +109,6 @@ github_project: https://github.com/compomics/mascotdatfile
 
  * Create a setter for the ModifiacationMap so that this can be adapted from ms-lims.
 
-
 ### 3.2 (18 September 2010)
 
  * Add support for protein like '"DDI00062040.1":0:325:329:1,"DDI00100151.4":0:642:646:1'.
