@@ -5,13 +5,16 @@ echo "building project page"
 project_name=$1
 readme=$2
 wiki=$3
+api=$4
 
 github_page="${wiki%."wiki.git"}"
 
 project_filename="${project_name/ /_}"
 project_filename=${project_filename,,}
 
-header="---\nname: \"$project_name\"\ngithub_project: \"$github_page\"\n---\n"
+description="$(curl -s $api | /bin/jq -r '.description')"
+
+header="---\nname: \"$project_name\"\ngithub_project: \"$github_page\"\ndescription: \"$description\"\n---\n"
 
 # sort out project filename
 

@@ -10,6 +10,7 @@ layout: default
   {% for project in site.projects %}
     <li>
         <a href="{{ project.url | prepend: site.baseurl | append: site.projects.output_ext }}">{{ project.name }}</a>
+        <p class="project-description">{{ project.description }}</p>
     </li>
   {% endfor %}
 </ul>
