@@ -1,7 +1,7 @@
 ---
 name: "colims"
 github_project: "https://github.com/compomics/colims"
-description: ""
+description: "A lims system to automate and expedite proteomics data management, processing and analysis."
 ---
 
 # colims
