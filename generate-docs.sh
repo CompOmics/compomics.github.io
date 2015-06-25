@@ -19,7 +19,7 @@ header="---\nname: \"$project_name\"\ngithub_project: \"$github_page\"\ndescript
 # sort out project filename
 
 echo -e "$header" > "compomics-site/_projects/$project_filename.md"
-echo "$(curl $readme)" >> "compomics-site/_projects/$project_filename.md"
+echo "$(curl -s $readme | python wiki-url-sub.py)" >> "compomics-site/_projects/$project_filename.md"
 
 rm -rf temp_wiki
 
@@ -35,12 +35,10 @@ for filename in temp_wiki/*.md; do
 	page_name="$(basename $filename .md)"
 	page_name=${page_name,,}
 
-	if [ $page_name != "home" ]; then
-		header="---\nname: ${page_name^}\nproject: $project_name\nlayout: default\npermalink: /$project_name/wiki/$page_name.html\ngithub_project: $github_page\n---\n"
+	header="---\nname: ${page_name^}\nproject: $project_name\nlayout: default\npermalink: /$project_name/wiki/$page_name.html\ngithub_project: $github_page\n---\n"
 
-		echo -e "$header" > "$directory/$(date +%F)-$page_name.md"
-		echo -e "$(cat $filename)" >> "$directory/$(date +%F)-$page_name.md"
-	fi
+	echo -e "$header" > "$directory/$(date +%F)-$page_name.md"
+	echo -e "$(cat -s $filename | python wiki-url-sub.py)" >> "$directory/$(date +%F)-$page_name.md"
 done
 
 rm -rf temp_wiki
