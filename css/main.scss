@@ -144,7 +144,6 @@ body {
   clear: both;
 }
 #main-outer {
-  background: url(/images/linedpaper.png);
   padding: 20px 20px 10px;
 }
 .inner {
@@ -171,7 +170,7 @@ body {
   overflow: hidden;
 }
 #wrap {
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   position: absolute;
   top: 0;
@@ -181,7 +180,10 @@ body {
   -ms-transition: 0.2s ease-out;
   transition: 0.2s ease-out;
   z-index: 1;
-  background: #eee;
+  background: rgba(0, 0, 0, 0) url("/images/linedpaper.png") repeat scroll 0 0;
+}
+#header-wrap {
+  background: #fff;
 }
 .mobile-nav-on #wrap {
   left: 280px;
@@ -344,17 +346,6 @@ body {
 #header-inner {
   position: relative;
   overflow: hidden;
-}
-#banner {
-  /*position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url("/images/small_CompOmics_logo.png") left center #fff no-repeat;
-  background-size: 200px;
-  z-index: -1;*/
-  margin-left: 30px;
 }
 #banner img {
   border: 0;
