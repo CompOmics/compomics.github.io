@@ -3,7 +3,7 @@ name: Developermanual
 project: pepshell
 layout: default
 permalink: /pepshell/wiki/developermanual.html
-github_project: https://github.com/DavyMaddelein/pepshell
+github_project: https://github.com/compomics/pepshell
 ---
 
 # Developer manual

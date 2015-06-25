@@ -1,7 +1,7 @@
 ---
 name: "pepshell"
-github_project: "https://github.com/DavyMaddelein/pepshell"
-description: "null"
+github_project: "https://github.com/compomics/pepshell"
+description: "Visualization of conformational proteomics data."
 ---
 
 # Pepshell
