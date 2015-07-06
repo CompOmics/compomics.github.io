@@ -8,6 +8,8 @@ github_project: https://github.com/compomics/jsparklines
 
 # Release Notes
 
+----
+
 **Changes in JSparklines 1.0.4 (September 8. 2014):**
 
  * BUG FIX: Fixed a bug in the NimbusCheckBoxRenderer.
@@ -27,7 +29,7 @@ github_project: https://github.com/compomics/jsparklines
 
 **Changes in JSparklines 1.0.2 (September 3. 2014):**
 
- * FEATURE IMPROVEMENT: Updated and unified the JavaDoc, and made it available [http://genesis.ugent.be/maven2/no/uib/jsparklines/javadoc/ here].
+ * FEATURE IMPROVEMENT: Updated and unified the JavaDoc, and made it available here  [http://genesis.ugent.be/maven2/no/uib/jsparklines/javadoc/](http://genesis.ugent.be/maven2/no/uib/jsparklines/javadoc/).
 
 ----
 
