@@ -6,7 +6,7 @@ permalink: /jsparklines/wiki/usingjsparklines.html
 github_project: https://github.com/compomics/jsparklines
 ---
 
-#[Using JSparklines](#using-jsparklines)
+#Using JSparklines [ ](# )
 
 Using **JSparklines** is very easy and only requires a couple of lines of code. Below you will find simple code examples of how to use **JSparklines** in your project.
 
@@ -32,7 +32,7 @@ A simple heat map demo is also included. To run this double click the file `jspa
 
 **Note:** Remember to first unzip the downloaded zip file before trying to run the demos.
 
-[Go to top of page](#using-jsparklines)
+[Go to top of page](# )
 
 ----
 
@@ -91,7 +91,7 @@ Turn off color gradient:
  * **Note** that it is possible to change the maximum and minimum values later by using the setMaxValue(...) and setMinValue(...) methods in the renderer.
  * **Note** that the underlying values can be shown by using the showNumbers(...) method.
 
-[Go to top of page](#using-jsparklines)
+[Go to top of page](# )
 
 ----
 
@@ -136,7 +136,7 @@ multipleValuesJTable.getColumn("Change").setCellRenderer(
  * **Note** that the chart type, the maximum and minimum values, the line width for line charts etc can be change later by using the methods setPlotType(...), setMaxValue(...), setMinValue(...), setLineWidth(...), etc, methods in JSparklinesTableCellRenderer.
  * **Note** To change the plotting type simply change the JSparklinesTableCellRenderer.PlotType value.
 
-[Go to top of page](#using-jsparklines)
+[Go to top of page](# )
 
 ----
 
@@ -191,7 +191,7 @@ multipleDataSeriesJTable.getColumn("Change").setCellRenderer(
  * **Note** that cells with **JSparklines** with multiple values are NOT editable, so please set columns using **JSparklines** non-editable.
  * **Note** that the chart type, the maximum and minimum values, the line width for line charts etc can be change later by using the methods setPlotType(...), setMaxValue(...), setMinValue(...), setLineWidth(...), etc, in JSparklinesTableCellRenderer.
 
-[Go to top of page](#using-jsparklines)
+[Go to top of page](# )
 
 ----
 
@@ -235,7 +235,7 @@ JSparklines3dDataset dataset = new JSparklines3dDataset(sparkLine3dDataSeriesAll
  * **Note** that cells with **JSparklines** with 2D/3D values are NOT editable, so please set columns using **JSparklines** non-editable.
  * **Note** that the chart type, the maximum and minimum values, etc can be change later by using the methods setPlotType(...), setMaxXValue(...), setMinXValue(...), etc, in JSparklines3dTableCellRenderer.
 
-[Go to top of page](#using-jsparklines)
+[Go to top of page](# )
 
 ----
 
@@ -278,7 +278,7 @@ To add a line reference instead if an area reference, simply use the addReferenc
 
 **Note:** For 2D/3D plots use addXAxisReferenceLine(...), removeXAxisReferenceLine(...), etc, to add or remove reference lines and areas.
 
-[Go to top of page](#using-jsparklines)
+[Go to top of page](# )
 
 ----
 
@@ -348,7 +348,7 @@ Same for the JSparklinesBubbleHeatMapTableCellRenderer.
 
 For a complete demo of how to use the heat maps see the `JSparklinesHeatMapDemo` class in the `no.uib.jsparklines` package.
 
-[Go to top of page](#using-jsparklines)
+[Go to top of page](# )
 
 ----
 
@@ -373,6 +373,6 @@ For a complete demo of how to use the heat maps see the `JSparklinesHeatMapDemo`
 
 Update the version number to latest released version.
 
-[Go to top of page](#using-jsparklines)
+[Go to top of page](# )
 
 ----
