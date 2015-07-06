@@ -6,8 +6,10 @@ permalink: /jsparklines/wiki/usingjsparklines.html
 github_project: https://github.com/compomics/jsparklines
 ---
 
-# Using JSparklines
-[ ](# )
+# Using JSparklines [ ](# )
+
+----
+
 Using **JSparklines** is very easy and only requires a couple of lines of code. Below you will find simple code examples of how to use **JSparklines** in your project.
 
  * [Demos](#demos)
