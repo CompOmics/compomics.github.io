@@ -40,7 +40,7 @@ A simple heat map demo is also included. To run this double click the file `jspa
 
 When displaying single numeric values in a column the simplest option is to use the JSparklinesBarChartTableCellRenderer. This renderer can be used on any table column containing most numeric objects as follows:
 
-```
+```java
 singleValuesJTable.getColumn("Fold Change").setCellRenderer(
     new JSparklinesBarChartTableCellRenderer(
         PlotOrientation.HORIZONTAL,             // orientation of the plot
@@ -52,7 +52,7 @@ singleValuesJTable.getColumn("Fold Change").setCellRenderer(
 
 If the column only contains positive numbers it becomes even simpler:
 
-```
+```java
 singleValuesJTable.getColumn("Coverage").setCellRenderer(
     new JSparklinesBarChartTableCellRenderer(
         PlotOrientation.HORIZONTAL,             // orientation of the plot
@@ -66,21 +66,21 @@ This effectively sets the lower range to zero.
 
 Turn on color gradient:
 
-```
+```java
 ((JSparklinesBarChartTableCellRenderer) singleValuesJTable.getColumn(
     "Peptides").getCellRenderer()).setGradientColoring(ColorGradient.BlueWhiteGreen, false);
 ```
 
 Turn off color gradient:
 
-```
+```java
 ((JSparklinesBarChartTableCellRenderer) singleValuesJTable.getColumn(
     "Peptides").getCellRenderer()).setGradientColoring(null, false);
 ```
 
 **Show Numbers and Chart**
 
-```
+```java
 ((JSparklinesBarChartTableCellRenderer) singleValuesJTable.getColumn(
     "Peptides").getCellRenderer()).showNumberAndChart(true, 40);
 ```
@@ -99,7 +99,7 @@ Turn off color gradient:
 
 When displaying multiple values in a single plot one has to use the JSparklinesTableCellRenderer. In this case the values to be plotted first has to be added to a JSparklineDataset, and this object then added to the table cell.
 
-```
+```java
 // add the data points to display to an arraylist
 ArrayList<Double> dataA = new ArrayList<Double>();
 
@@ -144,7 +144,7 @@ multipleValuesJTable.getColumn("Change").setCellRenderer(
 
 Displaying more than one data series is also very simple with **JSparklines**. Simply add multiple JSparklineDataSeries to the JSparklineDataset:
 
-```
+```java
 // add the data points for the first data series
 ArrayList<Double> dataA = new ArrayList<Double>();
 
@@ -199,7 +199,7 @@ multipleDataSeriesJTable.getColumn("Change").setCellRenderer(
 
 When plotting 2D or 3D data use the JSparklines3dTableCellRenderer instead of the standard JSparklinesTableCellRenderer, and the JSparklines3dDataset instead of the JSparklinesDataset.
 
-```
+```java
 // add the 2D/3D data points to display to an arraylist
 ArrayList<XYZDataPoint> dataA = new ArrayList<XYZDataPoint>();
 
@@ -243,7 +243,7 @@ JSparklines3dDataset dataset = new JSparklines3dDataset(sparkLine3dDataSeriesAll
 
 Often it can be helpful to add reference lines or areas to the charts to make them easier to compare. In **JSparklines** this is very easy:
 
-```
+```java
 
     // get the JSparklines cell renderer
     JSparklinesTableCellRenderer tempRenderer = ((JSparklinesTableCellRenderer) multipleValuesJTable.getColumn(
@@ -265,7 +265,7 @@ Often it can be helpful to add reference lines or areas to the charts to make th
 
 Removing the reference is equally straightforward:
 
-```
+```java
     // get the JSparklines cell renderer
     JSparklinesTableCellRenderer tempRenderer = ((JSparklinesTableCellRenderer) multipleValuesJTable.getColumn(
     "My Column").getCellRenderer());
@@ -290,7 +290,7 @@ Various color gradient options are available.
 
 Heat map using JSparklinesBarChartTableCellRenderer:
 
-```
+```java
 for (int i = 0; i < heatmapJTable.getColumnCount(); i++) {
     heatmapJTable.getColumn(
         heatmapJTable.getColumnName(i)).setCellRenderer(
@@ -305,7 +305,7 @@ for (int i = 0; i < heatmapJTable.getColumnCount(); i++) {
 
 Heat map using JSparklinesBubbleHeatMapTableCellRenderer:
 
-```
+```java
 for (int i = 0; i < heatmapJTable.getColumnCount(); i++) {
     heatmapJTable.getColumn(
         heatmapJTable.getColumnName(i)).setCellRenderer(
@@ -318,7 +318,7 @@ Setting the background color for the heat maps:
 
 Black:
 
-```
+```java
 heatmapJTable.setGridColor(Color.BLACK);
 heatmapJTable.setBackground(Color.BLACK);
 heatmapJTable.setOpaque(true);
@@ -327,7 +327,7 @@ heatmapJTable.setForeground(Color.WHITE);
 
 White:
 
-```
+```java
 heatmapJTable.setGridColor(Color.WHITE);
 heatmapJTable.setBackground(Color.WHITE);
 heatmapJTable.setOpaque(true);
@@ -336,7 +336,7 @@ heatmapJTable.setForeground(Color.BLACK);
 
 Change the color gradient:
 
-```
+```java
 for (int i = 0; i < heatmapJTable.getColumnCount(); i++) {
     ((JSparklinesBarChartTableCellRenderer) heatmapJTable.getColumn(
         heatmapJTable.getColumnName(i)).getCellRenderer()).
@@ -356,14 +356,14 @@ For a complete demo of how to use the heat maps see the `JSparklinesHeatMapDemo`
 
 **JSparklines** is available for use in Maven projects:
 
-```
+```java
 <dependency>
     <groupId>no.uib</groupId>
     <artifactId>jsparklines</artifactId>
     <version>X.Y.Z</version>
 </dependency>
 ```
-```
+```java
 <repository>
     <id>genesis-maven2-repository</id>
     <name>Genesis maven2 repository</name>
