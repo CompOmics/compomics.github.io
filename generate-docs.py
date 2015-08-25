@@ -113,4 +113,4 @@ github_project: {3}
 
     os.system('git add .')
     os.system('git commit -m "updated %s project"' % project_name)
-    os.system('git push origin master -f')
+    os.system('git push origin master -f -q')

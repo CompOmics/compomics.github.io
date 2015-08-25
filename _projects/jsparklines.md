@@ -29,7 +29,7 @@ Supports more than **27 types of charts/renderers**, including bar chart, line c
 
 ## How to use JSparklines
 
-See the [How to use JSparklines](/jsparklines/wiki/usingjsparklines.html) wiki page for code examples. JSparklines is also available as a [Maven dependency](/jsparklines/wiki/usingjsparklines#maven-dependency.html).
+See the [How to use JSparklines](/jsparklines/wiki/tutorial.html) wiki page for code examples. JSparklines is also available as a [Maven dependency](/jsparklines/wiki/tutorial#maven-dependency.html).
 
 _If you have questions or would like to contribute to the **JSparklines** project, please contact the developers._
 
