@@ -2,6 +2,7 @@
 name: "jtraml"
 github_project: "https://github.com/compomics/jtraml"
 description: "Java implementation of the PSI-MS Transitions Markup Language (TraML) specification."
+wiki: "jtraml"
 ---
 
 # jTraML

@@ -2,6 +2,7 @@
 name: "icelogoserver"
 github_project: "https://github.com/compomics/icelogoserver"
 description: "The server edition of the iceLogo tool."
+wiki: "icelogoserver"
 ---
 
 # IceLogo Server

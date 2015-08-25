@@ -1,7 +1,8 @@
 ---
-name: "Thermo-MSF-parser"
+name: "thermo-msf-parser"
 github_project: "https://github.com/compomics/thermo-msf-parser"
 description: "Parser and viewer for thermo msf files."
+wiki: "thermo-msf-parser"
 ---
 
 # Thermo MSF Parser

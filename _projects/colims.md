@@ -2,6 +2,7 @@
 name: "colims"
 github_project: "https://github.com/compomics/colims"
 description: "A lims system to automate and expedite proteomics data management, processing and analysis."
+wiki: "colims"
 ---
 
 # colims
@@ -40,9 +41,9 @@ See the [wiki](/colims/wiki/home.html) for additional information on how to setu
 
 Colims has been developed as part of the [ProteomeXchange](http://www.proteomexchange.org) Infrastructure project of the [7th Framework Programme](http://cordis.europa.eu/fp7/home_en.html) of the [European Commission](http://ec.europa.eu/index_en.htm), funded under contract number 260558.
 
-[![http://www.proteomexchange.org/](http://genesis.ugent.be/public_data/image/proteomeXChangeLogo.PNG)](http://www.proteomexchange.org)
-[![http://cordis.europa.eu/fp7/home_en.html](http://cordis.europa.eu/icons/fp7_en.gif)](http://cordis.europa.eu/fp7/home_en.html)
-[![http://ec.europa.eu/index_en.htm](http://ec.europa.eu/wel/template-2009/images/banner/european-commission-flag.jpg)](http://ec.europa.eu/index_en.htm)
+| ProteomeXchange | 7th Framework Programme | European Commission |
+|:--:|:--:|:--:|
+[![http://www.proteomexchange.org/](http://genesis.ugent.be/public_data/image/proteomeXChangeLogo.PNG)](http://www.proteomexchange.org) | [![http://cordis.europa.eu/fp7/home_en.html](http://cordis.europa.eu/icons/fp7_en.gif)](http://cordis.europa.eu/fp7/home_en.html) | [![http://ec.europa.eu/index_en.htm](http://ec.europa.eu/wel/template-2009/images/banner/european-commission-flag.jpg)](http://ec.europa.eu/index_en.htm) |
 
 ----
 

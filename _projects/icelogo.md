@@ -1,7 +1,8 @@
 ---
 name: "iceLogo"
-github_project: "https://github.com/compomics/iceLogo"
+github_project: "https://github.com/compomics/icelogo"
 description: "Next-generation visualization of protein consensus sequences by iceLogo."
+wiki: "icelogo"
 ---
 
 # iceLogo

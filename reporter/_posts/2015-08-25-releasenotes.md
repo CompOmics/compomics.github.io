@@ -1,0 +1,62 @@
+---
+name: ReleaseNotes
+project: reporter
+layout: default
+permalink: /reporter/wiki/releasenotes.html
+github_project: https://github.com/compomics/reporter
+---
+
+# ReleaseNotes
+
+---
+
+
+**Changes in Reporter 0.0.5 (June 22. 2015):**
+
+  * BUG FIX: Fixed a bug in the setting of the desktop icon.
+
+
+---
+
+
+**Changes in Reporter 0.0.4 (June 21. 2015):**
+
+  * FEATURE IMPROVEMENT: Refactored the GUI in the New Project Dialog.
+
+  * BUG FIX: Fixed a bug in the loading of isotope correction factors from file.
+
+  * LIBRARY UPDATE: Updated PeptideShaker to version 0.40.2.
+  * LIBRARY UPDATE: Updated utilities to version 3.49.19.
+
+
+---
+
+
+**Changes in Reporter 0.0.3 (June 3. 2015):**
+
+  * BUG FIX: Fixed bugs related to saving the reporter methods.
+
+  * LIBRARY UPDATE: Updated PeptideShaker to version 0.39.1.
+  * LIBRARY UPDATE: Updated utilities to version 3.49.4.
+
+
+---
+
+
+**Changes in Reporter 0.0.2 (June 2. 2015):**
+
+  * FEATURE IMPROVEMENT: Made it possible to edit and save the reagent details via the GUI.
+
+  * LIBRARY UPDATE: Updated PeptideShaker to version 0.39.0.
+  * LIBRARY UPDATE: Updated utilities to version 3.49.2.
+
+
+---
+
+
+**Changes in Reporter 0.0.1 (May 6. 2015):**
+
+  * First public beta release of Reporter.
+
+
+---

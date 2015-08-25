@@ -2,6 +2,7 @@
 name: "pepshell"
 github_project: "https://github.com/compomics/pepshell"
 description: "Visualization of conformational proteomics data."
+wiki: "pepshell"
 ---
 
 # Pepshell

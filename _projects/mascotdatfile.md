@@ -2,6 +2,7 @@
 name: "mascotdatfile"
 github_project: "https://github.com/compomics/mascotdatfile"
 description: "Java API for MS/MS search results by Mascot (Matrix Science)."
+wiki: "mascotdatfile"
 ---
 
 # MascotDatfile
@@ -27,9 +28,9 @@ Proteomics bioinformatics deals with organising and analysing large amounts of i
 
 | Download | Version | Release info |
 |:--:|:--:|:--:|
-| [![download](https://github.com/compomics/mascotdatfile/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/com/compomics/mascotdatfile/3.4.29/mascotdatfile-3.4.29.zip) | *3.4.29 - All platforms* |    [Release notes](/mascotdatfile/wiki/releasenotes.html) |
+| [![download](https://github.com/compomics/mascotdatfile/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/com/compomics/mascotdatfile/3.4.29/mascotdatfile-3.4.29.zip) | *3.4.29 - All platforms* |    [Release notes](/mascotdatfile/wiki/releasenotes) |
 
-[Go to top of page](#mascotdatfile)
+[go to top of page](#mascotdatfile.html)
 
 ----
 

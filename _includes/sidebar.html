@@ -14,12 +14,12 @@
     </div>
   </div>
   {% endif %}
-  {% if page.page_type == "project" and site.categories.[page.name].size > 0 %}
+  {% if page.page_type == "project" and site.categories.[page.wiki].size > 0 %}
   <div class="widget-wrap">
     <h3 class="widget-title">Wiki</h3>
     <div class="widget">
       <ul class="post-list">
-        {% for page in site.categories.[page.name] %}
+        {% for page in site.categories.[page.wiki] %}
           <li>
               <a href="{{ page.url | prepend: site.baseurl }}">{{ page.name }}</a>
           </li>
