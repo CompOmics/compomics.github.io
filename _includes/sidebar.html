@@ -5,6 +5,18 @@
     <div class="widget">
       <ul class="post-list">
         <li>
+          {% if page.page_type == "project" %}
+          <i class="fa fa-home"></i> <a href="{{ page.url | prepend: site.baseurl | append: site.projects.output_ext }}">Project Home</a>
+          {% endif %}
+          {% if page.date %}
+            {% for project in site.projects %}
+              {% if project.name == page.project %}
+              <i class="fa fa-home"></i> <a href="{{ project.url | prepend: site.baseurl | append: site.projects.output_ext }}">Project Home</a>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        </li>
+        <li>
             <i class="fa fa-github"></i> <a href="{{ page.github_project }}">Source</a>
         </li>
         <li>
@@ -48,7 +60,14 @@
       <ul class="post-list">
         {% for project in site.projects %}
           <li>
+              {% if page.name == project.name or page.project == project.name %}
+              <i class="fa fa-caret-right"></i>
+              <b>
+              {% endif %}
               <a href="{{ project.url | prepend: site.baseurl | append: site.projects.output_ext }}">{{ project.name }}</a>
+              {% if page.name == project.name or page.project == project.name %}
+              </b>
+              {% endif %}
           </li>
         {% endfor %}
       </ul>
