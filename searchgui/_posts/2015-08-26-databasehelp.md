@@ -37,9 +37,9 @@ _It is strongly recommended to use one of the standard databases, and of these [
 
 ## Non Standard FASTA
 
-Non-standard home made sequence databases with non-standard headers can also be used, but the downstream usage may be limited, e.g., in [PeptideShaker](http://peptide-shaker.googlecode.com). 
+Non-standard home made sequence databases with non-standard headers can also be used, but the downstream usage may be limited, e.g., in [PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html). 
 
-Databases that do not match the standard header formats of the common databases (like UniProt, NCBInr etc) can be added using a generic header format (supported from [SearchGUI](http://searchgui.googlecode.com) version 1.7.3 and [PeptideShaker](http://peptide-shaker.googlecode.com) version 0.14.6 onwards):
+Databases that do not match the standard header formats of the common databases (like UniProt, NCBInr etc) can be added using a generic header format (supported from [SearchGUI](http://compomics.github.io/projects/searchgui.html) version 1.7.3 and [PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html) version 0.14.6 onwards):
 
 ```
 >generic[your tag]|[protein accession]|[protein description]
@@ -61,7 +61,7 @@ Examples:
 
 `AC:123132` will then be used as the protein accession number and `Hypothetical protein` as the protein description (if provided).
 
-If you have a sequence database that cannot be parsed, please let us know be setting up an [issue](https://github.com/hbarsnes/searchgui/issues) at the SearchGUI home page</a>.
+If you have a sequence database that cannot be parsed, please let us know be setting up an [issue](/searchgui/issues.html) at the SearchGUI home page</a>.
 
 To parse databases with generic FASTA headers in Mascot we recommend the following Mascot database parse rules:
 
@@ -88,7 +88,7 @@ Next click on the Download link in the upper right corner, and under the FASTA h
 
 Note that the presence of isoforms makes the downstream protein inference task more complex. It is generally advised to use a simple database and subsequently improve the complexity if needed.
 
-You now have a [UniProt](http://www.uniprot.org) sequence database containing only sequences from your species that can be used as input to a [SearchGUI](http://searchgui.googlecode.com) search.
+You now have a [UniProt](http://www.uniprot.org) sequence database containing only sequences from your species that can be used as input to a [SearchGUI](http://compomics.github.io/projects/searchgui.html) search.
 
 For more details on UniProt databases see [http://www.uniprot.org/faq/](www.uniprot.org/faq).
 
@@ -110,7 +110,7 @@ For more information on why IPI was discontinued see the [IPI home page](http://
 
 In order to conduct an unbiased validation of the identification results, it is possible to append non-existing sequences (so-called decoy sequences)  to your protein sequences (target sequences). Decoy sequences must fulfill two necessary and sufficient conditions: (1) similarity: the similarity between target and decoy sequences will ensure that false positives occur in equal amounts in both target and decoy sequences; (2) orthogonality: the absence of shared peptides between target and decoy sequences will allow the distinction of target and decoy hits.
 After searching this concatenated target/decoy database, results can hence be thresholded to a desired level of quality.
-For this task, we recommend the use of [PeptideShaker](http://peptide-shaker.googlecode.com).
+For this task, we recommend the use of [PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html).
 
 There are various ways of creating the decoy sequences, the most popular being reversed versions of the actual sequences. Adding decoy sequences is easily done by clicking the _Decoy_ button next to the database file text field. Reversed versions of every sequence in the original sequences database will then be added to the FASTA file.
 
@@ -120,11 +120,11 @@ There are various ways of creating the decoy sequences, the most popular being r
 
 ## Mascot Users
 
-_Using Mascot's [Automatic Decoy Search](http://www.matrixscience.com/help/decoy_help.html#AUTO) is not compatible with [PeptideShaker](http://peptide-shaker.googlecode.com)!_ 
+_Using Mascot's [Automatic Decoy Search](http://www.matrixscience.com/help/decoy_help.html#AUTO) is not compatible with [PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html)!_ 
 
 The reason for this is that Mascot decoy sequences are not present in the FASTA file. Moreover, when combining results from different search engines it is vital that the database and decoys used are identical, something that cannot be guaranteed when using Mascot's [Automatic Decoy Search](http://www.matrixscience.com/help/decoy_help.html#AUTO). 
 
-To combine Mascot results with your OMSSA and X!Tandem results you therefore have to use the same target-decoy database as the one used in the [SearchGUI](http://searchgui.googlecode.com) search and **not** select the decoy option when performing the Mascot search.  
+To combine Mascot results with your OMSSA and X!Tandem results you therefore have to use the same target-decoy database as the one used in the [SearchGUI](http://compomics.github.io/projects/searchgui.html) search and **not** select the decoy option when performing the Mascot search.  
 
 Finally, to ensure compatibility between search engines, be sure to use the exact same database for all algorithms.
 
@@ -134,9 +134,9 @@ Finally, to ensure compatibility between search engines, be sure to use the exac
 
 ## PeptideShaker
 
-Note that for your search results to be compatible with [PeptideShaker](http://peptide-shaker.googlecode.com), decoy sequences have to be added as explained in the [Decoy Sequences(#decoy-sequences) section above. 
+Note that for your search results to be compatible with [PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html), decoy sequences have to be added as explained in the [Decoy Sequences(#decoy-sequences) section above. 
 
-_Search results from [SearchGUI](http://searchgui.googlecode.com) can be opened in [PeptideShaker](http://peptide-shaker.googlecode.com) even when decoys are not added, but it will then not be possible to statistically validate the identifications!_
+_Search results from [SearchGUI](http://compomics.github.io/projects/searchgui.html) can be opened in [PeptideShaker](http://peptide-shaker.googlecode.com) even when decoys are not added, but it will then not be possible to statistically validate the identifications!_
 
 [Go to top of page](# )
 

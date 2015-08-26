@@ -192,9 +192,9 @@ When using comma separated lists as input for the mgf files please pay attention
 
 ## MGF Splitting
 
-If the provided MGF files become too big it can result in memory issues for the search engines, e.g., OMSSA often struggles with files bigger than 1GB. SearchGUI therefore provides an option to split the MGF files. This option should only be used if you are experiencing memory issues with the search engines, as it is always best to search the complete MGF files in a single search. However, if a tool such as [http://peptide-shaker.googlecode.com PeptideShaker] is used to combine the search results afterwards, the effects of the splitting should be minimal.
+If the provided MGF files become too big it can result in memory issues for the search engines, e.g., OMSSA often struggles with files bigger than 1GB. SearchGUI therefore provides an option to split the MGF files. This option should only be used if you are experiencing memory issues with the search engines, as it is always best to search the complete MGF files in a single search. However, if a tool such as [PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html) is used to combine the search results afterwards, the effects of the splitting should be minimal.
 
-The list of MGF files used in the search (after splitting) is always listed in the file output_folder\searchGUI_input.txt. Please refer to this file when forwarding the SearchGUI search results to [http://peptide-shaker.googlecode.com PeptideShaker].
+The list of MGF files used in the search (after splitting) is always listed in the file output_folder\searchGUI_input.txt. Please refer to this file when forwarding the SearchGUI search results to [PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html).
 
 ## Examples
 
