@@ -139,6 +139,6 @@ _Note that for readability the commands are here split over multiple lines. When
 
 ## Help ##
 
-If you experience any problems with the command line or have any suggestion please contact us via the [PeptideShaker mailing list](https://groups.google.com/group/peptide-shaker).
+If you experience any problems with the command line or have any suggestion please contact us via the [DeNovoGUI mailing list](https://groups.google.com/group/denovogui).
 
 [Go to top of page](#denovocli)
