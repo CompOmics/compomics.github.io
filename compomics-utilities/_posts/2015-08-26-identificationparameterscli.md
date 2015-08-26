@@ -10,7 +10,7 @@ github_project: https://github.com/compomics/compomics-utilities
 
 # IdentificationParameters Command Line Interface #
 
-IdentificationParametersCLI can be used to create an identification parameter file via the command line, for use in tools like [SearchGUI](http://searchgui.googlecode.com), [DeNovoGUI](http://denovogui.googlecode.com) and [PeptideShaker](http://peptide-shaker.googlecode.com).
+IdentificationParametersCLI can be used to create an identification parameter file via the command line, for use in tools like [SearchGUI](http://compomics.github.io/projects/searchgui.html), [DeNovoGUI](http://compomics.github.io/projects/denovogui.html) and [PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html).
 
 Note that in most cases it is not recommended to use the command line to generate the identification parameter file, but rather to set up the wanted identification parameter file in the GUI, save it, and than use it in the command line processing.
 
