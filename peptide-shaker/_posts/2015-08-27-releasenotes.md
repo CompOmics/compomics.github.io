@@ -10,6 +10,27 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.0.0 (August 27. 2015):**
+
+ * NEW FEATURE: PTM masses are now set via the atomic composition.
+ * NEW FEATURE: Added a spectrum export.
+ * NEW FEATURE: Added the normalized spectrum counting to the export.
+ * NEW FEATURE: Renamed .cps to .cpsx and .parameters to .par.
+
+ * FEATURE IMPROVEMENT: Updated Ensembl to version 81.
+ * FEATURE IMPROVEMENT: Made sure that the content of CV and user parameters is escaped for non-supported characters when exporting to XML. 
+ * FEATURE IMPROVEMENT: Improved the naming of the peptide and PSM subgroups in the Validation tab.
+
+ * BUG FIX: Fixed bugs in PathSettingsCLI where the paths could not be set. 
+ * BUG FIX: Corrected potential concurrency issues.
+ * BUG FIX: Fixed a bug in the Find feature where the peptide matches were added to the protein map, which resulted in them not being batch loaded.
+
+ * LIBRARY UPDATE: Updated mascotdatfile to version 3.4.31.
+ * LIBRARY UPDATE: Updated xtandem-parser to version 1.8.0.
+ * LIBRARY UPDATE: Updated omssa-parser to version 1.7.0.
+ * LIBRARY UPDATE: Updated utilities to version 4.0.0.
+
+---
 
 **Changes in PeptideShaker 0.41.1 (July 1. 2015):**
 
