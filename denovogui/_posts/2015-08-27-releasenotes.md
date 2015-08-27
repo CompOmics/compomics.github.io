@@ -8,6 +8,26 @@ github_project: https://github.com/compomics/denovogui
 
 # ReleaseNotes
 
+---
+
+**Changes in DeNovoGUI 1.6.0 (August 27. 2015):**
+
+ * NEW FEATURE: PTM masses are now set via the atomic composition.
+ * NEW FEATURE: The settings files are now called .par instead of .parameter.
+
+ * FEATURE IMPROVEMENT: Improved the parsing of modifications from DirecTag output, such that PTMs targeting more than one residue can be parsed.
+
+ * BUG FIX: Fixed a bug that made is impossible to swap between spectrum files in the Results frame.
+ * BUG FIX: Fixed bugs in PathSettingsCLI where the paths could not be set.
+ * BUG FIX: Corrected the handling of terminal PTMs for DirecTag. 
+ * BUG FIX: Corrected a bug in the peptide mapping.
+ * BUG FIX: Fixed bugs in the exports where pNovo+ was not added correctly. 
+ * BUG FIX: Fixed an issue in the "More than one amino acid can be targeted by the modification X" warning where the name of the PTM was not shown.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.0.
+
+---
+
 **Changes in DeNovoGUI 1.5.2 (July 14. 2015):**
 
   * FEATURE IMPROVEMENT: Made it possible to open pNovo+ files via the Open menu item.
