@@ -10,24 +10,23 @@ github_project: https://github.com/compomics/omssa-parser
 
 ----
 
+**Changes in omssa-parser v1.7.0 - (August 27. 2015):**
+  * LIBRARY UPDATE: Updated utilities to version 4.0.0.
+
+---
 
 **Changes in omssa-parser v1.6.12 - (December 11. 2014):**
   * LIBRARY UPDATE: Updated utilities to version 3.43.24.
 
-
 ---
-
 
 **Changes in omssa-parser v1.6.11 - (October 8. 2014):**
   * FEATURE IMPROVEMENT: Minor corrections in the ID file reader.
 
-
 ---
-
 
 **Changes in omssa-parser v1.6.10 - (September 8. 2014):**
   * LIBRARY UPDATE: Updated utilities to version 3.36.0.
-
 
 ---
 
