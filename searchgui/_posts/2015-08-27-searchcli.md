@@ -12,7 +12,7 @@ github_project: https://github.com/compomics/searchgui
 
 The command line interface to SearchGUI, referred to as SearchCLI, makes is easy to use SearchGUI in a command line setting, for example as part of a bigger software pipeline.
 
-SearchCLI searches spectrum files according to search parameters using [X!Tandem](http://www.thegpm.org/tandem), [MS-GF+](https://bix-lab.ucsd.edu/pages/viewpage.action?pageId=13533355), [MS Amanda](http://ms.imp.ac.at/?goto=msamanda), [MyriMatch](http://forge.fenchurch.mc.vanderbilt.edu/scm/viewvc.php/*checkout*/trunk/doc/index.html?root=myrimatch), [Comet]http://comet-ms.sourceforge.net/), [Tide](http://cruxtoolkit.sourceforge.net) and [OMSSA](http://www.ncbi.nlm.nih.gov/pubmed/15473683), and the results are X!Tandem .t.xml files, MS-GF+ .mzid files, MS Amanda .csv files, MyriMatch .mzid files, Comet .pep.xml files, Tide .txt and OMSSA .omx files.
+SearchCLI searches spectrum files according to search parameters using [X!Tandem](http://www.thegpm.org/tandem), [MS-GF+](https://bix-lab.ucsd.edu/pages/viewpage.action?pageId=13533355), [MS Amanda](http://ms.imp.ac.at/?goto=msamanda), [MyriMatch](http://forge.fenchurch.mc.vanderbilt.edu/scm/viewvc.php/*checkout*/trunk/doc/index.html?root=myrimatch), [Comet](http://comet-ms.sourceforge.net/), [Tide](http://cruxtoolkit.sourceforge.net), [Andromeda](http://www.andromeda-search.org) and [OMSSA](http://www.ncbi.nlm.nih.gov/pubmed/15473683), and the results are X!Tandem .t.xml files, MS-GF+ .mzid files, MS Amanda .csv files, MyriMatch .mzid files, Comet .pep.xml files, Tide .txt, Andromeda .res files and OMSSA .omx files.
 
 Note that the spectra must be provided in the Mascot Generic File (mgf) format.
 
@@ -60,6 +60,9 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
 -tide                   Turn the Tide search on or off. 
                         (1: on, 0: off, default is '0')
 
+-andromeda              Turn the Tide search on or off. 
+                        (1: on, 0: off, default is '0')
+
 -species                The species to use for the gene annotation, e.g., 'Homo sapiens'. 
                         Supported species are listed in the GUI.
 
@@ -90,6 +93,9 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
                         to the provided version for the given OS.
 
 -tide_folder            The folder where Tide is installed, defaults                        
+                        to the provided version for the given OS.
+
+-andromeda_folder       The folder where Andromeda is installed, defaults                        
                         to the provided version for the given OS.
 
 -makeblastdb_folder     The folder where makeblastdb is installed, defaults                        
