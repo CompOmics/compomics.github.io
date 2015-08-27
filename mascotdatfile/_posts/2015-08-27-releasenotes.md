@@ -10,6 +10,10 @@ github_project: https://github.com/compomics/mascotdatfile
 
 *Starting from MascotDatfile version 3.0, all subsequent versions of the library are listed here.*
 
+### 3.4.31 (21 January 2014)
+
+ * Updated utilities to version 4.0.0.
+
 ### 3.4.19 (21 January 2014)
 
  * Disabled the error logging in the `getAllSpectrumMatches` method in the `MascotIdfileReader` class.
