@@ -10,9 +10,11 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
-**Changes in SearchGUI 2.0.0 (Coming soon...):**
+**Changes in SearchGUI 2.0.0 (August 27. 2015):**
 
  * NEW FEATURE: Added support for Andromeda. (beta)
+ * NEW FEATURE: PTM masses are now set via the atomic composition.
+ * NEW FEATURE: Renamed .cps to .cpsx and .parameters to .par.
 
  * FEATURE IMPROVEMENT: Updated MS Amanda to version 1.0.0.5242 for Windows and version 1.0.0.5243 for Linux/Mac.
   * Bugfix for n-terminal modifications targeting a specific amino acid.
@@ -28,7 +30,7 @@ github_project: https://github.com/compomics/searchgui
  * BUG FIX: Corrected an error that could occur when working with raw files.
  * BUG FIX: Corrected an error in the handling of filters options for msconvert.
 
- * LIBRARY UPDATE: Updated utilities to version 4.0.1.
+ * LIBRARY UPDATE: Updated utilities to version 4.0.0.
 
 ----
 
