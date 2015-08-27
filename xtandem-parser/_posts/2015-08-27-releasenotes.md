@@ -10,6 +10,11 @@ github_project: https://github.com/compomics/xtandem-parser
 
 ----
 
+**Changes in XTandemParser 1.8.0 - (August 27. 2015):**
+  * LIBRARY UPDATE: Updated utilities to version 4.0.0.
+
+---
+
 **Changes in XTandemParser v1.7.18 - (January 26. 2015):**
   * BUF FIX: Fixed a bug in the PTM mapping where modifications where categorized as fixed or variable based on the PTM mass shift alone. Which broke down for iTRAQ searches where the same mass is found as both a fixed and variable modification. The modified amino acid and the location is now used in addition to the mass.
 
