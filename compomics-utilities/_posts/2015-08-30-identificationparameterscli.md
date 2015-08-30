@@ -25,6 +25,7 @@ Also note that most of the search engine specific settings listed below are for 
     * [MyriMatch advanced parameters](#myrimatch-advanced-parameters)
     * [Comet advanced parameters](#comet-advanced-parameters)
     * [Tide advanced parameters](#tide-advanced-parameters)
+    * [Andromeda advanced parameters](#andromeda-advanced-parameters)
     * [PepNovo advanced parameters](#pepnovo-advanced-parameters)
     * [DirecTag advanced parameters](#directag-advanced-parameters)
     * [pNovo advanced parameters](#pnovo-advanced-parameters)
@@ -53,7 +54,7 @@ com.compomics.denovogui.cmd.IdentificationParametersCLI [parameters]
 ## General parameters ##
 
 ```
--db	                The sequence database in FASTA format.
+-db                     The sequence database in FASTA format.
 
 -out                    The destination Identification Parameters file (.parameters).
 
@@ -441,6 +442,43 @@ com.compomics.denovogui.cmd.IdentificationParametersCLI [parameters]
 -tide_export_pin          Tide export Percolator input file, 1: true, 0: false, default is '0'.
 
 -tide_remove_temp         Tide remove temp folders when the search is done, 1: true, 0: false, default is '1'.
+```
+
+## Andromeda advanced parameters ##
+
+```
+-andromeda_max_pep_mass   Andromeda maximum peptide mass, default is '4600.0'.
+
+-andromeda_max_comb       Andromeda maximum combinations, default is '250'.
+
+-andromeda_top_peaks      Andromeda number of top peaks, default is '8'.
+
+-andromeda_top_peaks_window  
+                          Andromeda top peaks window width, default is '100'.
+
+-andromeda_incl_water     Andromeda account for water losses, 1: true, 0: false, default is '1'.
+
+-andromeda_incl_ammonia   Andromeda account for ammonina losses, 1: true, 0: false, default is '1'.
+
+-andromeda_neutral_losses Andromeda neutral losses are sequence dependent, 1: true, 0: false, default is '1'.
+
+-andromeda_fragment_all   Andromeda fragment all option, 1: true, 0: false, default is '0'.
+
+-andromeda_emp_correction Andromeda emperical correction, 1: true, 0: false, default is '1'.
+
+-andromeda_higher_charge  Andromeda higher charge option, 1: true, 0: false, default is '1'.
+
+-andromeda_frag_method    Andromeda fragmentation method, (HCD, CID or EDT), default is 'CID'.
+
+-andromeda_max_mods       Andromeda maximum number of modifications, default is '5'.
+
+-andromeda_min_pep_length Andromeda minimum peptide length when using no enzyme, default is '8'.
+
+-andromeda_max_pep_length Andromeda maximum peptide length when using no enzyme, default is '25'.
+
+-andromeda_equal_il       Andromeda whether I and L should be considered indistinguishable, 1: true, 0: false, default is '0'.
+
+-andromeda_max_psms       Andromeda maximum number of spectrum matches spectrum, default is '10'.
 ```
 
 ## PepNovo advanced parameters ##
