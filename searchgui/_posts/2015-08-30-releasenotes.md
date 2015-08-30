@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.0.1 (August 30. 2015):**
+
+ * BUG FIX: Fixed a bug that canceled the command line use.
+
+----
+
 **Changes in SearchGUI 2.0.0 (August 27. 2015):**
 
  * NEW FEATURE: Added support for Andromeda. (beta)
