@@ -24,6 +24,7 @@ github_project: https://github.com/compomics/peptide-shaker
  * BUG FIX: Fixed bugs in PathSettingsCLI where the paths could not be set. 
  * BUG FIX: Corrected potential concurrency issues.
  * BUG FIX: Fixed a bug in the Find feature where the peptide matches were added to the protein map, which resulted in them not being batch loaded.
+ * BUG FIX: Fixed a bug where search mzIdentML results without PTMs could not be parsed.
 
  * LIBRARY UPDATE: Updated mascotdatfile to version 3.4.31.
  * LIBRARY UPDATE: Updated xtandem-parser to version 1.8.0.

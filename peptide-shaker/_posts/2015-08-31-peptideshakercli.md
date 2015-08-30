@@ -389,7 +389,7 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PathSettingsCLI [para
 
 ```
 -peptideshaker_matches_directory    
-                           Directory where identification matches are temporarily 
+                           Folder where identification matches are temporarily 
                            saved to reduce the memory footprint.
 
 -peptideshaker_user_preferences     
