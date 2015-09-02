@@ -16,7 +16,7 @@ SearchCLI searches spectrum files according to search parameters using [X!Tandem
 
 Note that the spectra must be provided in the Mascot Generic File (mgf) format.
 
-The recommended way to generate an identification parameters file is via the SearchGUI graphical user interface. But the file can also be created using the [IdentificationParametersCLI](http://code.google.com/p/compomics-utilities/wiki/IdentificationParametersCLI). The folders used in the processing can be set via [PathSettingsCLI](#pathsettingscli). 
+The recommended way to generate an identification parameters file is via the SearchGUI graphical user interface. But the file can also be created using the [IdentificationParametersCLI](/compomics-utilities/wiki/identificationparameterscli.html). The folders used in the processing can be set via [PathSettingsCLI](#pathsettingscli). 
 
 ### General command line
 
