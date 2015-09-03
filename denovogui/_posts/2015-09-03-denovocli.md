@@ -12,7 +12,7 @@ github_project: https://github.com/compomics/denovogui
 
 The command line interface to DeNovoGUI, referred to as DeNovoCLI, makes is easy to use DeNovoGUI in a command line setting, for example as part of a bigger software pipeline.
 
-DeNovoCLI takes a set of spectrum files as input and uses the [PepNovo+](http://proteomics.ucsd.edu/Software/PepNovo.html),  [DirecTag](http://fenchurch.mc.vanderbilt.edu/bumbershoot/directag/) and [pNovo+](http://pfind.ict.ac.cn/software/pNovo/) (beta) algorithms to de novo sequence each spectrum according to the given search parameters.
+DeNovoCLI takes a set of spectrum files as input and uses the [PepNovo+](http://proteomics.ucsd.edu/Software/PepNovo.html),  [DirecTag](http://fenchurch.mc.vanderbilt.edu/bumbershoot/directag/), [pNovo+](http://pfind.ict.ac.cn/software/pNovo/) (beta) and [Novor](http://rapidnovor.com) algorithms to de novo sequence each spectrum according to the given search parameters.
 
 Note that the spectra must be provided in the Mascot Generic File (mgf) format.
 
@@ -47,6 +47,9 @@ java -cp DeNovoGUI-X.Y.Z.jar com.compomics.denovogui.cmd.DeNovoCLI [parameters]
 
 -pnovo                  Turn the pNovo+ sequencing on or off.
                         (1: on, 0: off, default is '0') 
+
+-novor                  Turn the Novor sequencing on or off.
+                        (1: on, 0: off, default is '0') 
 ```
 
 **Optional advanced parameters:**
@@ -59,6 +62,9 @@ java -cp DeNovoGUI-X.Y.Z.jar com.compomics.denovogui.cmd.DeNovoCLI [parameters]
                         Defaults to the version provided with DeNovoGUI.
 
 -pnovo_folder           The folder where pNovo+ is installed. 
+                        Defaults to the version provided with DeNovoGUI.
+
+-novor_folder           The folder where Novor is installed. 
                         Defaults to the version provided with DeNovoGUI.
 
 -threads                The number of threads to use for the processing. 
