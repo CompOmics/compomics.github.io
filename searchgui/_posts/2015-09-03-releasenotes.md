@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.0.2 (September 3. 2015):**
+
+ * BUG FIX: Improved the handling of the file path in the search settings files.
+ * BUG FIX: Fixed an issue with the wrapper in handling memory warnings for 32 bit Java 8.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.4.
+
+----
+
 **Changes in SearchGUI 2.0.1 (August 30. 2015):**
 
  * BUG FIX: Fixed a bug that canceled the command line use.
