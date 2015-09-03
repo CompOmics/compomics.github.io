@@ -10,6 +10,18 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.7.0 (September 3. 2015):**
+
+ * NEW FEATURE: Added support for Novor.
+
+ * FEATURE IMPROVEMENT: Added path settings option to the GUI.
+
+ * BUG FIX: Fixed an issue with the wrapper in handling memory warnings for 32 bit Java 8.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.4.
+
+---
+
 **Changes in DeNovoGUI 1.6.0 (August 27. 2015):**
 
  * NEW FEATURE: PTM masses are now set via the atomic composition.
