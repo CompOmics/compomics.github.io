@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/fragmentation-analyzer
 
 ----
 
+**Changes in FragmentationAnalyzer v1.5.13 - (September 3. 2015):** 
+
+ * BUG FIX: Fixing an issue with the wrapper in handling memory warnings on 32 bit Java 1.8.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.4. 
+
+----
+
 **Changes in FragmentationAnalyzer v1.5.12 - (June 22. 2015):** 
 
  * FEATURE IMPROVEMENT: Updated the look and feel to be more in line with newer compomics tools. 
