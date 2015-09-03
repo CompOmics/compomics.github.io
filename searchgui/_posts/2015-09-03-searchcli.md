@@ -58,10 +58,10 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
                         (1: on, 0: off, default is '1')
 
 -tide                   Turn the Tide search on or off. 
-                        (1: on, 0: off, default is '0')
+                        (1: on, 0: off, default is '1')
 
--andromeda              Turn the Tide search on or off. 
-                        (1: on, 0: off, default is '0')
+-andromeda              Turn the Andromeda search on or off. 
+                        (1: on, 0: off, default is '1')
 
 -species                The species to use for the gene annotation, e.g., 'Homo sapiens'. 
                         Supported species are listed in the GUI.
