@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.0.4 (September 4. 2015):**
+
+ * BUG FIX: Another attempt at fixing a bug where the output folder was deleted instead of the temp folder.
+
+----
+
 **Changes in SearchGUI 2.0.3 (September 4. 2015):**
 
  * BUG FIX: Fixed a bug where the output folder was deleted instead of the temp folder. Only affected Linux.
