@@ -10,14 +10,29 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.1.0 (September 4. 2015):**
+
+ * NEW FEATURE: Added support for k-means clustering.
+ * NEW FEATURE: Added normalization settings.
+ * NEW FEATURE: Added the find/search option to the results frame.
+
+ * FEATURE IMPROVEMENT: Added a Welcome Dialog and made various other GUI improvements.
+ * FEATURE IMPROVEMENT: Sped up the protein filtering and ratio extraction. 
+ * FEATURE IMPROVEMENT: Better error handling if the loading is canceled by the user.
+
+ * BUG FIX: Fixed an issue with the handling of memory warnings for 32 bit Java 8.
+
+ * LIBRARY UPDATE: Updated PeptideShaker to version 1.0.1.
+ * LIBRARY UPDATE: Updated jsparklines to version 1.0.5.
+ * LIBRARY UPDATE: Updated utilities to version 4.0.4.
+
+---
 
 **Changes in Reporter 0.0.5 (June 22. 2015):**
 
   * BUG FIX: Fixed a bug in the setting of the desktop icon.
 
-
 ---
-
 
 **Changes in Reporter 0.0.4 (June 21. 2015):**
 
@@ -28,9 +43,7 @@ github_project: https://github.com/compomics/reporter
   * LIBRARY UPDATE: Updated PeptideShaker to version 0.40.2.
   * LIBRARY UPDATE: Updated utilities to version 3.49.19.
 
-
 ---
-
 
 **Changes in Reporter 0.0.3 (June 3. 2015):**
 
@@ -39,9 +52,7 @@ github_project: https://github.com/compomics/reporter
   * LIBRARY UPDATE: Updated PeptideShaker to version 0.39.1.
   * LIBRARY UPDATE: Updated utilities to version 3.49.4.
 
-
 ---
-
 
 **Changes in Reporter 0.0.2 (June 2. 2015):**
 
@@ -50,13 +61,10 @@ github_project: https://github.com/compomics/reporter
   * LIBRARY UPDATE: Updated PeptideShaker to version 0.39.0.
   * LIBRARY UPDATE: Updated utilities to version 3.49.2.
 
-
 ---
-
 
 **Changes in Reporter 0.0.1 (May 6. 2015):**
 
   * First public beta release of Reporter.
-
 
 ---
