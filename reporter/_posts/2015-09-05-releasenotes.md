@@ -10,6 +10,13 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.1.1 (September 5. 2015):**
+
+ * BUG FIX: Fixed path issues on Linux/Mac.
+ * BUG FIX: Fixed an issue with the waiting icon in the progress bar when loading PeptideShaker projects.
+
+---
+
 **Changes in Reporter 0.1.0 (September 4. 2015):**
 
  * NEW FEATURE: Added support for k-means clustering.
