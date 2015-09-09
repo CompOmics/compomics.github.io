@@ -31,7 +31,7 @@
     <h3 class="widget-title">Wiki</h3>
     <div class="widget">
       <ul class="post-list">
-        {% for page in site.categories.[page.wiki] %}
+        {% for page in site.categories.[page.wiki] reversed %}
           <li>
               <a href="{{ page.url | prepend: site.baseurl }}">{{ page.name }}</a>
           </li>
@@ -45,7 +45,7 @@
     <h3 class="widget-title">Wiki</h3>
     <div class="widget">
       <ul class="post-list">
-        {% for page in site.categories.[page.project] %}
+        {% for page in site.categories.[page.project] reversed %}
           <li>
               <a href="{{ page.url | prepend: site.baseurl }}">{{ page.name }}</a>
           </li>
