@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/jsparklines
 
 ----
 
+**Changes in JSparklines 1.0.6 (September 12. 2015):**
+
+ * FEATURE IMPROVEMENT: Added a method for returning the data sorting type for ArrayListDataPoints objects.
+
+----
+
 **Changes in JSparklines 1.0.5 (July 15. 2015):**
 
  * FEATURE IMPROVEMENT: The compareTo method for JSparklinesDataset now uses the summed absolute values and also checks against NaN values.
