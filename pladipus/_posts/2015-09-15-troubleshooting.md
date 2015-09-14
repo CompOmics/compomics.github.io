@@ -14,6 +14,7 @@ In order to determine the cause of the problem, please go through the following 
 * Does the controller/database server/activeMQ server allow connections on the specified hosts/ports?
 * Is a firewall blocking traffic?
 * Do all machines in the network pool have internet access and can they reach the controller?
+* Does the user running pladipus have adequate user privileges, for example to create a new file?
 
 ## ActiveMQ issues
 * Is the ActiveMQ server is running at the host / port that is declared in the network.properties file.
