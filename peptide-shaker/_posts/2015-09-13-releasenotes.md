@@ -10,6 +10,20 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.0.2 (September 12. 2015):**
+
+ * FEATURE IMPROVEMENT: The XYPlottingDialog can now be opened by right clicking the column headers as well, and now opens the given column as a density chart as a default.
+
+ * BUG FIX: Corrected a bug in the validation of PSMs that could cancel the processing.
+ * BUG FIX: Fixed a possible null pointer in the output exporter.
+ * BUG FIX: Fixed a possible null pointer in the PTM tab.
+ * BUG FIX: Fixed bugs in the spectrum annotation menu where the mz ion table and bubble plot bar options could not be turned on.
+
+ * LIBRARY UPDATE: Updated jsparklines to version 1.0.6.
+ * LIBRARY UPDATE: Updated utilities to version 4.0.5.
+
+---
+
 **Changes in PeptideShaker 1.0.1 (September 3. 2015):**
 
  * BUG FIX: Fixed an issue with the wrapper in handling memory warnings for 32 bit Java 8.

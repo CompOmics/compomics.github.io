@@ -10,6 +10,24 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.7.2 (September 14. 2015):**
+
+ * FEATURE IMPROVEMENT: Updated Novor to version 1.01.0446, fixing an issue with reading some non-standard mgf files.
+
+ * BUG FIX: Fixed a bug in the show all peaks option in the spectrum menu.
+ * BUG FIX: Made sure that the Results Dialog is only opened if the sequencing actually generated any result files.
+
+---
+
+**Changes in DeNovoGUI 1.7.1 (September 12. 2015):**
+
+ * BUG FIX: Novor fragment ion tolerances in ppm are now converted to Dalton in the backend (as ppm is not yet supported).
+
+ * LIBRARY UPDATE: Updated jsparklines to version 1.0.6.
+ * LIBRARY UPDATE: Updated utilities to version 4.0.5.
+
+---
+
 **Changes in DeNovoGUI 1.7.0 (September 3. 2015):**
 
  * NEW FEATURE: Added support for Novor.

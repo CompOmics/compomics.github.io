@@ -1,8 +1,8 @@
 ---
-name: Examplejobconfiguration
+name: ExampleConfiguration
 project: pladipus
 layout: default
-permalink: /pladipus/wiki/examplejobconfiguration.html
+permalink: /pladipus/wiki/exampleconfiguration.html
 github_project: https://github.com/compomics/pladipus
 ---
 
@@ -10,20 +10,20 @@ github_project: https://github.com/compomics/pladipus
 
 ### Example template
 
-The following is an example template for a denovoGUI run. Note that:
+The following is an example template for a [DeNovoGUI](http://compomics.github.io/projects/denovogui.html) run. Note that:
 
 * The location of the jar is a parameter that doesn't change, hence it is a run parameter (fixed)
 * Input, parameter and output are all declared per task, they are job parameters (variable)
 
 ```xml
-<template run='Example_DenovoGUI' user='pladmin' priority='4'>
+<template run='Example_DeNovoGUI' user='pladmin' priority='4'>
     <steps>
-        <step class="com.compomics.pladipus.denovo.processsteps.DenovoGUISetupStep"/>
-        <step class="com.compomics.pladipus.denovo.processsteps.DenovoGUIStep"/> 
+        <step class="com.compomics.pladipus.denovo.processsteps.DeNovoGUISetupStep"/>
+        <step class="com.compomics.pladipus.denovo.processsteps.DeNovoGUIStep"/> 
     </steps> 
     <parameters>
         <run>
-            <param name='DenovoGUI' value='/home/compomics/.compomics/pladipus/tools/DenovoGUI-1.7.0/DenovoGUI-1.7.0.jar'/>
+            <param name='DeNovoGUI' value='/home/compomics/.compomics/pladipus/tools/DeNovoGUI-1.7.0/DeNovoGUI-1.7.0.jar'/>
         </run>
         <job>
             <param name='input' default='default'/>
@@ -41,7 +41,7 @@ The following is an example template for a denovoGUI run. Note that:
 This is what the corresponding TSV file could look like. Note that:
 
 * Every job parameter is represented in a column in a file. Pladipus will not accept files with missing or additional parameters, except when these are declared in the provided template
-* Every line is internally translated to a job. In this example, there will be n jobs generated for the 'Example_DenovoGUI' run
+* Every line is internally translated to a job. In this example, there will be n jobs generated for the 'Example_DeNovoGUI' run
 
 Example:
 
