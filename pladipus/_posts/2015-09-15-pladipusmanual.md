@@ -1,8 +1,8 @@
 ---
-name: Manual
+name: PladipusManual
 project: pladipus
 layout: default
-permalink: /pladipus/wiki/manual.html
+permalink: /pladipus/wiki/pladipusmanual.html
 github_project: https://github.com/compomics/pladipus
 ---
 

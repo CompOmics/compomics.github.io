@@ -6,6 +6,13 @@ permalink: /pladipus/wiki/pladipusdemo.html
 github_project: https://github.com/compomics/pladipus
 ---
 
+# Video tutorial
+
+<a href="https://www.youtube.com/watch?v=ZQff2Yqhgrk" target="_blank"><img src="http://img.youtube.com/vi/ZQff2Yqhgrk/0.jpg" 
+alt="Pladipus video tutorial" width="240" height="180" border="10" /></a>
+
+----
+
 ## Installing the framework
 
 Installing Pladipus can be easily done by running the pladipus installer [here](http://genesis.ugent.be/pladipus/download/Pladipus-installer-0.3.0.jar) and follow the on screen messages. 

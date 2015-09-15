@@ -1,10 +1,33 @@
 ---
-name: Settings
+name: InstallingPladipus
 project: pladipus
 layout: default
-permalink: /pladipus/wiki/settings.html
+permalink: /pladipus/wiki/installingpladipus.html
 github_project: https://github.com/compomics/pladipus
 ---
+
+## Installing Pladipus
+
+----
+
+## Prerequisites
+For Pladipus to run correctly, the following is needed : 
+
+* Connection to a MySQL database with create privileges (not included in installer)
+* Connection to an ActiveMQ host on an available post (optional in installer + automatic download)
+* Either Pladipus Management or Executor modes 
+
+----
+
+## Install
+
+Download the pladipus installer [here](http://genesis.ugent.be/pladipus/download/Pladipus-installer-0.3.0.jar) and follow the on screen messages. 
+
+In the case of a headless installation, please download either the complete [Linux version](http://genesis.ugent.be/pladipus/download/pladipus-linux) or [Windows version](http://genesis.ugent.be/pladipus/download/pladipus-windows) and extract the folder contents in the user home directory.
+
+For further details on how to correctly configure pladipus, please consult the [wiki](/pladipus/wiki/pladipus-configuration.html).
+
+<b>Note:</b> The [demonstration video](Pladipus-Demo) shows how to install Pladipus using the installer.
 
 # Settings
 
@@ -41,32 +64,4 @@ Property | Definition | Default value
 logging.level | The level output that will be displayed on the console | INFO
 app.classpath | The folder where pladipus steps will be loaded from | $USER_HOME/.compomics/pladipus/external/
 
-## Changing default activeMQ settings
 
-This file can be found at `$USER_HOME/.compomics/pladipus/activeMQ/apache-activemq-5.11.1/conf/activemq.xml`, however all changes made to this configuration have to be made in the [Pladipus Settings](#pladipus-settings) as well.
-
-<font color="red">Do only edit these parameters in case the ports are already in use!!!</font>
-
-### Changing the ActiveMQ port for queues
-
-* Locate the following XML-entry in the config file:
-
-```xml
-<transportConnectors>
-	<transportConnector name="openwire" uri="tcp://localhost:3389?jms.prefetchPolicy.queuePrefetch=1"/>
-</transportConnectors>
-```
-
-* replace **3389** with the new, available and open port of your choice 
-
-### Changing the ActiveMQ port for the jmx management console
-
-* Locate the following XML-entry in the config file:
-
-```xml
-<managementContext>
-	<managementContext connectorPort="1099" createConnector="true"/>
-</managementContext> 
-```
-
-* Replace **1099** with the new, available and open port of your choice 
