@@ -55,7 +55,7 @@ Please consult the manual on how to install and setup a pladipus network.
 
 - [Example job configuration file](http://genesis.ugent.be/pladipus/examples/sequence_database_search/configuration/example_configuration.tsv)
 
-<b><u>Note</u></b>: The example configuration will work out of the box, but the output folder needs to be specified to an accessible location in the Example Template File. This can be a location locally to the executors OR a shared storage between them that acts as a data repository for the results.
+<b><u>Note</u></b>: The example configuration will work out of the box, but the output folder needs to be specified to a <b> location that is accessible by all pladipus executors in the Example Template File</b>. This can be a location local to the executors, a network folder or a shared drive. The "outputFolder" parameter will direct to the data repository for the results, in the case of the tutorial this ment that all workers had a central repository at `/mnt/pladipus/Pladipus/GENESIS_OUTPUT` .
 
 * Launch the Pladipus management console by double clicking the generated shortcut on the desktop or by executing the following command
 
