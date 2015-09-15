@@ -44,11 +44,13 @@ More advanced users may prefer a manual installation, as the user has more contr
 * Locate or create the my.ini file in the mysql folder.
 * Add or update the following statements : 
 
-\# The TCP/IP Port the MySQL Server will listen on 
-port=[insert the port, this is by default 3306] 
+`\# The TCP/IP Port the MySQL Server will listen on` 
 
-\# \#IP address to bind to. 
-bind-address=[insert IP address of the MySQL server]
+`port=[insert the port, this is by default 3306] `
+
+`\# \#IP address to bind to.` 
+
+`bind-address=[0.0.0.0 OR the IP address of the MySQL server]`
 
 <b><u>Note</u></b> : Updating the bind-address is mandatory. It otherwise defaults to localhost, disallowing all access from outside the server
 

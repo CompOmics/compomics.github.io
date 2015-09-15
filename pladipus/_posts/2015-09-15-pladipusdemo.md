@@ -55,6 +55,8 @@ Please consult the manual on how to install and setup a pladipus network.
 
 - [Example job configuration file](http://genesis.ugent.be/pladipus/examples/sequence_database_search/configuration/example_configuration.tsv)
 
+<b><u>Note</u></b>: The example configuration will work out of the box, but the output folder needs to be specified to an accessible location in the Example Template File. This can be a location locally to the executors OR a shared storage between them that acts as a data repository for the results.
+
 * Launch the Pladipus management console by double clicking the generated shortcut on the desktop or by executing the following command
 
 `java -jar $USER_HOME/.compomics/pladipus/Pladipus-execution-0.3.0/Pladipus-execution-0.3.0.jar` 

@@ -20,7 +20,9 @@ This error is due to a bug in the MySQL software prior to the 5.5.x versions. Pl
 
 * `java.sql.SQLException: Unknown system variable 'lower_case_table_names' `
 
-This error can occur on MySQL versions 5.5.x and up. It is commonly solved by adding the following line into the my.ini file. 
+This error can occur on MySQL versions 5.5.x and up. It is commonly solved by adding the following lines into the my.ini file. 
+
+`[mysqld]`
 
 `lower_case_table_names=1`
 
