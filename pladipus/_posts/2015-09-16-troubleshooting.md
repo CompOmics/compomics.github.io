@@ -30,6 +30,14 @@ For more information, please refer to [the MySQL installer manual](http://compom
 
 ----
 
+# Operation issues
+
+* I'm using a template, but I don't see a new run appear
+
+Please verify that the run you are trying to create has a different name from existing ones for your user account. Otherwise, new jobs will get added to the existing run.
+
+----
+
 # My problem is not yet listed here
 
 In order to determine the cause of the problem, please go through the following checklist : 

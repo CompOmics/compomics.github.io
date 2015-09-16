@@ -6,7 +6,7 @@ permalink: /pladipus/wiki/installingmysql.html
 github_project: https://github.com/compomics/pladipus
 ---
 
-#Installing MySQL
+## Installing MySQL
 
 This tutorial will demonstrate how to install MySQL on a Windows machine, but similar versions are also available for Linux.
 
@@ -42,24 +42,24 @@ More advanced users may prefer a manual installation, as the user has more contr
 ## Configuration
 
 * Locate or create the my.ini file in the mysql folder.
-* Add or update the following statements : 
+* Add or update the following statements: 
 
-`\# The TCP/IP Port the MySQL Server will listen on` 
+```
+# The TCP/IP Port the MySQL Server will listen on
+port=[insert the port, this is by default 3306]
 
-`port=[insert the port, this is by default 3306] `
+# IP address to bind to.
+bind-address=[0.0.0.0 OR the IP address of the MySQL server]
+```
 
-`\# \#IP address to bind to.` 
-
-`bind-address=[0.0.0.0 OR the IP address of the MySQL server]`
-
-<b><u>Note</u></b> : Updating the bind-address is mandatory. It otherwise defaults to localhost, disallowing all access from outside the server
+<b><u>Note</u></b> : Updating the bind-address is mandatory. It otherwise defaults to localhost, disallowing all access from outside the server.
 
 ----
 
 ## Starting the server
 
 * Open a command line window and navigate to the bin folder inside the MySQL folder
-* Launch the following command : 
+* Launch the following command: 
  `C:\Program Files\MySQL\MySQL Server 5.0\bin\mysqld`
 
 ----
@@ -67,6 +67,6 @@ More advanced users may prefer a manual installation, as the user has more contr
 ## Stopping the server 
 
 * Open a command line window and navigate to the bin folder inside the MySQL folder
-* Launch the following command : 
+* Launch the following command: 
  `C:\Program Files\MySQL\MySQL Server 5.0\bin\mysqladmin" -u root shutdown`
 
