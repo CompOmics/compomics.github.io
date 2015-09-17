@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.0.5 (September 17. 2015):**
+
+ * BUG FIX: Fixed a bug in the Comet command line that occurred when a non-standard Comet temp folder was used.
+
+ * LIBRARY UPDATE: Updated jsparklines to version 1.0.6. 
+ * LIBRARY UPDATE: Updated utilities to version 4.0.5.
+
+----
+
 **Changes in SearchGUI 2.0.4 (September 4. 2015):**
 
  * BUG FIX: Another attempt at fixing a bug where the output folder was deleted instead of the temp folder.
