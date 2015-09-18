@@ -1,8 +1,8 @@
 ---
-name: InstallingActiveMQ
+name: 11InstallingActiveMQ
 project: pladipus
 layout: default
-permalink: /pladipus/wiki/installingactivemq.html
+permalink: /pladipus/wiki/11installingactivemq.html
 github_project: https://github.com/compomics/pladipus
 ---
 

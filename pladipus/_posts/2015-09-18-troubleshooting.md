@@ -49,7 +49,7 @@ In order to determine the cause of the problem, please go through the following 
 * Is a firewall blocking traffic?
 * Do all machines in the network pool have internet access and can they reach the controller?
 * Does the user running pladipus have adequate user privileges, for example to create a new file?
-
+* Not receiving run completion notifications? Did you provide a valid e-mail address?
 ----
 
 ## ActiveMQ issues

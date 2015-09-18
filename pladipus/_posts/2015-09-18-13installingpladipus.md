@@ -1,25 +1,14 @@
 ---
-name: InstallingPladipus
+name: 13InstallingPladipus
 project: pladipus
 layout: default
-permalink: /pladipus/wiki/installingpladipus.html
+permalink: /pladipus/wiki/13installingpladipus.html
 github_project: https://github.com/compomics/pladipus
 ---
 
 ## Installing Pladipus
 
 ----
-
-## Prerequisites
-For Pladipus to run correctly, the following is needed : 
-
-* Connection to a MySQL database with create privileges (not included in installer)
-* Connection to an ActiveMQ host on an available post (optional in installer + automatic download)
-* Either Pladipus Management or Executor modes 
-
-----
-
-## Install
 
 Download the pladipus installer [here](http://genesis.ugent.be/pladipus/download/Pladipus-installer-0.3.1.jar) and follow the on screen messages. 
 

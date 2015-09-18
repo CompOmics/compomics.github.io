@@ -1,8 +1,8 @@
 ---
-name: InstallingMySQL
+name: 12InstallingMySQL
 project: pladipus
 layout: default
-permalink: /pladipus/wiki/installingmysql.html
+permalink: /pladipus/wiki/12installingmysql.html
 github_project: https://github.com/compomics/pladipus
 ---
 
