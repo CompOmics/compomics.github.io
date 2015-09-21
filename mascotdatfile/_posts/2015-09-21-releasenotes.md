@@ -10,7 +10,7 @@ github_project: https://github.com/compomics/mascotdatfile
 
 *Starting from MascotDatfile version 3.0, all subsequent versions of the library are listed here.*
 
-### 3.4.31 (21 January 2014)
+### 3.4.31 (27 August 2015)
 
  * Updated utilities to version 4.0.0.
 
