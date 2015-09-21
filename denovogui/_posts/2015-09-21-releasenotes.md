@@ -10,6 +10,16 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.7.3 (September 21. 2015):**
+
+ * NEW FEATURE: Added support for residue specific alpha values in the spectrum annotations, and used this to indicate the amino acid scores for Novor.
+
+ * BUG FIX: Fixed a bug in the search feature which only searched the PepNovo results.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.6.
+
+---
+
 **Changes in DeNovoGUI 1.7.2 (September 14. 2015):**
 
  * FEATURE IMPROVEMENT: Updated Novor to version 1.01.0446, fixing an issue with reading some non-standard mgf files.
