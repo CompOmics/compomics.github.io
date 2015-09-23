@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.7.4 (Coming soon...):**
+
+ * FEATURE IMPROVEMENT: Updated Novor to version 1.03.0479, adding support for setting the fragmentation type and mass analyzer.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.7.
+
+---
+
 **Changes in DeNovoGUI 1.7.3 (September 21. 2015):**
 
  * NEW FEATURE: Added support for residue specific alpha values in the spectrum annotations, and used this to indicate the amino acid scores for Novor.
