@@ -10,11 +10,13 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
-**Changes in DeNovoGUI 1.7.4 (Coming soon...):**
+**Changes in DeNovoGUI 1.7.4 (September 23. 2015):**
 
  * FEATURE IMPROVEMENT: Updated Novor to version 1.03.0479, adding support for setting the fragmentation type and mass analyzer.
 
- * LIBRARY UPDATE: Updated utilities to version 4.0.7.
+ * BUG FIX: The peptide matches export now works again.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.8.
 
 ---
 
