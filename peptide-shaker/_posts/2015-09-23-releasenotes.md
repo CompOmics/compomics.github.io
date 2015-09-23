@@ -10,6 +10,17 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.0.3 (September 23. 2015):**
+
+ * FEATURE IMPROVEMENT: Extended the timeout when mapping peptides to proteins.
+ * FEATURE IMPROVEMENT: Improved the handling of the advanced search engine settings in the search parameters.
+ * FEATURE IMPROVEMENT: Added the version number to the Welcome and About dialogs. 
+ * FEATURE IMPROVEMENT: Started improving and extending the protein inference dialogs. 
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.8.
+
+---
+
 **Changes in PeptideShaker 1.0.2 (September 12. 2015):**
 
  * FEATURE IMPROVEMENT: The XYPlottingDialog can now be opened by right clicking the column headers as well, and now opens the given column as a density chart as a default.
