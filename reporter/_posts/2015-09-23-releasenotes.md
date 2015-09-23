@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.1.2 (September 23. 2015):**
+
+ * BUG FIX: If all proteins are removed by the protein filter, all proteins are now shown instead.
+
+ * LIBRARY UPDATE: Updated PeptideShaker to version 1.0.3.
+ * LIBRARY UPDATE: Updated utilities to version 4.0.8.
+
+---
+
 **Changes in Reporter 0.1.1 (September 5. 2015):**
 
  * BUG FIX: Fixed path issues on Linux/Mac.
