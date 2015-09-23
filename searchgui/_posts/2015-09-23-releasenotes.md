@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.0.6 (September 23. 2015):**
+
+ * BUG FIX: Improved the handling of the advanced search engine settings in the search parameters.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.8.
+
+----
+
 **Changes in SearchGUI 2.0.5 (September 17. 2015):**
 
  * BUG FIX: Fixed a bug in the Comet command line that occurred when a non-standard Comet temp folder was used.
