@@ -29,6 +29,7 @@ Also note that most of the search engine specific settings listed below are for 
     * [PepNovo advanced parameters](#pepnovo-advanced-parameters)
     * [DirecTag advanced parameters](#directag-advanced-parameters)
     * [pNovo advanced parameters](#pnovo-advanced-parameters)
+    * [Novor advanced parameters](#novor-advanced-parameters)
   * [Comma Separated List](#comma-separated-list)
   * [Help](#help)
 
@@ -561,6 +562,14 @@ com.compomics.denovogui.cmd.IdentificationParametersCLI [parameters]
 -pnovo_upper_prec         pNovo+ maximum precursor mass, default is '5000'.
 
 -pnovo_activation         pNovo+ actication type (HCD, CID or EDT), default is 'HCD'.
+```
+
+## Novor advanced parameters ##
+
+```
+-novor_fragmentation      Novor fragmentation method, CID or HCD, default is 'HCD'.
+
+-novor_mass_analyzer      Novor mass analyzer, Trap, TOF, or FT, default is 'FT'.
 ```
 
 ---
