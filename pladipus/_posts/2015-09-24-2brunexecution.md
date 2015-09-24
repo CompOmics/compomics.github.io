@@ -1,8 +1,8 @@
 ---
-name: 22RunExecution
+name: 2bRunExecution
 project: pladipus
 layout: default
-permalink: /pladipus/wiki/22runexecution.html
+permalink: /pladipus/wiki/2brunexecution.html
 github_project: https://github.com/compomics/pladipus
 ---
 
