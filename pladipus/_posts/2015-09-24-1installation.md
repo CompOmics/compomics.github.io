@@ -32,7 +32,7 @@ For Pladipus to run correctly, the following is needed :
 
 # Installing Pladipus
 
-Download the pladipus installer [here](http://genesis.ugent.be/pladipus/download/Pladipus-installer-0.3.1.jar) and follow the on screen messages. 
+Download the pladipus installer [here](http://genesis.ugent.be/pladipus/download/Pladipus-installer-0.3.2.jar) and follow the on screen messages. 
 
 In the case of a headless installation, please download either the complete [Linux version](http://genesis.ugent.be/pladipus/download/pladipus-linux.zip) or [Windows version](http://genesis.ugent.be/pladipus/download/pladipus-windows.zip) and extract the folder contents in the user home directory.
 
