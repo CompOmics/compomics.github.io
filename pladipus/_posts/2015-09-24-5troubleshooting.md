@@ -1,8 +1,8 @@
 ---
-name: Troubleshooting
+name: 5Troubleshooting
 project: pladipus
 layout: default
-permalink: /pladipus/wiki/troubleshooting.html
+permalink: /pladipus/wiki/5troubleshooting.html
 github_project: https://github.com/compomics/pladipus
 ---
 
