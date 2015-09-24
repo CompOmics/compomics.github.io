@@ -20,6 +20,7 @@ The [installation wizard](http://genesis.ugent.be/pladipus/download/Pladipus-ins
 ## Prerequisites
 For Pladipus to run correctly, the following is needed : 
 
+* [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) must be installed
 * Connection to a MySQL database with create privileges (not included in installer)
 * Connection to an ActiveMQ host on an available post (optional in installer + automatic download)
 * Either Pladipus Management or Executor modes 
