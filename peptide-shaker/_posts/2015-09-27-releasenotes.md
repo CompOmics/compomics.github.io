@@ -10,6 +10,13 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.0.4 (September 27. 2015):**
+
+ * BUG FIX: Fixed a bug in the mzIdentML export required to be compatible with the next Skyline release.
+ * BUG FIX: Fixed a bug in the mzIdentML export where the file format for MyriMatch was set to tab delimited instead if mzid.
+
+---
+
 **Changes in PeptideShaker 1.0.3 (September 23. 2015):**
 
  * FEATURE IMPROVEMENT: Extended the timeout when mapping peptides to proteins.
