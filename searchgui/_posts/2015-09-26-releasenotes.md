@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.0.7 (September 26. 2015):**
+
+ * FEATURE IMPROVEMENT: Added a command line option (-fasta) that makes it possible to override the FASTA file location in the search parameter file used.
+
+----
+
 **Changes in SearchGUI 2.0.6 (September 23. 2015):**
 
  * BUG FIX: Improved the handling of the advanced search engine settings in the search parameters.
