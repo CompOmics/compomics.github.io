@@ -121,8 +121,7 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
 -protein_index          Turn the FASTA file indexing on/off. (From version v1.19.0, before that 'protein_tree') 
                         (1: on, 0: off, default is '0').
 
--temp_folder            A folder for temporary file storage. Use only if you 
-                        encounter problems with the default configuration.
+-fasta                  Optional path to the database to search. The value in the search parameters will be overridden.
 ```
 
 ### Optional output compression parameters
