@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.7.5 (September 26. 2015):**
+
+ * FEATURE IMPROVEMENT: One algorithm is now run at a time and the duration of each is reported. 
+
+---
+
 **Changes in DeNovoGUI 1.7.4 (September 23. 2015):**
 
  * FEATURE IMPROVEMENT: Updated Novor to version 1.03.0479, adding support for setting the fragmentation type and mass analyzer.
