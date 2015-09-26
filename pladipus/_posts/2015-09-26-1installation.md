@@ -8,13 +8,13 @@ github_project: https://github.com/compomics/pladipus
 
 # Installation Manual
 
-* [Prerequisites](#Prerequisites)
-* [Installing Pladipus](#Installing Pladipus)
+* [Prerequisites](#prerequisites)
+* [Installing Pladipus](#installing-pladipus)
 
 The following sections can be used for advanced installation options that are not covered by the Pladipus installer.
 
-* [Installing MySQL](#Installing MySQL)
-* [Installing ActiveMQ](#Installing ActiveMQ)
+* [Installing MySQL](#installing-mysql)
+* [Installing ActiveMQ](#installing-activemq)
 
 ----
 
@@ -176,3 +176,4 @@ On a fresh, manual install, all changes made to this configuration have to be re
 * Replace **1099** with the new, available and open port of your choice 
 
 ----
+
