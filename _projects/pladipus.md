@@ -5,13 +5,14 @@ description: "Platform for Distributed Proteomics Software"
 wiki: "pladipus"
 ---
 
+
 <img src="https://raw.githubusercontent.com/wiki/compomics/pladipus/pladipus_logo.jpg" width="200">
 
-# Pladipus
+# Pladipus 
+
+<sub>Current version : 0.3.4</sub>
 
 The [CompOmics](http://www.compomics.com) Pladipus system is an affordable cluster computing framework allowing for distributed processing, management and analyses for bio-informatics pipelines.
-
-<span style="color:red">*** Version 0.3.4 is live now !!! ***</span>
 
 ----
 
