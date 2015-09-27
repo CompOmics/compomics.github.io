@@ -10,7 +10,7 @@ wiki: "pladipus"
 
 # Pladipus 
 
-<sub>Current version : 0.3.4</sub>
+<sub>Current version : 0.3.5</sub>
 
 The [CompOmics](http://www.compomics.com) Pladipus system is an affordable cluster computing framework allowing for distributed processing, management and analyses for bio-informatics pipelines.
 
@@ -29,10 +29,10 @@ To start using Pladipus please see the [Pladipus wiki](/pladipus/wiki/home.html)
 
 ## Download
 
-Pladipus can be installed in a variety of ways. We strongly recommend using the [installer](http://genesis.ugent.be/pladipus/download/Pladipus-installer-0.3.4.jar). 
+Pladipus can be installed in a variety of ways. We strongly recommend using the [installer](http://genesis.ugent.be/pladipus/download/Pladipus-installer-0.3.5.jar). 
 In case your machine does not provide a graphical user interface and can thus not display the installer, we also provide OS-specific packages for [Linux](http://genesis.ugent.be/pladipus/download/pladipus-linux.zip) and [Windows](http://genesis.ugent.be/pladipus/download/pladipus-windows.zip). 
 
-[ ![Image](https://raw.githubusercontent.com/wiki/compomics/pladipus/Download_Installer_Button.png)](http://genesis.ugent.be/pladipus/download/Pladipus-installer-0.3.4.jar)
+[ ![Image](https://raw.githubusercontent.com/wiki/compomics/pladipus/Download_Installer_Button.png)](http://genesis.ugent.be/pladipus/download/Pladipus-installer-0.3.5.jar)
 
 ----
 
