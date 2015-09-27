@@ -36,8 +36,6 @@ Download the pladipus installer [here](http://genesis.ugent.be/pladipus/download
 
 In the case of a headless installation, please download either the complete [Linux version](http://genesis.ugent.be/pladipus/download/pladipus-linux.zip) or [Windows version](http://genesis.ugent.be/pladipus/download/pladipus-windows.zip) and extract the folder contents in the user home directory.
 
-For further details on how to correctly configure pladipus, please consult the [wiki](/pladipus/wiki/pladipus-configuration.html).
-
 <b>Note:</b> The [demonstration video](Pladipus-Demo) shows how to install Pladipus using the installer.
 
 ## Settings
@@ -142,8 +140,8 @@ bind-address=[0.0.0.0 OR the IP address of the MySQL server]
 
 # Installing ActiveMQ
 
-It is highly recommended to use the Pladipus [installer](http://genesis.ugent.be/pladipus/download/Pladipus-installer-0.3.0.jar) or zipped archives for [Windows](http://genesis.ugent.be/pladipus/download/pladipus-windows) or [Linux](http://genesis.ugent.be/pladipus/download/pladipus-linux) to install ActiveMQ. The configuration will automatically be updated doing so. 
-On a fresh, manual install, all changes made to this configuration have to be reflected in the [Pladipus Settings](/pladipus/wiki/pladipus-configuration.html) as well. For more advanced configuration parameters, please consult the [ActiveMQ website](http://activemq.apache.org/).
+It is highly recommended to use the Pladipus [installer](http://genesis.ugent.be/pladipus/download/Pladipus-installer-0.3.5.jar) or zipped archives for [Windows](http://genesis.ugent.be/pladipus/download/pladipus-windows) or [Linux](http://genesis.ugent.be/pladipus/download/pladipus-linux) to install ActiveMQ. The configuration will automatically be updated doing so. 
+On a fresh, manual install, all changes made to this configuration have to be reflected in the [Pladipus Settings](http://compomics.github.io/pladipus/wiki/1installation.html#installing-pladipus) as well. For more advanced configuration parameters, please consult the [ActiveMQ website](http://activemq.apache.org/).
 
 ### Manually changing default activeMQ settings
 

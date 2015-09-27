@@ -8,7 +8,8 @@ github_project: https://github.com/compomics/pladipus
 
 # Troubleshooting
 
-* [Installation issues](#installation-issues)
+<sub>Before going through the following subjects, please visit the [Latest update](http://compomics.github.io/pladipus/wiki/6updates.html). Hopefully your problem was resolved already!
+
 * [Pladipus issues](#pladipus-issues)
 * [ActiveMQ issues](#activemq-issues)
 * [MySQL issues](#mysql-issues)
@@ -32,7 +33,7 @@ Upon creation, a run is put on hold. If you want to launch it, please open the m
 
 ### `ActiveMQ can not be reached`
 
-You can verify this by connection to the IP of the connector at port 8161 in a browser, for example : 192.168.22.45:8161. When you see you are able to connect OR the website prompts you for credentials, the ActiveMQ console is running. See [the ActiveMQ installation manual](https://github.com/compomics/pladipus/wiki/1.-Installation#installing-activemq) for more details...
+You can verify this by connection to the IP of the connector at port 8161 in a browser, for example : 192.168.22.45:8161. When you see you are able to connect OR the website prompts you for credentials, the ActiveMQ console is running. See [the ActiveMQ installation manual](http://compomics.github.io/pladipus/wiki/1installation.html#installing-activemq) for more details...
 
 Is the host specified in the activemq.xml <b>localhost</b> or <b>127.0.0.1</b> ? Then replace this with the actual IP of the machine hosting the server to allow external connections.
 
@@ -48,7 +49,7 @@ This can potentially be due to the provided account not having the correct privi
 
 ### `java.sql.SQLException: Unknown system variable 'language' `
 
-This error is due to a bug in the MySQL software prior to the 5.5.x versions. Please upgrade your MySQL version. For more details, please refer to [the MySQL installer manual](http://compomics.github.io/pladipus/wiki/installingmysql.html).
+This error is due to a bug in the MySQL software prior to the 5.5.x versions. Please upgrade your MySQL version. For more details, please refer to [the MySQL installer manual](http://compomics.github.io/pladipus/wiki/1installation.html#installing-mysql).
 
 ### `java.sql.SQLException: Unknown system variable 'lower_case_table_names' `
 
