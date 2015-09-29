@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.0.5 (September 29. 2015):**
+
+ * FEATURE IMPROVEMENT: Made sure that the default PTM scoring is the same for both the GUI and the command line.
+ * FEATURE IMPROVEMENT: Cleaned up the GUI for handling the PTM score selection.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.9.
+
+---
+
 **Changes in PeptideShaker 1.0.4 (September 27. 2015):**
 
  * BUG FIX: Fixed a bug in the mzIdentML export required to be compatible with the next Skyline release.

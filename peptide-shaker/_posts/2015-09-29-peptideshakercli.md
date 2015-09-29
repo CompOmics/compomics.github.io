@@ -49,19 +49,21 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [par
 -identification_files      Identification files (X!Tandem .t.xml, mzIdentML .mzid, MS Amanda .cvs, 
                            OMSSAgo .omx, Mascot .dat files, Tide .txt, Comet .pep.xml or .zip) 
                            in a comma separated list or an entire folder.
-                           Example: "file1.omx, file1.dat, file1.t.xml".
+                           Example: "c:\file1.omx, c:\file1.dat, c:\file1.t.xml".
 
--out                       PeptideShaker output file. If the file already exists 
+-out                       PeptideShaker output file (.cpsx). If the file already exists 
                            it will be silently overwritten.
+                           Example: "c:\ps_output.cpsx".
 
 -spectrum_files (*)        The spectrum files (mgf format) in a comma
                            separated list or an entire folder.
-                           Example: "file1.mgf, file2.mgf".
+                           Example: "c:\file1.mgf, c:\file2.mgf".
 
--id_params (*)             The identification parameters file. 
+-id_params (*)             The identification parameters file (.par). 
                            Generated using SeachGUI or via IdentificationParametersCLI. 
                            This file is automatically saved by SearchGUI along with the 
                            identification files.
+                           Example: "c:\search_parameters.par".
 
 (*) Not mandatory if these files are part of a zip file input with the identification files. (from v0.36.0)
 ```
@@ -99,8 +101,7 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [par
 **Optional PTM localization scoring parameters**
 
 ```
--ptm_score                 The PTM probabilistic score to use if any (0: A-score, 1: phosphoRS). 
-                           If no score is given, no probabilistic score will be used.
+-ptm_score                 The PTM probabilistic score to use for PTM localization. 0: A-score, 1: PhosphoRS, 2: None. Default is '1'. 
 
 -ptm_threshold             The threshold to use for the PTM scores. If none set, 
                            an automatic threshold will be used.
@@ -149,7 +150,7 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI
 -experiment myExperiment -sample mySample -replicate 1 
 -identification_files "C:\my folder" -spectrum_files "C:\my folder" 
 -id_params "C:\my folder\my_search_params.parameters" 
--out "C:\my folder\myCpsFile.cps"
+-out "C:\my folder\myCpsFile.cpsx"
 ```
 
 _Note that for readability the command is here split over multiple lines. When used the command should of course be a single line._
@@ -169,7 +170,7 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.ReportCLI [parameters
 **Mandatory parameters**
 
 ```
--in                        PeptideShaker project (.cps file)
+-in                        PeptideShaker project (.cpsx file)
 
 -out_reports               Output folder for report files. (Existing files will be overwritten.)
 ```
@@ -202,7 +203,7 @@ ReportCLI example where _X_, _Y_ and _Z_ have to be replaced by the actual versi
 
 ```java
 java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.ReportCLI 
--in "C:\my folder\myCpsFile.cps" -out_reports "C:\my folder" -reports "0, 3"
+-in "C:\my folder\myCpsFile.cpsx" -out_reports "C:\my folder" -reports "0, 3"
 ```
 
 [Go to top of page](#peptideshakercli)
@@ -220,7 +221,7 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.FollowUpCLI [paramete
 **Mandatory parameters**
 
 ```
--in                        PeptideShaker project (.cps file)
+-in                        PeptideShaker project (.cpsx file)
 ```
 
 **Optional recalibration parameters**
@@ -319,7 +320,7 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.FollowUpCLI [paramete
 FollowUpCLI example where _X_, _Y_ and _Z_ have to be replaced by the actual version of PeptideShaker and _my folder_ by the folder containing the desired files:
 
 ```java
-java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.FollowUpCLI -in "C:\my folder\myCpsFile.cps" -spectrum_folder "C:\my folder" -psm_type 0
+java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.FollowUpCLI -in "C:\my folder\myCpsFile.cpsx" -spectrum_folder "C:\my folder" -psm_type 0
 ```
 
 [Go to top of page](#peptideshakercli)
@@ -327,8 +328,6 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.FollowUpCLI -in "C:\m
 ---
 
 ## D - MzidCLI ##
-
-Available from PeptideShaker v0.30.0.
 
 **Standard command line**
 
@@ -339,7 +338,7 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.MzidCLI [parameters]
 **Mandatory parameters**
 
 ```
--in                        PeptideShaker project (.cps file)
+-in                        PeptideShaker project (.cpsx file)
 
 -output_file               Output file.
 
@@ -442,7 +441,7 @@ See also: [JavaTroubleShooting](/compomics-utilities/wiki/javatroubleshooting.ht
 To open a PeptideShaker project (cps file or zipped cps file) from the command line (for display in PeptideShaker) use the following command:
 
 ```java
-java -jar PeptideShaker-X.Y.Z.jar -cps "C:\my folder\myCpsFile.cps"
+java -jar PeptideShaker-X.Y.Z.jar -cps "C:\my folder\myCpsFile.cpsx"
 ```
 
 To open a zipped PeptideShaker project via a URL from the command line (for display in PeptideShaker) use the following command:
