@@ -65,7 +65,7 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [par
                            identification files.
                            Example: "c:\search_parameters.par".
 
-(*) Not mandatory if these files are part of a zip file input with the identification files. (from v0.36.0)
+(*) Not mandatory if these files are part of a zip file input with the identification files.
 ```
 
 **Optional gene annotation parameter**
@@ -101,7 +101,8 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [par
 **Optional PTM localization scoring parameters**
 
 ```
--ptm_score                 The PTM probabilistic score to use for PTM localization. 0: A-score, 1: PhosphoRS, 2: None. Default is '1'. 
+-ptm_score                 The PTM probabilistic score to use for PTM localization 
+                           (0: A-score, 1: PhosphoRS, 2: None, default is '1'). 
 
 -ptm_threshold             The threshold to use for the PTM scores. If none set, 
                            an automatic threshold will be used.
