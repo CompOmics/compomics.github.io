@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.7.6 (October 1. 2015):**
+
+ * BUG FIX: Corrected a typo on the sequencing handler resulting in a null pointer.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.10.
+
+---
+
 **Changes in DeNovoGUI 1.7.5 (September 26. 2015):**
 
  * FEATURE IMPROVEMENT: One algorithm is now run at a time and the duration of each is reported. 
