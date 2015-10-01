@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.0.8 (October 1. 2015):**
+ 
+ * FEATURE IMPROVEMENT: Updated Comet to version 2015.02 rev. 1.
+ * FEATURE IMPROVEMENT: Updated Ensembl to version 82.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.10.
+
+----
+
 **Changes in SearchGUI 2.0.7 (September 26. 2015):**
 
  * FEATURE IMPROVEMENT: Added a command line option (-fasta) that makes it possible to override the FASTA file location in the search parameter file used.
