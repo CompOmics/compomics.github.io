@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.0.7 (October 1. 2015):**
+
+ * BUG FIX: Corrected references to the outdated cps file format (now cpsx) for some of the command lines.
+
+----
+
 **Changes in PeptideShaker 1.0.6 (October 1. 2015):**
 
  * FEATURE IMPROVEMENT: Updated Ensembl to version 82.
