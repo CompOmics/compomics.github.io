@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.0.9 (October 1. 2015):**
+
+ * FEATURE IMPROVEMENT: Improved how some of the dialogs resize in low screen resolution conditions.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.11.
+
+----
+
 **Changes in SearchGUI 2.0.8 (October 1. 2015):**
  
  * FEATURE IMPROVEMENT: Updated Comet to version 2015.02 rev. 1.
