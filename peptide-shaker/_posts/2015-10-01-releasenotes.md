@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.0.6 (October 1. 2015):**
+
+ * FEATURE IMPROVEMENT: Updated Ensembl to version 82.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.10.
+
+----
+
 **Changes in PeptideShaker 1.0.5 (September 29. 2015):**
 
  * FEATURE IMPROVEMENT: Made sure that the default PTM scoring is the same for both the GUI and the command line.
