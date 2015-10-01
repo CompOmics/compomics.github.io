@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.0.10 (October 1. 2015):**
+
+ * BUG FIX: Fixed bugs in the search parameters where the advanced search engine settings had gone missing.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.12.
+
+----
+
 **Changes in SearchGUI 2.0.9 (October 1. 2015):**
 
  * FEATURE IMPROVEMENT: Improved how some of the dialogs resize in low screen resolution conditions.
