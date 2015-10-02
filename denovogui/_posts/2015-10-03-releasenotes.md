@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.7.8 (October 3. 2015):**
+
+ * BUG FIX: Fixed a bug related to PTMs not targeting specific amino acids when setting up pNovo jobs.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.13.
+
+---
+
 **Changes in DeNovoGUI 1.7.7 (October 1. 2015):**
 
  * FEATURE IMPROVEMENT: Improved how some of the dialogs resize in low screen resolution conditions.
