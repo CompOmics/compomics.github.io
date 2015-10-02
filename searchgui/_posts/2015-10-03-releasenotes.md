@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.0.11 (October 3. 2015):**
+
+ * BUG FIX: Fixed a possible null pointer related to PTMs not targeting specific amino acids when setting up X!Tandem searches.
+ * BUG FIX: Fixed a bug in the mgf parser where comments between the peak lists was not supported.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.13.
+
+----
+
 **Changes in SearchGUI 2.0.10 (October 1. 2015):**
 
  * BUG FIX: Fixed bugs in the search parameters where the advanced search engine settings had gone missing.
