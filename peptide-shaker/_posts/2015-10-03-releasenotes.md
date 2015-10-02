@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.0.9 (October 3. 2015):**
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.13.
+
+----
+
 **Changes in PeptideShaker 1.0.8 (October 1. 2015):**
 
  * LIBRARY UPDATE: Updated utilities to version 4.0.12.
