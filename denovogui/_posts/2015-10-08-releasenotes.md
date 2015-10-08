@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.7.9 (October 8. 2015):**
+
+ * FEATURE IMPROVEMENT: Updated Novor to version v1.03.0489, fixing potential issues related to high resolution data with very low fragment ion tolerance.
+
+---
+
 **Changes in DeNovoGUI 1.7.8 (October 3. 2015):**
 
  * BUG FIX: Fixed a bug related to PTMs not targeting specific amino acids when setting up pNovo jobs.
