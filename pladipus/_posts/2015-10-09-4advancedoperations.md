@@ -47,7 +47,7 @@ The main idea behind Pladipus is to provide a simple platform to run a broad ran
 
 * Place the wrapper jar, including the required dependencies, in the `$USER_HOME/.compomics/pladipus/external` folder. 
 
-* Append the following line to the `$USER_HOME/.compomics/pladipus/config/processing-beans.xml` , but replace "MyCustomClass" by your new classes name and "my.custom.MyCustomClass" with the fully defined classpath: 
+* Append the following line to the `$USER_HOME/pladipus/config/processing-beans.xml` , but replace "MyCustomClass" by your new classes name and "my.custom.MyCustomClass" with the fully defined classpath: 
 
  <bean id="MyCustomClass" class="my.custom.MyCustomClass" lazy-init="true"/>   
 

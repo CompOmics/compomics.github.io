@@ -42,7 +42,7 @@ In the case of a headless installation, please download either the complete [Lin
 
 The configuration can be done using the installer. 
 They can also be changed manually, for example when a headless install is required.
-The configuration file can be found and edited at `$USER_HOME/.compomics/pladipus/config/network.properties`
+The configuration file can be found and edited at `$USER_HOME/pladipus/config/network.properties`
 
 **Database Settings**
 
@@ -145,7 +145,7 @@ On a fresh, manual install, all changes made to this configuration have to be re
 
 ### Manually changing default activeMQ settings
 
-* Locate the configuration file in the 'conf' folder of ActiveMQ. This can be found at `$USER_HOME/.compomics/pladipus/activeMQ/apache-activemq-5.11.1/conf/activemq.xml`when using one of the Pladipus installation options
+* Locate the configuration file in the 'conf' folder of ActiveMQ. This can be found at `$USER_HOME/pladipus/activeMQ/apache-activemq-5.11.1/conf/activemq.xml`when using one of the Pladipus installation options
 
 <font color="red">Do only edit these parameters in case the ports are already in use!!!</font>
 
