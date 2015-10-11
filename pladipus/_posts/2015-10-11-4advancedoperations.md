@@ -49,7 +49,7 @@ The main idea behind Pladipus is to provide a simple platform to run a broad ran
 
 * Append the following line to the `$USER_HOME/pladipus/config/processing-beans.xml` , but replace "MyCustomClass" by your new classes name and "my.custom.MyCustomClass" with the fully defined classpath: 
 
- <bean id="MyCustomClass" class="my.custom.MyCustomClass" lazy-init="true"/>   
+ `<bean id="MyCustomClass" class="my.custom.MyCustomClass" lazy-init="true"/>`
 
 <b> Important Note 1</b>: The changes need to be applied to all pladipus instances on the network. The new step can then be used in runs and jobs.
 
