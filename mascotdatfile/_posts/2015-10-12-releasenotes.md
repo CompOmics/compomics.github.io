@@ -10,6 +10,10 @@ github_project: https://github.com/compomics/mascotdatfile
 
 *Starting from MascotDatfile version 3.0, all subsequent versions of the library are listed here.*
 
+### 3.4.32 (12 October 2015)
+ * Removed the peptide map from the IdfileReader to speed up the processing. 
+ * Updated utilities to version 4.0.0.
+
 ### 3.4.31 (27 August 2015)
 
  * Updated utilities to version 4.0.0.
