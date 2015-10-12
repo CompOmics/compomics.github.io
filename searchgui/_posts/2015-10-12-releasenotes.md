@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.1.0 (October 12. 2015):**
+
+ * FEATURE IMPROVEMENT: The Andromeda temp folder is only deleted once all mgf files have been searched.
+ * FEATURE IMPROVEMENT: Cleaned up the handling of exceptions to avoid printing stack traces.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.14.
+
+----
+
 **Changes in SearchGUI 2.0.11 (October 3. 2015):**
 
  * BUG FIX: Fixed a possible null pointer related to PTMs not targeting specific amino acids when setting up X!Tandem searches.
