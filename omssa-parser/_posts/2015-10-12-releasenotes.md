@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/omssa-parser
 
 ----
 
+**Changes in omssa-parser v1.7.1 - (October 12. 2015):**
+ * FEATURE IMPROVEMENT: Removed the peptide map from the IdfileReader to speed up the processing.
+ * LIBRARY UPDATE: Updated utilities to version 4.0.14.
+
+---
+
 **Changes in omssa-parser v1.7.0 - (August 27. 2015):**
   * LIBRARY UPDATE: Updated utilities to version 4.0.0.
 
