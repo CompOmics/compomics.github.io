@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.7.10 (October 12. 2015):**
+
+ * FEATURE IMPROVEMENT: Tags that are too short are now ignored in the peptide to protein mapping export.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.14.
+
+---
+
 **Changes in DeNovoGUI 1.7.9 (October 8. 2015):**
 
  * FEATURE IMPROVEMENT: Updated Novor to version v1.03.0489, fixing potential issues related to high resolution data with very low fragment ion tolerance.
