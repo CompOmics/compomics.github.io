@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/xtandem-parser
 
 ----
 
+**Changes in XTandemParser 1.8.1 - (October 12. 2015):**
+ * FEATURE IMPROVEMENT: Removed the peptide map from the IdfileReader to speed up the processing. 
+ * LIBRARY UPDATE: Updated utilities to version 4.0.14.
+
+---
+
 **Changes in XTandemParser 1.8.0 - (August 27. 2015):**
   * LIBRARY UPDATE: Updated utilities to version 4.0.0.
 
