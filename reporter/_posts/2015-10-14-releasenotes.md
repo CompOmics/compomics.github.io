@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.1.6 (October 14. 2015):**
+
+ * FEATURE IMPROVEMENT: Extended the user selected file methods to support suggested/default file names.
+
+ * LIBRARY UPDATE: Updated PeptideShaker to version 1.1.1.
+ * LIBRARY UPDATE: Updated utilities to version 4.0.15.
+
+---
+
 **Changes in Reporter 0.1.5 (October 12. 2015):**
 
  * LIBRARY UPDATE: Updated PeptideShaker to version 1.1.0.
