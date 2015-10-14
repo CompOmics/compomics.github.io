@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.7.11 (October 14. 2015):**
+
+ * FEATURE IMPROVEMENT: Extended the user selected file methods to support suggested/default file names.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.15.
+
+---
+
 **Changes in DeNovoGUI 1.7.10 (October 12. 2015):**
 
  * FEATURE IMPROVEMENT: Tags that are too short are now ignored in the peptide to protein mapping export.
