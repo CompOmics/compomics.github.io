@@ -10,6 +10,16 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.1.1 (October 14. 2015):**
+
+ * FEATURE IMPROVEMENT: Enabled the multithreading for msconvert.
+ * FEATURE IMPROVEMENT: Made it possible to cancel msconvert processes.
+ * FEATURE IMPROVEMENT: Prevented processes from starting in case the search has been cancelled.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.15.
+
+----
+
 **Changes in SearchGUI 2.1.0 (October 12. 2015):**
 
  * FEATURE IMPROVEMENT: The Andromeda temp folder is only deleted once all mgf files have been searched.
