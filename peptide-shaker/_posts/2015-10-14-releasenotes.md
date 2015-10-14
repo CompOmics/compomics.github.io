@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.1.1 (October 14. 2015):**
+
+ * FEATURE IMPROVEMENT: Extended the user selected file methods to support suggested/default file names.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.0.15.
+
+----
+
 **Changes in PeptideShaker 1.1.0 (October 12. 2015):**
 
  * FEATURE IMPROVEMENT: Sped up the peptide to protein mapping.
