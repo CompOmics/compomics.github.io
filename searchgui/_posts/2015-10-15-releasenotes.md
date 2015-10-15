@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.1.2 (October 15. 2015):**
+
+ * BUG FIX: Fixed a bug in the mgf splitting.
+
+----
+
 **Changes in SearchGUI 2.1.1 (October 14. 2015):**
 
  * FEATURE IMPROVEMENT: Enabled the multithreading for msconvert.
