@@ -10,6 +10,13 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.7.12 (October 15. 2015):**
+
+ * BUG FIX: The peptide matches export now works again.
+ * BUG FIX: Fixed a bug where the PTM mappings for the de novo algorithms where not saved correctly in the search parameters.
+
+---
+
 **Changes in DeNovoGUI 1.7.11 (October 14. 2015):**
 
  * FEATURE IMPROVEMENT: Extended the user selected file methods to support suggested/default file names.
