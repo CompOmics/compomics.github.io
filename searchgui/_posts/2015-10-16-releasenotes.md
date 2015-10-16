@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.1.3 (October 16. 2015):**
+
+ * FEATURE IMPROVEMENT: Updated Ensembl Genomes to version 29.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.1.1.
+
+----
+
 **Changes in SearchGUI 2.1.2 (October 15. 2015):**
 
  * BUG FIX: Fixed a bug in the mgf splitting.
