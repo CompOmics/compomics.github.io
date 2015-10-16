@@ -10,6 +10,16 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.1.2 (October 16. 2015):**
+
+ * FEATURE IMPROVEMENT: Updated Ensembl Genomes to version 29.
+
+ * BUG FIX: Fixed a typo in the Annotation tab.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.1.1.
+
+----
+
 **Changes in PeptideShaker 1.1.1 (October 14. 2015):**
 
  * FEATURE IMPROVEMENT: Extended the user selected file methods to support suggested/default file names.
