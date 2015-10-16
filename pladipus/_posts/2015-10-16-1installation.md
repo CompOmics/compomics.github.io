@@ -32,9 +32,9 @@ For Pladipus to run correctly, the following is needed :
 
 # Installing Pladipus
 
-Download the pladipus installer [here](http://genesis.ugent.be/pladipus/download/Pladipus-installer-0.3.8.jar) and follow the on screen messages. 
+Download the pladipus installer [here](http://genesis.ugent.be/pladipus/download/Pladipus-installer-0.4.0.jar) and follow the on screen messages. 
 
-In the case of a headless installation, please download either the complete [Linux version](http://genesis.ugent.be/pladipus/download/pladipus-linux.zip) or [Windows version](http://genesis.ugent.be/pladipus/download/pladipus-windows.zip) and extract the folder contents in the user home directory.
+In the case of a headless installation, please download either the zipped installation folder [here](http://genesis.ugent.be/pladipus/download/pladipus.zip) and extract the folder contents in the user home directory.
 
 <b>Note:</b> The [demonstration video](Pladipus-Demo) shows how to install Pladipus using the installer.
 
@@ -174,4 +174,3 @@ On a fresh, manual install, all changes made to this configuration have to be re
 * Replace **1099** with the new, available and open port of your choice 
 
 ----
-
