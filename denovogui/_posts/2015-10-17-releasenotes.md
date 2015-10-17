@@ -10,9 +10,17 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.7.13 (October 17. 2015):**
+
+ * BUG FIX: The tag matches and BLAST exports now works again for Novor.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.1.2.
+
+---
+
 **Changes in DeNovoGUI 1.7.12 (October 15. 2015):**
 
- * BUG FIX: The peptide matches export now works again.
+ * BUG FIX: The peptide matches export now works again for Novor.
  * BUG FIX: Fixed a bug where the PTM mappings for the de novo algorithms where not saved correctly in the search parameters.
 
 ---
