@@ -10,6 +10,13 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.8.0 (October 19. 2015):**
+
+ * FEATURE IMPROVEMENT: Reordered the de novo algorithms. 
+ * FEATURE IMPROVEMENT: Improved the progress display.
+
+---
+
 **Changes in DeNovoGUI 1.7.13 (October 17. 2015):**
 
  * BUG FIX: The tag matches and BLAST exports now works again for Novor.
