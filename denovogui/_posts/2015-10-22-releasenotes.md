@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.8.1 (October 22. 2015):**
+
+* BUG FIX: Made the tool work on Java 1.6 again.
+
+* LIBRARY UPDATE: Updated utilities to version 4.1.8.
+
+----
+
 **Changes in DeNovoGUI 1.8.0 (October 19. 2015):**
 
  * FEATURE IMPROVEMENT: Reordered the de novo algorithms. 
