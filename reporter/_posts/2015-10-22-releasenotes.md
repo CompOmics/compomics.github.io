@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.1.6 (October 22. 2015):**
+
+* BUG FIX: Made the tool work on Java 1.6 again.
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.1.3.
+* LIBRARY UPDATE: Updated utilities to version 4.1.8.
+
+----
+
 **Changes in Reporter 0.1.6 (October 14. 2015):**
 
  * FEATURE IMPROVEMENT: Extended the user selected file methods to support suggested/default file names.
