@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.1.4 (October 22. 2015):**
+
+ * BUG FIX: Made the tool work on Java 1.6 again.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.1.8.
+
+----
+
 **Changes in SearchGUI 2.1.3 (October 16. 2015):**
 
  * FEATURE IMPROVEMENT: Updated Ensembl Genomes to version 29.
