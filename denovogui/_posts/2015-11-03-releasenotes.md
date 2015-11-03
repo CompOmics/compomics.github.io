@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.8.2 (November 3. 2015):**
+
+ * BUG FIX: Fixed a bug in the displayed peptide mass for Novor results.
+
+----
+
 **Changes in DeNovoGUI 1.8.1 (October 22. 2015):**
 
 * BUG FIX: Made the tool work on Java 1.6 again.
