@@ -66,7 +66,8 @@ The following libraries were used for the general user interface (spectrum viewe
         <version>X.Y.Z</version>
     </dependency>
 </dependencies>
-
+```
+```
 <repositories>
     <!-- Compomics Genesis Maven 2 repository -->
     <repository>
