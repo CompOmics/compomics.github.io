@@ -10,6 +10,21 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.2.0 (coming soon...):**
+
+ * FEATURE IMPROVEMENT: Updated Comet to version 2015.02 rev. 3.
+ * FEATURE IMPROVEMENT: Support for LysargiNase and extended enzyme support for MyriMatch and MS-GF+.
+ * FEATURE IMPROVEMENT: Added support for partial digest for Andromeda.
+ * FEATURE IMPROVEMENT: Partial digest is now set for Tide based on the enzyme selected.
+ * FEATURE IMPROVEMENT: Updated the parameters related classes to work with json files.
+ * FEATURE IMPROVEMENT: Changed the X!Tandem and OMSSA logos to be the same format as the other logos.
+
+ * BUG FIX: Fixed a bug that affected variable n-term modification without specific targets when running Comet.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.1.10.
+
+----
+
 **Changes in SearchGUI 2.1.4 (October 22. 2015):**
 
  * BUG FIX: Made the tool work on Java 1.6 again.
