@@ -10,6 +10,27 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.2.0 (Coming soon...):**
+
+* FEATURE IMPROVEMENT: Added support for LysargiNase.
+* FEATURE IMPROVEMENT: Improved the Validation plots.
+* FEATURE IMPROVEMENT: Updated the parameters related classes to work with json files
+* FEATURE IMPROVEMENT: Added support for exporting the sequence coverage plot. 
+* FEATURE IMPROVEMENT: Implemented speed ups in the protein groups handling.
+* FEATURE IMPROVEMENT: Re-added the CV term for the Andromeda result files to the mzid export.
+* FEATURE IMPROVEMENT: Added tooltips to all validation plots.
+* FEATURE IMPROVEMENT: The methods report now includes the occurrence of the species.
+
+* BUG FIX: Fixed issues with the high resolution exports of the plots in the Spectrum IDs tab.
+* BUG FIX: Added a temporary fix to the Progenesis export.
+* BUG FIX: Fixed a rare bug in the Confidence plot that occurred if two consecutive x-values were identical, which messed up the color coding.
+* BUG FIX: Fixed a bug in the #Unique PSMs plot in the Spectrum IDs tab.
+* BUG FIX: Fixed a possible null pointer in the protein inference peptide level dialog.
+
+* LIBRARY UPDATE: Updated utilities to version 4.1.10.
+
+----
+
 **Changes in PeptideShaker 1.1.3 (October 22. 2015):**
 
 * BUG FIX: Made the tool work on Java 1.6 again.
