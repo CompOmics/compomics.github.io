@@ -10,6 +10,17 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.9.0 (coming soon...):**
+
+ * FEATURE IMPROVEMENT: Updated Novor to v1.05.0573.
+ * FEATURE IMPROVEMENT: Updated the parameters related classes to work with json files.
+
+ * BUG FIX: Re-added the amino acid scores for Novor.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.1.10.
+
+----
+
 **Changes in DeNovoGUI 1.8.2 (November 3. 2015):**
 
  * BUG FIX: Fixed a bug in the displayed peptide mass for Novor results.
