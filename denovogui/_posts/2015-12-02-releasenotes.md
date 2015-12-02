@@ -10,14 +10,14 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
-**Changes in DeNovoGUI 1.9.0 (coming soon...):**
+**Changes in DeNovoGUI 1.9.0 (December 2. 2015):**
 
  * FEATURE IMPROVEMENT: Updated Novor to v1.05.0573.
  * FEATURE IMPROVEMENT: Updated the parameters related classes to work with json files.
 
  * BUG FIX: Re-added the amino acid scores for Novor.
 
- * LIBRARY UPDATE: Updated utilities to version 4.1.10.
+ * LIBRARY UPDATE: Updated utilities to version 4.1.13.
 
 ----
 
