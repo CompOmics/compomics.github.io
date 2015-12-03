@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.9.1 (December 3. 2015):**
+
+ * FEATURE IMPROVEMENT: The de novo algorithm command lines used are now written to the log file.
+
+----
+
 **Changes in DeNovoGUI 1.9.0 (December 2. 2015):**
 
  * FEATURE IMPROVEMENT: Updated Novor to v1.05.0573.
