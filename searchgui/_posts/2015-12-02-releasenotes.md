@@ -10,7 +10,7 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
-**Changes in SearchGUI 2.2.0 (coming soon...):**
+**Changes in SearchGUI 2.2.0 (December 2. 2015):**
 
  * FEATURE IMPROVEMENT: Updated Comet to version 2015.02 rev. 3.
  * FEATURE IMPROVEMENT: Support for LysargiNase and extended enzyme support for MyriMatch and MS-GF+.
@@ -21,7 +21,7 @@ github_project: https://github.com/compomics/searchgui
 
  * BUG FIX: Fixed a bug that affected variable n-term modification without specific targets when running Comet.
 
- * LIBRARY UPDATE: Updated utilities to version 4.1.10.
+ * LIBRARY UPDATE: Updated utilities to version 4.1.13.
 
 ----
 

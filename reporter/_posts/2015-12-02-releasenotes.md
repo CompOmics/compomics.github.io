@@ -10,6 +10,18 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.2.0 (December 2. 2015):**
+
+* BUG FIX: Fixed issues that could occur for peptides without modifications.
+* BUG FIX: Fixed issues with the progress bars not being updated properly when normalizing the ratios.
+* BUG FIX: Fixed a column alignment issue in the default PSM export.
+* BUG FIX: Fixed incorrect references to the log file. 
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.2.0.
+* LIBRARY UPDATE: Updated utilities to version 4.1.13.
+
+----
+
 **Changes in Reporter 0.1.6 (October 22. 2015):**
 
 * BUG FIX: Made the tool work on Java 1.6 again.
