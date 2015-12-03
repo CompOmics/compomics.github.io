@@ -153,7 +153,7 @@ com.compomics.denovogui.cmd.IdentificationParametersCLI [parameters]
 -msgf_protocol            MS-GF+ protocol id option, 0: Automatic (Default), 
                           1: Phosphorylation, 2: iTRAQ, 3: iTRAQPhospho, 4: TMT, 5: Standard.
 
--msgf_min_pep_length      MS-GF+ minumum peptide length, default is '6'.
+-msgf_min_pep_length      MS-GF+ minumum peptide length, default is '8'.
 
 -msgf_max_pep_length      MS-GF+ maximum peptide length, default is '30'.
 
@@ -276,7 +276,7 @@ com.compomics.denovogui.cmd.IdentificationParametersCLI [parameters]
 ## MyriMatch advanced parameters ##
 
 ```
--myrimatch_min_pep_length MyriMatch minumum peptide length, default is '6'.
+-myrimatch_min_pep_length MyriMatch minumum peptide length, default is '8'.
 
 -myrimatch_max_pep_length MyriMatch maximum peptide length, default is '30'.
 
@@ -374,7 +374,7 @@ com.compomics.denovogui.cmd.IdentificationParametersCLI [parameters]
 
 -tide_num_ptms_per_type   Tide max number of PTMs of each type per peptide, default is '2'.
 
--tide_min_pep_length      Tide minumum peptide length, default is '6'.
+-tide_min_pep_length      Tide minumum peptide length, default is '8'.
 
 -tide_max_pep_length      Tide maximum peptide length, default is '30'.
 
