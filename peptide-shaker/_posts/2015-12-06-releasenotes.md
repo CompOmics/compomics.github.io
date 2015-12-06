@@ -10,6 +10,17 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.2.1 (December 6. 2015):**
+
+* FEATURE IMPROVEMENT: Added support for new enzyme: Trypsin + Glu-C.
+
+* BUG FIX: Added a temporary fix for importing c-terminal modifications for Comet.
+* BUG FIX: Fixed a null pointer that occurred if trying to open a new project from inside PeptideShaker.
+
+* LIBRARY UPDATE: Updated utilities to version 4.1.14.
+
+----
+
 **Changes in PeptideShaker 1.2.0 (December 2. 2015):**
 
 * FEATURE IMPROVEMENT: Added support for LysargiNase.
