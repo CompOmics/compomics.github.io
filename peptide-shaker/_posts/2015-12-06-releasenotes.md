@@ -19,7 +19,8 @@ github_project: https://github.com/compomics/peptide-shaker
 * FEATURE IMPROVEMENT: Implemented speed ups in the protein groups handling.
 * FEATURE IMPROVEMENT: Re-added the CV term for the Andromeda result files to the mzid export.
 * FEATURE IMPROVEMENT: Added tooltips to all validation plots.
-* FEATURE IMPROVEMENT: The methods report now includes the occurrence of the species.
+* FEATURE IMPROVEMENT: The methods report now includes the occurrence of the species. 
+* FEATURE IMPROVEMENT: Updated the Example Dataset.
 
 * BUG FIX: Fixed issues with the high resolution exports of the plots in the Spectrum IDs tab.
 * BUG FIX: Added a temporary fix to the Progenesis export.
