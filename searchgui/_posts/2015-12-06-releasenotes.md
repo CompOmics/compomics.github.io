@@ -10,6 +10,16 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.2.1 (December 6. 2015):**
+
+ * FEATURE IMPROVEMENT: Added support for new enzyme: Trypsin + Glu-C.
+
+ * BUG FIX: Fixed a bug where Andromeda changed the general enzyme properties when settings up its own enzymes.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.1.13.
+
+----
+
 **Changes in SearchGUI 2.2.0 (December 2. 2015):**
 
  * FEATURE IMPROVEMENT: Updated Comet to version 2015.02 rev. 3.
