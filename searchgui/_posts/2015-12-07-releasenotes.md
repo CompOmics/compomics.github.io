@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.2.2 (December 7. 2015):**
+
+ * BUG FIX: Fixed a bug in the MS-GF+ enzyme mapping for GluC.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.1.15.
+
+----
+
 **Changes in SearchGUI 2.2.1 (December 6. 2015):**
 
  * FEATURE IMPROVEMENT: Added support for new enzyme: Trypsin + Glu-C.
