@@ -25,7 +25,9 @@ Note that ReportCLI, FollowUpCLI, MzidCLI and PathSettingsCLI options can also b
 
 All command line options have the same overall structure and only differ in the features and parameters available.
 
-The recommended way to generate an identification parameters file for use in PeptideShakerCLI, is via the SearchGUI graphical user interface. But the file can also be created using the [IdentificationParametersCLI](/compomics-utilities/wiki/identificationparameterscli.html).
+Identification parameters for use in PeptideShakerCLI can be provided as a file or as command line arguments. Identification parameter files are in the [json](https://en.wikipedia.org/wiki/JSON) format and can be created in the graphical user interface, using the [IdentificationParametersCLI](/compomics-utilities/wiki/identificationparameterscli.html), or using third party tools. Alternatively, the parameters can be passed directly to PeptideShakerCLI by using the command line arguments of the [IdentificationParametersCLI](/compomics-utilities/wiki/identificationparameterscli.html).
+
+Temporary folders used in the processing can be set via [PathSettingsCLI](#pathsettingscli). Note that PeptideShaker back-end relies on a database allowing only a single open connection at a time. It is thus important to use a single instance of PeptideShakerCLI at a time. In distributed setups, we recommend keeping a clean copy of PeptideShaker, and distribute it to the different workers prior to execution.
 
 ---
 
@@ -60,9 +62,7 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [par
                            Example: "c:\file1.mgf, c:\file2.mgf".
 
 -id_params (*)             The identification parameters file (.par). 
-                           Generated using SeachGUI or via IdentificationParametersCLI. 
-                           This file is automatically saved by SearchGUI along with the 
-                           identification files.
+                           Generated using the GUI or via IdentificationParametersCLI. Alternatively, IdentificationParametersCLI parameters can be passed directly to the command line.
                            Example: "c:\search_parameters.par".
 
 (*) Not mandatory if these files are part of a zip file input with the identification files.
@@ -71,61 +71,8 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [par
 **Optional gene annotation parameter**
 
 ```
--species                   The species to use for the gene annotation, e.g., 'Homo sapiens'. 
-                           Supported species are listed in the GUI.
-
--species_type              The species type to use for the gene annotation, e.g., 'Vertebrates' or 'Plants'. 
-                           Supported species types are listed in the GUI.
-
 -species_update            Check for new species information in Ensembl and update if possible. 
                            (1: true, 0: false, default is '0').
-```
-
-**Optional validation parameters**
-
-```
--protein_FDR               FDR at the protein level in percent 
-                           (default 1% FDR: '1').
-
--peptide_FDR               FDR at the peptide level in percent 
-                           (default 1% FDR: '1').
-
--psm_FDR                   FDR at the PSM level in percent (default 1%
-                           FDR: '1').
-
--protein_fraction_mw_confidence     
-                           Minimum confidence required for a protein in
-                           the fraction MW plot (default 95%: '95.0').
-```
-
-**Optional PTM localization scoring parameters**
-
-```
--ptm_score                 The PTM probabilistic score to use for PTM localization 
-                           (0: A-score, 1: PhosphoRS, 2: None, default is '1'). 
-
--ptm_threshold             The threshold to use for the PTM scores. If none set, 
-                           an automatic threshold will be used.
-
--score_neutral_losses      Include neutral losses of mass different from the PTM 
-                           in spectrum annotation of the PTM score 
-                           (1: true, 0: false, default is '0').
-```
-
-**Optional filtering parameters**
-
-```
--min_peptide_length        Minimim peptide length filter (default is '4').
-
--max_peptide_length        Maximum peptide length filter (default is '30').
-
--max_precursor_error       Maximum precursor error filter (no filter is used by default). 
-                           See also max_precursor_error_type.
-
--max_precursor_error_type  Maximum precursor error type (0: ppm, 1: Da, default is '0'). 
-                           See also max_precursor_error.
-
--exclude_unknown_ptms      Exclude unknown PTMs (1: true, 0: false, default is '1').
 ```
 
 **Optional export parameters**
@@ -150,7 +97,7 @@ PeptideShakerCLI example where _X_, _Y_ and _Z_ have to be replaced by the actua
 java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI 
 -experiment myExperiment -sample mySample -replicate 1 
 -identification_files "C:\my folder" -spectrum_files "C:\my folder" 
--id_params "C:\my folder\my_search_params.parameters" 
+-id_params "C:\my folder\my_search_params.par" 
 -out "C:\my folder\myCpsFile.cpsx"
 ```
 
@@ -188,7 +135,8 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.ReportCLI [parameters
                            5: Default Peptide Report, 
                            6: Default Protein Phosphorylation Report, 
                            7: Default Protein Report, 
-                           8-n: Your own custom reports.
+                           8: Extended PSM Report, 
+                           9-n: Your own custom reports.
 
 -documentation             Comma separated list of types of report documentation to export. 
                            0: Certificate of Analysis, 
@@ -199,7 +147,8 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.ReportCLI [parameters
                            5: Default Peptide Report, 
                            6: Default Protein Phosphorylation Report, 
                            7: Default Protein Report, 
-                           8-n: Your own custom reports.
+                           8: Extended PSM Report, 
+                           9-n: Your own custom reports.
 ```
 
 To add custom reports see Export > Identification Features > Reports in PeptideShaker.
