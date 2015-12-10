@@ -10,13 +10,15 @@ github_project: https://github.com/compomics/searchgui
 
 ## SearchGUI Command Line Interface
 
-The command line interface to SearchGUI, referred to as SearchCLI, makes is easy to use SearchGUI in a command line setting, for example as part of a bigger software pipeline.
+The command line interface to SearchGUI, referred to as SearchCLI, makes it possible to run all search engines supported by SearchGUI using a single command line.
 
 SearchCLI searches spectrum files according to search parameters using [X!Tandem](http://www.thegpm.org/tandem), [MS-GF+](https://bix-lab.ucsd.edu/pages/viewpage.action?pageId=13533355), [MS Amanda](http://ms.imp.ac.at/?goto=msamanda), [MyriMatch](http://forge.fenchurch.mc.vanderbilt.edu/scm/viewvc.php/*checkout*/trunk/doc/index.html?root=myrimatch), [Comet](http://comet-ms.sourceforge.net/), [Tide](http://cruxtoolkit.sourceforge.net), [Andromeda](http://www.andromeda-search.org) and [OMSSA](http://www.ncbi.nlm.nih.gov/pubmed/15473683), and the results are X!Tandem .t.xml files, MS-GF+ .mzid files, MS Amanda .csv files, MyriMatch .mzid files, Comet .pep.xml files, Tide .txt, Andromeda .res files and OMSSA .omx files.
 
-Note that the spectra must be provided in the Mascot Generic File (mgf) format.
+Note that the spectra must be provided in the Mascot Generic File (mgf) format. For spectrum file conversion, we recommend using msConvert, part of [ProteoWizard](http://proteowizard.sourceforge.net/).
 
-The recommended way to generate an identification parameters file is via the SearchGUI graphical user interface. But the file can also be created using the [IdentificationParametersCLI](/compomics-utilities/wiki/identificationparameterscli.html). The folders used in the processing can be set via [PathSettingsCLI](#pathsettingscli). 
+Identification parameters for use in SearchCLI can be provided as a file. Identification parameter files are in the [json](https://en.wikipedia.org/wiki/JSON) format and can be created in the graphical user interface, using the [IdentificationParametersCLI](/compomics-utilities/wiki/identificationparameterscli.html), or using third party tools. Alternatively, the parameters can be passed directly to SearchCLI by using the command line arguments of the [IdentificationParametersCLI](/compomics-utilities/wiki/identificationparameterscli.html).
+
+Temporary folders used in the processing can be set via [PathSettingsCLI](#pathsettingscli). Note that search engines use indexes and temporary files stored locally in their folder. It is thus important to use a single instance of SearchCLI at a time. In distributed setups, we recommend keeping a clean copy of SearchGUI, and distribute it to the different workers prior to execution.
 
 ### General command line
 
@@ -32,8 +34,10 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
 
 -output_folder          The output folder.
 
--id_params              A search parameters file. Generated from the GUI 
-                        or using the IdentificationParametersCLI.
+-id_params              The identification parameters file (.par). 
+                        Generated using the GUI or via IdentificationParametersCLI.
+                        Example: "c:\search_parameters.par". 
+                        Alternatively, IdentificationParametersCLI parameters can be passed directly.
 ```
 
 ### Optional common parameters
@@ -42,16 +46,16 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
 -xtandem                Turn the X!Tandem search on or off. 
                         (1: on, 0: off, default is '1')
 
--msgf                   Turn the MS-GF+ search on or off. 
-                        (1: on, 0: off, default is '1')
-
--omssa                  Turn the OMSSA search on or off. 
+-myrimatch              Turn the MyriMatch search on or off. 
                         (1: on, 0: off, default is '1')
 
 -ms_amanda              Turn the MS Amanda search on or off. 
                         (1: on, 0: off, default is '1')
 
--myrimatch              Turn the MyriMatch search on or off. 
+-msgf                   Turn the MS-GF+ search on or off. 
+                        (1: on, 0: off, default is '1')
+
+-omssa                  Turn the OMSSA search on or off. 
                         (1: on, 0: off, default is '1')
 
 -comet                  Turn the Comet search on or off. 
@@ -63,12 +67,6 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
 -andromeda              Turn the Andromeda search on or off. 
                         (1: on, 0: off, default is '1')
 
--species                The species to use for the gene annotation, e.g., 'Homo sapiens'. 
-                        Supported species are listed in the GUI.
-
--species_type           The species type to use for the gene annotation, 
-                        e.g., 'Vertebrates' or 'Plants'. 
-                        Supported species types are listed in the GUI.
 ```
 
 
@@ -78,15 +76,15 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
 -xtandem_folder         The folder where X!Tandem is installed, defaults                        
                         to the provided version for the given OS.
 
--msgf_folder            The folder where MS-GF+ is installed.
-
--omssa_folder           The folder where OMSSA is installed, defaults                        
+-myrimatch_folder       The folder where MyriMatch is installed, defaults                        
                         to the provided version for the given OS.
 
 -ms_amanda_folder       The folder where MS Amanda is installed, defaults                        
                         to the provided version for the given OS.
 
--myrimatch_folder       The folder where MyriMatch is installed, defaults                        
+-msgf_folder            The folder where MS-GF+ is installed.
+
+-omssa_folder           The folder where OMSSA is installed, defaults                        
                         to the provided version for the given OS.
 
 -comet_folder           The folder where Comet is installed, defaults                        
@@ -121,7 +119,6 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
 -protein_index          Turn the FASTA file indexing on/off. (From version v1.19.0, before that 'protein_tree') 
                         (1: on, 0: off, default is '0').
 
--fasta                  Optional path to the database to search. The value in the search parameters will be overridden.
 ```
 
 ### Optional output compression parameters
