@@ -25,7 +25,7 @@ Note that ReportCLI, FollowUpCLI, MzidCLI and PathSettingsCLI options can also b
 
 All command line options have the same overall structure and only differ in the features and parameters available.
 
-Identification parameters for use in PeptideShakerCLI can be provided as a file or as command line arguments. Identification parameter files are in the [json](https://en.wikipedia.org/wiki/JSON) format and can be created in the graphical user interface, using the [IdentificationParametersCLI](/compomics-utilities/wiki/identificationparameterscli.html), or using third party tools. Alternatively, the parameters can be passed directly to PeptideShakerCLI by using the command line arguments of the [IdentificationParametersCLI](/compomics-utilities/wiki/identificationparameterscli.html).
+Identification parameters for use in PeptideShakerCLI can be provided as a file. Identification parameter files are in the [json](https://en.wikipedia.org/wiki/JSON) format and can be created in the graphical user interface, using the [IdentificationParametersCLI](/compomics-utilities/wiki/identificationparameterscli.html), or using third party tools. Alternatively, the parameters can be passed directly to PeptideShakerCLI by using the command line arguments of the [IdentificationParametersCLI](/compomics-utilities/wiki/identificationparameterscli.html).
 
 Temporary folders used in the processing can be set via [PathSettingsCLI](#pathsettingscli). Note that PeptideShaker back-end relies on a database allowing only a single open connection at a time. It is thus important to use a single instance of PeptideShakerCLI at a time. In distributed setups, we recommend keeping a clean copy of PeptideShaker, and distribute it to the different workers prior to execution.
 
@@ -50,7 +50,7 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [par
 
 -identification_files      Identification files (X!Tandem .t.xml, mzIdentML .mzid, MS Amanda .cvs, 
                            OMSSAgo .omx, Mascot .dat files, Tide .txt, Comet .pep.xml or .zip) 
-                           in a comma separated list or an entire folder.
+                           in a comma separated list, as compressed zip file, or an entire folder.
                            Example: "c:\file1.omx, c:\file1.dat, c:\file1.t.xml".
 
 -out                       PeptideShaker output file (.cpsx). If the file already exists 
@@ -62,8 +62,9 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [par
                            Example: "c:\file1.mgf, c:\file2.mgf".
 
 -id_params (*)             The identification parameters file (.par). 
-                           Generated using the GUI or via IdentificationParametersCLI. Alternatively, IdentificationParametersCLI parameters can be passed directly to the command line.
-                           Example: "c:\search_parameters.par".
+                           Generated using the GUI or via IdentificationParametersCLI.
+                           Example: "c:\search_parameters.par". 
+                           Alternatively, IdentificationParametersCLI parameters can be passed directly.
 
 (*) Not mandatory if these files are part of a zip file input with the identification files.
 ```
