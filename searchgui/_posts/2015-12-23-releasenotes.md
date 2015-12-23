@@ -10,6 +10,29 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.3.0 (Coming soon...):**
+
+ * NEW FEATURE: A log folder can now be selected when operating in command line.
+
+ * FEATURE IMPROVEMENT: The isotopic correction is now part of the main search parameters. 
+ * FEATURE IMPROVEMENT: First attempt at supporting fragment ion tolerance in ppm.
+ * FEATURE IMPROVEMENT: Added support for Semi-Arg-C.
+ * FEATURE IMPROVEMENT: The mgf file is now given to Comet directly.
+ * FEATURE IMPROVEMENT: Updated the Ensembl mappings to version 83. 
+
+ * BUG FIX: Fixed a bug in the MS Amanda setup where the highest charge in the selected range was not added, e.g. [2-4] became [2-3].
+ * BUG FIX: Fixed an error in the "Thermolysin, no P rule" enzyme, where the P rule was actually added.
+ * BUG FIX: The MS Amanda enzyme file is now generated each time MS Amanda is run, and now supports all enzymes (except Asp-N + Glu-C).
+ * BUG FIX: Corrected issues in the Formic Acid and Trypsin + Glu-C enzymes for MS Amanda.
+ * BUG FIX: Added a fix for a Java bug where the button for the scroll bar could disappear on certain Java versions.
+ * BUG FIX: The UniProt taxonomy mapping is now loaded before working with the identification parameters avoiding a null pointer when loading files containing search parameters only.
+ * BUG FIX: Fixed a bug where the identification parameters file was not set in SearchCLI.
+ * BUG FIX: Fix the saving of the advanced settings for search engines so that the general search settings are not reset.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.3.2.
+
+----
+
 **Changes in SearchGUI 2.2.2 (December 7. 2015):**
 
  * BUG FIX: Fixed a bug in the MS-GF+ enzyme mapping for GluC.
