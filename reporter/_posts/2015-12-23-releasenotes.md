@@ -10,12 +10,13 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
-**Changes in Reporter 0.2.2 (Coming soon...):**
+**Changes in Reporter 0.2.2 (December 23. 2015):**
 
 * BUG FIX: Added a fix for a Java bug where the button for the scroll bar could disappear on certain Java versions.
+* BUG FIX: Fixed a bug that made it impossible to save Reporter projects.
 
 * LIBRARY UPDATE: Updated PeptideShaker to version 1.3.0.
-* LIBRARY UPDATE: Updated utilities to version 4.3.2.
+* LIBRARY UPDATE: Updated utilities to version 4.3.3.
 
 ----
 
