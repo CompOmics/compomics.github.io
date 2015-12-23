@@ -88,6 +88,8 @@ java -cp DeNovoGUI-X.Y.Z.jar com.compomics.denovogui.cmd.PathSettingsCLI [parame
 ```
 -temp_folder               A folder for temporary file storage. Use only if 
                            you encounter problems with the default configuration.
+
+-log                       Folder where to write the log files.
 ```
 
 **Specific path setting**

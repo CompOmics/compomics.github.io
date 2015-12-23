@@ -10,11 +10,11 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
-**Changes in DeNovoGUI 1.9.3 (Coming soon...):**
+**Changes in DeNovoGUI 1.9.3 (December 23. 2015):**
 
  * FEATURE IMPROVEMENT: A log folder can now be selected when operating in command line. 
 
- * LIBRARY UPDATE: Updated utilities to version 4.3.2.
+ * LIBRARY UPDATE: Updated utilities to version 4.3.3.
 
 ----
 
