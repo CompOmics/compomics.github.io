@@ -155,6 +155,8 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.PathSettingsCLI [parameters]
 ```java
 -temp_folder               A folder for temporary file storage. Use only if 
                            you encounter problems with the default configuration.
+
+-log                       Folder where to write the log files.
 ```
 
 ### Specific path setting

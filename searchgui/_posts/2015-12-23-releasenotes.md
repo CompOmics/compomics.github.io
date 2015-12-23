@@ -10,7 +10,7 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
-**Changes in SearchGUI 2.3.0 (Coming soon...):**
+**Changes in SearchGUI 2.3.0 (December 23. 2015):**
 
  * NEW FEATURE: A log folder can now be selected when operating in command line.
 
@@ -19,6 +19,8 @@ github_project: https://github.com/compomics/searchgui
  * FEATURE IMPROVEMENT: Added support for Semi-Arg-C.
  * FEATURE IMPROVEMENT: The mgf file is now given to Comet directly.
  * FEATURE IMPROVEMENT: Updated the Ensembl mappings to version 83. 
+ * FEATURE IMPROVEMENT: Updated the Ensembl Genomes mapping to version 30.
+ * Corrected the names used for the enzymatic cleavage types in the Comet Advanced Settings dialog (according to corrected documentation for Comet).
 
  * BUG FIX: Fixed a bug in the MS Amanda setup where the highest charge in the selected range was not added, e.g. [2-4] became [2-3].
  * BUG FIX: Fixed an error in the "Thermolysin, no P rule" enzyme, where the P rule was actually added.
@@ -29,7 +31,7 @@ github_project: https://github.com/compomics/searchgui
  * BUG FIX: Fixed a bug where the identification parameters file was not set in SearchCLI.
  * BUG FIX: Fix the saving of the advanced settings for search engines so that the general search settings are not reset.
 
- * LIBRARY UPDATE: Updated utilities to version 4.3.2.
+ * LIBRARY UPDATE: Updated utilities to version 4.3.3.
 
 ----
 
