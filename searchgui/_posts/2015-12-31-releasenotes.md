@@ -10,6 +10,19 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.3.2 (December 31. 2015):**
+
+* NEW FEATURE: Added import filter for the number of missed cleavages for the peptides when loading in PeptideShaker. 
+
+* FEATURE IMPROVEMENT: Updated the ISAS logo in the splash screen. 
+* FEATURE IMPROVEMENT: Removed an unnecessary white space in the modification tag in the MS Amanda settings file.
+* FEATURE IMPROVEMENT: Made sure that the 24 hour format is used in all time stamps. 
+* FEATURE IMPROVEMENT: Improved the formatting of the file names for the advanced zipping output options.
+
+* LIBRARY UPDATE: Updated utilities to version 4.3.5.
+
+----
+
 **Changes in SearchGUI 2.3.1 (December 28. 2015):**
 
 * BUG FIX: Fixed a bug in the creation of an identification settings file via the GUI.
