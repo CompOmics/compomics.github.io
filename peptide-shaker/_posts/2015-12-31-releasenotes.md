@@ -10,6 +10,19 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.3.2 (December 31. 2015):**
+
+* NEW FEATURE: Added import filter for the number of missed cleavages for the peptides. 
+
+* FEATURE IMPROVEMENT: Made sure that the 24 hour format is used in all time stamps.
+* FEATURE IMPROVEMENT: Updated the ISAS logo in the splash screen.
+
+* BUG FIX: Fixed possible issues in the methods for checking if a peptide is at the protein terminals.
+
+* LIBRARY UPDATE: Updated utilities to version 4.3.5.
+
+----
+
 **Changes in PeptideShaker 1.3.1 (December 28. 2015):**
 
 * BUG FIX: Fixed a bug in the creation of an identification settings file via the GUI.
