@@ -69,6 +69,8 @@ com.compomics.denovogui.cmd.IdentificationParametersCLI [parameters]
 -id_params                An identification parameters file to modify (optional).
 
 -mods                     Lists the available modifications.
+                          "Name (Description)" is given for every modification.
+                          Use the name for the setting of parameters.
 ```
 
 ## Spectrum matching parameters ##
