@@ -10,6 +10,17 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.3.3 (January 5. 2016):**
+
+* FEATURE IMPROVEMENT: Added support for the number of missed cleavages filters to the command line.
+* FEATURE IMPROVEMENT: Corrected minor issues with the command line documentation and made it more readable.
+
+* BUG FIX: Fixed a bug in the creation of parameter files from the command line.
+
+* LIBRARY UPDATE: Updated utilities to version 4.3.6.
+
+----
+
 **Changes in SearchGUI 2.3.2 (December 31. 2015):**
 
 * NEW FEATURE: Added import filter for the number of missed cleavages for the peptides when loading in PeptideShaker. 
