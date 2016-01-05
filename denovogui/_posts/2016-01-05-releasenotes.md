@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.9.4 (January 5. 2016):**
+
+ * FEATURE IMPROVEMENT: Made sure that the 24 hour format is used in all time stamps.
+ * FEATURE IMPROVEMENT: Corrected minor issues with the command line documentation and made it more readable.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.3.6.
+
+----
+
 **Changes in DeNovoGUI 1.9.3 (December 23. 2015):**
 
  * FEATURE IMPROVEMENT: A log folder can now be selected when operating in command line. 
