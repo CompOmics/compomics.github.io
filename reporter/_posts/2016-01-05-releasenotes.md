@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.2.5 (January 5. 2016):**
+
+* FEATURE IMPROVEMENT: Improved the handling of missing mgf and FASTA files. 
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.3.3.
+* LIBRARY UPDATE: Updated utilities to version 4.3.6.
+
+----
+
 **Changes in Reporter 0.2.4 (December 31. 2015):**
 
 * FEATURE IMPROVEMENT: Updated the ISAS logo in the splash screen. 
