@@ -10,6 +10,13 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.2.6 (January 6. 2016):**
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.3.4.
+* LIBRARY UPDATE: Updated utilities to version 4.3.7.
+
+----
+
 **Changes in Reporter 0.2.5 (January 5. 2016):**
 
 * FEATURE IMPROVEMENT: Improved the handling of missing mgf and FASTA files. 
