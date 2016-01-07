@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.3.5 (January 7. 2016):**
+
+* BUG FIX: Fixed bugs in the escaping of non-standard characters in the mzIdentML and PRIDE XML exports, which resulted in invalid files.
+
+----
+
 **Changes in PeptideShaker 1.3.4 (January 6. 2016):**
 
 * BUG FIX: Fixed a bug in the command line link between SearchGUI and PeptideShaker.
