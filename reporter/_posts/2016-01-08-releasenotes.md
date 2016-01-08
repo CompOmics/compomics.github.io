@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.2.7 (January 8. 2016):**
+
+* FEATURE IMPROVEMENT: Updated the ISAS logo in the Welcome dialog. 
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.3.6.
+* LIBRARY UPDATE: Updated utilities to version 4.3.8.
+
+----
+
 **Changes in Reporter 0.2.6 (January 6. 2016):**
 
 * LIBRARY UPDATE: Updated PeptideShaker to version 1.3.4.
