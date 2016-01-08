@@ -10,13 +10,22 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.3.5 (January 8. 2016):**
+
+* FEATURE IMPROVEMENT: Updated Comet to release 2015.02 rev. 4, improving the mgf parsing.
+* FEATURE IMPROVEMENT: Added wiff files to the list of raw file formats supported in msconvert.
+
+* LIBRARY UPDATE: Updated utilities to version 4.3.8.
+
+----
+
 **Changes in SearchGUI 2.3.4 (January 6. 2016):**
 
 * BUG FIX: Fixed a bug in the command line link between SearchGUI and PeptideShaker.
 * BUG FIX: Fixed an issue where the enzyme could be reset to Trypsin when using the command line.
 * BUG FIX: Corrected the mass for the pY reporter ion.
 
-* LIBRARY UPDATE: Updated utilities to version 4.3.7
+* LIBRARY UPDATE: Updated utilities to version 4.3.7.
 
 ----
 
