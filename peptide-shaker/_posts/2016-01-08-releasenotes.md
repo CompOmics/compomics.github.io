@@ -10,6 +10,16 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.3.6 (January 8. 2016):**
+
+* FEATURE IMPROVEMENT: Updated the ISAS logo in the Welcome and Getting Started dialogs.
+
+* BUG FIX: Fixed an issue in the pepxml parser where peptides with both a fixed and a variable modification on the same residue (for example carbamidomethyl and pyro-c on the n-term) were not parsed correctly.
+
+* LIBRARY UPDATE: Updated utilities to version 4.3.8.
+
+----
+
 **Changes in PeptideShaker 1.3.5 (January 7. 2016):**
 
 * BUG FIX: Fixed bugs in the escaping of non-standard characters in the mzIdentML and PRIDE XML exports, which resulted in invalid files.
