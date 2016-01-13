@@ -80,10 +80,13 @@ com.compomics.denovogui.cmd.IdentificationParametersCLI [parameters]
 
 -prec_tol                 Precursor ion mass tolerance, default is '10' ppm.
 
--prec_ppm                 Precursor ion tolerance unit: ppm (1) or Da (2), default is '1'. 
+-prec_ppm                 Precursor ion tolerance unit: ppm (1) or Da (0), default is '1'. 
                           (NB: Not supported for DeNovoGUI as here only Dalton is used.)
 
 -frag_tol                 Fragment ion mass tolerance in Dalton, default is 0.5 Da.
+
+-frag_ppm                 Fragment ion tolerance unit: ppm (1) or Da (0), default is '0'. 
+                          (NB: Not supported for DeNovoGUI as here only Dalton is used.)
 
 -enzyme                   Enzyme, default is 'Trypsin'. 
                           Available enzymes are listed in the GUI.
