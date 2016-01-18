@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.4.1 (January 18. 2016):**
+
+* BUG FIX: Fixed a bug in the use of the time stamp for the zip file output. 
+
+----
+
 **Changes in SearchGUI 2.4.0 (January 15. 2016):**
 
 * FEATURE IMPROVEMENT: Updated Tide to version 2.1.16872, adding a 64 bit version for Windows that is both faster and able to handle bigger FASTA files.
