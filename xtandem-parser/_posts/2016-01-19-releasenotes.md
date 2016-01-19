@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/xtandem-parser
 
 ----
 
+**Changes in XTandemParser 1.9.0 - (January 19. 2016):**
+* BUF FIX: Fixed bugs in the ID file reader in the way multiple PTMs targeting the same residue was handled, in particular when one PTM was fixed and the other variable, e.g. as in variable TMT on n-term and fixed TMT on (n-term) K.
+* FEATURE IMPROVEMENT: Updated the project web links in the README.txt file to point to the GitHub pages.
+
+---
+
 **Changes in XTandemParser 1.8.1 - (October 12. 2015):**
  * FEATURE IMPROVEMENT: Removed the peptide map from the IdfileReader to speed up the processing. 
  * LIBRARY UPDATE: Updated utilities to version 4.0.14.
