@@ -78,12 +78,12 @@ com.compomics.denovogui.cmd.IdentificationParametersCLI [parameters]
 ```
 -db                       The sequence database in FASTA format.
 
--prec_tol                 Precursor ion mass tolerance, default is '10' ppm.
+-prec_tol                 Precursor ion mass tolerance, default is '10'.
 
 -prec_ppm                 Precursor ion tolerance unit: ppm (1) or Da (0), default is '1'. 
                           (NB: Not supported for DeNovoGUI as here only Dalton is used.)
 
--frag_tol                 Fragment ion mass tolerance in Dalton, default is 0.5 Da.
+-frag_tol                 Fragment ion mass tolerance, default is '0.5'.
 
 -frag_ppm                 Fragment ion tolerance unit: ppm (1) or Da (0), default is '0'. 
                           (NB: Not supported for DeNovoGUI as here only Dalton is used.)
