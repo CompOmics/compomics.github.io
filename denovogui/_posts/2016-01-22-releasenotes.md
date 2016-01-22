@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.9.5 (January 22. 2016):**
+
+ * BUG FIX: Fixed an issue that resulted in the tool not starting if a custom Java home was set and it could not be found.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.3.16.
+
+----
+
 **Changes in DeNovoGUI 1.9.4 (January 5. 2016):**
 
  * FEATURE IMPROVEMENT: Made sure that the 24 hour format is used in all time stamps.
