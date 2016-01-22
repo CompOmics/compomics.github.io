@@ -10,6 +10,18 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.5.0 (January 22. 2015):**
+
+* FEATURE IMPROVEMENT: Updated Comet to release 2015.02 rev. 5, improving the mgf parsing.
+* FEATURE IMPROVEMENT: Added support for Semi-GluC-(DE).
+
+* BUG FIX: Fixed an issue that resulted in the tool not starting if a custom Java home was set and it could not be found.
+* BUG FIX: Fixed a bug in the command line where the parameter file was not added correctly to the zipped output file.
+
+* LIBRARY UPDATE: Updated utilities to version 4.3.16.
+
+----
+
 **Changes in SearchGUI 2.4.1 (January 18. 2016):**
 
 * BUG FIX: Fixed a bug in the use of the time stamp for the zip file output. 
