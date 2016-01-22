@@ -10,6 +10,24 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.5.0 (January 22. 2016):**
+
+* NEW FEATURE: Added peptide level modification QC plots.
+
+* FEATURE IMPROVEMENT: Added support for Semi-GluC-(DE).
+
+* BUG FIX: Improved the parsing of PTMs when parsing pepxml files. 
+* BUG FIX: Fixed an issue that resulted in the tools not starting if a custom Java home was set and it could not be found.
+* BUG FIX: Fixed issues in the mzIdentML and PRIDE XML exports in the escaping if quotes.
+* BUG FIX: Fixed bugs in the protein coverage display.
+* BUG FIX: Corrected bug in the PTM localization. 
+* BUG FIX: Fixed a bug in the related ions where not all ions where added to the list.
+
+* LIBRARY UPDATE: Updated X!Tandem Parser to version 1.9.0, fixing bugs in the ID file reader in the way multiple PTMs targeting the same residue was handled, in particular when one PTM was fixed and the other variable, e.g. as in variable TMT on n-term and fixed TMT on (n-term) K.
+* LIBRARY UPDATE: Updated utilities to version 4.3.16.
+
+----
+
 **Changes in PeptideShaker 1.4.0 (January 15. 2016):**
 
 * NEW FEATURE: Added support for related ions in the spectrum annotation. 
