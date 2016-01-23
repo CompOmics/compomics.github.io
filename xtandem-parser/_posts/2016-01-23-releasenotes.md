@@ -10,8 +10,13 @@ github_project: https://github.com/compomics/xtandem-parser
 
 ----
 
+**Changes in XTandemParser 1.10.0 - (January 23. 2016):**
+* BUG FIX: Fixed a bug in the parsing of fixed PTMs.
+
+---
+
 **Changes in XTandemParser 1.9.0 - (January 19. 2016):**
-* BUF FIX: Fixed bugs in the ID file reader in the way multiple PTMs targeting the same residue was handled, in particular when one PTM was fixed and the other variable, e.g. as in variable TMT on n-term and fixed TMT on (n-term) K.
+* BUG FIX: Fixed bugs in the ID file reader in the way multiple PTMs targeting the same residue was handled, in particular when one PTM was fixed and the other variable, e.g. as in variable TMT on n-term and fixed TMT on (n-term) K.
 * FEATURE IMPROVEMENT: Updated the project web links in the README.txt file to point to the GitHub pages.
 
 ---
@@ -28,7 +33,7 @@ github_project: https://github.com/compomics/xtandem-parser
 ---
 
 **Changes in XTandemParser v1.7.18 - (January 26. 2015):**
-  * BUF FIX: Fixed a bug in the PTM mapping where modifications where categorized as fixed or variable based on the PTM mass shift alone. Which broke down for iTRAQ searches where the same mass is found as both a fixed and variable modification. The modified amino acid and the location is now used in addition to the mass.
+  * BUG FIX: Fixed a bug in the PTM mapping where modifications where categorized as fixed or variable based on the PTM mass shift alone. Which broke down for iTRAQ searches where the same mass is found as both a fixed and variable modification. The modified amino acid and the location is now used in addition to the mass.
 
 
 ---
@@ -37,13 +42,11 @@ github_project: https://github.com/compomics/xtandem-parser
 **Changes in XTandemParser v1.7.17 - (December 11. 2014):**
   * LIBRARY UPDATE: Updated utilities to version 3.43.24.
 
-
 ---
 
 
 **Changes in XTandemParser v1.7.15 - (October 8. 2014):**
   * FEATURE IMPROVEMENT: Minor corrections in the ID file reader.
-
 
 ---
 
@@ -54,27 +57,20 @@ github_project: https://github.com/compomics/xtandem-parser
 
 ---
 
-
 **Changes in XTandemParser v1.7.13 - (August 19. 2014):**
   * LIBRARY UPDATE: Updated utilities to version 3.35.0.
 
-
 ---
-
 
 **Changes in XTandemParser v1.7.11 - (August 12. 2014):**
   * LIBRARY UPDATE: Updated utilities to version 3.32.1.
 
-
 ---
-
 
 **Changes in XTandemParser v1.7.10 - (August 11. 2014):**
   * LIBRARY UPDATE: Updated utilities to version 3.32.0.
 
-
 ---
-
 
 **Changes in XTandemParser v1.7.7 - (January 21. 2014):**
   * BUG FIX: The performance parameters are now parsed and kept even when using the skipDetails option.
