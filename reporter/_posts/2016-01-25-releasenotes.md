@@ -10,6 +10,28 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.2.9 (January 22. 2016):**
+
+* BUG FIX: Fixed an issue that resulted in the tool not starting if a custom Java home was set and it could not be found.
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.5.0.
+* LIBRARY UPDATE: Updated utilities to version 4.3.16.
+
+---
+
+**Changes in Reporter 0.2.8 (January 15. 2016):**
+
+* FEATURE IMPROVEMENT: Improved the handling of low memory.
+* FEATURE IMPROVEMENT: Made the cache update synchronized. 
+* FEATURE IMPROVEMENT: Made the usage of the cache more robust towards usage by multiple threads.
+* FEATURE IMPROVEMENT: Attempt at improving the batch size during matches iteration.
+* FEATURE IMPROVEMENT: Improved the handling of backed-up PTMs.
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.4.0.
+* LIBRARY UPDATE: Updated utilities to version 4.3.11.
+
+---
+
 **Changes in Reporter 0.2.7 (January 8. 2016):**
 
 * FEATURE IMPROVEMENT: Updated the ISAS logo in the Welcome dialog. 
