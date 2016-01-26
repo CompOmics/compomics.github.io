@@ -287,7 +287,7 @@ The following parameters allow controlling specific identification algorithms sp
 -xtandem_refine_spec_synt X!Tandem 'refine, spectrum synthesis' option.
                           1: true, 0: false, default is '1'.
 
--xtandem_evalue           X!Tandem 'output, maximum valid expectation value' option, default is '100'.
+-xtandem_evalue           X!Tandem 'output, maximum valid expectation value' option, default is '0.01'.
 
 -xtandem_output_proteins  X!Tandem 'output, proteins' option.
                           1: true, 0: false, default is '0'.
