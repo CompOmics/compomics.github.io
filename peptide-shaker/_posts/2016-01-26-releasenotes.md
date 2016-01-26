@@ -10,6 +10,16 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.6.0 (January 26. 2016):**
+
+* FEATURE IMPROVEMENT: Added support for isotope filtering.
+* FEATURE IMPROVEMENT: Added the possibility to export neighboring amino acids in the PSM export.
+* FEATURE IMPROVEMENT: Corrected the name of the precursor m/z deviation in the assumption filter.
+
+* LIBRARY UPDATE: Updated utilities to version 4.3.17.
+
+----
+
 **Changes in PeptideShaker 1.5.1 (January 23. 2016):**
 
 * LIBRARY UPDATE: Updated X!Tandem Parser to version 1.10.0, fixing a bug in the handling of multiple fixed PTMs of the same type on the same peptide.
