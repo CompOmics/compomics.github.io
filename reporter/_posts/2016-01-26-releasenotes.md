@@ -10,6 +10,13 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.2.10 (January 26. 2016):**
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.6.0.
+* LIBRARY UPDATE: Updated utilities to version 4.3.17.
+
+---
+
 **Changes in Reporter 0.2.9 (January 22. 2016):**
 
 * BUG FIX: Fixed an issue that resulted in the tool not starting if a custom Java home was set and it could not be found.
