@@ -10,6 +10,17 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.6.0 (January 26. 2015):**
+
+* FEATURE IMPROVEMENT: Updated MS Amanda to version v1.0.0.6299 for Windows and version v1.0.0.6300 for Linux and Mac.
+* FEATURE IMPROVEMENT: Added support for setting the X!Tandem output type (all, valid, stochastic).
+
+* BUG FIX: Fixed a bug in the X!Tandem and Tide enzyme setup for enzymes with no restriction amino acids.
+
+* LIBRARY UPDATE: Updated utilities to version 4.3.17.
+
+----
+
 **Changes in SearchGUI 2.5.0 (January 22. 2015):**
 
 * FEATURE IMPROVEMENT: Updated Comet to release 2015.02 rev. 5, improving the mgf parsing.
