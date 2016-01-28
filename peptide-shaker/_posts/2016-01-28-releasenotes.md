@@ -10,6 +10,20 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.7.0 (January 28. 2016):**
+
+* FEATURE IMPROVEMENT: Added support for Arg-N. 
+* FEATURE IMPROVEMENT: Updated the Andromeda web page link.
+
+* BUG FIX: Solved a potential threading issue in the peptide mass estimation.
+* BUG FIX: Improved the handling of target only databases.
+* BUG FIX: Corrected bugs in the PTM localization. 
+* BUG FIX: Corrected the text relative to precursor filtering.
+
+* LIBRARY UPDATE: Updated utilities to version 4.3.18.
+
+----
+
 **Changes in PeptideShaker 1.6.0 (January 26. 2016):**
 
 * FEATURE IMPROVEMENT: Added support for isotope filtering.
