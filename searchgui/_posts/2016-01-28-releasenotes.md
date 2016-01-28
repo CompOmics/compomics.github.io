@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.6.1 (January 28. 2015):**
+
+* FEATURE IMPROVEMENT: Added support for Arg-N.
+* FEATURE IMPROVEMENT: Updated the Andromeda web page link. 
+
+* LIBRARY UPDATE: Updated utilities to version 4.3.18.
+
+----
+
 **Changes in SearchGUI 2.6.0 (January 26. 2015):**
 
 * FEATURE IMPROVEMENT: Updated MS Amanda to version v1.0.0.6299 for Windows and version v1.0.0.6300 for Linux and Mac.
