@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.9.6 (January 28. 2016):**
+
+ * BUG FIX: Solved a potential threading issue in the peptide mass estimation. 
+
+ * LIBRARY UPDATE: Updated utilities to version 4.3.18.
+
+----
+
 **Changes in DeNovoGUI 1.9.5 (January 22. 2016):**
 
  * BUG FIX: Fixed an issue that resulted in the tool not starting if a custom Java home was set and it could not be found.
