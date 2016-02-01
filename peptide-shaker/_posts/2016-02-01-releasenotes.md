@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.7.1 (February 1. 2016):**
+
+* BUG FIX: Fixed an uncommon issue in the PTM scoring that could cause the processing of the data to fail.
+
+----
+
 **Changes in PeptideShaker 1.7.0 (January 28. 2016):**
 
 * FEATURE IMPROVEMENT: Added support for Arg-N. 
