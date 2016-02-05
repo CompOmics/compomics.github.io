@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/jsparklines
 
 ----
 
+**Changes in JSparklines 1.0.7 (February 5. 2016):**
+
+ * FEATURE IMPROVEMENT: Made the chromosome class more generic, now any string can be used as input.
+
+----
+
 **Changes in JSparklines 1.0.6 (September 12. 2015):**
 
  * FEATURE IMPROVEMENT: Added a method for returning the data sorting type for ArrayListDataPoints objects.

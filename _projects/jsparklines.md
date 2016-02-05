@@ -23,7 +23,7 @@ Supports more than **27 types of charts/renderers**, including bar chart, line c
 
 |   |   |   |   |
 | :------------------------- | :---------------: | :--: | :--: |
-| [![download](https://github.com/compomics/jsparklines/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/no/uib/jsparklines/1.0.6/jsparklines-1.0.6.zip) | *v1.0.6 - All platforms* | [ReleaseNotes](/jsparklines/wiki/releasenotes.html) | [JavaDoc](http://genesis.ugent.be/maven2/no/uib/jsparklines/javadoc/) |
+| [![download](https://github.com/compomics/jsparklines/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/no/uib/jsparklines/1.0.7/jsparklines-1.0.7.zip) | *v1.0.7 - All platforms* | [ReleaseNotes](/jsparklines/wiki/releasenotes.html) | [JavaDoc](http://genesis.ugent.be/maven2/no/uib/jsparklines/javadoc/) |
 
 ---
 
