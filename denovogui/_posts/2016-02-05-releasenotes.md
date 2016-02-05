@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.9.7 (February 5. 2016):**
+
+ * BUG FIX: Fixed bugs in the loading of custom PTMs.
+
+ * LIBRARY UPDATE: Updated jsparklines to version 1.0.7.
+ * LIBRARY UPDATE: Updated utilities to version 4.3.20.
+
+----
+
 **Changes in DeNovoGUI 1.9.6 (January 28. 2016):**
 
  * BUG FIX: Solved a potential threading issue in the peptide mass estimation. 
