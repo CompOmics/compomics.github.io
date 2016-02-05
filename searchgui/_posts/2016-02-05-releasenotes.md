@@ -10,6 +10,18 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.6.2 (February 5. 2015):**
+
+* BUG FIX: Fixed a bug in the loading of the user PTMs in the SearchSettingsDialog. 
+* BUG FIX: The PTM Dialog now checks if reporter ion and neutral loss names are unique before adding them.
+* BUG FIX: Fixed a bug in the PTM Dialog where user defined neutral losses where always of type fixed.
+* BUG FIX: Changed the default for the MyriMatch MaxPeakCount parameter back to the default of 300.
+
+* LIBRARY UPDATE: Updated jsparklines to version 1.0.7.
+* LIBRARY UPDATE: Updated utilities to version 4.3.20.
+
+----
+
 **Changes in SearchGUI 2.6.1 (January 28. 2015):**
 
 * FEATURE IMPROVEMENT: Added support for Arg-N.
