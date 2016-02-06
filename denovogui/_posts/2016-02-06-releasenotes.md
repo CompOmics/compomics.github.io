@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.9.8 (February 6. 2016):**
+
+ * LIBRARY UPDATE: Updated utilities to version 4.3.21.
+
+----
+
 **Changes in DeNovoGUI 1.9.7 (February 5. 2016):**
 
  * BUG FIX: Fixed bugs in the loading of custom PTMs.
