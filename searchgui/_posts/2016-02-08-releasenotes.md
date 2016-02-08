@@ -10,7 +10,6 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
-
 **Changes in SearchGUI 2.6.3 (February 6. 2015):**
 
 * BUG FIX: Fixed a bug in the mass deviation filter where min and max isotope had gotten mixed up.
