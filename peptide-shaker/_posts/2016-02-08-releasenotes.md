@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.7.4 (February 8. 2016):**
+
+* BUG FIX: Fixed bugs in the PSM export that resulted in null pointers when exporting the algorithm scores.
+
+----
+
 **Changes in PeptideShaker 1.7.3 (February 6. 2016):**
 
 * BUG FIX: Fixed a bug in the mass deviation filter where min and max isotope had gotten mixed up.
