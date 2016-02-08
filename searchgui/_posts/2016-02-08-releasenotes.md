@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.6.4 (February 8. 2015):**
+
+* FEATURE IMPROVEMENT: If the user cancels a partial search (in the GUI) the user is now asked if he/she wants to keep the partial search results (instead of automatic removal as before).
+
+----
+
 **Changes in SearchGUI 2.6.3 (February 6. 2015):**
 
 * BUG FIX: Fixed a bug in the mass deviation filter where min and max isotope had gotten mixed up.
