@@ -515,7 +515,7 @@ The following parameters allow controlling specific identification algorithms sp
 ```
 -comet_num_matches        Comet maximum number of spectrum matches, default is '10'.
 
--comet_num_ptms           Comet max number of PTMs per peptide, default is '10'.
+-comet_num_ptms           Comet max number of variable PTMs per peptide, default is '10'.
 
 -comet_req_ptms           Comet require at least one variable PTM per peptide.
                           1: true, 0: false, default is '0'.
