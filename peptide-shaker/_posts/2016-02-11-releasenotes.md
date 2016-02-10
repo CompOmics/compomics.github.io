@@ -1415,20 +1415,18 @@ github_project: https://github.com/compomics/peptide-shaker
   * LIBRARY UPDATE: Updated utilities to version 3.21.26.
   * LIBRARY UPDATE: Updated jsparklines to version 0.6.5.
 
-
 ---
 
-
 **Changes in PeptideShaker 0.24.3  (January 10. 2014):**
+
   * BUG FIX: Corrected the peptide key used in the spectrum and Progenesis exports.
 
 Download Count: 92
 
-
 ---
 
-
 **Changes in PeptideShaker 0.24.2  (January 10. 2014):**
+
   * LIBRARY UPDATE: Updated ols-dialog to version 3.4.2, fixing a bug in the View Term Hierarchy Graph.
 
 Download Count: 2
@@ -1436,19 +1434,18 @@ Download Count: 2
 
 ---
 
-
 **Changes in PeptideShaker 0.24.1  (January 9. 2014):**
+
   * BUG FIX: Fixed an issue with the fragment ion annotation in the PRIDE export.
 
   * LIBRARY UPDATE: Updated utilities to version 3.20.3.
 
 Download Count: 12
 
-
 ---
 
-
 **Changes in PeptideShaker 0.24.0  (January 8. 2014):**
+
   * NEW FEATURE: Validated protein, peptide and PSM matches are now also filtered for quality and marked if doubtful, e.g., less than 2 peptides detected for a given protein.
   * NEW FEATURE: The user can now click the id and spectrum files text field in the New Project dialog to see and edit the list of selected files.
 
@@ -1469,11 +1466,10 @@ Download Count: 12
 
 Download Count: 12
 
-
 ---
 
-
 **Changes in PeptideShaker 0.23.0  (December 9. 2013):**
+
   * NEW FEATURE: Improved protein inference handling, i.e., peptide to protein mapping.
   * NEW FEATURE: Added a first version of a basic graph database export for Cytoscape, Gephi and Neo4j to the follow up export dialog.
   * NEW FEATURE: A low memory and Java version check is now performed when starting the tool and a warning is shown in the waiting dialog.
@@ -1526,9 +1522,7 @@ Download Count: 12
 
 Download Count: 103
 
-
 ---
-
 
 **Changes in PeptideShaker 0.22.6 (August 10. 2013):**
 
@@ -1543,9 +1537,7 @@ Download Count: 103
 
 Download Count: 331
 
-
 ---
-
 
 **Changes in PeptideShaker 0.22.5 (July 14. 2013):**
 
@@ -1561,9 +1553,7 @@ Download Count: 331
 
 Download Count: 115
 
-
 ---
-
 
 **Changes in PeptideShaker 0.22.4 (July 4. 2013):**
 
@@ -1580,9 +1570,7 @@ Download Count: 115
 
 Download Count: 71
 
-
 ---
-
 
 **Changes in PeptideShaker 0.22.3 (June 27. 2013):**
 
@@ -1600,9 +1588,7 @@ Download Count: 71
 
 Download Count: 49
 
-
 ---
-
 
 **Changes in PeptideShaker 0.22.2 (June 25. 2013):**
 
@@ -1682,6 +1668,7 @@ Download Count: 8
 
 
 **Changes in PeptideShaker 0.21.0 (June 1. 2013):**
+
   * NEW FEATURE: Species is now selected when creating a project.
   * NEW FEATURE: Added a species tag to the command line for setting the species.
   * NEW FEATURE: The protein evidence level is now used when selecting the "main match" in a protein group. (UniProt databases only.)
@@ -1716,6 +1703,7 @@ Download Count: 68
 
 
 **Changes in PeptideShaker 0.20.1 (May 13. 2013):**
+
   * BUG FIX: Fixed a bug where white space was not allowed in the installation path.
   * LIBRARY UPDATE: Updated utilities to version 3.13.18.
 
@@ -1726,6 +1714,7 @@ Download Count: 101
 
 
 **Changes in PeptideShaker 0.20.0 (May 11. 2013):**
+
   * NEW FEATURE: New self updating tables with better support for bigger datasets.
   * NEW FEATURE: Added a chromosome mapping column to the protein table.
 
@@ -1753,6 +1742,7 @@ Download Count: 8
 
 
 **Changes in PeptideShaker 0.19.3 (April 2. 2013):**
+
   * FEATURE IMPROVEMENT: Further developed the Progenesis export with more options.
   * LIBRARY UPDATE: Updated xtandem-parser to version 1.5.14, fixing a problem with the parsing of spectrum titles with retention time in them.
   * LIBRARY UPDATE: Updated utilities to version 3.11.29.
@@ -1764,6 +1754,7 @@ Download Count: 172
 
 
 **Changes in PeptideShaker 0.19.2 (March 25. 2013):**
+
   * BUG FIX: Fixed a bug that made it impossible to change the memory settings.
   * BUG FIX: Fixed a typo in the PRIDE Reshake dialog, PumMed > PubMed.
   * LIBRARY UPDATE: Updated utilities to version 3.11.27.
@@ -1811,6 +1802,7 @@ Download Count: 13
 
 
 **Changes in PeptideShaker 0.19.0 (February 6. 2013):**
+
   * NEW FEATURE: Added a new ID Rate column, and added a separate row for the total PeptideShaker results in the Spectrum IDs tab.
   * NEW FEATURE: Made it possible to show/hide the fixed modifications in most tabs.
   * NEW FEATURE: Added a new Plotting dialog, opened by right clicking in most tables.
@@ -1883,6 +1875,7 @@ Download Count: 257
 
 
 **Changes in PeptideShaker 0.18.3 (September 15. 2012):**
+
   * FEATURE IMPROVEMENT: Improved the PRIDE export dialog.
   * FEATURE IMPROVEMENT: It is now possible to add more than one contact in the PRIDE export.
   * FEATURE IMPROVEMENT: The PRIDE settings are now stored in the PeptideShaker Project.
@@ -1897,6 +1890,7 @@ Download Count: 348
 
 
 **Changes in PeptideShaker 0.18.2 (September 12. 2012):**
+
   * BUG FIX: Had to (temporarily) disabled the new improved PTM location code as could result in null pointers.
   * LIBRARY UPDATE: Updated mascotdatfile to version 3.4.2, such that the Mascot search results can be loaded again.
   * LIBRARY UPDATE: Updated utilities to version 3.8.9, fixing an issues with the EBI proxy settings.
@@ -1908,6 +1902,7 @@ Download Count: 37
 
 
 **Changes in PeptideShaker 0.18.1 (September 11. 2012):**
+
   * FEATURE IMPROVEMENT: Better support for spectrum titles in OMSSA files with special characters in them, e.g., \ or ".
   * FEATURE IMPROVEMENT: The code now supports Maven 3.
   * LIBRARY UPDATE: Added the OMSSA, X!Tandem and Mascot parsers as dependencies.
@@ -1921,6 +1916,7 @@ Download Count: 5
 
 
 **Changes in PeptideShaker 0.18.0 (September 7. 2012):**
+
   * NEW FEATURE: A brand new database based backend.
   * NEW FEATURE: New improved and simplified Fractions tab.
   * NEW FEATURE: Automatic de novo sequencing can now be done using one or two charges for the fragment ions.
@@ -1975,6 +1971,7 @@ Download Count: 14
 
 
 **Changes in PeptideShaker 0.17.3 (June 7. 2012):**
+
   * NEW FEATURE: Added automatic de novo sequencing.
 
   * FEATURE IMPROVEMENT: Re-enabled row sorting in the spectrum table in the Spectrum IDs tab.
@@ -1993,6 +1990,7 @@ Download Count: 290
 
 
 **Changes in PeptideShaker 0.17.2 (June 4. 2012):**
+
   * NEW FEATURE: The amino acids Selenocysteine and Pyrrolysine are now supported.
 
   * FEATURE IMPROVEMENT: Improved the look and feel of the manual de novo sequencing.
@@ -2010,6 +2008,7 @@ Download Count: 18
 
 
 **Changes in PeptideShaker 0.17.1 (May 30. 2012):**
+
   * NEW FEATURE: Added an initial Command Line Interface (CLI) functionality. (see [wiki page](http://code.google.com/p/peptide-shaker/wiki/PeptideShakerCLI) for details)
 
   * FEATURE IMPROVEMENT: Allowed the user to tune the default FDR and disable A-score calculation.
@@ -2028,6 +2027,7 @@ Download Count: 20
 
 
 **Changes in PeptideShaker 0.17.0 (May 10. 2012):**
+
   * NEW FEATURE: Added a Protein Fractions tab.
   * NEW FEATURE: Added method for spectra recalibration.
 
@@ -2047,6 +2047,7 @@ Download Count: 50
 
 
 **Changes in PeptideShaker 0.16.3 (April 29. 2012):**
+
   * NEW FEATURE: It is now possible to start SearchGUI directly from the Welcome dialog or from the File menu. (Requires SearchGUI v1.8.3 or newer.)
   * NEW FEATURE: Added a Getting Started tutorial to the Welcome Dialog.
   * NEW FEATURE: Added a gradient color coding panel below the A-score and Delta-score tables in the PTM tab displaying the PTM score certainty.
@@ -2071,6 +2072,7 @@ Download Count: 30
 
 
 **Changes in PeptideShaker 0.16.2 (April 18. 2012):**
+
   * BUG FIX: Fixed an issue with spaces in the splash screen graphics path on Windows.
 
 Download Count: 57
@@ -2080,6 +2082,7 @@ Download Count: 57
 
 
 **Changes in PeptideShaker 0.16.1 (April 18. 2012):**
+
   * NEW FEATURE: Added a PeptideShaker splash screen.
   * FEATURE IMPROVEMENT: Updated the Welcome dialog.
   * FEATURE IMPROVEMENT: Cleaned up the folder structure in the zip file.
@@ -2092,6 +2095,7 @@ Download Count: 6
 
 
 **Changes in PeptideShaker 0.16.0 (April 16. 2012):**
+
   * NEW FEATURE: On Windows (on supported architectures) the user is now asked if a desktop shortcut should be added the first time he/she starts the tool.
   * NEW FEATURE: Added Request Validated to the Export Features dialog for the Search Engine export.
   * NEW FEATURE: The users can now change the spectrum annotation colors, plus the color and width of the peaks.
@@ -2140,6 +2144,7 @@ Download Count: 45
 
 
 **Changes in PeptideShaker 0.15 (March 22. 2012):**
+
   * NEW FEATURE: PRIDE Export is now supported.
   * NEW FEATURE: Allowed the user to change the number of displayed aa before and after the sequence improved the sequence coverage panel for multiply detected peptides.
   * NEW FEATURE: Made it possible to save the bug report to user defined file.
@@ -2167,6 +2172,7 @@ Download Count: 27
 
 
 **Changes in PeptideShaker 0.14.7 (February 28. 2012):**
+
   * FEATURE IMPROVEMENT: Added progress bars when importing the PSMs in the id file readers.
   * FEATURE IMPROVEMENT: Improved the way missing or wrong mgf files are handled.
   * FEATURE IMPROVEMENT: Some of the metrics are calculated earlier to improve import speed.
@@ -2183,6 +2189,7 @@ Download Count: 81
 
 
 **Changes in PeptideShaker 0.14.6 (February 20. 2012):**
+
   * NEW FEATURE: Added a bug report dialog so that the user does not need to open the file every time.
   * FEATURE IMPROVEMENT: The loading of the files is slightly faster.
   * FEATURE IMPROVEMENT: Improved the way the retention time is displayed in the FindDialog.
@@ -2210,6 +2217,7 @@ Download Count: 22
 
 
 **Changes in PeptideShaker 0.14.5 (February 6. 2012):**
+
   * FEATURE IMPROVEMENT: Improved the GUI of the 'Exclude Unknown PTMs' check box, and updated the corresponding help text
   * FEATURE IMPROVEMENT: Reduced manually the memory consumption before parsing an identification file.
   * FEATURE IMPROVEMENT: Added secondary progress when loading data.
@@ -2234,6 +2242,7 @@ Download Count: 46
 
 
 **Changes in PeptideShaker 0.14.4 (January 30. 2012):**
+
   * NEW FEATURE: It is now possible to zoom in the protein sequence coverage panel. The protein sequence coverage panel is now also a lot more accurate when the user is to select peptides in the sequence.
   * FEATURE IMPROVEMENT: The backend of the Spectrum IDs tab has been imporved and interaction with bigger projects in this tab is now lot faster.
   * FEATURE IMPROVEMENT: Three improvements to the Progenesis export: 1) multiple ptms on the same residue is now supported. 2) Protein descriptions are now included. 3) Only validated PSMs are now included.
@@ -2255,6 +2264,7 @@ Download Count: 22
 
 
 **Changes in PeptideShaker 0.14.3 (January 23. 2012):**
+
   * NEW FEATURE: Added FASTA and CSV export options for the identified and unidentified proteins to the Follow Up export dialog.
   * FEATURE IMPROVEMENT: Major overhaul of the export options: replaced most of the slow export to clipboard options with faster export to file options.
   * FEATURE IMPROVEMENT: Minor code improvements to FileImporter, slightly reducing the memory required.
@@ -2270,6 +2280,7 @@ Download Count: 24
 
 
 **Changes in PeptideShaker 0.14.2 (January 17. 2012):**
+
   * NEW FEATURE: The possible coverage is now shown in the protein sequence coverage panel in the Overview tab.
   * NEW FEATURE: Added precursor charge(s) to the peptide features export.
   * NEW FEATURE: Added precursor end position to the peptide features export.
@@ -2293,6 +2304,7 @@ Download Count: 12
 
 
 **Changes in PeptideShaker 0.14.1 (January 13. 2012):**
+
   * NEW FEATURE: Added the display of the unassigned spectra count to the Spectrum IDs tab.
   * NEW FEATURE: Added the option of exporting the unidentified proteins to a tab separated text file from the Follow-Up Analysis Dialog.
   * BUG FIX: Solved a bug impairing the portability of projects.
@@ -2305,6 +2317,7 @@ Download Count: 11
 
 
 **Changes in PeptideShaker 0.14 (January 13. 2012):**
+
   * NEW FEATURE: Added the observable coverage in the Overview tab.
   * NEW FEATURE: PeptideShaker now keeps in memory the most recent results.
   * NEW FEATURE: Added a first attempt at a Progenesis export option. Needs more testing!
@@ -2325,6 +2338,7 @@ Download Count: 4
 
 
 **Changes in PeptideShaker 0.13.1 (January 6. 2012):**
+
   * NEW FEATURE: The GO analysis now uses ENSEMBL 65.
   * FEATURE IMPROVEMENT: The QC plots are now only loaded when selected, and also not reloaded if not needed.
   * FEATURE IMPROVEMENT: Improved the use of the primary progress bar in the WaitingDialog.
@@ -2339,6 +2353,7 @@ Download Count: 28
 
 
 **Changes in PeptideShaker 0.13.0 (January 4. 2012):**
+
   * NEW FEATURE: It is now possible to change the location of a given PTM in the Modifications tab.
   * NEW FEATURE: Added a new protein QC plot: protein sequence length.
   * NEW FEATURE: PTMs are now indicated in the protein sequence coverage panel in the Overview tab.
@@ -2435,6 +2450,7 @@ Download Count: 24
 
 
 **Changes in PeptideShaker 0.11.2 (November 24. 2011):**
+
   * NEW FEATURE: Added a maximize button to the Spectrum panel in the Overview tab.
   * BUG FIX: Fixed a bug in the protein filter for the confidence and score filters.
   * BUG FIX: Fixed a minor GUI bug when the user tried to hide all panels in the Overview tab.
@@ -2446,6 +2462,7 @@ Download Count: 77
 
 
 **Changes in PeptideShaker 0.11.1 (November 21. 2011):**
+
   * FEATURE IMPROVEMENT: Reduced the time required to save a project using the `Save` option compared to the `Save As` option.
   * FEATURE IMPROVEMENT: "N/A" is now shown in the retention time columns if the retention time is -1.
   * FEATURE IMPROVEMENT: Background highlighting of modifications in the sequence fragmentation plots with tooltips, similar to what us used in the tables.
@@ -2514,6 +2531,7 @@ Download Count: 8
 
 
 **Changes in PeptideShaker 0.10.3 (October 24. 2011):**
+
   * BUG FIX: The help text in the Modifications tab is now visible.
   * LIBRARY UPDATE: Updated utilities to version 3.2.22, which now also supports the special amino acid Selenocysteine (U).
 
@@ -2524,6 +2542,7 @@ Download Count: 30
 
 
 **Changes in PeptideShaker 0.10.2 (October 21. 2011):**
+
   * BUG FIX: Fixed a minor GUI issue related to the left hand part of the spectrum panel not aligning correctly when the peptide/psm panel was hidden.
   * BUG FIX: Fixed some resizing issues for modification profile plots in the modification tab where part of the profile could be cut off if one profile was longer than the other.
   * BUG FIX: Fixed some resizing issues in the Spectrum ID and Validation tabs.
@@ -2536,6 +2555,7 @@ Download Count: 4
 
 
 **Changes in PeptideShaker 0.10.1 (October 20. 2011):**
+
   * NEW FEATURE: Added hide options to all the contextual menus in the Overview tab.
   * LIBRARY UPDATE: Updated uniprotjapi to version 2011.10, fixing a problem with the UniProt connection.
 
@@ -2546,6 +2566,7 @@ Download Count: 6
 
 
 **Changes in PeptideShaker 0.10.0 (October 19. 2011):**
+
   * NEW FEATURE: QC plot tab added.
   * NEW FEATURE: Annotation tab with links to other protein resources.
   * NEW FEATURE: Made it possible to use relative of absolute error in the mass error and bubble plots.
@@ -2588,6 +2609,7 @@ Download Count: 6
 
 
 **Changes in PeptideShaker 0.9.3 (July 17. 2011):**
+
   * FEATURE IMPROVEMENT: The link between the Overview and the Structure tab is now smarter, and updates less frequently.
   * FEATURE IMPROVEMENT: The maximum initial Java memory size is now set to 1500M (the magic number for 32 bit Java...).
   * FEATURE IMPROVEMENT: Improved the wrapper so that it now defaults to using the 64 bit Java version if available.
@@ -2601,16 +2623,16 @@ Download Count: 122
 
 
 **Changes in PeptideShaker 0.9.2 (July 14. 2011):**
+
   * BUG FIX: Corrected a minor bug in the preferences dialog.
   * LIBRARY UPDATE: Updated utilities to 3.1.30, for more compatible databases.
 
 Download Count: 11
 
-
 ---
 
-
 **Changes in PeptideShaker 0.9.1 (July 14. 2011):**
+
   * NEW FEATURE: Added protein HTML links to all columns displaying protein accession numbers.
   * NEW FEATURE: Made it possible to include more than one protein HTML link in the same cell in the tables.
   * NEW FEATURE: The 3D protein model now rotates slowly as a default.
@@ -2622,14 +2644,12 @@ Download Count: 11
 
 Download Count: 2
 
-
 ---
 
-
 **Changes in PeptideShaker 0.9 (July 11. 2011):**
+
   * The first public beta release of PeptideShaker.
 
 Download Count: 7
-
 
 ---
