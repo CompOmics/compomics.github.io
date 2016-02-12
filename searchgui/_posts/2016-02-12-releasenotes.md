@@ -10,6 +10,19 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.6.5 (February 12. 2015):**
+
+* BUG FIX: Minor correction in the command line documentation for the comet_num_ptms option.
+* BUG FIX: Corrected an error in the definition of the iTRAQ 8plex 115 ion. 
+* BUG FIX: Made sure that the variable PTM names are checked (for if a PTM with that name exists) when setting up the identification parameters from the command line (the fixed PTM names were already checked).
+* BUG FIX: Fixed a bug in the ProteinInferencePreferences that resulted in a null pointer if the database was not set (for example when the parameter file was created in DeNovoGUI).
+* BUG FIX: Fixed a bug in the command line for displaying the list of supported PTMs, where the -out parameter was required.
+* BUG FIX: Renamed the PTM "Dimethylation of K 2H(4)" to "Label of K 2H(4)". 
+
+* LIBRARY UPDATE: Updated utilities to version 4.3.22.
+
+----
+
 **Changes in SearchGUI 2.6.4 (February 8. 2015):**
 
 * FEATURE IMPROVEMENT: If the user cancels a partial search (in the GUI) the user is now asked if he/she wants to keep the partial search results (instead of automatic removal as before).
