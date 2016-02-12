@@ -104,6 +104,7 @@ github_project: {3}
                     )
 
                 with open(filename, 'w+') as wiki_page:
+                    print(header)
                     wiki_page.write(header)
                     wiki_page.write(content)
 
