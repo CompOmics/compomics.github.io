@@ -10,6 +10,17 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.2.14 (February 12. 2016):**
+
+* BUG FIX: Corrected an error in the definition of the iTRAQ 8plex 115 ion.
+* BUG FIX: Added different default reporter ion tolerances for TMT (0.0016 Da) and iTRAQ (0.05 Da).
+* BUG FIX: Fixed GUI alignment issues in the Welcome dialog.
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.7.5.
+* LIBRARY UPDATE: Updated utilities to version 4.3.22.
+
+---
+
 **Changes in Reporter 0.2.13 (February 6. 2016):**
 
 * LIBRARY UPDATE: Updated PeptideShaker to version 1.7.3.
