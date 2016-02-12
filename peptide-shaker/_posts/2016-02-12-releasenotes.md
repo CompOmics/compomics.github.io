@@ -10,6 +10,13 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.7.6 (February 12. 2016):**
+
+* BUG FIX: Fixed a bug in the command line for locating FASTA files in other locations than the one in the parameter file.
+* BUG FIX: Updated the certificate of analysis export.
+
+----
+
 **Changes in PeptideShaker 1.7.5 (February 12. 2016):**
 
 * FEATURE IMPROVEMENT: Extended the peptide and PSM reports.
