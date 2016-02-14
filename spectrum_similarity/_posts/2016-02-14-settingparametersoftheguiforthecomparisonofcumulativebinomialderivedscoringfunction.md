@@ -29,9 +29,9 @@ github_project: https://github.com/compomics/spectrum_similarity
 
 `Transformaton` enables intensity transformation of peaks. Currently, there are three options avaliable: none, log2 or square root transformation of peak intensities.
 
-`Noise filter` enables noise filtering, removing sparse peaks. Currently, there are three options avaliable: none, [pride-asap](/pride-asa-pipeline.html) -adaptive noise filtering, topN intense peak selection and discarding peaks with less than x% of precursor intensity
+`Noise filter` enables noise filtering, removing peaks. Currently, there are three options avaliable: none, [pride-asap](/pride-asa-pipeline.html) -adaptive noise filtering, topN intense peak selection and discarding peaks with less than x% of precursor intensity
 
-`Number of peaks cutoff` is required for `topN intense peak selection`: a number of peaks with top intensity to keep on spectrum.
+`Number of peaks cutoff` is required for `topN intense peak selection` a number of peaks with top intensity to keep on spectrum.
 
 `Peak intensity cutoff (%)` is required for `discarding peaks with less than x% of precursor intensity`: the percentage value of precursor intensity in order to keep any peaks with bigger than this percentaged value.
 
