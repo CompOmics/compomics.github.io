@@ -10,6 +10,8 @@ wiki: "denovogui"
   * [Introduction](#introduction)
   * [Command Line](#command-line)
   * [Troubleshooting](#troubleshooting)
+  
+  * [Bioinformatics for Proteomics Tutorial](http://compomics.com/bioinformatics-for-proteomics/)
 
 ---
 
