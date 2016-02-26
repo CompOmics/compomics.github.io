@@ -35,12 +35,12 @@
       ga('create', 'UA-36198780-10', 'auto');
       ga('send', 'pageview');
 	
-	var trackOutboundLink = function(url) {
-   		ga('send', 'event', 'outbound', 'click', url, {
+	    var trackOutboundLink = function(category, action, label, url) {
+   		  ga('send', 'event', category, action, label, {
      			'transport': 'beacon',
      			'hitCallback': function(){document.location = url;}
-   		});
-	} 		
+   		  });
+	    } 		
     </script>
   </body>
 </html>
