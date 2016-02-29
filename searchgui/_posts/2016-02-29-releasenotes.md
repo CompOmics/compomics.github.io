@@ -10,7 +10,20 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
-**Changes in SearchGUI 2.6.5 (February 12. 2015):**
+**Changes in SearchGUI 2.7.0 (February 29. 2016):**
+
+* FEATURE IMPROVEMENT: Updated X!Tandem to version VENGEANCE (2015.12.15).
+ * Note that X!Tandem no longer releases 32 bit versions, only the 64 bit versions will be updated from now on.
+* FEATURE IMPROVEMENT: Extended the list of supported output formats for Comet. 
+* FEATURE IMPROVEMENT: ProteoWizard is now shown as supported on all platforms (but converting vendor raw files is still only supported in Windows).
+
+* BUG FIX: Improved the test for checking if a user selected Java home folder contains a valid Java installation or not.
+
+* LIBRARY UPDATE: Updated utilities to version 4.3.22.
+
+----
+
+**Changes in SearchGUI 2.6.5 (February 12. 2016):**
 
 * BUG FIX: Minor correction in the command line documentation for the comet_num_ptms option.
 * BUG FIX: Corrected an error in the definition of the iTRAQ 8plex 115 ion. 
@@ -23,13 +36,13 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
-**Changes in SearchGUI 2.6.4 (February 8. 2015):**
+**Changes in SearchGUI 2.6.4 (February 8. 2016):**
 
 * FEATURE IMPROVEMENT: If the user cancels a partial search (in the GUI) the user is now asked if he/she wants to keep the partial search results (instead of automatic removal as before).
 
 ----
 
-**Changes in SearchGUI 2.6.3 (February 6. 2015):**
+**Changes in SearchGUI 2.6.3 (February 6. 2016):**
 
 * BUG FIX: Fixed a bug in the mass deviation filter where min and max isotope had gotten mixed up.
 
@@ -37,7 +50,7 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
-**Changes in SearchGUI 2.6.2 (February 5. 2015):**
+**Changes in SearchGUI 2.6.2 (February 5. 2016):**
 
 * BUG FIX: Fixed a bug in the loading of the user PTMs in the SearchSettingsDialog. 
 * BUG FIX: The PTM Dialog now checks if reporter ion and neutral loss names are unique before adding them.
@@ -49,7 +62,7 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
-**Changes in SearchGUI 2.6.1 (January 28. 2015):**
+**Changes in SearchGUI 2.6.1 (January 28. 2016):**
 
 * FEATURE IMPROVEMENT: Added support for Arg-N.
 * FEATURE IMPROVEMENT: Updated the Andromeda web page link. 
@@ -58,7 +71,7 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
-**Changes in SearchGUI 2.6.0 (January 26. 2015):**
+**Changes in SearchGUI 2.6.0 (January 26. 2016):**
 
 * FEATURE IMPROVEMENT: Updated MS Amanda to version v1.0.0.6299 for Windows and version v1.0.0.6300 for Linux and Mac.
 * FEATURE IMPROVEMENT: Added support for setting the X!Tandem output type (all, valid, stochastic).
@@ -69,7 +82,7 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
-**Changes in SearchGUI 2.5.0 (January 22. 2015):**
+**Changes in SearchGUI 2.5.0 (January 22. 2016):**
 
 * FEATURE IMPROVEMENT: Updated Comet to release 2015.02 rev. 5, improving the mgf parsing.
 * FEATURE IMPROVEMENT: Added support for Semi-GluC-(DE).
