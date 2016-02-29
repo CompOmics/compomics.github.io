@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.2.15 (February 29. 2016):**
+
+* BUG FIX: Improved the test for checking if a user selected Java home folder contains a valid Java installation or not.
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.8.0.
+* LIBRARY UPDATE: Updated utilities to version 4.5.1.
+
+---
+
 **Changes in Reporter 0.2.14 (February 12. 2016):**
 
 * BUG FIX: Corrected an error in the definition of the iTRAQ 8plex 115 ion.
