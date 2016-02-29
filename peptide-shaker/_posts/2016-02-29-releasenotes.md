@@ -10,6 +10,19 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.8.0 (February 29. 2016):**
+
+* FEATURE IMPROVEMENT: Sped up and corrected bugs in the PhosphoRS PTM scoring.
+* FEATURE IMPROVEMENT: Extended the reports to include more information on peptide uniqueness.
+* FEATURE IMPROVEMENT: Avoided very long mgf files missing warnings when selecting the id files.
+
+* BUG FIX: Corrected a bug in the display of PTM scores in the PTMs tab.
+* BUG FIX: Improved the test for checking if a user selected Java home folder contains a valid Java installation or not.
+
+* LIBRARY UPDATE: Updated utilities to version 4.5.1.
+
+----
+
 **Changes in PeptideShaker 1.7.6 (February 12. 2016):**
 
 * BUG FIX: Fixed a bug in the command line for locating FASTA files in other locations than the one in the parameter file.
