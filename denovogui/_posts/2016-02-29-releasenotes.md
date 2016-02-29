@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.9.10 (February 29. 2016):**
+
+ * BUG FIX: The Peptide Matches export now also works for Novor results.
+ * BUG FIX: Improved the test for checking if a user selected Java home folder contains a valid Java installation or not.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.5.1.
+
+----
+
 **Changes in DeNovoGUI 1.9.9 (February 12. 2016):**
 
  * LIBRARY UPDATE: Updated utilities to version 4.3.22.
