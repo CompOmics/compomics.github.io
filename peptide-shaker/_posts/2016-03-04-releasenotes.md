@@ -10,6 +10,19 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.8.1 (March 4. 2016):**
+
+* FEATURE IMPROVEMENT: Updated the default PTM localization settings. 
+
+* BUG FIX: Correction in the iTRAQ 4-plex 115 mass.
+* BUG FIX: It is now possible to open the ProteinInferenceSettingsDialog even if the FASTA file is not set.
+* BUG FIX: The check for comma in PTM names now actually works.
+* BUG FIX: Fixed bugs in the loading of de novo data.
+
+* LIBRARY UPDATE: Updated utilities to version 4.5.3.
+
+----
+
 **Changes in PeptideShaker 1.8.0 (February 29. 2016):**
 
 * FEATURE IMPROVEMENT: Sped up and corrected bugs in the PhosphoRS PTM scoring.
