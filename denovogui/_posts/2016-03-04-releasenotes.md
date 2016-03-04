@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.10.0 (March 4. 2016):**
+
+ * BUG FIX: Fixed bugs in the loading of Novor result files. 
+ * BUG FIX: Fixed bugs in the display of fixed and variable modifications.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.5.3.
+
+----
+
 **Changes in DeNovoGUI 1.9.10 (February 29. 2016):**
 
  * BUG FIX: The Peptide Matches export now also works for Novor results.
