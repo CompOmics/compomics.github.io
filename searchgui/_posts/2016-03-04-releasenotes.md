@@ -10,6 +10,19 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.7.1 (March 4. 2016):**
+
+* FEATURE IMPROVEMENT: Updated the default PTM localization settings.
+
+* BUG FIX: Correction in the iTRAQ 4-plex 115 mass.
+* BUG FIX: It is now possible to open the ProteinInferenceSettingsDialog even if the FASTA file is not set.
+* BUG FIX: Fixed a bug in the isSameAs method in PeptideAssumptionFilter.
+* BUG FIX: The check for comma in PTM names now actually works.
+
+* LIBRARY UPDATE: Updated utilities to version 4.5.3.
+
+----
+
 **Changes in SearchGUI 2.7.0 (February 29. 2016):**
 
 * FEATURE IMPROVEMENT: Updated X!Tandem to version VENGEANCE (2015.12.15).
