@@ -12,7 +12,7 @@ github_project: https://github.com/compomics/reporter
 
 **Changes in Reporter 0.2.16 (March 4. 2016):**
 
-* Correction in the iTRAQ 4-plex 115 mass.
+* BUG FIX: Correction in the iTRAQ 4-plex 115 mass.
 
 * LIBRARY UPDATE: Updated PeptideShaker to version 1.8.1.
 * LIBRARY UPDATE: Updated utilities to version 4.5.3.
