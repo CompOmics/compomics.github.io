@@ -69,13 +69,6 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [par
 (*) Not mandatory if these files are part of a zip file input with the identification files.
 ```
 
-**Optional gene annotation parameter**
-
-```
--species_update            Check for new species information in Ensembl and update if possible. 
-                           (1: true, 0: false, default is '0').
-```
-
 **Optional export parameters**
 
 ```
