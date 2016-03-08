@@ -22,7 +22,7 @@ Note that most of the advanced settings and algorithm specific parameters listed
     * [Sequence Matching](#sequence-matching)
     * [Import Filters](#import-filters)
     * [PTM Localization](#ptm-localization)
-    * [Gene Preferences](#gene-preferences)
+    * [Gene Annotation](#gene-annotation)
     * [Protein Inference](#protein-inference)
     * [Validation Levels](#validation-levels)
     * [Fraction Analysis](#fraction-analysis)
