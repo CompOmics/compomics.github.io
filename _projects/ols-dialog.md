@@ -5,6 +5,15 @@ description: "Java front end to the ontology lookup service (OLS)"
 wiki: "ols-dialog"
 ---
 
+
+---
+
+**The OLS Dialog project is now maintained at [https://github.com/PRIDE-Toolsuite/ols-dialog](https://github.com/PRIDE-Toolsuite/ols-dialog).**
+
+**The version at this page is deprecated and will not work with the updated version of the OLS.**
+
+---
+
 # OLS Dialog 
 
   * [What is OLS Dialog?](#what-is-ols-dialog)
@@ -15,7 +24,7 @@ wiki: "ols-dialog"
   * [Maven Dependency](#maven-dependency)
   * [Screenshots](#screenshots)
 
-**OLS Dialog Publications:**
+## OLS Dialog Publication:
   * [Barsnes et al: BMC Bioinformatics 2010 Jan 17;11:34](http://www.ncbi.nlm.nih.gov/pubmed/20078892).
   * If you use **OLS Dialog** as part of a paper, please include the reference above.
 
@@ -25,13 +34,15 @@ wiki: "ols-dialog"
 
 **OLS Dialog** is a Java front end to the [Ontology Lookup Service](http://www.ebi.ac.uk/ontology-lookup) allowing easy access to an extensive list of biomedical ontologies (see [supported ontologies](http://www.ebi.ac.uk/ontology-lookup/ontologyList.do) for a complete list).
 
-**OLS Dialog** is a subproject of the [PRIDE Converter](http://code.google.com/p/pride-converter/) project. Making **OLS Dialog** a standalone project is done to make it more easily available for other projects.
+**OLS Dialog** is a subproject of the [PRIDE Converter](/pride-converter.html) project. Making **OLS Dialog** a standalone project is done to make it more easily available for other projects.
 
 Five ways of searching the **OLS Dialog** is supported. See [Search Options](#search-options).
 
 [Go to top of page](#ols-dialog)
 
 ---
+
+### Search Options
 
 Five ways of searching the **OLS Dialog** is supported:
   * [Term Name Search](#term-name-search)
