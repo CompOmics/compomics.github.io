@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/jsparklines
 
 ----
 
+**Changes in JSparklines 1.0.8 (March 15. 2016):**
+
+ * NEW FEATURE: Added a table cell renderer displaying JSparklinesDataSeries as heat maps where the double values are used for the color coding.
+
+----
+
 **Changes in JSparklines 1.0.7 (February 5. 2016):**
 
  * FEATURE IMPROVEMENT: Made the chromosome class more generic, now any string can be used as input.
