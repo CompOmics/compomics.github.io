@@ -10,6 +10,17 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.10.1 (March 16. 2016):**
+
+ * FEATURE IMPROVEMENT: Added new PTM: Dimethylation of K 2H(6) 13C(2).
+
+ * BUG FIX: Fixed bugs in the validation of the following parameters when given as input on the command line: IMPORT_PRECURSOR_MZ_PPM, PREC_PPM, FRAG_PPM. Note that that the input is now binary (0 for Da and 1 for ppm, instead of 2 for Da and 1 for ppm as before).
+
+ * LIBRARY UPDATE: jsparklines to version 1.0.8. 
+ * LIBRARY UPDATE: Updated utilities to version 4.5.7.
+
+----
+
 **Changes in DeNovoGUI 1.10.0 (March 4. 2016):**
 
  * BUG FIX: Fixed bugs in the loading of Novor result files. 
