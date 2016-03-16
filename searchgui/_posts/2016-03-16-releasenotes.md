@@ -10,6 +10,25 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.8.0 (March 16. 2016):**
+
+* NEW FEATURE: Added a check for missing precursor charges when parsing mgf files, and the option of adding them. All controlled via the Advanced Settings.
+
+* FEATURE IMPROVEMENT: Updated Comet to version 2016.01 rev. 0.
+ * For details, please see: http://comet-ms.sourceforge.net/release/release_201601/.
+* FEATURE IMPROVEMENT: The Advanced Settings are now saved between each time one runs SearchGUI.
+* FEATURE IMPROVEMENT: Added new PTM: Dimethylation of K 2H(6) 13C(2), also corrected "Dimethylation of peptide N-term K" to "Dimethylation of peptide N-term" and "Dimethylation of peptide N-term K 2H4" to "Dimethylation of peptide N-term 2H4".
+* FEATURE IMPROVEMENT: Updated the Ensembl mappings to version 84.
+
+* BUG FIX: Fixed bugs in the validation of the following parameters when given as input on the command line: IMPORT_PRECURSOR_MZ_PPM, PREC_PPM, FRAG_PPM. Note that that the input is now binary (0 for Da and 1 for ppm, instead of 2 for Da and 1 for ppm as before).
+* BUG FIX: Fixed a bug in the PTM dialog where empty patterns were not handled correctly for user defined PTMs.
+* BUG FIX: Fixed a bug in the background color for the drop down menus with tooltips.
+
+* LIBRARY UPDATE: Updated jsparklines to version 1.0.8.
+* LIBRARY UPDATE: Updated utilities to version 4.5.7.
+
+----
+
 **Changes in SearchGUI 2.7.1 (March 4. 2016):**
 
 * FEATURE IMPROVEMENT: Updated the default PTM localization settings.
