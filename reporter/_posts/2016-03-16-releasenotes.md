@@ -10,6 +10,17 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.3.0 (March 16. 2016):**
+
+* FEATURE IMPROVEMENT: Improved the display of the quantification values in the protein table.
+* FEATURE IMPROVEMENT: Made it possible to select the most intense peak and set it as default for iTRAQ.
+
+* LIBRARY UPDATE: Updated jsparklines to version 1.0.8.
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.9.0.
+* LIBRARY UPDATE: Updated utilities to version 4.5.7.
+
+---
+
 **Changes in Reporter 0.2.16 (March 4. 2016):**
 
 * BUG FIX: Correction in the iTRAQ 4-plex 115 mass.
