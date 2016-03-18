@@ -158,7 +158,7 @@ The following parameters allow controlling the identification workflow in detail
 -import_missed_cleavages_max
                           The maximal number if missed cleavages to consider when importing identification files, default is no filter.
 
--import_precurosor_mz     Import precursor ion tolerance unit: ppm (1) or Da (2), default is '1'.
+-import_precurosor_mz     Import precursor ion tolerance unit: ppm (1) or Da (0), default is '1'.
 
 -exclude_unknown_ptms     If true peptides presenting unrecognized PTMs will be excluded.
                           1: true, 0: false, default is '1'.
