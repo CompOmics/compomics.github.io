@@ -10,6 +10,16 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.9.1 (Coming soon...):**
+
+ * FEATURE IMPROVEMENT: Updated Ensembl Genomes to version 31. 
+
+ * BUG FIX: Fixed bugs in the modification type for "Dimethylation of peptide N-term 2H(4)" and "Dimethylation of peptide N-term".
+
+ * LIBRARY UPDATE: Updated utilities to version 4.5.8.
+
+----
+
 **Changes in PeptideShaker 1.9.0 (March 16. 2016):**
 
  * FEATURE IMPROVEMENT: Speed improvements for the PTM scoring.
