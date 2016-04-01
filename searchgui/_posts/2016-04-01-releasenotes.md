@@ -10,6 +10,17 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.8.1 (April 1. 2016):**
+
+* FEATURE IMPROVEMENT: Updated Comet to version 2016.01 rev. 1.
+ * For details, please see: http://comet-ms.sourceforge.net/release/release_201601/.
+
+* BUG FIX: Fixed bugs in the modification type for "Dimethylation of peptide N-term 2H(4)" and "Dimethylation of peptide N-term".
+
+* LIBRARY UPDATE: Updated utilities to version 4.5.8.
+
+----
+
 **Changes in SearchGUI 2.8.0 (March 16. 2016):**
 
 * NEW FEATURE: Added a check for missing precursor charges when parsing mgf files, and the option of adding them. All controlled via the Advanced Settings.
