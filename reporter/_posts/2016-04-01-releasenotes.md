@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.3.1 (April 1. 2016):**
+
+* BUG FIX: Fixed bugs in the modification type for "Dimethylation of peptide N-term 2H(4)" and "Dimethylation of peptide N-term".
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.9.1.
+* LIBRARY UPDATE: Updated utilities to version 4.5.8.
+
+---
+
 **Changes in Reporter 0.3.0 (March 16. 2016):**
 
 * FEATURE IMPROVEMENT: Improved the display of the quantification values in the protein table.
