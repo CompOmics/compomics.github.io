@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.9.2 (April 1. 2016):**
+
+* BUG FIX: Re-added the example dataset to the zip file.
+
+----
+
 **Changes in PeptideShaker 1.9.1 (April 1. 2016):**
 
  * FEATURE IMPROVEMENT: Updated Ensembl Genomes to version 31. 
