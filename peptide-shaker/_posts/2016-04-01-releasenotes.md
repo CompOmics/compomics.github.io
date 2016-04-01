@@ -10,7 +10,7 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
-**Changes in PeptideShaker 1.9.1 (Coming soon...):**
+**Changes in PeptideShaker 1.9.1 (April 1. 2016):**
 
  * FEATURE IMPROVEMENT: Updated Ensembl Genomes to version 31. 
 
