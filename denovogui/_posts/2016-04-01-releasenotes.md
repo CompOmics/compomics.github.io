@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.10.2 (April 1. 2016):**
+
+ * BUG FIX: Fixed bugs in the modification type for "Dimethylation of peptide N-term 2H(4)" and "Dimethylation of peptide N-term".
+
+ * LIBRARY UPDATE: Updated utilities to version 4.5.8.
+
+----
+
 **Changes in DeNovoGUI 1.10.1 (March 16. 2016):**
 
  * FEATURE IMPROVEMENT: Added new PTM: Dimethylation of K 2H(6) 13C(2).
