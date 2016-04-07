@@ -10,6 +10,16 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.9.3 (April 7. 2016):**
+
+ * FEATURE IMPROVEMENT: Multiple fixes and enhancements in PhosphoRS as suggested by @david-bouyssie.
+
+ * BUG FIX: Corrected CV terms in the mzIdentML export.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.5.11.
+
+----
+
 **Changes in PeptideShaker 1.9.2 (April 1. 2016):**
 
 * BUG FIX: Re-added the example dataset to the zip file.
