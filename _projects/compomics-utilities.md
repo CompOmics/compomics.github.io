@@ -18,7 +18,7 @@ wiki: "compomics-utilities"
 
 ---
 
-**compomics-utilities publication:**
+## compomics-utilities publication:
   * [Barsnes et al: BMC Bioinformatics. 2011 Mar 8;12(1):70](http://www.ncbi.nlm.nih.gov/pubmed/21385435).
   * If you use **compomics-utilities** as part of a paper, please include the reference above.
 
