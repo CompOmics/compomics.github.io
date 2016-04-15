@@ -8,7 +8,14 @@ github_project: https://github.com/compomics/compomics-utilities
 
 # Java Troubleshooting #
 
-The aim of this page is to provide help with common Java related issues that one can encounter when using software from the CompOmics group. If you have a Java related question that is not answered below please let us know.
+The aim of this wiki page is to provide help with common Java related issues that one can encounter when using software from the CompOmics group. If you have a Java related question that is not answered below please let us know.
+
+1. [Installing Java](#installing-java)
+2. [Memory Issues](#memory-issues)
+3. [32 bit or 64 bit](#32-bit-or-64-bit)
+4. [Tool Does Not Start](#tool-does-not-start)
+5. [Text and Icons Are Too Small](#text-and-icons-are-too-small)
+6. [More Help](#more-help)
 
 ## Installing Java ##
 
@@ -24,9 +31,9 @@ The aim of this page is to provide help with common Java related issues that one
 
 ---
 
-## 32 bit vs 64 bit ##
+## 32 bit or 64 bit ##
 
-  * **Java 32 bit vs 64 bit** - Java comes in two versions: 32 bit and 64 bit. The 32 bit version is limited to using a maximum of around 2 GB of memory. For bigger datasets this is not always enough. Most newer machines support the 64 bit version, and it is always recommended to use Java 64 bit if possible.
+  * **Java 32 bit vs. 64 bit** - Java comes in two versions: 32 bit and 64 bit. The 32 bit version is limited to using a maximum of around 2 GB of memory. For bigger datasets this is not always enough. Most newer machines support the 64 bit version, and it is always recommended to use Java 64 bit if possible.
 
   * **Multiple Installations** - If you have both 32 and 64 bit versions of Java the operating system can get confused about which version to use when running Java tools. For Windows the CompOmics tools try to default to the 64 bit version of Java. You can override this option by setting your own Java Home, by creating a file called `JavaHome.txt` in the `resources\conf` folder of the tool, with the path to the bin folder of the Java installation, e.g., `C:\Program Files\Java\jdk1.7.0_21\bin\`. If the folder does not exist (or it does not contain the required files), the default Java version will be used.
 
@@ -46,6 +53,44 @@ The aim of this page is to provide help with common Java related issues that one
 
 ---
 
-## Need More Help? ##
+## Text and Icons Are Too Small ##
+
+**Note: This fix is for advanced users only, and is done at your own risk!**
+
+If you have a very high resolution screen the text and icons in your Java tools may be too small to read clearly. This is due to a known issue in Java itself where the information is not rescaled. A proper fix will hopefully be introduced in an upcoming release of Java.
+
+For advanced Windows users there is a possible fix that includes editing the manifest of the Java executables. 
+
+_Again note that this is done at your own risk and that we take no responsibility for the below suggestion._
+
+1) Download an exe decompiler/editor. (For example the free Resource Hacker: http://angusj.com/resourcehacker/)
+
+2) Edit the applicable java.exe and javaw.exe files (make sure to pick the right ones; you may have multiple JDK and JRE installations!)
+
+3) Go to the Manifest section in the exe, and edit the manifest file. It will have a section like this:
+
+```
+<asmv3:application>
+   <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">
+      <dpiAware>true</dpiAware>
+   </asmv3:windowsSettings>
+</asmv3:application>
+```
+
+Change the value of the `<dpiAware>true</dpiAware>` tag to `false`.
+
+4) Recompile the manifest (green 'Play' button in Resource Hacker).
+
+5) Save the altered exe file (Resource Hacker automatically creates a backup called `[filename]_original.exe`; in other tools, make sure that you make a backup of the original yourself!).
+
+6) Reboot the computer (if your exe was run before, Windows caches the exe file in memory, which prevent sit from re-reading the updated manifest. A restart fixes this.)
+
+7) You should now have a JVM that renders Java applications in normal size, albeit a bit fuzzier.
+
+Note that you would have to repeat this fix whenever you update your Java version.
+
+---
+
+## More Help ##
 
   * **Problem Not Solved? Or Problem Not In List?** Contact the developers by setting up an issue describing the problem at the given tool's web page (available via the Issues tab).
