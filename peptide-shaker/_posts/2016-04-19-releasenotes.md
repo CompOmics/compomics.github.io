@@ -10,6 +10,21 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.10.0 (April 19. 2016):**
+
+ * FEATURE IMPROVEMENT: Set the mass filter based on the search settings. 
+
+ * BUG FIX: Corrected a bug in PhosphoRS leading to rounding errors. 
+ * BUG FIX: Corrected potential threading issues in the estimation of masses.
+ * BUG FIX: Corrected an error in the parsing of the maximal precursor deviation allowed in the import filters.
+ * BUG FIX: Minor correction in the command line documentation for the import_precurosor_mz and import_precurosor_mz_ppm parameters.
+ * BUG FIX: Corrected a bug in the annotation of confident sites.
+ * BUG FIX: Corrected the target/decoy histogram plot.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.5.12.
+
+----
+
 **Changes in PeptideShaker 1.9.3 (April 7. 2016):**
 
  * FEATURE IMPROVEMENT: Multiple fixes and enhancements in PhosphoRS as suggested by @david-bouyssie.
