@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.8.3 (April 19. 2016):**
+
+ * BUG FIX: Minor correction in the command line documentation for the import_precurosor_mz and import_precurosor_mz_ppm parameters.
+
+* LIBRARY UPDATE: Updated utilities to version 4.5.12.
+
+----
+
 **Changes in SearchGUI 2.8.2 (April 7. 2016):**
 
 * FEATURE IMPROVEMENT: Updated Comet to version 2016.01 rev. 2.
