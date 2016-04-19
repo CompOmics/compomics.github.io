@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.10.4 (April 19. 2016):**
+
+ * BUG FIX: Minor correction in the command line documentation for the import_precurosor_mz and import_precurosor_mz_ppm parameters.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.5.12.
+
+----
+
 **Changes in DeNovoGUI 1.10.3 (April 7. 2016):**
 
  * LIBRARY UPDATE: Updated utilities to version 4.5.11.
