@@ -12,13 +12,13 @@ GUI application to perform the comparison of two given data sets.
 
 > java -cp scoring_pipeline-1.0.jar main.ScorePipelineStarter
  
-![startup](https://dl.dropboxusercontent.com/u/10018463/github_wiki_pages/step1_gui.PNG)
+![startup](https://dl.dropboxusercontent.com/u/10018463/github_wiki_pages/comparison/step1_startup.PNG)
 
 The GUI starts after executing this command:
 
-![GUI](https://dl.dropboxusercontent.com/u/10018463/github_wiki_pages/step2_gui.PNG)
+![GUI](https://dl.dropboxusercontent.com/u/10018463/github_wiki_pages/comparison/step2_pairwiseGUI.PNG)
 
-**2-Set the parameters**: The details on the parameters can be found [here](/spectrum_similarity/wiki/setting-parameters-of-the-gui-for-the-comparison-of-cumulative-binomial-derived-scoring-function.html)
+**2-Set the parameters**: The details on the parameters can be found [here](/spectrum_similarity/wiki/setting-parameters-of-the-gui-for-the-comparison-of-cumulative-binomial-derived-scoring-function.html).
 
 **3-Run**: Click the `run` button to start the comparison.
 

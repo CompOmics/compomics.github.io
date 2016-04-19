@@ -15,7 +15,7 @@ This GUI enables the manual inspection of how spectra actually look alike and ca
 > java -jar spectrum_similarity_pairwise_GUI-0.1.jar
 
 
-![startup](https://dl.dropboxusercontent.com/u/10018463/github_wiki_pages/step1_pairwiseGUI.PNG)
+![startup](https://dl.dropboxusercontent.com/u/10018463/github_wiki_pages/pairwise/step1_startup.PNG)
 
 
 **2-Introduce the files:**
@@ -25,28 +25,32 @@ The required inputs
 - A text file containing calculated scores
 - Indices of spectrum titles from these two spectra folders in a given text file
 
+![files](https://dl.dropboxusercontent.com/u/10018463/github_wiki_pages/pairwise/step2_initial.PNG)
+
+
 **3-Create:** Click on the `CREATE` button to start visualizing pairwise spectra.
 
- ![after create](https://dl.dropboxusercontent.com/u/10018463/github_wiki_pages/Step2-starting.PNG)
+ ![after create](https://dl.dropboxusercontent.com/u/10018463/github_wiki_pages/pairwise/Step2-starting.PNG)
 
 
 A pairwise spectra can be inspected either as bubble spectra (see above) or mirrored spectra (see below).
 
 
-![mirror spectra](https://dl.dropboxusercontent.com/u/10018463/github_wiki_pages/Step3-mirror.PNG)
+![mirror spectra](https://dl.dropboxusercontent.com/u/10018463/github_wiki_pages/pairwise/Step3-mirror.PNG)
 
 
 
 **FILTERING:** Each visualization can be also inspected by applying noise filtering. Clicking the `NoiseFilter` button applies an adaptive noise filtering from [pride-asa-pipeline](/pride-asa-pipeline.html). The resulted remaining percentage can be automatically given.
 
 
-![NoiseFilterSpecA](https://dl.dropboxusercontent.com/u/10018463/github_wiki_pages/Step4-NoiseFilteringSpecA.PNG)
+![NoiseFilterSpecA](https://dl.dropboxusercontent.com/u/10018463/github_wiki_pages/pairwise/Step4-NoiseFilteringSpecA.PNG)
 
 
 
 Alternatively, the sliding bar allows the removal of low-intense peaks corresponding to the remaining percentage of peaks in a given spectrum. 
 
 
-![FilteringPercentageSpecB](https://dl.dropboxusercontent.com/u/10018463/github_wiki_pages/Step5-FilteringPercentageSpecB.PNG)
+![FilteringPercentageSpecB](https://dl.dropboxusercontent.com/u/10018463/github_wiki_pages/pairwise/Step5-FilteringPercentageSpecB.PNG)
 
 
+Note that column colors and spectrum colors in visualization match. 
