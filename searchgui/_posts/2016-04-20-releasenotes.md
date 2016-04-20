@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.8.4 (April 20. 2016):**
+
+ * BUG FIX: Fixed a bug in the Advanced Settings dialog for setting the max size of the mgf files before splitting.
+
+----
+
 **Changes in SearchGUI 2.8.3 (April 19. 2016):**
 
  * BUG FIX: Minor correction in the command line documentation for the import_precurosor_mz and import_precurosor_mz_ppm parameters.
