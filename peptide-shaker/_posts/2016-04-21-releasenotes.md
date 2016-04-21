@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.10.1 (April 21. 2016):**
+
+ * FEATURE IMPROVEMENT: Non-html characters are now escaped when exporting to protein descriptions in mzIdentML files.
+
+ * BUG FIX: The maximum number of missed cleavage is now included in the certificate of analysis.
+
+----
+
 **Changes in PeptideShaker 1.10.0 (April 19. 2016):**
 
  * FEATURE IMPROVEMENT: Set the mass filter based on the search settings. 
@@ -21,7 +29,7 @@ github_project: https://github.com/compomics/peptide-shaker
  * BUG FIX: Corrected a bug in the annotation of confident sites.
  * BUG FIX: Corrected the target/decoy histogram plot.
 
- * LIBRARY UPDATE: Updated utilities to version 4.5.12.
+ * LIBRARY UPDATE: Updated utilities to version 4.5.13.
 
 ----
 
