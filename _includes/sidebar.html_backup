@@ -40,6 +40,20 @@
     </div>
   </div>
   {% endif %}
+  {% if page.date %}
+  <div class="widget-wrap">
+    <h3 class="widget-title">Wiki</h3>
+    <div class="widget">
+      <ul class="post-list">
+        {% for page in site.categories.[page.project] reversed %}
+          <li>
+              <a href="{{ page.url | prepend: site.baseurl }}">{{ page.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  {% endif %}
   <div class="widget-wrap">
     <h3 class="widget-title">Projects</h3>
     <div class="widget">
