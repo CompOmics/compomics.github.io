@@ -26,12 +26,26 @@
     </div>
   </div>
   {% endif %}
-  {% if site.categories.[page.wiki].size > 0 %}
+  {% if page.page_type == "project" and site.categories.[page.wiki].size > 0 %}
   <div class="widget-wrap">
     <h3 class="widget-title">Wiki</h3>
     <div class="widget">
       <ul class="post-list">
         {% for page in site.categories.[page.wiki] reversed %}
+          <li>
+              <a href="{{ page.url | prepend: site.baseurl }}">{{ page.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  {% endif %}
+  {% if page.date and page.page_type != "project" %}
+  <div class="widget-wrap">
+    <h3 class="widget-title">Wiki</h3>
+    <div class="widget">
+      <ul class="post-list">
+        {% for page in site.categories.[page.project] reversed %}
           <li>
               <a href="{{ page.url | prepend: site.baseurl }}">{{ page.name }}</a>
           </li>
