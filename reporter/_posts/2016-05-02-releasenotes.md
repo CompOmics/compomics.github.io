@@ -10,6 +10,13 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.3.4 (May 2. 2016):**
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.10.2.
+* LIBRARY UPDATE: Updated utilities to version 4.5.16.
+
+---
+
 **Changes in Reporter 0.3.3 (April 19. 2016):**
 
  * BUG FIX: Minor correction in the command line documentation for the import_precurosor_mz and import_precurosor_mz_ppm parameters.
