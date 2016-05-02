@@ -115,10 +115,6 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
 
 -threads                The number of threads to use for the processing. 
                         Default is the number of cores available.
-
--protein_index          Turn the FASTA file indexing on/off. (From version v1.19.0, before that 'protein_tree') 
-                        (1: on, 0: off, default is '0').
-
 ```
 
 ### Optional output compression parameters

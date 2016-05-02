@@ -6,7 +6,16 @@ permalink: /searchgui/wiki/releasenotes.html
 github_project: https://github.com/compomics/searchgui
 ---
 
-# Release Notes
+# ReleaseNotes
+
+----
+
+**Changes in SearchGUI 2.8.5 (May 2. 2016):**
+
+* FEATURE IMPROVEMENT: Removed the advanced option of generating the protein index at the same time as running the searches, as this could result in issues. (Note that this removes the protein_index option from the command line.)
+* BUG FIX: Corrected a bug in the setting of the precursor mass filter. 
+
+* LIBRARY UPDATE: Updated utilities to version 4.5.16.
 
 ----
 
@@ -27,7 +36,7 @@ github_project: https://github.com/compomics/searchgui
 **Changes in SearchGUI 2.8.2 (April 7. 2016):**
 
 * FEATURE IMPROVEMENT: Updated Comet to version 2016.01 rev. 2.
- * For details, please see: http://comet-ms.sourceforge.net/release/release_201601/.
+* For details, please see: http://comet-ms.sourceforge.net/release/release_201601/.
 
 * LIBRARY UPDATE: Updated utilities to version 4.5.11.
 
