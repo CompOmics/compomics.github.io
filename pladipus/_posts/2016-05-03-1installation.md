@@ -98,8 +98,8 @@ The MySQL database does offer an excellent installer. The wizard will guide you 
 More advanced users may prefer a manual installation, as the user has more control over how and when MySQL runs.
 
 * Navigate to the MySQL Community Server for your operating system from the [downloads](dev.mysql.com/downloads/) page
-* Download the â€œWithout installerâ€? version.
-* Extract the ZIP file to a destination of your choice and rename the unzipped folder to â€œmysqlâ€?.
+* Download the 'Without installer' version.
+* Extract the ZIP file to a destination of your choice and rename the unzipped folder to 'mysql'.
 
 <b><u>Note</u></b> : MySQL can be installed anywhere on your system. If you want a lightweight installation, you can remove every sub-folder except for bin, data, scripts and share.
 
