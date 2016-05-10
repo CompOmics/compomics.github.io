@@ -13,6 +13,8 @@ github_project: https://github.com/compomics/denovogui
 **Changes in DeNovoGUI 1.10.4 (April 19. 2016):**
 
  * BUG FIX: Minor correction in the command line documentation for the import_precurosor_mz and import_precurosor_mz_ppm parameters.
+ * BUG FIX: Tried to fix issues with the use of PepNovo on Linux/Mac (where the line file endings where not supported).
+ * BUG FIX: Fixed an error on Linux/Mac where the enzyme file could not be found.
 
  * LIBRARY UPDATE: Updated utilities to version 4.5.12.
 
