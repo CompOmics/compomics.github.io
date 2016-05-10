@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.10.3 (May 10. 2016):**
+
+ * BUG FIX: Fixed a potential null pointer in the gene factory that could occur if there were no valid species in the FASTA file.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.5.17.
+
+----
+
 **Changes in PeptideShaker 1.10.2 (May 2. 2016):**
 
  * BUG FIX: Corrected a bug in the setting of the precursor mass filter. 
