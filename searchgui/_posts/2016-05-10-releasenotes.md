@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.8.6 (May 10. 2016):**
+
+* FEATURE IMPROVEMENT: The number of missed cleavages when using the unspecific enzyme in X! Tandem is no longer hard coded to 50 but rather the user setting is used.
+
+* LIBRARY UPDATE: Updated utilities to version 4.5.17.
+
+----
+
 **Changes in SearchGUI 2.8.5 (May 2. 2016):**
 
 * FEATURE IMPROVEMENT: Removed the advanced option of generating the protein index at the same time as running the searches, as this could result in issues. (Note that this removes the protein_index option from the command line.)
