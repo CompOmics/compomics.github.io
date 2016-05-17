@@ -18,7 +18,7 @@ The GUI starts after executing this command:
 
 ![GUI](https://dl.dropboxusercontent.com/u/10018463/github_wiki_pages/comparison/step2_pairwiseGUI.PNG)
 
-**2-Set the parameters**: The details on the parameters can be found [here](/spectrum_similarity/wiki/setting-parameters-of-the-gui-for-the-comparison-of-cumulative-binomial-derived-scoring-function.html).
+**2-Set the parameters**: The details on the parameters can be found [here](/spectrum_similarity/wiki/setting-parameters-of-the-gui-application.html).
 
 **3-Run**: Click the `run` button to start the comparison.
 
