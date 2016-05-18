@@ -1,8 +1,8 @@
 ---
-name: GUIapairwisespectrumview
+name: 3GUIapairwisespectrumview
 project: spectrum_similarity
 layout: default
-permalink: /spectrum_similarity/wiki/guiapairwisespectrumview.html
+permalink: /spectrum_similarity/wiki/3guiapairwisespectrumview.html
 github_project: https://github.com/compomics/spectrum_similarity
 ---
 

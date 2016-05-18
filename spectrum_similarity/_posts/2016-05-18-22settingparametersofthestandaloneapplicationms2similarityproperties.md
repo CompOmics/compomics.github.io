@@ -1,8 +1,8 @@
 ---
-name: SettingparametersofthestandaloneapplicationMS2Similarityproperties
+name: 22SettingparametersofthestandaloneapplicationMS2Similarityproperties
 project: spectrum_similarity
 layout: default
-permalink: /spectrum_similarity/wiki/settingparametersofthestandaloneapplicationms2similarityproperties.html
+permalink: /spectrum_similarity/wiki/22settingparametersofthestandaloneapplicationms2similarityproperties.html
 github_project: https://github.com/compomics/spectrum_similarity
 ---
 

@@ -1,8 +1,8 @@
 ---
-name: GUIhowtorunaprobabilisticbasedscoringfunctiontocomparetwogivenspectradatasets
+name: 11GUIhowtorunaprobabilisticbasedscoringfunctiontocomparetwogivenspectradatasets
 project: spectrum_similarity
 layout: default
-permalink: /spectrum_similarity/wiki/guihowtorunaprobabilisticbasedscoringfunctiontocomparetwogivenspectradatasets.html
+permalink: /spectrum_similarity/wiki/11guihowtorunaprobabilisticbasedscoringfunctiontocomparetwogivenspectradatasets.html
 github_project: https://github.com/compomics/spectrum_similarity
 ---
 

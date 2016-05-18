@@ -1,8 +1,8 @@
 ---
-name: SettingparametersoftheGUIapplication
+name: 12SettingparametersoftheGUIapplication
 project: spectrum_similarity
 layout: default
-permalink: /spectrum_similarity/wiki/settingparametersoftheguiapplication.html
+permalink: /spectrum_similarity/wiki/12settingparametersoftheguiapplication.html
 github_project: https://github.com/compomics/spectrum_similarity
 ---
 
