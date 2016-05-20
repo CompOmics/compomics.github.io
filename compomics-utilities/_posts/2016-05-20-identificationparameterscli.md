@@ -187,6 +187,9 @@ The following parameters allow controlling the identification workflow in detail
                           1: Amino Acids
                           2: Indistinguishable Amino Acids
 
+-ptm_alignment            Align peptide ambiguously localized PTMs on confident sites.
+                          1: true, 0: false, default is '1'.
+
 ```
 
 ## Gene Annotation ##
