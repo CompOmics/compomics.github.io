@@ -210,6 +210,21 @@ The following parameters allow controlling the identification workflow in detail
 ```
 -db_pi                    The sequence database to use for protein inference in FASTA format.
 
+-simplify_groups          Simplify protein groups.
+                          1: true, 0: false, default is '1'.
+
+-simplify_score           Simplify protein groups based on the PeptideShaker target/decoy score.
+                          1: true, 0: false, default is '1'.
+
+-simplify_enzymaticity    Simplify protein groups based on the peptide enzymaticity.
+                          1: true, 0: false, default is '1'.
+
+-simplify_evidence        Simplify protein groups based on the Uniprot protein evidence.
+                          1: true, 0: false, default is '1'.
+
+-simplify_uncharacterized Simplify protein groups based on the protein characterization.
+                          1: true, 0: false, default is '1'.
+
 ```
 
 ## Validation Levels ##
