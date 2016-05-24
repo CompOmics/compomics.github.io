@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/fragmentation-analyzer
 
 ----
 
+**Changes in FragmentationAnalyzer v1.5.14 - (April 1. 2016):** 
+
+* BUG FIX: Fixed a bug in the popup menu for the internal frames not appearing. 
+
+----
+
 **Changes in FragmentationAnalyzer v1.5.13 - (September 3. 2015):** 
 
  * BUG FIX: Fixing an issue with the wrapper in handling memory warnings on 32 bit Java 1.8.
