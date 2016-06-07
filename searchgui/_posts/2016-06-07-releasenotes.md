@@ -10,6 +10,21 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 2.9.0 (June 7. 2016):**
+
+* FEATURE IMPROVEMENT: Updated the Comet version with a minor patch that supports longer spectrum titles in mgf files.
+* FEATURE IMPROVEMENT: Added support for setting the Andromeda decoy mode (reverse or none, none is the new default). 
+* FEATURE IMPROVEMENT: Made it possible to set the Comet output type via the command line.
+* FEATURE IMPROVEMENT: Changed the default precursor mass range for Comet and MyriMatch to 600 - 5000.
+
+* BUG FIX: Fixed a bug in the SearchGUI to PeptideShaker link where there was a bug in the PeptideShaker command line.
+* BUG FIX: Fixed a bug in the output zipping per mgf file, where all the mgfs were added to each zip file.
+* BUG FIX: Corrected the icon used in the privacy settings dialog.
+
+* LIBRARY UPDATE: Updated utilities to version 4.5.20.
+
+----
+
 **Changes in SearchGUI 2.8.6 (May 10. 2016):**
 
 * FEATURE IMPROVEMENT: The number of missed cleavages when using the unspecific enzyme in X! Tandem is no longer hard coded to 50 but rather the user setting is used.
