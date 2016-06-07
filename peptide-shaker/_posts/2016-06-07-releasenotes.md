@@ -10,6 +10,29 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.11.0 (June 7. 2016):**
+
+ * NEW FEATURE: Added an export to PepXML as follow-up file. 
+ * NEW FEATURE: It is now possible to skip the peptide PTM alignment step. 
+ * NEW FEATURE: Added the possibility to tune the protein inference.
+
+ * FEATURE IMPROVEMENT: Significantly sped up the peptide to protein mapping.
+ * FEATURE IMPROVEMENT: PSM PTM site inference is now done after PTM site scoring. 
+ * FEATURE IMPROVEMENT: Multithreaded the estimation of PSM scores. 
+ * FEATURE IMPROVEMENT: Corrected potential threading issues and improved the multithreaded performance of the input and target decoy map.
+ * FEATURE IMPROVEMENT: Peptides that are shorter or longer than the min/max peptide length allowed in the filters are now filtered out before the peptide validation starts.
+ * FEATURE IMPROVEMENT: Changed the CV term for the immonium ions to the generic immonium ion CV term in the mzid export.
+ * FEATURE IMPROVEMENT: Precursor ions (also with H20 and NH3 neutral losses) are now annotated in the mzIdentML export.
+ * FEATURE IMPROVEMENT: Extended the list of supported neutral losses in the mzid export. 
+ * FEATURE IMPROVEMENT: Added CV terms for the TMT and iTRAQ reporter ions in the mzid export. 
+
+ * BUG FIX: Fixed a bug in the mzid export that could occur if a PSM had different PTM locations and/or PTM confidences than the parent peptide.
+
+ * LIBRARY UPDATE: Updated xtandem parser to version 1.11.0, fixing a bug in the parsing of doubly modified terminals.
+ * LIBRARY UPDATE: Updated utilities to version 4.5.20.
+
+----
+
 **Changes in PeptideShaker 1.10.3 (May 10. 2016):**
 
  * BUG FIX: Fixed a potential null pointer in the gene factory that could occur if there were no valid species in the FASTA file.
