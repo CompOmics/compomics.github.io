@@ -10,6 +10,18 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.4.0 (June 7. 2016):**
+
+* FEATURE IMPROVEMENT: Added the option to maximize the individual cluster charts.
+* FEATURE IMPROVEMENT: Added shared and unique ratios to the default export. 
+* FEATURE IMPROVEMENT: Added the possibility to set a minimal number of unique peptides for a protein ratio.
+* FEATURE IMPROVEMENT: Allowed the estimation of protein ratios using all peptides.
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.11.0.
+* LIBRARY UPDATE: Updated utilities to version 4.5.20.
+
+---
+
 **Changes in Reporter 0.3.4 (May 2. 2016):**
 
 * LIBRARY UPDATE: Updated PeptideShaker to version 1.10.2.
