@@ -6,7 +6,7 @@ permalink: /xtandem-parser/wiki/releasenotes.html
 github_project: https://github.com/compomics/xtandem-parser
 ---
 
-# Release Notes
+# ReleaseNotes
 
 ----
 
