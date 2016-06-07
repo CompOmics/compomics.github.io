@@ -27,7 +27,7 @@ wiki: "xtandem-parser"
 
 |   |   |   |
 | :------------------------- | :---------------: | :--: |
-| [![download](https://github.com/compomics/xtandem-parser/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/de/proteinms/xtandemparser/xtandem-parser/1.11.0/xtandem-parser-1.11.0.zip) | *v1.11.0 - All platforms* | [ReleaseNotes](/xtandem-parser/wiki/releasenotes.html) |
+| <a href="http://genesis.ugent.be/maven2/de/proteinms/xtandemparser/xtandem-parser/1.11.0/xtandem-parser-1.11.0.zip" onclick="trackOutboundLink('usage','download','xtandem-parser','http://genesis.ugent.be/maven2/de/proteinms/xtandemparser/xtandem-parser/1.11.0/xtandem-parser-1.11.0.zip'); return false;"><img src="https://github.com/compomics/xtandem-parser/wiki/images/download_button.png" alt="download" /></a> | *v1.11.0 - All platforms* | [ReleaseNotes](/xtandem-parser/wiki/releasenotes.html) |
 
 ---
 
