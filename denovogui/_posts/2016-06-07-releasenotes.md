@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.11.0 (June 7. 2016):**
+
+ * FEATURE IMPROVEMENT: Significantly sped up the peptide/tag to protein mapping.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.5.20.
+
+----
+
 **Changes in DeNovoGUI 1.10.4 (April 19. 2016):**
 
  * BUG FIX: Minor correction in the command line documentation for the import_precurosor_mz and import_precurosor_mz_ppm parameters.
