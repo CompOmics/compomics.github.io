@@ -10,6 +10,16 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.5.0 (June 24. 2016):**
+
+* NEW FEATURE: Started populating the peptide and PSM tables.
+* NEW FEATURE: Added a dialog for cluster selection and color coding.
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.12.0.
+* LIBRARY UPDATE: Updated utilities to version 4.6.1.
+
+---
+
 **Changes in Reporter 0.4.0 (June 7. 2016):**
 
 * FEATURE IMPROVEMENT: Added the option to maximize the individual cluster charts.
