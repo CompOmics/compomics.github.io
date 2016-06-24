@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.12.0 (June 24. 2016):**
+
+ * FEATURE IMPROVEMENT: Cleaned up the DirecTag and Novor settings dialogs, and added a new PepNovo settings dialog.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.6.1.
+
+----
+
 **Changes in DeNovoGUI 1.11.0 (June 7. 2016):**
 
  * FEATURE IMPROVEMENT: Significantly sped up the peptide/tag to protein mapping.

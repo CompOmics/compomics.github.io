@@ -23,8 +23,8 @@ wiki: "denovogui"
 
 |   |   |   |
 | :------------------------- | :--------------- | :--: |
-| [![download](https://github.com/compomics/denovogui/wiki/images/download_denovogui_button.png)](http://genesis.ugent.be/maven2/com/compomics/denovogui/DeNovoGUI/1.11.0/DeNovoGUI-1.11.0-windows.zip) | *v1.11.0 - Windows* | [ReleaseNotes](/denovogui/wiki/releasenotes.html) |
-| [![download](https://github.com/compomics/denovogui/wiki/images/download_denovogui_button_mac_linux.png)](http://genesis.ugent.be/maven2/com/compomics/denovogui/DeNovoGUI/1.11.0/DeNovoGUI-1.11.0-mac_and_linux.tar.gz) | *v1.11.4 - Mac and Linux* |[ReleaseNotes](/denovogui/wiki/releasenotes.html) |
+| [![download](https://github.com/compomics/denovogui/wiki/images/download_denovogui_button.png)](http://genesis.ugent.be/maven2/com/compomics/denovogui/DeNovoGUI/1.12.0/DeNovoGUI-1.12.0-windows.zip) | *v1.12.0 - Windows* | [ReleaseNotes](/denovogui/wiki/releasenotes.html) |
+| [![download](https://github.com/compomics/denovogui/wiki/images/download_denovogui_button_mac_linux.png)](http://genesis.ugent.be/maven2/com/compomics/denovogui/DeNovoGUI/1.12.0/DeNovoGUI-1.12.0-mac_and_linux.tar.gz) | *v1.12.0 - Mac and Linux* |[ReleaseNotes](/denovogui/wiki/releasenotes.html) |
 
 ---
 
