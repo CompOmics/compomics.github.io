@@ -10,6 +10,17 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.0.0 (June 24. 2016):**
+
+* NEW FEATURE: Added support for running Novor and DirecTag. (beta)
+
+* FEATURE IMPROVEMENT: Updated MS Amanda to version 1.0.0.7503 for Windows and version 1.0.0.7504 for Linux/Mac.
+* FEATURE IMPROVEMENT: Added the path settings to the FastaCLI.
+
+* LIBRARY UPDATE: Updated utilities to version 4.6.1.
+
+----
+
 **Changes in SearchGUI 2.9.0 (June 7. 2016):**
 
 * FEATURE IMPROVEMENT: Updated the Comet version with a minor patch that supports longer spectrum titles in mgf files.
