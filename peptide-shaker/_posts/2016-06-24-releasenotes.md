@@ -10,6 +10,20 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.12.0 (June 24. 2016):**
+
+ * FEATURE IMPROVEMENT: Updated the URIs for the PSI-MS and UO ontologies in the mzid export. 
+ * FEATURE IMPROVEMENT: Removed the "final PSM list" CV term as it is no longer required.
+ * FEATURE IMPROVEMENT: Added amino acid before/after and position to the default PSM export, and position to the default peptide export.
+
+ * BUG FIX: Corrected the annotation of neutral losses in the mzid export.
+ * BUG FIX: Fixed a minor formatting bug in the position output in the peptide export.
+ * BUG FIX: Corrected typos in the documentation for the Validation terms in the custom exports at the peptide and PSM level.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.6.1.
+
+----
+
 **Changes in PeptideShaker 1.11.0 (June 7. 2016):**
 
  * NEW FEATURE: Added an export to PepXML as follow-up file. 
