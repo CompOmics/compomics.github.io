@@ -10,9 +10,9 @@ github_project: https://github.com/compomics/searchgui
 
 ## SearchGUI Command Line Interface
 
-The command line interface to SearchGUI, referred to as SearchCLI, makes it possible to run all search engines supported by SearchGUI using a single command line.
+The command line interface to SearchGUI, referred to as SearchCLI, makes it possible to run all search engines and _de novo_ algorithms supported by SearchGUI using a single command line.
 
-SearchCLI searches spectrum files according to search parameters using [X!Tandem](http://www.thegpm.org/tandem), [MS-GF+](https://bix-lab.ucsd.edu/pages/viewpage.action?pageId=13533355), [MS Amanda](http://ms.imp.ac.at/?goto=msamanda), [MyriMatch](http://forge.fenchurch.mc.vanderbilt.edu/scm/viewvc.php/*checkout*/trunk/doc/index.html?root=myrimatch), [Comet](http://comet-ms.sourceforge.net/), [Tide](http://cruxtoolkit.sourceforge.net), [Andromeda](http://www.andromeda-search.org) and [OMSSA](http://www.ncbi.nlm.nih.gov/pubmed/15473683), and the results are X!Tandem .t.xml files, MS-GF+ .mzid files, MS Amanda .csv files, MyriMatch .mzid files, Comet .pep.xml files, Tide .txt, Andromeda .res files and OMSSA .omx files.
+SearchCLI searches spectrum files according to search parameters using [X! Tandem](http://www.thegpm.org/tandem), [MS-GF+](https://bix-lab.ucsd.edu/pages/viewpage.action?pageId=13533355), [MS Amanda](http://ms.imp.ac.at/?goto=msamanda), [MyriMatch](http://forge.fenchurch.mc.vanderbilt.edu/scm/viewvc.php/*checkout*/trunk/doc/index.html?root=myrimatch), [Comet](http://comet-ms.sourceforge.net/), [Tide](http://cruxtoolkit.sourceforge.net), [Andromeda](http://www.andromeda-search.org), [OMSSA](http://www.ncbi.nlm.nih.gov/pubmed/15473683), [Novor](http://rapidnovor.com) and [DirecTag](http://fenchurch.mc.vanderbilt.edu/bumbershoot/directag/).
 
 Note that the spectra must be provided in the Mascot Generic File (mgf) format. For spectrum file conversion, we recommend using msConvert, part of [ProteoWizard](http://proteowizard.sourceforge.net/).
 
@@ -44,29 +44,34 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
 
 ```java
 -xtandem                Turn the X!Tandem search on or off. 
-                        (1: on, 0: off, default is '1')
+                        (1: on, 0: off, default is '0')
 
 -myrimatch              Turn the MyriMatch search on or off. 
-                        (1: on, 0: off, default is '1')
+                        (1: on, 0: off, default is '0')
 
 -ms_amanda              Turn the MS Amanda search on or off. 
-                        (1: on, 0: off, default is '1')
+                        (1: on, 0: off, default is '0')
 
 -msgf                   Turn the MS-GF+ search on or off. 
-                        (1: on, 0: off, default is '1')
+                        (1: on, 0: off, default is '0')
 
 -omssa                  Turn the OMSSA search on or off. 
-                        (1: on, 0: off, default is '1')
+                        (1: on, 0: off, default is '0')
 
 -comet                  Turn the Comet search on or off. 
-                        (1: on, 0: off, default is '1')
+                        (1: on, 0: off, default is '0')
 
 -tide                   Turn the Tide search on or off. 
-                        (1: on, 0: off, default is '1')
+                        (1: on, 0: off, default is '0')
 
 -andromeda              Turn the Andromeda search on or off. 
-                        (1: on, 0: off, default is '1')
+                        (1: on, 0: off, default is '0')
 
+-novor                  Turn the Novor sequencing on or off. 
+                        (1: on, 0: off, default is '0')
+
+-directag               Turn the DirecTag sequencing on or off. 
+                        (1: on, 0: off, default is '0')
 ```
 
 
@@ -94,6 +99,12 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
                         to the provided version for the given OS.
 
 -andromeda_folder       The folder where Andromeda is installed, defaults                        
+                        to the provided version for the given OS.
+
+-novor_folder           The folder where Novor is installed, defaults                        
+                        to the provided version for the given OS.
+
+-directag_folder        The folder where DirecTag is installed, defaults                        
                         to the provided version for the given OS.
 
 -makeblastdb_folder     The folder where makeblastdb is installed, defaults                        
