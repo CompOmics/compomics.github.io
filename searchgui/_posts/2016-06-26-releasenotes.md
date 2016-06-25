@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.0.1 (June 26. 2016):**
+
+* BUG FIX: Corrected errors in the command line documentation and parameter testing.
+
+* LIBRARY UPDATE: Updated utilities to version 4.6.2.
+
+----
+
 **Changes in SearchGUI 3.0.0 (June 24. 2016):**
 
 * NEW FEATURE: Added support for running Novor and DirecTag. (beta)
