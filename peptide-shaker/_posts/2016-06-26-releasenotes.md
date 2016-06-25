@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.12.1 (June 26. 2016):**
+
+ * BUG FIX: Corrected errors in the command line documentation and parameter testing.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.6.2.
+
+----
+
 **Changes in PeptideShaker 1.12.0 (June 24. 2016):**
 
  * FEATURE IMPROVEMENT: Updated the URIs for the PSI-MS and UO ontologies in the mzid export. 
