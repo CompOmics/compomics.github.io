@@ -110,6 +110,9 @@ com.compomics.denovogui.cmd.IdentificationParametersCLI [parameters]
 
 -ri                       Type of rewind ion searched, default is 'y'.
 
+-min_isotope              Minimum precursor isotope, default is '0'.
+
+-max_isotope              Maximum precursor isotope, default is '1'.
 ```
 
 ## Advanced Parameters ##
@@ -334,10 +337,6 @@ The following parameters allow controlling specific identification algorithms sp
 
 -myrimatch_max_prec_mass  MyriMatch maximum precursor mass, default is '10000.0'.
 
--myrimatch_isotope_low    MyriMatch lower isotope error range, default is '-1'.
-
--myrimatch_isotope_high   MyriMatch upper isotope error range, default is '2'.
-
 -myrimatch_num_matches    MyriMatch maximum number of spectrum matches, default is '10'.
 
 -myrimatch_num_ptms       MyriMatch max number of PTMs per peptide, default is '2'.
@@ -421,10 +420,6 @@ The following parameters allow controlling specific identification algorithms sp
                           0: output basic scores only (Default)
                           1: output additional features
 
--msgf_isotope_low         MS-GF+ lower isotope error range, default is '0'.
-
--msgf_isotope_high        MS-GF+ upper isotope error range, default is '1'.
-
 -msgf_termini             MS-GF+ number of tolerable termini.
                           0: non-tryptic
                           1: semi-tryptic
@@ -439,8 +434,6 @@ The following parameters allow controlling specific identification algorithms sp
 ```
 -omssa_memory             OMSSA map sequences in memory option.
                           1: true, 0: false, default is '1'.
-
--omssa_isotopes           OMSSA number of isotopes option, integer, 0: monoisotopic, default is '0'.
 
 -omssa_neutron            Mass after which OMSSA should consider neutron exact mass, default is '1446.94'.
 
