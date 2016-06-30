@@ -39,6 +39,20 @@ An admin console is available to users with the admin privilege. This option bec
 
 ----
 
+## Chaining jobs
+
+In some cases it is mandatory that jobs are executed sequentially. As of version 1.1.0 this is possible by either : 
+
+* adding a "chain" flag in the template
+```
+<template run='Pladipus_demo' user='pladmin' priority='4' chain='true'>
+```
+* enabling the "retain job order" checkbox in the run creation GUI
+
+ ![alt text](https://github.com/compomics/pladipus/wiki/Chain_Jobs.png)
+
+----
+
 ## Using other software on the Pladipus network
 
 The main idea behind Pladipus is to provide a simple platform to run a broad range of tasks, including custom in house algorithms and software. Setting up such a run happens as follows : 
