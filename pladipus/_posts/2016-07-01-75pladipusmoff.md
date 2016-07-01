@@ -1,0 +1,39 @@
+---
+name: 75PladipusMoFF
+project: pladipus
+layout: default
+permalink: /pladipus/wiki/75pladipusmoff.html
+github_project: https://github.com/compomics/pladipus
+---
+
+# Pladipus-MoFF
+
+Pladipus-MoFF is a module designed to allow the Modest Feature Finder to be deployed on a compute GRID. 
+
+----
+
+Note that the discussed parameters are the ones mandatory for pladipus execution. For more detailed parameters, please refer to the respective pages.
+
+* [MoFF](/moff.html)
+
+----
+
+## 1. MoFFPeptideShakerConversionStep
+
+This step preprocesses the input data in order to prepare the worker for executing the MoFF procedures. It currently accepts PeptideShaker output (.cpsx) or Peptideshaker extended reports generated using report number 8  (Extended_PSM_Report) and converts this input into a MoFF compatible format.
+
+**NOTE** : There is a special variation on this step included in the source that allows for the use of mzid identification files for MoFF computing. However, this is still under development, but can already be tested. In order to use this step in one of your pipelines, please ensure that you have updated the processing_beans.xml with the MoFFPreProcessingStep class. For more information, please contact the developers.
+
+The following parameters are required: 
+
+Parameter | Meaning
+--- | -------------- | 
+ps_output| input peptideshaker generated results (.cpsx or .tsv) 
+
+## 2. MoffStep
+
+This step manages the execution of MoFF's command line. It requires the following parameters (next to the ones specified by the MoFF command line). This step will also automatically install the shipped MoFF version.
+
+Parameter | Meaning
+--- | -------------- | 
+mode | APEX or MBR 

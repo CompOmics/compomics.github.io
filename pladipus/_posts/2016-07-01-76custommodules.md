@@ -1,8 +1,8 @@
 ---
-name: 72Custommodules
+name: 76Custommodules
 project: pladipus
 layout: default
-permalink: /pladipus/wiki/72custommodules.html
+permalink: /pladipus/wiki/76custommodules.html
 github_project: https://github.com/compomics/pladipus
 ---
 
@@ -26,7 +26,7 @@ public class SweetCountdownStep extends ProcessingStep {
     public boolean doAction() throws PladipusProcessingException {
         int countDownSize = Integer.parseInt(parameters.get("countDownSize"));
         System.out.println(getDescription());
-        for (int i = 0; i <= 10; i++) {
+        for (int i = 0; i <= countDownSize ; i++) {
             System.out.println(i);
         }
         return true;

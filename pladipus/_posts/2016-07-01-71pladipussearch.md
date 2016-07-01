@@ -1,8 +1,8 @@
 ---
-name: 73Pladipussearch
+name: 71Pladipussearch
 project: pladipus
 layout: default
-permalink: /pladipus/wiki/73pladipussearch.html
+permalink: /pladipus/wiki/71pladipussearch.html
 github_project: https://github.com/compomics/pladipus
 ---
 

@@ -1,8 +1,8 @@
 ---
-name: 76PladipusMsConvert
+name: 73PladipusMsConvert
 project: pladipus
 layout: default
-permalink: /pladipus/wiki/76pladipusmsconvert.html
+permalink: /pladipus/wiki/73pladipusmsconvert.html
 github_project: https://github.com/compomics/pladipus
 ---
 

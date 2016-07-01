@@ -1,8 +1,8 @@
 ---
-name: 75Pladipusdenovo
+name: 72Pladipusdenovo
 project: pladipus
 layout: default
-permalink: /pladipus/wiki/75pladipusdenovo.html
+permalink: /pladipus/wiki/72pladipusdenovo.html
 github_project: https://github.com/compomics/pladipus
 ---
 
