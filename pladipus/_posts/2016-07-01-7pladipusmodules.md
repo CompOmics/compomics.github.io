@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/pladipus
 
 Here you can find a brief overview of the pladipus modules that are included with the current pladipus installation.
 
+* [7.1 Pladipus search](https://github.com/compomics/pladipus/wiki/7.1-Pladipus-search)
+* [7.2 Pladipus denovo](https://github.com/compomics/pladipus/wiki/7.2-Pladipus-denovo)
+* [7.3 Pladipus MsConvert](https://github.com/compomics/pladipus/wiki/7.3-Pladipus-MsConvert)
+* [7.4 Pladipus blast](https://github.com/compomics/pladipus/wiki/7.4-Pladipus-blast)
+* [7.5 Pladipus MoFF](https://github.com/compomics/pladipus/wiki/7.5-Pladipus-MoFF)
+* [7.6 Custom modules](https://github.com/compomics/pladipus/wiki/7.6-Custom-modules)
+
+
 ----
 
 # Introduction

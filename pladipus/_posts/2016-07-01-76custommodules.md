@@ -22,11 +22,16 @@ import com.compomics.pladipus.core.model.processing.ProcessingStep;
 
 public class SweetCountdownStep extends ProcessingStep {
 
+    public SweetCountdownStep() {
+
+    }
+
     @Override
     public boolean doAction() throws PladipusProcessingException {
-        int countDownSize = Integer.parseInt(parameters.get("countDownSize"));
-        System.out.println(getDescription());
-        for (int i = 0; i <= countDownSize ; i++) {
+        int countDownSize = Integer.parseInt(parameters.getOrDefault("countDownSize", "10"));
+        int stepDownSize = Integer.parseInt(parameters.getOrDefault("stepDownSize", "1"));
+
+        for (int i = countDownSize; i > 0; i -= stepDownSize) {
             System.out.println(i);
         }
         return true;
@@ -65,13 +70,13 @@ It is now possible to use the new class through the usual template.xml format, f
 ```xml
 <template run='Example' user='pladmin' priority='4'>
  	<steps>
-              <step>com.compomics.pladipus.SweetCountdownStep</step>
+      <step>com.compomics.pladipus.SweetCountdownStep</step>
   	</steps> 
  	<parameters>
  		<run>
  		</run>
    		<job>
-                    <param name ='countDownSize' default='10' descr='The size of the countdown'/>
+       <param name ='countDownSize' default='10' descr='The size of the countdown'/>
  		</job>
  	</parameters>
  </template> 
@@ -79,4 +84,36 @@ It is now possible to use the new class through the usual template.xml format, f
 
 Note that the "countDownSize" parameter will be set to 10. To override this, edit the job_config.tsv file that needs to be created in order to launch new jobs with this step
 
+----
 
+## Running a step to run through commandline
+
+It is possible to launch each individual step through command line. This implies that users can generate miniature pipelines using simple batch scripts. All you need to do to have your custom processingstep have the pladipus-commandline functionality, add the following snippet in your class :
+
+```
+    public static void main(String[] args) {
+        ProcessingStep.main(args);
+    }
+```
+
+The commandline can easily be called. For example in our case :
+
+```
+java -cp Pladipus-core-x.y.z.jar com.compomics.pladipus.core.model.processing.standard.SweetCountdownStep -countDownSize 10
+
+```
+will provide the following output : 
+
+```
+Executing some really fancy countdown code !
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+```
