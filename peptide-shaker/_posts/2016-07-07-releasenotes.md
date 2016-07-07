@@ -10,6 +10,17 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.12.2 (July 7. 2016):**
+
+* FEATURE IMPROVEMENT: Fixed an issue in the mgf reader where lines ending with \r could cause problems.
+
+* BUG FIX: Corrected a bug in the pepxml parser where start_scan was used instead if index to extract the spectrum number.
+* BUG FIX: Corrected issues in the mzid export with regards to the annotation of neutral losses in mzid v1.1.
+
+* LIBRARY UPDATE: Updated utilities to version 4.6.3.
+
+----
+
 **Changes in PeptideShaker 1.12.1 (June 26. 2016):**
 
  * BUG FIX: Corrected errors in the command line documentation and parameter testing.
