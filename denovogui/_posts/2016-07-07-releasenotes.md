@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.12.1 (July 7. 2016):**
+
+ * FEATURE IMPROVEMENT: Fixed an issue in the mgf reader where lines ending with \r could cause problems.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.6.3.
+
+----
+
 **Changes in DeNovoGUI 1.12.0 (June 24. 2016):**
 
  * FEATURE IMPROVEMENT: Cleaned up the DirecTag and Novor settings dialogs, and added a new PepNovo settings dialog.
