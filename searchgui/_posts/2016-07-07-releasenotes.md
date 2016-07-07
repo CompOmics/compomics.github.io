@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.0.3 (July 7. 2016):**
+
+* FEATURE IMPROVEMENT: Fixed an issue in the mgf reader where lines ending with \r could cause problems.
+
+* LIBRARY UPDATE: Updated utilities to version 4.6.3.
+
+----
+
 **Changes in SearchGUI 3.0.2 (June 26. 2016):**
 
 * FEATURE IMPROVEMENT: All search engines and de novo algorithms are now turned off by default (both in the GUI and on the command line).
