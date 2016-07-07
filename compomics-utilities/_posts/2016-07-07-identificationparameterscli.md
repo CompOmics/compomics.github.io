@@ -137,6 +137,10 @@ The following parameters allow controlling the identification workflow in detail
 ## Sequence Matching ##
 
 ```
+-sequence_index_type      The protein database index type. Default is 0.
+                          0: FM-Index
+                          1: Tree
+
 -sequence_matching_type   The peptide to protein sequence matching type. Default is 2.
                           0: Character Sequence
                           1: Amino Acids
