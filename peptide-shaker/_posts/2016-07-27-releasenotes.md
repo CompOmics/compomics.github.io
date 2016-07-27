@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.12.3 (July 27. 2016):**
+
+* BUG FIX: Fixed issues in the mzid export: made the file paths valid URIs and corrected a CV term name.
+
+----
+
 **Changes in PeptideShaker 1.12.2 (July 7. 2016):**
 
 * FEATURE IMPROVEMENT: Fixed an issue in the mgf reader where lines ending with \r could cause problems.
