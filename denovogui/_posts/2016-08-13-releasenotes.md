@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.12.2 (August 13. 2016):**
+
+ * FEATURE IMPROVEMENT: Proteins are now sorted when mapping to a FASTA file.
+ * FEATURE IMPROVEMENT: Attempt at making the command line exit codes follow the Unix convention.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.7.0.
+
+----
+
 **Changes in DeNovoGUI 1.12.1 (July 7. 2016):**
 
  * FEATURE IMPROVEMENT: Fixed an issue in the mgf reader where lines ending with \r could cause problems.
