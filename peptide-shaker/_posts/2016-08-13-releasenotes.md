@@ -10,6 +10,26 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.13.0 (August 13. 2016):**
+
+* NEW FEATURE: Added support for loading Morpheus pepXML files.
+* NEW FEATURE: Made it possible to export the fragment ions of secondary matches.
+
+* FEATURE IMPROVEMENT: Updated GO and gene mappings to Ensembl 85 and 32.
+* FEATURE IMPROVEMENT: Made the probability estimation of intermediate scores more conservative.
+* FEATURE IMPROVEMENT: The consensus score is now estimated based on the confidence.
+
+* FEATURE IMPROVEMENT: Spectra are now batch loaded prior to tag mapping.
+* FEATURE IMPROVEMENT: The cache size is now set according to the memory available.
+* FEATURE IMPROVEMENT: Attempt at making the command line exit codes follow the Unix convention.
+* FEATURE IMPROVEMENT: Removed the upper limit for the number of amino acids shown before/after the peptide sequence.
+
+* BUG FIX: Moved the instantiation of factories to after the setting of temporary paths in the CLIs.
+
+* LIBRARY UPDATE: Updated utilities to version 4.7.0.
+
+----
+
 **Changes in PeptideShaker 1.12.3 (July 27. 2016):**
 
 * BUG FIX: Fixed issues in the mzid export: made the file paths valid URIs and corrected a CV term name.
