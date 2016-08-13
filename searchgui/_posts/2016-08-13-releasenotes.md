@@ -10,6 +10,16 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.0.4 (August 13. 2016):**
+
+* FEATURE IMPROVEMENT: Updated GO and gene mappings to Ensembl 85 and 32.
+
+* BUG FIX: Fixed a bug in FastaCLI that could result in a HeadlessException.
+
+* LIBRARY UPDATE: Updated utilities to version 4.7.0.
+
+----
+
 **Changes in SearchGUI 3.0.3 (July 7. 2016):**
 
 * FEATURE IMPROVEMENT: Fixed an issue in the mgf reader where lines ending with \r could cause problems.
