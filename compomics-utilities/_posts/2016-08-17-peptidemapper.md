@@ -1,8 +1,8 @@
 ---
-name: PeptideMapperBenchmark
+name: PeptideMapper
 project: compomics-utilities
 layout: default
-permalink: /compomics-utilities/wiki/peptidemapperbenchmark.html
+permalink: /compomics-utilities/wiki/peptidemapper.html
 github_project: https://github.com/compomics/compomics-utilities
 ---
 
