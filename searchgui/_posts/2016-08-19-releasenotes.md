@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.1.0 (August 19. 2016):**
+
+* FEATURE IMPROVEMENT: Updated Tide to version 3.0.17109, which now supports the use of multiple threads/cores.
+
+* LIBRARY UPDATE: Updated utilities to version 4.7.1.
+
+----
+
 **Changes in SearchGUI 3.0.4 (August 13. 2016):**
 
 * FEATURE IMPROVEMENT: Updated GO and gene mappings to Ensembl 85 and 32.
