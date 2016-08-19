@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.12.3 (August 19. 2016):**
+
+ * LIBRARY UPDATE: Updated utilities to version 4.7.1.
+
+----
+
 **Changes in DeNovoGUI 1.12.2 (August 13. 2016):**
 
  * FEATURE IMPROVEMENT: Proteins are now sorted when mapping to a FASTA file.
