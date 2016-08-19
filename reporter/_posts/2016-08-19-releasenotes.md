@@ -10,6 +10,13 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.5.3 (August 19. 2016):**
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.13.1.
+* LIBRARY UPDATE: Updated utilities to version 4.7.1.
+
+---
+
 **Changes in Reporter 0.5.2 (August 13. 2016):**
 
 * FEATURE IMPROVEMENT: The cache size is now set according to the memory available.
