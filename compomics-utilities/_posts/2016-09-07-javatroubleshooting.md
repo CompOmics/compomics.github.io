@@ -55,13 +55,15 @@ The aim of this wiki page is to provide help with common Java related issues tha
 
 ## Text and Icons Are Too Small ##
 
-**Note: This fix is for advanced users only, and is done at your own risk!**
-
 If you have a very high resolution screen the text and icons in your Java tools may be too small to read clearly. This is due to a known issue in Java itself where the information is not rescaled. A proper fix will hopefully be introduced in an upcoming release of Java.
 
-For advanced Windows users there is a possible fix that includes editing the manifest of the Java executables. 
+1) The first thing you can try is to increase your DPI scaling factor (see your computer help for how to to this). If set high enough this usually solves the problem.
 
-_Again note that this is done at your own risk and that we take no responsibility for the below suggestion._
+2) An even simpler solution is to use an external monitor with a "normal" resolution.
+
+3) If none of the above works, there is a third option available for **_advanced Windows users only_**, which includes editing the manifest of the Java executables. 
+
+**Note: This fix is for advanced users only, and is done at your own risk!**
 
 1) Download an exe decompiler/editor. (For example the free Resource Hacker: http://angusj.com/resourcehacker/)
 
