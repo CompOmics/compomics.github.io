@@ -10,6 +10,17 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.5.4 (September 10. 2016):**
+
+* BUG FIX: Made sure that the number of clusters cannot be larger than the number of elements to cluster.
+* BUG FIX: Fixed a bug in the ratio loading that could occur if there were fewer ratios than ratio categories.
+* BUG FIX: Corrected a bug in the location of mgf files located in the same folder as the cpsx file or in the data folder.
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.13.3.
+* LIBRARY UPDATE: Updated utilities to version 4.7.2.
+
+---
+
 **Changes in Reporter 0.5.3 (August 19. 2016):**
 
 * LIBRARY UPDATE: Updated PeptideShaker to version 1.13.1.
