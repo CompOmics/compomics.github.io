@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.1.1 (September 10. 2016):**
+
+* FEATURE IMPROVEMENT: User-defined PTMs are now supported when running Andromeda.
+
+* LIBRARY UPDATE: Updated utilities to version 4.7.2.
+
+----
+
 **Changes in SearchGUI 3.1.0 (August 19. 2016):**
 
 * FEATURE IMPROVEMENT: Updated Tide to version 3.0.17109, which now supports the use of multiple threads/cores.
