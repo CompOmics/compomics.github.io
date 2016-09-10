@@ -23,7 +23,7 @@ wiki: "peptide-shaker"
 
 |   |   |   |
 | :------------------------- | :---------------: | :--: |
-| [![download](https://github.com/compomics/peptide-shaker/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/eu/isas/peptideshaker/PeptideShaker/1.13.1/PeptideShaker-1.13.1.zip) | *v1.13.1 - All platforms* | [ReleaseNotes](/peptide-shaker/wiki/releasenotes.html) |
+| [![download](https://github.com/compomics/peptide-shaker/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/eu/isas/peptideshaker/PeptideShaker/1.13.3/PeptideShaker-1.13.3.zip) | *v1.13.3 - All platforms* | [ReleaseNotes](/peptide-shaker/wiki/releasenotes.html) |
 
 ---
 

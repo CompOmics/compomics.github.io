@@ -10,6 +10,16 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.13.3 (September 10. 2016):**
+
+* FEATURE IMPROVEMENT: Export the spectrum as an array list formatted as a string (via the identification feature export).
+
+* BUG FIX: Fixed a null pointer that occurred if PeptideShakerCLI was used with path settings options.
+
+* LIBRARY UPDATE: Updated utilities to version 4.7.2.
+
+----
+
 **Changes in PeptideShaker 1.13.1 (August 19. 2016):**
 
 * NEW FEATURE: Added support for loading PEAKS Studio mzIdentML files.
