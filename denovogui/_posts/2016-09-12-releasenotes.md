@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.12.4 (September 12. 2016):**
+
+ * FEATURE IMPROVEMENT: Added the retention time to the export.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.7.2.
+
+----
+
 **Changes in DeNovoGUI 1.12.3 (August 19. 2016):**
 
  * LIBRARY UPDATE: Updated utilities to version 4.7.1.
