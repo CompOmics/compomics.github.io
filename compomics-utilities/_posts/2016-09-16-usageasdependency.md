@@ -1,16 +1,36 @@
 ---
-name: Examples
+name: UsageasDependency
 project: compomics-utilities
 layout: default
-permalink: /compomics-utilities/wiki/examples.html
+permalink: /compomics-utilities/wiki/usageasdependency.html
 github_project: https://github.com/compomics/compomics-utilities
 ---
 
-# Examples
+# Usage as Depencency
+
+The package can be used as dependency in other applications. This can be done in [Maven](https://maven.apache.org/) by adding the following blocs in your _pom_ file.
+
+```xml
+        <dependency>
+            <groupId>com.compomics</groupId>
+            <artifactId>utilities</artifactId>
+            <version>X.Y.Z</version>
+            <exclusions>
+        </dependency>
+```
+
+```xml
+        <repository>
+            <id>archiva.compomics_maven_2</id>
+            <name>Internal Release Repository</name>
+            <url>http://genesis.ugent.be/archiva/repository/compomics_maven_2</url>
+        </repository>
+```
+Please replace _X.Y.Z_ by the version of interest, _e.g._ 4.7.2.
 
 ---
 
-## Contents ##
+## Examples ##
 
   * [Spectrum Panel](#spectrum-panel)
   * [Chromatogram Panel](#chromatogram-panel)
@@ -18,9 +38,9 @@ github_project: https://github.com/compomics/compomics-utilities
   * [In Silico Protein Digestion](#in-silico-protein-digestion)
   * [Proteomics Experiments Standardized Customizable Objects](#proteomics-experiments-standardized-customizable-objects)
   * [Automatic Generation of Data Access Code](#automatic-generation-of-data-access-code)
-  * [Mapping Peptides and Sequence Tags against Proteome](#mapping-peptides-and-sequence-tags-against-proteome)
+  * [Amino Acid Sequence Mapping](#amino-acid-sequence-mapping)
 
-For the complete source code of all demos see the com.compomics.util.examples package.
+For the complete source code of the demos see the [com.compomics.util.examples](/compomics-utilities/tree/master/src/main/java/com/compomics/util/examples.html) package.
 
 See also the  [compomics-utilities JavaDoc](http://genesis.ugent.be/maven2/com/compomics/utilities/javadoc/).
 
@@ -102,7 +122,7 @@ To remove a reference area:
 spectrumPanel.removeReferenceAreaXAxis("1");
 ```
 
-[Top of page](#contents)
+[Top of page](#examples)
 
 ---
 
@@ -132,7 +152,7 @@ To use the ChromatogramPanel in your project do the following:
 
 Reference areas can be added to the ChromatogramPanel in the same way as for [SpectrumPanels](#spectrum-panel).
 
-[Top of page](#contents)
+[Top of page](#examples)
 
 ---
 
@@ -197,7 +217,7 @@ To use the ChromatogramPanel in your project do the following:
 
 Reference areas can be added to the IsotopicDistributionPanel in the same way as for [SpectrumPanels](#spectrum-panel).
 
-[Top of page](#contents)
+[Top of page](#examples)
 
 ---
 
@@ -252,7 +272,7 @@ To use the In Silico Protein Digestion in your project do the following:
 
 ```
 
-[Top of page](#contents)
+[Top of page](#examples)
 
 ---
 
@@ -368,7 +388,7 @@ It is possible to save/open compomics experiments. This is achieved by the seria
 
 ```
 
-[Top of page](#contents)
+[Top of page](#examples)
 
 ---
 
@@ -379,10 +399,7 @@ Proteomics data is often stored in relational databases and to use the data the 
 Usage:
 
 ```java
-java -cp utilities-X.Y.Z.jar com.compomics.util.db.DBAccessorGenerator
-
-Usage:
-        DBAccessGenerator [--user <username> --password <password>] <DBDriver> <DBURL> <tablename> <outputpackage>
+java -cp utilities-X.Y.Z.jar com.compomics.util.db.DBAccessorGenerator [--user <username> --password <password>] <DBDriver> <DBURL> <tablename> <outputpackage>
 ```
 
 Example:
@@ -397,42 +414,45 @@ utilities-X.Y.Z.jar com.compomics.util.db.DBAccessorGenerator
 The above command line will create a class called TestTableAccessor in the com.compomics.test.db package that can be used to access the data in the tabled named ´testTable´, using the provided user name and password to access the database.
 
 
-## Mapping Peptides and Sequence Tags against Proteome ##
+[Top of page](#examples)
 
-To infer proteins from a given set of peptides or a sequence tags with a given proteome, utilities provides a peptide mapping tool. A performance benchmark can be reviewed [here](PeptideMapper).
+---
 
-```java
-java -cp utilities-X.Y.Z.jar com.compomics.util.experiment.identification.protein_inference.executable.PeptideMapping
+## Amino Acid Sequence Mapping ##
 
-Usage:
-        PeptideMapping -[p|t] <InputFasta> <InputPeptide|TagList> <OutputResultList> [<UtilitiesParameterFile>]
-```
-
-Example to map peptides:
+It is often necessary to map amino acid sequences to a protein database. This can be achieved using our [[PeptideMapper]] application. The code below shows how to use this application as dependency. An example of code can be found in the PeptideMapper command line interface [class](https://github.com/compomics/compomics-utilities/blob/master/src/main/java/com/compomics/util/experiment/identification/protein_inference/executable/PeptideMapping.java).
 
 ```java
-java -cp utilities-X.Y.Z.jar com.compomics.util.experiment.identification.protein_inference.executable.PeptideMapping -p exampleFiles/PeptideMapping/yeast.fasta exampleFiles/PeptideMapping/yeast-pep-1k.csv result-file.csv
+
+    // Parse the fasta file
+    SequenceFactory sequenceFactory = SequenceFactory.getInstance();
+    sequenceFactory.loadFastaFile(fastaFile);
+
+    // Index the protein sequences
+    FMIndex peptideMapper = new FMIndex(waitingHandler, true, ptmSettings, peptideVariantsPreferences)
+
+    // Map a peptide sequence to the protein sequences
+    ArrayList<PeptideProteinMapping> proteinMapping = peptideMapper.getProteinMapping(sequence, sequenceMatchingPreferences);
+
+    // Map a sequence tag to the protein sequences
+    ArrayList<PeptideProteinMapping> proteinMapping = peptideMapper.getProteinMapping(tag, null, sequenceMatchingPreferences, tolerance);
+
+
 ```
 
-Structure of a peptide list:
+The above code uses the following objects:
 
-```java
-peptidesequence1
-peptidesequence2
-peptidesequence3
-...
-```
+| Object                 | Class        | Description                                                                    |
+| ---------------------- | ------------ | ------------------------------------------------------------------------------ |
+| fastaFile | [File](https://docs.oracle.com/javase/7/docs/api/java/io/File.html) | File containing the protein sequences in the fasta format. |
+| waitingHandler | [WaitingHandler](https://github.com/compomics/compomics-utilities/blob/master/src/main/java/com/compomics/util/waiting/WaitingHandler.java) | A waiting handler, see some implementations [here](/compomics-utilities/tree/master/src/main/java/com/compomics/util/gui/waiting/waitinghandlers.html). Ignored if null. |
+| ptmSettings | [PtmSettings](https://github.com/compomics/compomics-utilities/blob/master/src/main/java/com/compomics/util/experiment/identification/identification_parameters/PtmSettings.java) | The PTM settings to use. |
+| peptideVariantsPreferences | [PeptideVariantsPreferences](https://github.com/compomics/compomics-utilities/blob/master/src/main/java/com/compomics/util/preferences/PeptideVariantsPreferences.java) | Peptide variants to consider. For no variants use PeptideVariantsPreferences.getNoVariantPreferences(). |
+| sequence | [String](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html) | A peptide sequence as String. |
+| sequenceMatchingPreferences| [SequenceMatchingPreferences](https://github.com/compomics/compomics-utilities/blob/master/src/main/java/com/compomics/util/preferences/SequenceMatchingPreferences.java) | The sequence matching preferences. For identical string matching use _SequenceMatchingPreferences.getStringMatching()_, for amino acid matching use _SequenceMatchingPreferences.getDefaultSequenceMatching()_. |
+| tag | [Tag](https://github.com/compomics/compomics-utilities/blob/master/src/main/java/com/compomics/util/experiment/identification/amino_acid_tags/Tag.java) | An amino acid sequence tag. |
+| tolerance | double | The mass tolerance to use for the mass gaps mapping. |
 
-Structure of a sequence tag list:
-
-```java
-tagMass1,tagSequence2,tagMass3
-tagMass1,tagSequence2,tagMass3
-tagMass1,tagSequence2,tagMass3
-502.5960,SGLTR,1942.5030
-...
-```
-
-[Top of page](#contents)
+[Top of page](#examples)
 
 ---

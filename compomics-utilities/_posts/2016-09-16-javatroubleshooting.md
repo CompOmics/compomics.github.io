@@ -8,7 +8,7 @@ github_project: https://github.com/compomics/compomics-utilities
 
 # Java Troubleshooting #
 
-The aim of this wiki page is to provide help with common Java related issues that one can encounter when using software from the CompOmics group. If you have a Java related question that is not answered below please let us know.
+The aim of this wiki page is to provide help with common Java related issues that one can encounter when using software from the CompOmics group. If you have a Java related question that is not answered below please let us know _via_ our [Issue Tracker](/compomics-utilities/issues.html).
 
 1. [Installing Java](#installing-java)
 2. [Memory Issues](#memory-issues)
