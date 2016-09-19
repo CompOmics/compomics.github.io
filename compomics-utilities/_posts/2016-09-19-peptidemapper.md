@@ -42,7 +42,7 @@ sequence tag mapping, we utilize the backward search [\[5\]](#references) which 
 ### Peptide Mapping ###
 To manage ambiguous amino acids and amino acids with indistinguishable mass, we first
 split peptides into their constituent amino acids and create a set of possible amino acids at each
-position. _E.g._, ATDWIRK &rarr; {A,X}{T,X}{D,B,X}{W,X}{I,L,J,X}{R,X}{K,X}. Theoretically, for this short peptide, we would need to
+position. _E.g._, ATDWIRK => {A,X}{T,X}{D,B,X}{W,X}{I,L,J,X}{R,X}{K,X}. Theoretically, for this short peptide, we would need to
 map all possible 384 combinations, but using a dynamic programming
 approach we omit mapping of combinations containing prefixes we
 previously discarded. The result is a set of ranges within the suffix array
