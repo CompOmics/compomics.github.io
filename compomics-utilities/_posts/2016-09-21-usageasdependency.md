@@ -11,18 +11,18 @@ github_project: https://github.com/compomics/compomics-utilities
 The utilities package can be used as dependency in other applications. This can be done in [Maven](https://maven.apache.org) by adding the following blocs in your _pom_ file.
 
 ```xml
-        <dependency>
-            <groupId>com.compomics</groupId>
-            <artifactId>utilities</artifactId>
-            <version>X.Y.Z</version>
-            <exclusions>
-        </dependency>
+<dependency>
+        <groupId>com.compomics</groupId>
+        <artifactId>utilities</artifactId>
+        <version>X.Y.Z</version>
+        <exclusions>
+</dependency>
 
-        <repository>
-            <id>archiva.compomics_maven_2</id>
-            <name>Internal Release Repository</name>
-            <url>http://genesis.ugent.be/archiva/repository/compomics_maven_2</url>
-        </repository>
+<repository>
+        <id>archiva.compomics_maven_2</id>
+        <name>Internal Release Repository</name>
+        <url>http://genesis.ugent.be/archiva/repository/compomics_maven_2</url>
+</repository>
 ```
 
 Please replace _X.Y.Z_ by the version of interest, _e.g._ 4.7.2.
@@ -419,7 +419,7 @@ The above command line will create a class called TestTableAccessor in the com.c
 
 ## Amino Acid Sequence Mapping ##
 
-It is often necessary to map amino acid sequences to a protein database. This can be achieved using our [[PeptideMapper]] application. The code below shows how to use this application as a dependency. Example code can be found in the PeptideMapper command line interface [class](https://github.com/compomics/compomics-utilities/blob/master/src/main/java/com/compomics/util/experiment/identification/protein_inference/executable/PeptideMapping.java).
+It is often necessary to map amino acid sequences to a protein database. This can be achieved using our [PeptideMapper](/compomics-utilities/wiki/peptidemapper.html)application. The code below shows how to use this application as a dependency. Example code can be found in the PeptideMapper command line interface [class](https://github.com/compomics/compomics-utilities/blob/master/src/main/java/com/compomics/util/experiment/identification/protein_inference/executable/PeptideMapping.java).
 
 ```java
 

@@ -14,7 +14,7 @@ We have implemented queries for peptide sequences as well as sequence tags (alte
 
 PeptideMapper can be used standalone in command line or integrated as a dependency in other applications.
 
-For command line options and format specifications, please refer to [[PeptideMapperCLI]]. For use as a dependency, please refer to [[Usage as Dependency]].
+For command line options and format specifications, please refer to [PeptideShakerCLI](/compomics-utilities/wiki/peptidemappercli.html). For use as a dependency, please refer to [Usage as Dependency](/compomics-utilities/wiki/usage-as-dependency.html).
 
   * [Methods](#methods)
   * [Performance](#performance)
@@ -77,40 +77,46 @@ For the following benchmark tests, we are using an Intel(R) Xeon(R) 2.80 GHz qua
 ### Protein Sequences Databases and Benchmark Datasets ###
 
 Yeast (May 2016):
+
   * size: 6,721 Proteins, 3,025,143 residues, 0 _X_ residues
   * fixed modifications: none
   * variable modifications: none
   * fragment tolerance: 0.02 Da
 
 Mouse (May 2016):
+
   * size: 16,813 Proteins, 9,474,758 residues, 79 _X_ residues
   * fixed modifications: Carbamidomethylation of C
   * variable modifications: none
   * fragment tolerance: 0.02 Da
 
 Human (July 2015):
+
   * size: 20,207 Proteins, 11,326,153 residues, 670 _X_ residues
   * fixed modifications: Carbamidomethylation of C, Oxidation of M
   * variable modifications: none
   * fragment tolerance: 0.02 Da
 
 Proteogenomics (March 2015) [\[6\]](#references):
+
   * size: 83,721 Proteins, 13,851,427 residues, 0 _X_ residues
   * fixed modifications: Carbamidomethylation of C, Oxidation of M, Acetylation of K
   * variable modifications: Acetylation of peptide N-term, Pyrolidone from Q, Pyrolidone from E
   * fragment tolerance: 0.5 Da
 
 Metaproteomics (January 2013) [\[7\]](#references):
+
   * size 55,152 Proteins, 100,955,085 residues, 2,561,698 _X_ residues
   * fixed modifications: Carbamidomethylation of C
   * variable modifications: Oxidation of M, Pyrolidone from Q, Acetylation of peptide N-term
   * fragment tolerance: 0.2 Da
 
 All UniProt proteomes concatenated (July 2016):
-  * size: 551,705 Proteins, 197,114,987 residues, 8,027 _X_ residues
-  * fixed modifications: Carbamidomethylation of C, Oxidation of M
-  * variable modifications: Acetylation of K
-  * fragment tolerance: 0.02 Da
+
+ * size: 551,705 Proteins, 197,114,987 residues, 8,027 _X_ residues
+ * fixed modifications: Carbamidomethylation of C, Oxidation of M
+ * variable modifications: Acetylation of K
+ * fragment tolerance: 0.02 Da
 
 For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of different sizes (|D1| = 1,000, |D2| = 10,000, |D3| = 100,000, |D4| = 1,000,000) were created by extracting peptides and tags at random positions in the database. 
 
@@ -149,7 +155,7 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
 
 ## Troubleshooting ##
 
-Should you encounter any issue with the usage of PeptideMapper, please create a new entry in the [issue tracker] (/compomics-utilities/issues.html).
+Should you encounter any issue with the usage of PeptideMapper, please create a new entry in the [issue tracker](/compomics-utilities/issues.html).
 
 ## References ##
 
