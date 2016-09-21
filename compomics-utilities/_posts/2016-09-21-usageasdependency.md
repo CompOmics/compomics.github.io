@@ -1,12 +1,12 @@
 ---
-name: UsageasDependency
+name: UsageAsDependency
 project: compomics-utilities
 layout: default
 permalink: /compomics-utilities/wiki/usageasdependency.html
 github_project: https://github.com/compomics/compomics-utilities
 ---
 
-# Usage as Depencency
+# Usage As Depencency
 
 The utilities package can be used as dependency in other applications. This can be done in [Maven](https://maven.apache.org) by adding the following blocs in your _pom_ file.
 
@@ -419,7 +419,7 @@ The above command line will create a class called TestTableAccessor in the com.c
 
 ## Amino Acid Sequence Mapping ##
 
-It is often necessary to map amino acid sequences to a protein database. This can be achieved using our [PeptideMapper](/compomics-utilities/wiki/peptidemapper.html)application. The code below shows how to use this application as a dependency. Example code can be found in the PeptideMapper command line interface [class](https://github.com/compomics/compomics-utilities/blob/master/src/main/java/com/compomics/util/experiment/identification/protein_inference/executable/PeptideMapping.java).
+It is often necessary to map amino acid sequences to a protein database. This can be achieved using our [PeptideMapper](/compomics-utilities/wiki/peptidemapper.html) application. The code below shows how to use this application as a dependency. Example code can be found in the PeptideMapper command line interface [class](https://github.com/compomics/compomics-utilities/blob/master/src/main/java/com/compomics/util/experiment/identification/protein_inference/executable/PeptideMapping.java).
 
 ```java
 

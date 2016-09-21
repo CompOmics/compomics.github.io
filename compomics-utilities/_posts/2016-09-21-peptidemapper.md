@@ -14,7 +14,7 @@ We have implemented queries for peptide sequences as well as sequence tags (alte
 
 PeptideMapper can be used standalone in command line or integrated as a dependency in other applications.
 
-For command line options and format specifications, please refer to [PeptideShakerCLI](/compomics-utilities/wiki/peptidemappercli.html). For use as a dependency, please refer to [Usage as Dependency](/compomics-utilities/wiki/usage-as-dependency.html).
+For command line options and format specifications, please refer to [PeptideShakerCLI](/compomics-utilities/wiki/peptidemappercli.html). For use as a dependency, please refer to [Usage As Dependency](/compomics-utilities/wiki/usage-as-dependency.html).
 
   * [Methods](#methods)
   * [Performance](#performance)
