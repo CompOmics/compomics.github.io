@@ -135,7 +135,7 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
 
 | Database      | D1 [s] | D2 [s] | D3 [s] | D4 [s] |
 | ------------- |:------:| :-----:| :-----:| :-----:|
-| Yeast | 0.041 | 0.206 | 1.385 | 12.018 | 7.028 |
+| Yeast | 0.041 | 0.206 | 1.385 | 12.018 |
 | Mouse | 0.057 |0.313 | 2.291 |19.49 |
 | Human | 0.056 | 0.403 | 2.297 | 21.35 |
 | Proteogenomics | 0.058 | 0.262 | 2.094 | 17.71 |
