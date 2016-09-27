@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.12.5 (September 27. 2016):**
+
+ * BUG FIX: Made sure that the log parameter is recognized when using the command line.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.7.3.
+
+----
+
 **Changes in DeNovoGUI 1.12.4 (September 12. 2016):**
 
  * FEATURE IMPROVEMENT: Added the retention time to the export.
