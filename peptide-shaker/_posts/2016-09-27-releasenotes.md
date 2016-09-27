@@ -10,6 +10,19 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.13.4 (September 27. 2016):**
+
+* FEATURE IMPROVEMENT: Added the option to include the protein sequences in the mzid export.
+* FEATURE IMPROVEMENT: Speedups to the spectrum annotation processing.
+
+* BUG FIX: Made sure that the log parameter is recognized when using the command line.
+* BUG FIX: Corrected some exit process values with non zero on error conditions.
+* BUG FIX: Minor correction in the tag mapper.
+
+* LIBRARY UPDATE: Updated utilities to version 4.7.3.
+
+----
+
 **Changes in PeptideShaker 1.13.3 (September 10. 2016):**
 
 * FEATURE IMPROVEMENT: Export the spectrum as an array list formatted as a string (via the identification feature export).
