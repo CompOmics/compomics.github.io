@@ -23,8 +23,8 @@ wiki: "searchgui"
 
 |   |   |   |
 | :------------------------- | :--------------- | :--: |
-| [![download](https://github.com/compomics/searchgui/wiki/images/download_button_windows.png)](http://genesis.ugent.be/maven2/eu/isas/searchgui/SearchGUI/3.1.1/SearchGUI-3.1.1-windows.zip) | *v3.1.1 - Windows* | [ReleaseNotes](/searchgui/wiki/releasenotes.html) | 
-| [![download](https://github.com/compomics/searchgui/wiki/images/download_button_unix.png)](http://genesis.ugent.be/maven2/eu/isas/searchgui/SearchGUI/3.1.1/SearchGUI-3.1.1-mac_and_linux.tar.gz) | *v3.1.1 - Mac and Linux* |[ReleaseNotes](/searchgui/wiki/releasenotes.html) | 
+| [![download](https://github.com/compomics/searchgui/wiki/images/download_button_windows.png)](http://genesis.ugent.be/maven2/eu/isas/searchgui/SearchGUI/3.1.2/SearchGUI-3.1.2-windows.zip) | *v3.1.2 - Windows* | [ReleaseNotes](/searchgui/wiki/releasenotes.html) | 
+| [![download](https://github.com/compomics/searchgui/wiki/images/download_button_unix.png)](http://genesis.ugent.be/maven2/eu/isas/searchgui/SearchGUI/3.1.2/SearchGUI-3.1.2-mac_and_linux.tar.gz) | *v3.1.2 - Mac and Linux* |[ReleaseNotes](/searchgui/wiki/releasenotes.html) | 
 
 ----
 

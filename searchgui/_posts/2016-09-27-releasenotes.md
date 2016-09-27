@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.1.2 (September 27. 2016):**
+
+* BUG FIX: Made sure that the log parameter is recognized when using the command line.
+
+* LIBRARY UPDATE: Updated utilities to version 4.7.3.
+
+----
+
 **Changes in SearchGUI 3.1.1 (September 10. 2016):**
 
 * FEATURE IMPROVEMENT: User-defined PTMs are now supported when running Andromeda.
