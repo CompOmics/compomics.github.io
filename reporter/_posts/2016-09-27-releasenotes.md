@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.5.5 (September 27. 2016):**
+
+* BUG FIX: Made sure that the log parameter is recognized when using the command line.
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.13.4.
+* LIBRARY UPDATE: Updated utilities to version 4.7.3.
+
+---
+
 **Changes in Reporter 0.5.4 (September 10. 2016):**
 
 * BUG FIX: Made sure that the number of clusters cannot be larger than the number of elements to cluster.
