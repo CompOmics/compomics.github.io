@@ -31,7 +31,7 @@ On the other hand, adding sequences of proteins that cannot occur in your experi
 
 The standard format for sequence databases is called [FASTA](http://en.wikipedia.org/wiki/FASTA_format). [SearchGUI](http://searchgui.googlecode.com) therefore requires that the sequences are stored in this format. A FASTA file will usually end with .fasta, but .fast and .fas is also used.
 
-In a FASTA file each sequence is represented by a header and the sequence itself. The header contains information about where the sequence comes from, e.g., protein accession number, database and species. However, the format of the header varies from database to database. <a href="http://searchgui.googlecode.com">SearchGUI</a> supports the most common databases like <a href="http://www.uniprot.org/">UniProt</a>, NCBI and IPI, plus a long list of less common databases.
+In a FASTA file each sequence is represented by a header and the sequence itself. The header contains information about the protein, _e.g._, protein accession number, database and species. However, the format of the header varies from database to database. [SearchGUI](http://searchgui.googlecode.com) supports the most encountered databases like UniProt, Ensembl, NextProt, NCBI and IPI, plus a long list of other databases.
 
 _It is strongly recommended to use one of the standard databases, and of these [UniProt](http://www.uniprot.org) is the preferred option._
 
