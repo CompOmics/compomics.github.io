@@ -312,7 +312,10 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.MzidCLI [parameters]
 ```
 -contact_url               Contact URL.
 
--organization_url          Organization URL.             
+-organization_url          Organization URL.   
+
+-include_sequences         Include the protein sequences. 
+                           1: true, 0: false, default is '0'.
 ```
 
 [Go to top of page](#peptideshakercli)
