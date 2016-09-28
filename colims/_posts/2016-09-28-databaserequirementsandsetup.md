@@ -33,3 +33,18 @@ Once the database server is installed, the schema with the colims tables, fields
   3. MySQL or MariaDB: run the [MySQL setup script](http://genesis.ugent.be/colims/colims_db_setup.sql). PostgreSQL: run the [setup script](http://genesis.ugent.be/colims/colims_db_setup_postgres.sql PostgreQL). The script creates the necessary tables, indexes, keys and inserts some default records into the database.
 
 In principle, colims is designed to be able to run on other SQL databases as well, but some SQL syntax and code adjustments may be necessary. Let us know and we'll try to help you as much as possible.
+
+### Results - Peptide Sequences Mapping Time ###
+
+
+| Database      | D1 [s] | D2 [s] | D3 [s] | D4 [s] |
+| ------------- |:------:| :-----:| :-----:| :-----:|
+| Yeast | 0.041 | 0.206 | 1.385 | 12.018 |
+| Mouse | 0.057 |0.313 | 2.291 |19.49 |
+| Human | 0.056 | 0.403 | 2.297 | 21.35 |
+| Proteogenomics | 0.058 | 0.262 | 2.094 | 17.71 |
+| Metaproteomics | 0.224 | 1.547 | 13.49 | 134.5 |
+| All Proteomes | 0.119 | 0.643 | 6.270 | 62.20 |
+
+
+testing
