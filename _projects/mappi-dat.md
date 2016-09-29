@@ -13,7 +13,9 @@ wiki: "mappi-dat"
  * [Project Support](#project-support)
 
 ----
+
 ![MAPPI-DAT workflow](http://genesis.ugent.be/uvpublicdata/MAPPI-DAT/mappi-dat_schem.png)
+
 ----
 
 ## Project Description
@@ -33,6 +35,7 @@ MAPPI-DAT project can be downloaded from [MAPPI-DAT](http://genesis.ugent.be/uvp
 
 **Windows stand-alone files:**
 window compatible .exe files can be downloaded from:
+
   * [MAPPI-DAT-MainGui](http://genesis.ugent.be/uvpublicdata/MAPPI-DAT/MAPPI-DAT-MainGui.zip)
   * [MAPPI-DAT-SmallGui](http://genesis.ugent.be/uvpublicdata/MAPPI-DAT/MAPPI-DAT-SmallGui.zip)
 
@@ -42,6 +45,7 @@ MySQL schema for the MAPPI-DAT can be downloaded from [here](http://genesis.ugen
 [Go to top of the page](#mappi-dat)
 
 ----
+
 ## Usage
 See the [manual](http://genesis.ugent.be/uvpublicdata/MAPPI-DAT/UserManual.pdf) for further information about how to use the tool.
 
@@ -50,6 +54,7 @@ Sample data can be downloaded from [here](http://genesis.ugent.be/uvpublicdata/M
 [Go to top of the page](#mappi-dat)
 
 ----
+
 ## Project Support
 
 MAPPI-DAT project is supported by:
