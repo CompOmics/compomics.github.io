@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.13.5 (October 6. 2016):**
+
+* FEATURE IMPROVEMENT: Updated Ensembl to version 86.
+* FEATURE IMPROVEMENT: Added an export to file option for the default and user modifications.
+
+* LIBRARY UPDATE: Updated utilities to version 4.7.4.
+
+----
+
 **Changes in PeptideShaker 1.13.4 (September 27. 2016):**
 
 * FEATURE IMPROVEMENT: Added the option to include the protein sequences in the mzid export.
