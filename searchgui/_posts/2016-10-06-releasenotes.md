@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.1.3 (October 6. 2016):**
+
+* FEATURE IMPROVEMENT: Updated Ensembl to version 86.
+
+* LIBRARY UPDATE: Updated utilities to version 4.7.4.
+
+----
+
 **Changes in SearchGUI 3.1.2 (September 27. 2016):**
 
 * BUG FIX: Made sure that the log parameter is recognized when using the command line.
