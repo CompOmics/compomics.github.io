@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.13.0 (October 6. 2016):**
+
+ * FEATURE IMPROVEMENT: pNovo+ should now finally work again.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.7.4.
+
+----
+
 **Changes in DeNovoGUI 1.12.5 (September 27. 2016):**
 
  * BUG FIX: Made sure that the log parameter is recognized when using the command line.
