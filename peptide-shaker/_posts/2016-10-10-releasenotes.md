@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.13.6 (October 10. 2016):**
+
+* BUG FIX: Fixed a bug in the annotation of spectra with variable modifications.
+
+* LIBRARY UPDATE: Updated utilities to version 4.7.5.
+
+----
+
 **Changes in PeptideShaker 1.13.5 (October 6. 2016):**
 
 * FEATURE IMPROVEMENT: Updated Ensembl to version 86.
