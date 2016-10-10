@@ -13,6 +13,7 @@ github_project: https://github.com/compomics/searchgui
 **Changes in SearchGUI 3.1.3 (October 6. 2016):**
 
 * FEATURE IMPROVEMENT: Updated Ensembl to version 86.
+* FEATURE IMPROVEMENT: Added an export to file option for the default and user modifications.
 
 * LIBRARY UPDATE: Updated utilities to version 4.7.4.
 
