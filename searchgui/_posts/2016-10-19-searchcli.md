@@ -18,7 +18,7 @@ Note that the spectra must be provided in the Mascot Generic File (mgf) format. 
 
 Identification parameters for use in SearchCLI can be provided as a file. Identification parameter files are in the [json](https://en.wikipedia.org/wiki/JSON) format and can be created in the graphical user interface, using the [IdentificationParametersCLI](/compomics-utilities/wiki/identificationparameterscli.html), or using third party tools. Alternatively, the parameters can be passed directly to SearchCLI by using the command line arguments of the [IdentificationParametersCLI](/compomics-utilities/wiki/identificationparameterscli.html).
 
-Temporary folders used in the processing can be set via [PathSettingsCLI](#pathsettingscli). Note that search engines use indexes and temporary files stored locally in their folder. It is thus important to use a single instance of SearchCLI at a time. In distributed setups, we recommend keeping a clean copy of SearchGUI, and distribute it to the different workers prior to execution.
+We strongly recommend to [redirect temporary folders and logs](#pathsettingscli). Please note that search engines use indexes and temporary files stored locally in their folder. It is thus important to use a single instance of SearchCLI at a time. In distributed setups, we recommend keeping a clean copy of SearchGUI, and distribute it to the different workers prior to execution.
 
 ### General command line
 
