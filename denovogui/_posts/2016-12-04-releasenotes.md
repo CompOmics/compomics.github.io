@@ -10,6 +10,17 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.14.0 (November 4. 2016):**
+
+ * FEATURE IMPROVEMENT: Improvements to the identification parameters.
+ * FEATURE IMPROVEMENT: Improved the use of the cache.
+
+ * BUG FIX: Corrected bugs in the DirectTag settings dialog.
+
+ * LIBRARY UPDATE: Updated utilities to version 4.8.4.
+
+----
+
 **Changes in DeNovoGUI 1.13.1 (October 10. 2016):**
 
  * LIBRARY UPDATE: Updated utilities to version 4.7.5.
