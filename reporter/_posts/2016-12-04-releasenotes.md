@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.6.0 (November 4. 2016):**
+
+* NEW FEATURE: Added command line support.
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.14.0.
+* LIBRARY UPDATE: Updated utilities to version 4.8.4.
+
+---
+
 **Changes in Reporter 0.5.7 (October 10. 2016):**
 
 * LIBRARY UPDATE: Updated PeptideShaker to version 1.13.6.
