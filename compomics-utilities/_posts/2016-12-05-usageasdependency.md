@@ -8,9 +8,10 @@ github_project: https://github.com/compomics/compomics-utilities
 
 # Usage As Depencency
 
-The utilities package can be used as dependency in other applications. This can be done in [Maven](https://maven.apache.org) by adding the following blocs in your _pom_ file.
+The utilities package can be used as dependency in other applications. This can be done in [Maven](https://maven.apache.org) by adding the following blocs in your _pom_ file. Please replace _X.Y.Z_ by the version of interest, _e.g._ 4.7.2.
 
 ```xml
+<!-- The compomics utilities dependency -->
 <dependency>
         <groupId>com.compomics</groupId>
         <artifactId>utilities</artifactId>
@@ -18,14 +19,35 @@ The utilities package can be used as dependency in other applications. This can 
         <exclusions>
 </dependency>
 
+<!-- UGent Genesis repository -->
 <repository>
-        <id>archiva.compomics_maven_2</id>
-        <name>Internal Release Repository</name>
-        <url>http://genesis.ugent.be/archiva/repository/compomics_maven_2</url>
+        <id>genesis-maven2-repository</id>
+        <name>Genesis maven2 repository</name>
+        <url>http://genesis.UGent.be/maven2</url>
+        <layout>default</layout>
+</repository>
+
+<!-- old EBI repository -->
+<repository>
+        <id>ebi-repo</id> 
+        <name>The EBI internal repository</name>
+        <url>http://www.ebi.ac.uk/~maven/m2repo</url>
+</repository>
+
+<!-- EBI repository -->
+<repository>
+        <id>pst-release</id>
+        <name>EBI Nexus Repository</name>
+        <url>http://www.ebi.ac.uk/Tools/maven/repos/content/repositories/pst-release</url>
+</repository>
+        
+<!-- EBI SNAPSHOT repo -->
+<repository>
+        <id>pst-snapshots</id>
+        <name>EBI Nexus Snapshots Repository</name>
+        <url>http://www.ebi.ac.uk/Tools/maven/repos/content/repositories/pst-snapshots</url>
 </repository>
 ```
-
-Please replace _X.Y.Z_ by the version of interest, _e.g._ 4.7.2.
 
 ---
 
