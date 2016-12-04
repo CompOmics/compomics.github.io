@@ -10,6 +10,19 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.2.0 (November 4. 2016):**
+
+* NEW FEATURE: Added the Fluorine atom as an option when creating custom PTMs.
+
+* FEATURE IMPROVEMENT: Extended and simplified the enzyme support.
+* FEATURE IMPROVEMENT: Improved the use of the cache.
+* FEATURE IMPROVEMENT: Updated Ensembl genomes to version 33.
+* FEATURE IMPROVEMENT: Improved the handling of the exception encountered when attempting to index too large databases.
+
+* LIBRARY UPDATE: Updated utilities to version 4.8.4.
+
+----
+
 **Changes in SearchGUI 3.1.4 (October 10. 2016):**
 
 * LIBRARY UPDATE: Updated utilities to version 4.7.5.
