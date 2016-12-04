@@ -254,6 +254,6 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.FastaCLI [parameters]
 
 ## Help
 
-If you experience any problems with the command line or have any suggestion please contact us via the [PeptideShaker mailing list](https://groups.google.com/group/peptide-shaker).
+If you experience any problems with the command line or have any suggestion please contact us via the [SearchGUI issue tracker](/searchgui/issues.html).
 
 [Go to top of page](# )
