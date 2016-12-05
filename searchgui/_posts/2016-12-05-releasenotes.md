@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.2.1 (November 5. 2016):**
+
+* BUG FIX: Fixed the backwards compatibility.
+
+* LIBRARY UPDATE: Updated utilities to version 4.8.5.
+
+----
+
 **Changes in SearchGUI 3.2.0 (November 4. 2016):**
 
 * NEW FEATURE: Added the Fluorine atom as an option when creating custom PTMs.
