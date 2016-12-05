@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.14.1 (November 5. 2016):**
+
+* BUG FIX: Fixed the backwards compatibility.
+
+* LIBRARY UPDATE: Updated utilities to version 4.8.5.
+
+---
+
 **Changes in PeptideShaker 1.14.0 (November 4. 2016):**
 
 * NEW FEATURE: Implemented the hyperscore for de novo mathces.
