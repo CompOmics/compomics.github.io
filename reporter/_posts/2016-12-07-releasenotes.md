@@ -10,10 +10,20 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.6.2 (November 7. 2016):**
+
+* BUG FIX: Fixed an issue in the Find feature where the focus was lost in the text input field.
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.14.2.
+* LIBRARY UPDATE: Updated utilities to version 4.8.6.
+
+----
+
 **Changes in Reporter 0.6.1 (November 5. 2016):**
 
 * BUG FIX: Fixed the backwards compatibility.
 
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.14.1.
 * LIBRARY UPDATE: Updated utilities to version 4.8.5.
 
 ----
