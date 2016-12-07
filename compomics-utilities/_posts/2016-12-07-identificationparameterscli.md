@@ -88,9 +88,19 @@ com.compomics.denovogui.cmd.IdentificationParametersCLI [parameters]
 -frag_ppm                 Fragment ion tolerance unit: ppm (1) or Da (0), default is '0'. 
                           (NB: Not supported for DeNovoGUI as here only Dalton is used.)
 
+-digestion                The type of digestion to consider: 
+                          0: Enzyme, 1: Unspecific or 2: Whole Protein. Default is 0.
+
 -enzyme                   Enzyme, default is 'Trypsin'. 
                           Available enzymes are listed in the GUI.
                           Note: case sensitive.
+
+-specificity              Specificity of the enzyme: 
+                          0: Specific, 1: Semi-Specific, 2: N-term Specific or 3: C-term Specific
+                          If more than one enzyme was used, please provide the missed cleavages for 
+                          every enzyme in the same order as comma separated list with quotes, e.g. "0, 1"
+
+-mc                       Number of allowed missed cleavages, default is '2'.
 
 -fixed_mods               Fixed modifications as comma separated list,
                           e.g., "Oxidation of M, Phosphorylation of S"
@@ -103,8 +113,6 @@ com.compomics.denovogui.cmd.IdentificationParametersCLI [parameters]
 -min_charge               Minimal charge to search for, default is '2'.
 
 -max_charge               Maximal charge to search for, default is '4'.
-
--mc                       Number of allowed missed cleavages, default is '2'.
 
 -fi                       Type of forward ion searched, default is 'b'.
 
