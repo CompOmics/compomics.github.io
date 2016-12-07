@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.2.2 (November 7. 2016):**
+
+* BUG FIX: Fixed a big in the use of unspecific enzyme in the search settings dialog.
+
+* LIBRARY UPDATE: Updated utilities to version 4.8.6.
+
+----
+
 **Changes in SearchGUI 3.2.1 (November 5. 2016):**
 
 * BUG FIX: Fixed the backwards compatibility.
