@@ -10,6 +10,17 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.14.2 (November 7. 2016):**
+
+* BUG FIX: Added the PRIDE cluster confidence categories to PRIDE Reshake.
+* BUG FIX: Fixed an issue in the Find feature where the focus was lost in the text input field.
+* BUG FIX: Fixed a bug in the use of unspecific enzyme in the search settings dialog.
+* BUG FIX: Fixed a bug in the spectrum annotator where the spectrum index was not reset when the intensity annotation limit changed.
+
+* LIBRARY UPDATE: Updated utilities to version 4.8.6.
+
+---
+
 **Changes in PeptideShaker 1.14.1 (November 5. 2016):**
 
 * BUG FIX: Fixed the backwards compatibility.
