@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.14.3 (November 11. 2016):**
+
+* LIBRARY UPDATE: Updated utilities to version 4.8.7.
+
+----
+
 **Changes in DeNovoGUI 1.14.2 (November 7. 2016):**
 
 * BUG FIX: Fixed an issue in the Find feature where the focus was lost in the text input field.
