@@ -10,6 +10,18 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.2.3 (November 11. 2016):**
+
+* FEATURE IMPROVEMENT: Updated Ensembl to version 87.
+* FEATURE IMPROVEMENT: Updated Ensembl genomes to version 34.
+
+* BUG FIX: Fixed a bug in the command line setting of the missed cleavages and specificity.
+* BUG FIX: Fixed null pointers in the process builders when using unspecific and whole protein searches.
+
+* LIBRARY UPDATE: Updated utilities to version 4.8.7.
+
+----
+
 **Changes in SearchGUI 3.2.2 (November 7. 2016):**
 
 * BUG FIX: Fixed a bug in the use of unspecific enzyme in the search settings dialog.
