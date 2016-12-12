@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/xtandem-parser
 
 ----
 
+**Changes in XTandemParser 1.12.0 - (November 12. 2016):**
+
+* FEATURE IMPROVEMENT: Removed the references to the deprecated EBI Nexus repository.
+
+* LIBRARY UPDATE: Updated utilities to version 4.8.7.
+
+---
+
 **Changes in XTandemParser 1.11.0 - (June 7. 2016):**
 
 * BUG FIX: Fixed a bug in the parsing of doubly modified peptide terminals.
@@ -24,8 +32,8 @@ github_project: https://github.com/compomics/xtandem-parser
 
 **Changes in XTandemParser 1.9.0 - (January 19. 2016):**
 
-* BUG FIX: Fixed bugs in the ID file reader in the way multiple PTMs targeting the same residue was handled, in particular when one PTM was fixed and the other variable, e.g. as in variable TMT on n-term and fixed TMT on (n-term) K.
 * FEATURE IMPROVEMENT: Updated the project web links in the README.txt file to point to the GitHub pages.
+* BUG FIX: Fixed bugs in the ID file reader in the way multiple PTMs targeting the same residue was handled, in particular when one PTM was fixed and the other variable, e.g. as in variable TMT on n-term and fixed TMT on (n-term) K.
 
 ---
 
