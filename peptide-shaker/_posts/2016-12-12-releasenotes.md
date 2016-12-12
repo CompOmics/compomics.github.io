@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.14.4 (November 12. 2016):**
+
+* LIBRARY UPDATE: Updated xtandem-parser to version 1.8.0.
+* LIBRARY UPDATE: Updated omssa-parser to version 1.12.0.
+* LIBRARY UPDATE: Updated mascotdatfile to version 3.5.0.
+
+---
+
 **Changes in PeptideShaker 1.14.3 (November 11. 2016):**
 
 * FEATURE IMPROVEMENT: Updated Ensembl to version 87.
