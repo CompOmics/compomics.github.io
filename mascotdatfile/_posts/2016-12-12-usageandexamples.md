@@ -45,7 +45,7 @@ Also feel free to contact the developers if you have suggestions/enhancements/co
 
 ### Print usage by running the JAR without parameters
 
-```
+```java
 $ java -jar mascotdatfile-3.2.11.jar
 	SimpleParser arguments:	 <alpha> <output> <input 1> [<input 2> <input 3> ... <input n>]
 		
@@ -59,7 +59,8 @@ $ java -jar mascotdatfile-3.2.11.jar
 ```
 
 ### Example usage
-```
+
+```java
 $ java -jar mascotdatfile-3.2.11.jar 0.05 /tmp/test_peptidehitparser.txt /tmp/mascot/results/directory/F004071.dat
 
 	Processing /tmp/mascot/results/directory/F004071.dat
@@ -67,12 +68,14 @@ $ java -jar mascotdatfile-3.2.11.jar 0.05 /tmp/test_peptidehitparser.txt /tmp/ma
 ```
 
 ### Example output
+
 ```
 	F004071.dat;3;51008_1.6.1mox_9087_210.mgf;3+;PAQEVYR;Ace-PAQ<Dam>EVYR-COOH;6.66;1;
 	F004071.dat;3;51008_1.6.1mox_9087_210.mgf;3+;PAQEVYR;PAQEVYR-COOH;6.66;2;
 ```
 
 ### Note
+
 If you want to include -ALL- the PeptideHits, then set alpha to '100000000' which will produce a negative confidence threshold. As the IonScore is by definition positive, all PeptideHits will be included.
 
 [Go to top of page](#usage-and-examples)
@@ -80,11 +83,13 @@ If you want to include -ALL- the PeptideHits, then set alpha to '100000000' whic
 ----
 
 ## Using MascotDatfile as a Maven dependency
+
 MascotDatfile is hosted at our public maven repository.
 Add the following code into your `pom.xml` file:
 
 **Repository**
-```
+
+```java
     <repositories>
         <!-- Compomics Genesis Maven 2 repository -->
         <repository>
@@ -94,18 +99,24 @@ Add the following code into your `pom.xml` file:
             <layout>default</layout>
         </repository>
     
-        <!-- EBI Maven 2 repository -->
+        <!-- old EBI repository -->
         <repository>
-            <id>ebi-repo</id>
-            <name>The EBI Maven2 repository</name>
+            <id>ebi-repo</id> 
+            <name>The EBI internal repository</name>
             <url>http://www.ebi.ac.uk/~maven/m2repo</url>
-            <layout>default</layout>
         </repository>
-    </repositories>
+
+        <!-- EBI repository -->
+        <repository>
+            <id>pst-release</id>
+            <name>EBI Nexus Repository</name>
+            <url>http://www.ebi.ac.uk/Tools/maven/repos/content/repositories/pst-release</url>
+        </repository>
 ```
 
 **Dependency**
-```
+
+```java
     <dependencies>
         <dependency>
             <groupId>com.compomics</groupId>
@@ -126,7 +137,7 @@ Note that the [repository](http://genesis.ugent.be/maven2/com/compomics/mascotda
 
 ## Example code
 
-```
+```java
 public class ExampleWiki1 {
     public ExampleWiki1(String aFileName) {
 
