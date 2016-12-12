@@ -41,12 +41,6 @@ The utilities package can be used as dependency in other applications. This can 
         <url>http://www.ebi.ac.uk/Tools/maven/repos/content/repositories/pst-release</url>
 </repository>
         
-<!-- EBI SNAPSHOT repo -->
-<repository>
-        <id>pst-snapshots</id>
-        <name>EBI Nexus Snapshots Repository</name>
-        <url>http://www.ebi.ac.uk/Tools/maven/repos/content/repositories/pst-snapshots</url>
-</repository>
 ```
 
 ---
