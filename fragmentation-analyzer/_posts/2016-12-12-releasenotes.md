@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/fragmentation-analyzer
 
 ----
 
+**Changes in FragmentationAnalyzer v1.5.15 - (November 12. 2016):** 
+
+* LIBRARY UPDATE: Updated xtandem-parser to version 1.8.0.
+* LIBRARY UPDATE: Updated omssa-parser to version 1.12.0.
+* LIBRARY UPDATE: Updated mascotdatfile to version 3.5.0.
+* LIBRARY UPDATE: Updated utilities to version 4.8.7.
+
+----
+
 **Changes in FragmentationAnalyzer v1.5.14 - (April 1. 2016):** 
 
 * BUG FIX: Fixed a bug in the popup menu for the internal frames not appearing. 
