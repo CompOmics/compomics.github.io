@@ -112,6 +112,7 @@ Add the following code into your `pom.xml` file:
             <name>EBI Nexus Repository</name>
             <url>http://www.ebi.ac.uk/Tools/maven/repos/content/repositories/pst-release</url>
         </repository>
+    </repositories>
 ```
 
 **Dependency**
