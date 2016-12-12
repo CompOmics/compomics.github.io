@@ -10,6 +10,11 @@ github_project: https://github.com/compomics/mascotdatfile
 
 *Starting from MascotDatfile version 3.0, all subsequent versions of the library are listed here.*
 
+### 3.5.0 (12 November 2016)
+ * Removed the references to the deprecated EBI Nexus repository.
+ * Fixed https://github.com/compomics/mascotdatfile/issues/14.
+ * Updated utilities to version 4.8.7.
+
 ### 3.4.32 (12 October 2015)
  * Removed the peptide map from the IdfileReader to speed up the processing. 
  * Updated utilities to version 4.0.0.
