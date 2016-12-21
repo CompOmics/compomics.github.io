@@ -10,7 +10,7 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
-**Changes in DeNovoGUI 1.14.4 (November 21. 2016):**
+**Changes in DeNovoGUI 1.14.4 (December 21. 2016):**
 
 * BUG FIX: Fixed bugs in the IdentificationParametersInputBean for checking the isotope range where negative values were not allowed.
 
@@ -18,13 +18,13 @@ github_project: https://github.com/compomics/denovogui
 
 ----
 
-**Changes in DeNovoGUI 1.14.3 (November 11. 2016):**
+**Changes in DeNovoGUI 1.14.3 (December 11. 2016):**
 
 * LIBRARY UPDATE: Updated utilities to version 4.8.7.
 
 ----
 
-**Changes in DeNovoGUI 1.14.2 (November 7. 2016):**
+**Changes in DeNovoGUI 1.14.2 (December 7. 2016):**
 
 * BUG FIX: Fixed an issue in the Find feature where the focus was lost in the text input field.
 
@@ -32,7 +32,7 @@ github_project: https://github.com/compomics/denovogui
 
 ----
 
-**Changes in DeNovoGUI 1.14.1 (November 5. 2016):**
+**Changes in DeNovoGUI 1.14.1 (December 5. 2016):**
 
 * BUG FIX: Fixed the backwards compatibility.
 
@@ -40,7 +40,7 @@ github_project: https://github.com/compomics/denovogui
 
 ----
 
-**Changes in DeNovoGUI 1.14.0 (November 4. 2016):**
+**Changes in DeNovoGUI 1.14.0 (December 4. 2016):**
 
  * FEATURE IMPROVEMENT: Improvements to the identification parameters.
  * FEATURE IMPROVEMENT: Improved the use of the cache.
