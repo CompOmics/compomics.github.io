@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.14.5 (December 21. 2016):**
+
+* LIBRARY UPDATE: Updated utilities to version 4.8.9.
+
+----
+
 **Changes in DeNovoGUI 1.14.4 (December 21. 2016):**
 
 * BUG FIX: Fixed bugs in the IdentificationParametersInputBean for checking the isotope range where negative values were not allowed.
