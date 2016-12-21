@@ -10,7 +10,7 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
-**Changes in SearchGUI 3.2.4 (November 21. 2016):**
+**Changes in SearchGUI 3.2.4 (December 21. 2016):**
 
 * BUG FIX: Fixed bugs in the IdentificationParametersInputBean for checking the isotope range where negative values were not allowed.
 
@@ -18,7 +18,7 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
-**Changes in SearchGUI 3.2.3 (November 11. 2016):**
+**Changes in SearchGUI 3.2.3 (December 11. 2016):**
 
 * FEATURE IMPROVEMENT: Updated Ensembl to version 87.
 * FEATURE IMPROVEMENT: Updated Ensembl genomes to version 34.
@@ -30,7 +30,7 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
-**Changes in SearchGUI 3.2.2 (November 7. 2016):**
+**Changes in SearchGUI 3.2.2 (December 7. 2016):**
 
 * BUG FIX: Fixed a bug in the use of unspecific enzyme in the search settings dialog.
 
@@ -38,7 +38,7 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
-**Changes in SearchGUI 3.2.1 (November 5. 2016):**
+**Changes in SearchGUI 3.2.1 (December 5. 2016):**
 
 * BUG FIX: Fixed the backwards compatibility.
 
@@ -46,7 +46,7 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
-**Changes in SearchGUI 3.2.0 (November 4. 2016):**
+**Changes in SearchGUI 3.2.0 (December 4. 2016):**
 
 * NEW FEATURE: Added the Fluorine atom as an option when creating custom PTMs.
 
