@@ -10,7 +10,7 @@ github_project: https://github.com/compomics/mascotdatfile
 
 *Starting from MascotDatfile version 3.0, all subsequent versions of the library are listed here.*
 
-### 3.5.0 (12 November 2016)
+### 3.5.0 (12 December 2016)
  * Removed the references to the deprecated EBI Nexus repository.
  * Fixed https://github.com/compomics/mascotdatfile/issues/14.
  * Updated utilities to version 4.8.7.
