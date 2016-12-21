@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.14.5 (November 21. 2016):**
+
+* BUG FIX: Fixed bugs in the IdentificationParametersInputBean for checking the isotope range where negative values were not allowed.
+
+* LIBRARY UPDATE: Updated utilities to version 4.8.8.
+
+---
+
 **Changes in PeptideShaker 1.14.4 (November 12. 2016):**
 
 * LIBRARY UPDATE: Updated xtandem-parser to version 1.8.0.
