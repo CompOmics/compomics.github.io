@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.2.4 (November 21. 2016):**
+
+* BUG FIX: Fixed bugs in the IdentificationParametersInputBean for checking the isotope range where negative values were not allowed.
+
+* LIBRARY UPDATE: Updated utilities to version 4.8.8.
+
+----
+
 **Changes in SearchGUI 3.2.3 (November 11. 2016):**
 
 * FEATURE IMPROVEMENT: Updated Ensembl to version 87.
