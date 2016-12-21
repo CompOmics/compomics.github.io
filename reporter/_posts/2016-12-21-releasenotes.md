@@ -10,21 +10,21 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
-**Changes in Reporter 0.6.4 (November 21. 2016):**
+**Changes in Reporter 0.6.4 (December 21. 2016):**
 
 * LIBRARY UPDATE: Updated PeptideShaker to version 1.14.5.
 * LIBRARY UPDATE: Updated utilities to version 4.8.8.
 
 ----
 
-**Changes in Reporter 0.6.3 (November 11. 2016):**
+**Changes in Reporter 0.6.3 (December 11. 2016):**
 
 * LIBRARY UPDATE: Updated PeptideShaker to version 1.14.3.
 * LIBRARY UPDATE: Updated utilities to version 4.8.7.
 
 ----
 
-**Changes in Reporter 0.6.2 (November 7. 2016):**
+**Changes in Reporter 0.6.2 (December 7. 2016):**
 
 * BUG FIX: Fixed an issue in the Find feature where the focus was lost in the text input field.
 
@@ -33,7 +33,7 @@ github_project: https://github.com/compomics/reporter
 
 ----
 
-**Changes in Reporter 0.6.1 (November 5. 2016):**
+**Changes in Reporter 0.6.1 (December 5. 2016):**
 
 * BUG FIX: Fixed the backwards compatibility.
 
@@ -42,7 +42,7 @@ github_project: https://github.com/compomics/reporter
 
 ----
 
-**Changes in Reporter 0.6.0 (November 4. 2016):**
+**Changes in Reporter 0.6.0 (December 4. 2016):**
 
 * NEW FEATURE: Added command line support.
 
