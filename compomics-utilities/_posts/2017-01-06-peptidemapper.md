@@ -34,14 +34,14 @@ transform (BWT) [\[2\]](#references) is computed and stored in a wavelet tree (W
 structure [\[3\]](#references) for fast rank queries.
 
 Only the 22 amino acid characters, the four characters for amino acid combinations and '/' complete
-the alphabet _&Epsilon;_ for the WT. To save memory, the WT is constructed according to
+the alphabet &Epsilon; for the WT. To save memory, the WT is constructed according to
 a corresponding entropy-coded tree [\[4\]](#references) built from the number
 of occurrences of every character. Additionally, the accession
 numbers extracted from the header are stored for every protein.
 
 We implemented an efficient
-function querying all character occurrences within a substring in _O_(_&sigma;_)
-where _&sigma;_=|_&Epsilon;_|. The SA is necessary to retrieve the starting positions of
+function querying all character occurrences within a substring in _O_(&sigma;)
+where &sigma;_=|&Epsilon;|. The SA is necessary to retrieve the starting positions of
 the mapped peptides within a protein. To save memory, we sample the SA
 and can retrieve the missing entries by using the last-to-front (LF)-mapping
 function [\[5\]](#references) on the BWT.
@@ -72,7 +72,7 @@ it appears in as well as the corresponding starting positions are returned.
 
 ## Performance ##
 
-For the following benchmark tests, we are using an Intel(R) Xeon(R) 2.80 GHz quad core desktop computer with 16 GB RAM. Note that only one core is used for the performance tests, since the task of mapping independent peptides against a sequence database can be heavily parallelized, the computation time can almost be divided by the number of cores used.
+For the following benchmark tests, we are using an Intel(R) Xeon(R) 2.80 GHz quad core desktop computer with 16 GB RAM. Note that only one core is used for the performance tests, since the task of mapping independent peptides against a sequence database can be heavily parallelized, the computation time can almost be divided by the number of cores used. We compared both index methods the prior ProteinTree with the new adapted FM-Index.
 
 ### Protein Sequences Databases and Benchmark Datasets ###
 
@@ -122,14 +122,63 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
 
 ### Results - Index Creation ###
 
-| Database      | time [s] | size [MB] |
-| ------------- |:------:| :-----:|
-| Yeast | 2.55 | 7.02 |
-| Mouse | 6.575 | 22.02 |
-| Human | 7.49 | 26.33 |
-| Proteogenomics | 8.81 | 32.38 |
-| Metagenomics | 58.35 | 238.7 |
-| All Proteomes | 122.08 | 458.1 |
+<table>
+  <tr>
+    <th>Database</th>
+    <th colspan="2">time [s]</th>
+    <th colspan="2">size [MB]</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>ProteinTree</td>
+    <td>FM-Index</td>
+    <td>ProteinTree</td>
+    <td>FM-Index</td>
+  </tr>
+  <tr>
+    <td>Yeast</td>
+    <td>65.73</td>
+    <td>2.55</td>
+    <td>184.3</td>
+    <td>7.02</td>
+  </tr>
+  <tr>
+    <td>Mouse</td>
+    <td>212.9</td>
+    <td>6.57</td>
+    <td>601.5</td>
+    <td>22.02</td>
+  </tr>
+  <tr>
+    <td>Human</td>
+    <td>252.0</td>
+    <td>7.49</td>
+    <td>537.9</td>
+    <td>26.33</td>
+  </tr>
+  <tr>
+    <td>Proteogenomics</td>
+    <td>526.2</td>
+    <td>8.81</td>
+    <td>1211</td>
+    <td>32.38</td>
+  </tr>
+  <tr>
+    <td>Metagenomics</td>
+    <td>2956</td>
+    <td>58.35</td>
+    <td>5423</td>
+    <td>238.7</td>
+  </tr>
+  <tr>
+    <td>All Proteomes</td>
+    <td></td>
+    <td>122.08</td>
+    <td>8653</td>
+    <td>458.1</td>
+  </tr>
+
+</table>
 
 ### Results - Peptide Sequences Mapping Time ###
 
@@ -141,6 +190,95 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
 | Proteogenomics | 0.058 | 0.262 | 2.094 | 17.71 |
 | Metaproteomics | 0.224 | 1.547 | 13.49 | 134.5 |
 | All Proteomes | 0.119 | 0.643 | 6.270 | 62.20 |
+
+<table>
+  <tr>
+    <th>Database</th>
+    <th colspan="2">D1 [s]</th>
+    <th colspan="2">D2 [s]</th>
+    <th colspan="2">D3 [s]</th>
+    <th colspan="2">D4 [s]</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>ProteinTree</td>
+    <td>FM-Index</td>
+    <td>ProteinTree</td>
+    <td>FM-Index</td>
+    <td>ProteinTree</td>
+    <td>FM-Index</td>
+    <td>ProteinTree</td>
+    <td>FM-Index</td>
+  </tr>
+  <tr>
+    <td>Yeast</td>
+    <td></td>
+    <td>0.041</td>
+    <td></td>
+    <td>0.206</td>
+    <td></td>
+    <td>1.385</td>
+    <td></td>
+    <td>12.018</td>
+  </tr>
+  <tr>
+    <td>Mouse</td>
+    <td></td>
+    <td>0.057</td>
+    <td></td>
+    <td>0.313</td>
+    <td></td>
+    <td>2.291</td>
+    <td></td>
+    <td>19.49</td>
+  </tr>
+  <tr>
+    <td>Human</td>
+    <td></td>
+    <td>0.056</td>
+    <td></td>
+    <td>0.403</td>
+    <td></td>
+    <td>2.297</td>
+    <td></td>
+    <td>21.35</td>
+  </tr>
+  <tr>
+    <td>Proteogenomics</td>
+    <td></td>
+    <td>0.058</td>
+    <td></td>
+    <td>0.262</td>
+    <td></td>
+    <td>2.094</td>
+    <td></td>
+    <td>17.71</td>
+  </tr>
+  <tr>
+    <td>Metagenomics</td>
+    <td></td>
+    <td>0.224</td>
+    <td></td>
+    <td>1.547</td>
+    <td></td>
+    <td>13.49</td>
+    <td></td>
+    <td>134.5</td>
+  </tr>
+  <tr>
+    <td>All Proteomes</td>
+    <td></td>
+    <td>0.119</td>
+    <td></td>
+    <td>0.643</td>
+    <td></td>
+    <td>6.270</td>
+    <td></td>
+    <td>62.20</td>
+  </tr>
+</table>
+
+
 
 ### Results - Sequence Tags Mapping Time ###
 
