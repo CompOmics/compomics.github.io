@@ -172,7 +172,7 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
   </tr>
   <tr>
     <td>All Proteomes</td>
-    <td></td>
+    <td>7924</td>
     <td>122.08</td>
     <td>8653</td>
     <td>458.1</td>
@@ -181,15 +181,6 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
 </table>
 
 ### Results - Peptide Sequences Mapping Time ###
-
-| Database      | D1 [s] | D2 [s] | D3 [s] | D4 [s] |
-| ------------- |:------:| :-----:| :-----:| :-----:|
-| Yeast | 0.041 | 0.206 | 1.385 | 12.018 |
-| Mouse | 0.057 |0.313 | 2.291 |19.49 |
-| Human | 0.056 | 0.403 | 2.297 | 21.35 |
-| Proteogenomics | 0.058 | 0.262 | 2.094 | 17.71 |
-| Metaproteomics | 0.224 | 1.547 | 13.49 | 134.5 |
-| All Proteomes | 0.119 | 0.643 | 6.270 | 62.20 |
 
 <table>
   <tr>
@@ -212,68 +203,68 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
   </tr>
   <tr>
     <td>Yeast</td>
-    <td></td>
+    <td>6.067</td>
     <td>0.041</td>
-    <td></td>
+    <td>16.96</td>
     <td>0.206</td>
-    <td></td>
+    <td>22.45</td>
     <td>1.385</td>
-    <td></td>
+    <td>72.01</td>
     <td>12.018</td>
   </tr>
   <tr>
     <td>Mouse</td>
-    <td></td>
+    <td>10.17</td>
     <td>0.057</td>
-    <td></td>
+    <td>22.48</td>
     <td>0.313</td>
-    <td></td>
+    <td>35.93</td>
     <td>2.291</td>
-    <td></td>
+    <td>90.23</td>
     <td>19.49</td>
   </tr>
   <tr>
     <td>Human</td>
-    <td></td>
+    <td>8.26</td>
     <td>0.056</td>
-    <td></td>
+    <td>25.85</td>
     <td>0.403</td>
-    <td></td>
+    <td>123.1</td>
     <td>2.297</td>
-    <td></td>
+    <td>o.u.m.</td>
     <td>21.35</td>
   </tr>
   <tr>
     <td>Proteogenomics</td>
-    <td></td>
+    <td>8.91</td>
     <td>0.058</td>
-    <td></td>
+    <td>39.26</td>
     <td>0.262</td>
-    <td></td>
+    <td>259.2</td>
     <td>2.094</td>
-    <td></td>
+    <td>u.o.m.</td>
     <td>17.71</td>
   </tr>
   <tr>
     <td>Metagenomics</td>
-    <td></td>
+    <td>70.72</td>
     <td>0.224</td>
-    <td></td>
+    <td>1183.8</td>
     <td>1.547</td>
-    <td></td>
+    <td>9015</td>
     <td>13.49</td>
-    <td></td>
+    <td>u.o.m.</td>
     <td>134.5</td>
   </tr>
   <tr>
     <td>All Proteomes</td>
-    <td></td>
+    <td>u.o.m.</td>
     <td>0.119</td>
-    <td></td>
+    <td>u.o.m.</td>
     <td>0.643</td>
-    <td></td>
+    <td>u.o.m.</td>
     <td>6.270</td>
-    <td></td>
+    <td>u.o.m.</td>
     <td>62.20</td>
   </tr>
 </table>
@@ -282,14 +273,92 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
 
 ### Results - Sequence Tags Mapping Time ###
 
-| Database      | D1 [s] | D2 [s] | D3 [s] | D4 [s] |
-| ------------- |:------:| :-----:| :-----:| :-----:|
-| Yeast | 0.096 | 0.59 | 3.863 | 33.596 |
-| Mouse | 0.167 | 1.196 | 9.910 | 97.106 |
-| Human | 0.178 | 1.352 | 11.67 | 114.4 |
-| Proteogenomics | 0.297 | 1.546 | 12.16 | 119.1 |
-| Metaproteomics | 3.978 | 36.48 | 324.4 | 3154 |
-| All Proteomes | 1.417 | 12.85 | 112.8 | 1145.0 |
+<table>
+  <tr>
+    <th>Database</th>
+    <th colspan="2">D1 [s]</th>
+    <th colspan="2">D2 [s]</th>
+    <th colspan="2">D3 [s]</th>
+    <th colspan="2">D4 [s]</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>ProteinTree</td>
+    <td>FM-Index</td>
+    <td>ProteinTree</td>
+    <td>FM-Index</td>
+    <td>ProteinTree</td>
+    <td>FM-Index</td>
+    <td>ProteinTree</td>
+    <td>FM-Index</td>
+  </tr>
+  <tr>
+    <td>Yeast</td>
+    <td>4.67</td>
+    <td>0.096</td>
+    <td>20.64</td>
+    <td>0.59</td>
+    <td>38.12</td>
+    <td>3.863</td>
+    <td>205.9</td>
+    <td>33.596</td>
+  </tr>
+  <tr>
+    <td>Mouse</td>
+    <td>7.14</td>
+    <td>0.167</td>
+    <td>29.48</td>
+    <td>1.196</td>
+    <td>107.3</td>
+    <td>9.910</td>
+    <td>871.5</td>
+    <td>97.10</td>
+  </tr>
+  <tr>
+    <td>Human</td>
+    <td>8.03</td>
+    <td>0.178</td>
+    <td>31.76</td>
+    <td>1.352</td>
+    <td>146.0</td>
+    <td>11.67</td>
+    <td>u.o.m.</td>
+    <td>114.4</td>
+  </tr>
+  <tr>
+    <td>Proteogenomics</td>
+    <td>9.85</td>
+    <td>0.297</td>
+    <td>40.11</td>
+    <td>1.546</td>
+    <td>234.7</td>
+    <td>12.16</td>
+    <td>u.o.m.</td>
+    <td>119.1</td>
+  </tr>
+  <tr>
+    <td>Metagenomics</td>
+    <td>63.93</td>
+    <td>3.978</td>
+    <td>u.o.m.</td>
+    <td>36.48</td>
+    <td>u.o.m.</td>
+    <td>324.4</td>
+    <td>u.o.m.</td>
+    <td>3154</td>
+  </tr>
+  <tr>
+    <td>All Proteomes</td>
+    <td>u.o.m.</td>
+    <td>1.417</td>
+    <td>u.o.m.</td>
+    <td>12.85</td>
+    <td>u.o.m.</td>
+    <td>112.8</td>
+    <td>u.o.m.</td>
+    <td>1145.0</td>
+  </tr>
+</table>
 
 ## Troubleshooting ##
 
