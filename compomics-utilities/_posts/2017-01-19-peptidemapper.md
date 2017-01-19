@@ -104,7 +104,7 @@ Proteogenomics (March 2015) [\[6\]](#references):
   * variable modifications: Acetylation of peptide N-term, Pyrolidone from Q, Pyrolidone from E
   * fragment tolerance: 0.5 Da
 
-Metaproteomics (January 2013) [\[7\]](#references):
+Metaproteomics (January 2013) [\[7\]](#references), [\[8\]](#references):
 
   * size 55,152 Proteins, 100,955,085 residues, 2,561,698 _X_ residues
   * fixed modifications: Carbamidomethylation of C
@@ -118,7 +118,7 @@ All UniProt proteomes concatenated (July 2016):
  * variable modifications: Acetylation of K
  * fragment tolerance: 0.02 Da
 
-For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of different sizes (|D1| = 1,000, |D2| = 10,000, |D3| = 100,000, |D4| = 1,000,000) were created by extracting peptides and tags at random positions in the database. 
+For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of different sizes (|D1| = 1,000, |D2| = 10,000, |D3| = 100,000, |D4| = 1,000,000) were created by extracting peptides and tags at random positions in the database. All benchmark data (proteomes, data sets, parameter files) are available [here](/peptidemapper-benchmark.html).
 
 ### Results - Index Creation ###
 
@@ -164,7 +164,7 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
     <td>32.38</td>
   </tr>
   <tr>
-    <td>Metagenomics</td>
+    <td>Metaproteomics</td>
     <td>2956</td>
     <td>58.35</td>
     <td>5423</td>
@@ -246,7 +246,7 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
     <td>17.71</td>
   </tr>
   <tr>
-    <td>Metagenomics</td>
+    <td>Metaproteomics</td>
     <td>70.72</td>
     <td>0.224</td>
     <td>1183.8</td>
@@ -276,86 +276,114 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
 <table>
   <tr>
     <th>Database</th>
-    <th colspan="2">D1 [s]</th>
-    <th colspan="2">D2 [s]</th>
-    <th colspan="2">D3 [s]</th>
-    <th colspan="2">D4 [s]</th>
+    <th colspan="3">D1 [s]</th>
+    <th colspan="3">D2 [s]</th>
+    <th colspan="3">D3 [s]</th>
+    <th colspan="3">D4 [s]</th>
   </tr>
   <tr>
     <td></td>
     <td>ProteinTree</td>
+    <td>TagRecon</td>
     <td>FM-Index</td>
     <td>ProteinTree</td>
+    <td>TagRecon</td>
     <td>FM-Index</td>
     <td>ProteinTree</td>
+    <td>TagRecon</td>
     <td>FM-Index</td>
     <td>ProteinTree</td>
+    <td>TagRecon</td>
     <td>FM-Index</td>
   </tr>
   <tr>
     <td>Yeast</td>
     <td>4.67</td>
+    <td>238</td>
     <td>0.096</td>
     <td>20.64</td>
+    <td>279</td>
     <td>0.59</td>
     <td>38.12</td>
+    <td>281</td>
     <td>3.863</td>
     <td>205.9</td>
+    <td>288</td>
     <td>33.596</td>
   </tr>
   <tr>
     <td>Mouse</td>
     <td>7.14</td>
+    <td>915</td>
     <td>0.167</td>
     <td>29.48</td>
+    <td>874</td>
     <td>1.196</td>
     <td>107.3</td>
+    <td></td>
     <td>9.910</td>
     <td>871.5</td>
+    <td></td>
     <td>97.10</td>
   </tr>
   <tr>
     <td>Human</td>
     <td>8.03</td>
+    <td></td>
     <td>0.178</td>
     <td>31.76</td>
+    <td></td>
     <td>1.352</td>
     <td>146.0</td>
+    <td></td>
     <td>11.67</td>
     <td>u.o.m.</td>
+    <td></td>
     <td>114.4</td>
   </tr>
   <tr>
     <td>Proteogenomics</td>
     <td>9.85</td>
+    <td>PTMs not supported</td>
     <td>0.297</td>
     <td>40.11</td>
+    <td>PTMs not supported</td>
     <td>1.546</td>
     <td>234.7</td>
+    <td>PTMs not supported</td>
     <td>12.16</td>
     <td>u.o.m.</td>
+    <td>PTMs not supported</td>
     <td>119.1</td>
   </tr>
   <tr>
-    <td>Metagenomics</td>
+    <td>Metaproteomics</td>
     <td>63.93</td>
+    <td>PTMs not supported</td>
     <td>3.978</td>
     <td>u.o.m.</td>
+    <td>PTMs not supported</td>
     <td>36.48</td>
     <td>u.o.m.</td>
+    <td>PTMs not supported</td>
     <td>324.4</td>
     <td>u.o.m.</td>
+    <td>PTMs not supported</td>
     <td>3154</td>
   </tr>
   <tr>
     <td>All Proteomes</td>
     <td>u.o.m.</td>
+    <td></td>
     <td>1.417</td>
     <td>u.o.m.</td>
+    <td></td>
     <td>12.85</td>
     <td>u.o.m.</td>
+    <td></td>
     <td>112.8</td>
     <td>u.o.m.</td>
+    <td></td>
     <td>1145.0</td>
   </tr>
 </table>
@@ -374,4 +402,5 @@ _ACM-SIAM Symposium on Discrete Algorithms_, 2003](http://dl.acm.org/citation.cf
 [4] [Huffman, _Proceedings of the Institute of Radio Engineers_, 1952](https://www.ic.tu-berlin.de/fileadmin/fg121/Source-Coding_WS12/selected-readings/10_04051119.pdf)<br>
 [5] [Ferragina and Manzini, _Proceedings of the 41st Annual Symposium on Foundations of Computer Science_, 2000](https://people.unipmn.it/manzini/papers/focs00draft.pdf)<br>
 [6] [Tanca et al, _PLoS ONE_, 2013](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0082981)<br>
-[7] [Crappé et al, _Nucleic Acids Research_, 2014](http://nar.oxfordjournals.org/content/43/5/e29.long)<br>
+[7] [Menschaert et al, _Molecular & Cellular Proteomics_, 2013](http://www.mcponline.org/content/12/7/1780.long)<br>
+[8] [Crappé et al, _Nucleic Acids Research_, 2014](http://nar.oxfordjournals.org/content/43/5/e29.long)<br>
