@@ -360,16 +360,16 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
     <td>Metaproteomics</td>
     <td>63.93</td>
     <td>PTMs not supported</td>
-    <td>3.978</td>
+    <td>6.281</td>
     <td>u.o.m.</td>
     <td>PTMs not supported</td>
-    <td>36.48</td>
+    <td>61.37</td>
     <td>u.o.m.</td>
     <td>PTMs not supported</td>
-    <td>324.4</td>
+    <td>609.3</td>
     <td>u.o.m.</td>
     <td>PTMs not supported</td>
-    <td>3154</td>
+    <td>6205</td>
   </tr>
   <tr>
     <td>All Proteomes</td>
