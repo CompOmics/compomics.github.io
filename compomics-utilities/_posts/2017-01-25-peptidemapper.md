@@ -231,7 +231,7 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
     <td>0.403</td>
     <td>123.1</td>
     <td>2.297</td>
-    <td>o.u.m.</td>
+    <td>o.o.m.</td>
     <td>21.35</td>
   </tr>
   <tr>
@@ -242,7 +242,7 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
     <td>0.262</td>
     <td>259.2</td>
     <td>2.094</td>
-    <td>u.o.m.</td>
+    <td>o.o.m.</td>
     <td>17.71</td>
   </tr>
   <tr>
@@ -253,18 +253,18 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
     <td>1.547</td>
     <td>9015</td>
     <td>13.49</td>
-    <td>u.o.m.</td>
+    <td>o.o.m.</td>
     <td>134.5</td>
   </tr>
   <tr>
     <td>All Proteomes</td>
-    <td>u.o.m.</td>
+    <td>o.o.m.</td>
     <td>0.119</td>
-    <td>u.o.m.</td>
+    <td>o.o.m.</td>
     <td>0.643</td>
-    <td>u.o.m.</td>
+    <td>o.o.m.</td>
     <td>6.270</td>
-    <td>u.o.m.</td>
+    <td>o.o.m.</td>
     <td>62.20</td>
   </tr>
 </table>
@@ -320,16 +320,16 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
     <td>874</td>
     <td>1.196</td>
     <td>107.3</td>
-    <td></td>
+    <td>1002</td>
     <td>9.910</td>
     <td>871.5</td>
-    <td></td>
+    <td>1226</td>
     <td>97.10</td>
   </tr>
   <tr>
     <td>Human</td>
     <td>8.03</td>
-    <td></td>
+    <td>1063</td>
     <td>0.178</td>
     <td>31.76</td>
     <td></td>
@@ -337,7 +337,7 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
     <td>146.0</td>
     <td></td>
     <td>11.67</td>
-    <td>u.o.m.</td>
+    <td>o.o.m.</td>
     <td></td>
     <td>114.4</td>
   </tr>
@@ -352,7 +352,7 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
     <td>234.7</td>
     <td>PTMs not supported</td>
     <td>12.16</td>
-    <td>u.o.m.</td>
+    <td>o.o.m.</td>
     <td>PTMs not supported</td>
     <td>119.1</td>
   </tr>
@@ -361,32 +361,33 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
     <td>63.93</td>
     <td>PTMs not supported</td>
     <td>6.281</td>
-    <td>u.o.m.</td>
+    <td>o.o.m.</td>
     <td>PTMs not supported</td>
     <td>61.37</td>
-    <td>u.o.m.</td>
+    <td>o.o.m.</td>
     <td>PTMs not supported</td>
     <td>609.3</td>
-    <td>u.o.m.</td>
+    <td>o.o.m.</td>
     <td>PTMs not supported</td>
     <td>6205</td>
   </tr>
   <tr>
     <td>All Proteomes</td>
-    <td>u.o.m.</td>
+    <td>o.o.m.</td>
     <td></td>
     <td>1.417</td>
-    <td>u.o.m.</td>
+    <td>o.o.m.</td>
     <td></td>
     <td>12.85</td>
-    <td>u.o.m.</td>
+    <td>o.o.m.</td>
     <td></td>
     <td>112.8</td>
-    <td>u.o.m.</td>
+    <td>o.o.m.</td>
     <td></td>
     <td>1145.0</td>
   </tr>
 </table>
+o.o.m. = out of memory
 
 ## Troubleshooting ##
 
