@@ -332,13 +332,13 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
     <td>1063</td>
     <td>0.178</td>
     <td>31.76</td>
-    <td></td>
+    <td>1151</td>
     <td>1.352</td>
     <td>146.0</td>
-    <td></td>
+    <td>1328</td>
     <td>11.67</td>
     <td>o.o.m.</td>
-    <td></td>
+    <td>1608</td>
     <td>114.4</td>
   </tr>
   <tr>
@@ -374,20 +374,30 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
   <tr>
     <td>All Proteomes</td>
     <td>o.o.m.</td>
-    <td></td>
+    <td>21981</td>
     <td>1.417</td>
     <td>o.o.m.</td>
-    <td></td>
+    <td>37791</td>
     <td>12.85</td>
     <td>o.o.m.</td>
-    <td></td>
+    <td>37353</td>
     <td>112.8</td>
     <td>o.o.m.</td>
-    <td></td>
+    <td>55171</td>
     <td>1145.0</td>
   </tr>
 </table>
 o.o.m. = out of memory
+
+## Quick start ##
+To run PeptideMapper, download the packed zip archive of the latest [compomics-utilities](http://genesis.ugent.be/maven2/com/compomics/utilities/) library, at least 4.9.0.
+```java
+wget http://genesis.ugent.be/maven2/com/compomics/utilities/4.9.0/utilities-4.9.0.jar
+unzip utilities-4.9.0.jar
+cd utilities-4.9.0
+java -cp utilities-4.9.0.jar com.compomics.util.experiment.identification.protein_inference.executable.PeptideMapping -p exampleFiles/PeptideMapping/yeast.fasta exampleFiles/PeptideMapping/yeast-pep-1k.csv results.csv
+```
+A detailed description of the comand line instructions is available [here](/compomics-utilities/wiki/peptidemappercli.html).
 
 ## Troubleshooting ##
 
