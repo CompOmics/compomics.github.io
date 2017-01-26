@@ -77,42 +77,36 @@ For the following benchmark tests, we are using an Intel(R) Xeon(R) 2.80 GHz qua
 ### Protein Sequences Databases and Benchmark Datasets ###
 
 Yeast (May 2016):
-
   * size: 6,721 Proteins, 3,025,143 residues, 0 _X_ residues
   * fixed modifications: none
   * variable modifications: none
   * fragment tolerance: 0.02 Da
 
 Mouse (May 2016):
-
   * size: 16,813 Proteins, 9,474,758 residues, 79 _X_ residues
   * fixed modifications: Carbamidomethylation of C
   * variable modifications: none
   * fragment tolerance: 0.02 Da
 
 Human (July 2015):
-
   * size: 20,207 Proteins, 11,326,153 residues, 670 _X_ residues
   * fixed modifications: Carbamidomethylation of C, Oxidation of M
   * variable modifications: none
   * fragment tolerance: 0.02 Da
 
 Proteogenomics (March 2015) [\[6\]](#references):
-
   * size: 83,721 Proteins, 13,851,427 residues, 0 _X_ residues
   * fixed modifications: Carbamidomethylation of C, Oxidation of M, Acetylation of K
   * variable modifications: Acetylation of peptide N-term, Pyrolidone from Q, Pyrolidone from E
   * fragment tolerance: 0.5 Da
 
 Metaproteomics (January 2013) [\[7\]](#references), [\[8\]](#references):
-
   * size 55,152 Proteins, 100,955,085 residues, 2,561,698 _X_ residues
   * fixed modifications: Carbamidomethylation of C
   * variable modifications: Oxidation of M, Pyrolidone from Q, Acetylation of peptide N-term
   * fragment tolerance: 0.2 Da
 
 All UniProt proteomes concatenated (July 2016):
-
  * size: 551,705 Proteins, 197,114,987 residues, 8,027 _X_ residues
  * fixed modifications: Carbamidomethylation of C, Oxidation of M
  * variable modifications: Acetylation of K
@@ -137,47 +131,46 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
   </tr>
   <tr>
     <td>Yeast</td>
-    <td>65.73</td>
-    <td>2.55</td>
-    <td>184.3</td>
-    <td>7.02</td>
+    <td align="right">65.73</td>
+    <td align="right">2.55</td>
+    <td align="right">184.30</td>
+    <td align="right">7.02</td>
   </tr>
   <tr>
     <td>Mouse</td>
-    <td>212.9</td>
-    <td>6.57</td>
-    <td>601.5</td>
-    <td>22.02</td>
+    <td align="right">212.90</td>
+    <td align="right">6.57</td>
+    <td align="right">601.50</td>
+    <td align="right">22.02</td>
   </tr>
   <tr>
     <td>Human</td>
-    <td>252.0</td>
-    <td>7.49</td>
-    <td>537.9</td>
-    <td>26.33</td>
+    <td align="right">252.00</td>
+    <td align="right">7.49</td>
+    <td align="right">537.90</td>
+    <td align="right">26.33</td>
   </tr>
   <tr>
     <td>Proteogenomics</td>
-    <td>526.2</td>
-    <td>8.81</td>
-    <td>1211</td>
-    <td>32.38</td>
+    <td align="right">526.20</td>
+    <td align="right">8.81</td>
+    <td align="right">1211.00</td>
+    <td align="right">32.38</td>
   </tr>
   <tr>
     <td>Metaproteomics</td>
-    <td>2956</td>
-    <td>58.35</td>
-    <td>5423</td>
-    <td>238.7</td>
+    <td align="right">2956.00</td>
+    <td align="right">58.00</td>
+    <td align="right">5423.00</td>
+    <td align="right">238.00</td>
   </tr>
   <tr>
     <td>All Proteomes</td>
-    <td>7924</td>
-    <td>122.08</td>
-    <td>8653</td>
-    <td>458.1</td>
+    <td align="right">7924.00</td>
+    <td align="right">122.00</td>
+    <td align="right">8653.00</td>
+    <td align="right">458.00</td>
   </tr>
-
 </table>
 
 ### Results - Peptide Sequences Mapping Time ###
@@ -203,72 +196,71 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
   </tr>
   <tr>
     <td>Yeast</td>
-    <td>6.067</td>
-    <td>0.041</td>
-    <td>16.96</td>
-    <td>0.206</td>
-    <td>22.45</td>
-    <td>1.385</td>
-    <td>72.01</td>
-    <td>12.018</td>
+    <td align="right">6.067</td>
+    <td align="right">0.041</td>
+    <td align="right">16.960</td>
+    <td align="right">0.206</td>
+    <td align="right">22.450</td>
+    <td align="right">1.385</td>
+    <td align="right">72.010</td>
+    <td align="right">12.018</td>
   </tr>
   <tr>
     <td>Mouse</td>
-    <td>10.17</td>
-    <td>0.057</td>
-    <td>22.48</td>
-    <td>0.313</td>
-    <td>35.93</td>
-    <td>2.291</td>
-    <td>90.23</td>
-    <td>19.49</td>
+    <td align="right">10.170</td>
+    <td align="right">0.057</td>
+    <td align="right">22.480</td>
+    <td align="right">0.313</td>
+    <td align="right">35.930</td>
+    <td align="right">2.291</td>
+    <td align="right">90.230</td>
+    <td align="right">19.490</td>
   </tr>
   <tr>
     <td>Human</td>
-    <td>8.26</td>
-    <td>0.056</td>
-    <td>25.85</td>
-    <td>0.403</td>
-    <td>123.1</td>
-    <td>2.297</td>
-    <td>o.o.m.</td>
-    <td>21.35</td>
+    <td align="right">8.260</td>
+    <td align="right">0.056</td>
+    <td align="right">25.850</td>
+    <td align="right">0.403</td>
+    <td align="right">123.100</td>
+    <td align="right">2.297</td>
+    <td align="right">o.o.m.</td>
+    <td align="right">21.350</td>
   </tr>
   <tr>
     <td>Proteogenomics</td>
-    <td>8.91</td>
-    <td>0.058</td>
-    <td>39.26</td>
-    <td>0.262</td>
-    <td>259.2</td>
-    <td>2.094</td>
-    <td>o.o.m.</td>
-    <td>17.71</td>
+    <td align="right">8.910</td>
+    <td align="right">0.058</td>
+    <td align="right">39.260</td>
+    <td align="right">0.262</td>
+    <td align="right">259.200</td>
+    <td align="right">2.094</td>
+    <td align="right">o.o.m.</td>
+    <td align="right">17.710</td>
   </tr>
   <tr>
     <td>Metaproteomics</td>
-    <td>70.72</td>
-    <td>0.224</td>
-    <td>1183.8</td>
-    <td>1.547</td>
-    <td>9015</td>
-    <td>13.49</td>
-    <td>o.o.m.</td>
-    <td>134.5</td>
+    <td align="right">70.720</td>
+    <td align="right">0.224</td>
+    <td align="right">1183.800</td>
+    <td align="right">1.547</td>
+    <td align="right">9015.000</td>
+    <td align="right">13.490</td>
+    <td align="right">o.o.m.</td>
+    <td align="right">134.500</td>
   </tr>
   <tr>
     <td>All Proteomes</td>
-    <td>o.o.m.</td>
-    <td>0.119</td>
-    <td>o.o.m.</td>
-    <td>0.643</td>
-    <td>o.o.m.</td>
-    <td>6.270</td>
-    <td>o.o.m.</td>
-    <td>62.20</td>
+    <td align="right">o.o.m.</td>
+    <td align="right">0.119</td>
+    <td align="right">o.o.m.</td>
+    <td align="right">0.643</td>
+    <td align="right">o.o.m.</td>
+    <td align="right">6.270</td>
+    <td align="right">o.o.m.</td>
+    <td align="right">62.200</td>
   </tr>
 </table>
-
 
 
 ### Results - Sequence Tags Mapping Time ###
@@ -298,106 +290,108 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
   </tr>
   <tr>
     <td>Yeast</td>
-    <td>4.67</td>
-    <td>238</td>
-    <td>0.096</td>
-    <td>20.64</td>
-    <td>279</td>
-    <td>0.59</td>
-    <td>38.12</td>
-    <td>281</td>
-    <td>3.863</td>
-    <td>205.9</td>
-    <td>288</td>
-    <td>33.596</td>
+    <td align="right">4.670</td>
+    <td align="right">238.000</td>
+    <td align="right">0.096</td>
+    <td align="right">20.640</td>
+    <td align="right">279.000</td>
+    <td align="right">0.590</td>
+    <td align="right">38.120</td>
+    <td align="right">281.000</td>
+    <td align="right">3.863</td>
+    <td align="right">205.900</td>
+    <td align="right">288.000</td>
+    <td align="right">33.596</td>
   </tr>
   <tr>
     <td>Mouse</td>
-    <td>7.14</td>
-    <td>915</td>
-    <td>0.167</td>
-    <td>29.48</td>
-    <td>874</td>
-    <td>1.196</td>
-    <td>107.3</td>
-    <td>1002</td>
-    <td>9.910</td>
-    <td>871.5</td>
-    <td>1226</td>
-    <td>97.10</td>
+    <td align="right">7.140</td>
+    <td align="right">915.000</td>
+    <td align="right">0.167</td>
+    <td align="right">29.480</td>
+    <td align="right">874.000</td>
+    <td align="right">1.196</td>
+    <td align="right">107.300</td>
+    <td align="right">1002.000</td>
+    <td align="right">9.910</td>
+    <td align="right">871.500</td>
+    <td align="right">1226.000</td>
+    <td align="right">97.100</td>
   </tr>
   <tr>
     <td>Human</td>
-    <td>8.03</td>
-    <td>1063</td>
-    <td>0.178</td>
-    <td>31.76</td>
-    <td>1151</td>
-    <td>1.352</td>
-    <td>146.0</td>
-    <td>1328</td>
-    <td>11.67</td>
-    <td>o.o.m.</td>
-    <td>1608</td>
-    <td>114.4</td>
+    <td align="right">8.030</td>
+    <td align="right">1063.000</td>
+    <td align="right">0.178</td>
+    <td align="right">31.760</td>
+    <td align="right">1151.000</td>
+    <td align="right">1.352</td>
+    <td align="right">146.000</td>
+    <td align="right">1328.000</td>
+    <td align="right">11.670</td>
+    <td align="right">o.o.m.</td>
+    <td align="right">1608.000</td>
+    <td align="right">114.400</td>
   </tr>
   <tr>
     <td>Proteogenomics</td>
-    <td>9.85</td>
-    <td>PTMs not supported</td>
-    <td>0.297</td>
-    <td>40.11</td>
-    <td>PTMs not supported</td>
-    <td>1.546</td>
-    <td>234.7</td>
-    <td>PTMs not supported</td>
-    <td>12.16</td>
-    <td>o.o.m.</td>
-    <td>PTMs not supported</td>
-    <td>119.1</td>
+    <td align="right">9.850</td>
+    <td align="right">PTMs not supported</td>
+    <td align="right">0.297</td>
+    <td align="right">40.110</td>
+    <td align="right">PTMs not supported</td>
+    <td align="right">1.546</td>
+    <td align="right">234.700</td>
+    <td align="right">PTMs not supported</td>
+    <td align="right">12.160</td>
+    <td align="right">o.o.m.</td>
+    <td align="right">PTMs not supported</td>
+    <td align="right">119.100</td>
   </tr>
   <tr>
     <td>Metaproteomics</td>
-    <td>63.93</td>
-    <td>PTMs not supported</td>
-    <td>6.281</td>
-    <td>o.o.m.</td>
-    <td>PTMs not supported</td>
-    <td>61.37</td>
-    <td>o.o.m.</td>
-    <td>PTMs not supported</td>
-    <td>609.3</td>
-    <td>o.o.m.</td>
-    <td>PTMs not supported</td>
-    <td>6205</td>
+    <td align="right">63.930</td>
+    <td align="right">PTMs not supported</td>
+    <td align="right">6.281</td>
+    <td align="right">o.o.m.</td>
+    <td align="right">PTMs not supported</td>
+    <td align="right">61.370</td>
+    <td align="right">o.o.m.</td>
+    <td align="right">PTMs not supported</td>
+    <td align="right">609.300</td>
+    <td align="right">o.o.m.</td>
+    <td align="right">PTMs not supported</td>
+    <td align="right">6205.000</td>
   </tr>
   <tr>
     <td>All Proteomes</td>
-    <td>o.o.m.</td>
-    <td>21981</td>
-    <td>1.417</td>
-    <td>o.o.m.</td>
-    <td>37791</td>
-    <td>12.85</td>
-    <td>o.o.m.</td>
-    <td>37353</td>
-    <td>112.8</td>
-    <td>o.o.m.</td>
-    <td>55171</td>
-    <td>1145.0</td>
+    <td align="right">o.o.m.</td>
+    <td align="right">21981.000</td>
+    <td align="right">1.417</td>
+    <td align="right">o.o.m.</td>
+    <td align="right">37791.000</td>
+    <td align="right">12.850</td>
+    <td align="right">o.o.m.</td>
+    <td align="right">37353.000</td>
+    <td align="right">112.800</td>
+    <td align="right">o.o.m.</td>
+    <td align="right">55171.000</td>
+    <td align="right">1145.000</td>
   </tr>
 </table>
 o.o.m. = out of memory
 
 ## Quick start ##
-To run PeptideMapper, download the packed zip archive of the latest [compomics-utilities](http://genesis.ugent.be/maven2/com/compomics/utilities/) library, at least 4.9.0.
+To run PeptideMapper, download the packed zip archive of the latest [compomics-utilities](http://genesis.ugent.be/maven2/com/compomics/utilities/) library, version 4.9.0 or newer.
+
 ```java
 wget http://genesis.ugent.be/maven2/com/compomics/utilities/4.9.0/utilities-4.9.0.jar
 unzip utilities-4.9.0.jar
 cd utilities-4.9.0
 java -cp utilities-4.9.0.jar com.compomics.util.experiment.identification.protein_inference.executable.PeptideMapping -p exampleFiles/PeptideMapping/yeast.fasta exampleFiles/PeptideMapping/yeast-pep-1k.csv results.csv
 ```
-A detailed description of the comand line instructions is available [here](/compomics-utilities/wiki/peptidemappercli.html).
+
+A detailed description of the command line instructions is available [here](/compomics-utilities/wiki/peptidemappercli.html).
 
 ## Troubleshooting ##
 
