@@ -19,6 +19,7 @@ For command line options and format specifications, please refer to [PeptideMapp
   * [Methods](#methods)
   * [Performance](#performance)
   * [Troubleshooting](#troubleshooting)
+  * [Quick Start](#quick-start)
   * [References](#references)
 
 ## Methods ##
@@ -72,7 +73,7 @@ it appears in as well as the corresponding starting positions are returned.
 
 ## Performance ##
 
-For the following benchmark tests, we are using an Intel(R) Xeon(R) 2.80 GHz quad core desktop computer with 16 GB RAM. Note that only one core is used for the performance tests, since the task of mapping independent peptides against a sequence database can be heavily parallelized, the computation time can almost be divided by the number of cores used. We compared both index methods the prior ProteinTree with the new adapted FM-Index.
+For the following benchmark tests, we are using an Intel(R) Xeon(R) 2.80 GHz quad core desktop computer with 16 GB RAM. Note that only one core is used for the performance tests, since the task of mapping independent peptides against a sequence database can be heavily parallelized, the computation time can almost be divided by the number of cores used. We compared both index methods the prior ProteinTree with the new adapted FM-Index. Additionally, we compared the sequence tag mapping with TagRecon [\[6\]](#references).
 
 ### Protein Sequences Databases and Benchmark Datasets ###
 
@@ -94,13 +95,13 @@ Human (July 2015):
   * variable modifications: none
   * fragment tolerance: 0.02 Da
 
-Proteogenomics (March 2015) [\[6\]](#references):
+Proteogenomics (March 2015) [\[7\]](#references):
   * size: 83,721 Proteins, 13,851,427 residues, 0 _X_ residues
   * fixed modifications: Carbamidomethylation of C, Oxidation of M, Acetylation of K
   * variable modifications: Acetylation of peptide N-term, Pyrolidone from Q, Pyrolidone from E
   * fragment tolerance: 0.5 Da
 
-Metaproteomics (January 2013) [\[7\]](#references), [\[8\]](#references):
+Metaproteomics (January 2013) [\[8\]](#references), [\[9\]](#references):
   * size 55,152 Proteins, 100,955,085 residues, 2,561,698 _X_ residues
   * fixed modifications: Carbamidomethylation of C
   * variable modifications: Oxidation of M, Pyrolidone from Q, Acetylation of peptide N-term
@@ -385,8 +386,8 @@ o.o.m. = out of memory
 To run PeptideMapper, download the packed zip archive of the latest [compomics-utilities](http://genesis.ugent.be/maven2/com/compomics/utilities/) library, version 4.9.0 or newer.
 
 ```java
-wget http://genesis.ugent.be/maven2/com/compomics/utilities/4.9.0/utilities-4.9.0.jar
-unzip utilities-4.9.0.jar
+wget http://genesis.ugent.be/maven2/com/compomics/utilities/4.9.0/utilities-4.9.0.zip
+unzip utilities-4.9.0.zip
 cd utilities-4.9.0
 java -cp utilities-4.9.0.jar com.compomics.util.experiment.identification.protein_inference.executable.PeptideMapping -p exampleFiles/PeptideMapping/yeast.fasta exampleFiles/PeptideMapping/yeast-pep-1k.csv results.csv
 ```
@@ -406,6 +407,7 @@ Corporation_, 1994](http://www.hpl.hp.com/techreports/Compaq-DEC/SRC-RR-124.pdf)
 _ACM-SIAM Symposium on Discrete Algorithms_, 2003](http://dl.acm.org/citation.cfm?id=644108.644250)<br>
 [4] [Huffman, _Proceedings of the Institute of Radio Engineers_, 1952](https://www.ic.tu-berlin.de/fileadmin/fg121/Source-Coding_WS12/selected-readings/10_04051119.pdf)<br>
 [5] [Ferragina and Manzini, _Proceedings of the 41st Annual Symposium on Foundations of Computer Science_, 2000](https://people.unipmn.it/manzini/papers/focs00draft.pdf)<br>
-[6] [Tanca et al, _PLoS ONE_, 2013](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0082981)<br>
-[7] [Menschaert et al, _Molecular & Cellular Proteomics_, 2013](http://www.mcponline.org/content/12/7/1780.long)<br>
-[8] [Crappé et al, _Nucleic Acids Research_, 2014](http://nar.oxfordjournals.org/content/43/5/e29.long)<br>
+[6] [Dasari et al., _Journal of Proteome Research_, 2010](http://pubs.acs.org/doi/abs/10.1021/pr900850m)<br>
+[7] [Tanca et al., _PLoS ONE_, 2013](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0082981)<br>
+[8] [Menschaert et al., _Molecular & Cellular Proteomics_, 2013](http://www.mcponline.org/content/12/7/1780.long)<br>
+[9] [Crappé et al., _Nucleic Acids Research_, 2014](http://nar.oxfordjournals.org/content/43/5/e29.long)<br>
