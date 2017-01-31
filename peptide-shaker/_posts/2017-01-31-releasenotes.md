@@ -10,6 +10,17 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.15.0 (January 31. 2017):**
+
+* FEATURE IMPROVEMENT: Sped ups in the protein inference.
+* FEATURE IMPROVEMENT: Increased the number of decimals for the scores in the mzIdentML export from two to four.
+
+* BUG FIX: Cleaned-up the de novo import code. 
+
+* LIBRARY UPDATE: Updated utilities to version 4.10.0.
+
+---
+
 **Changes in PeptideShaker 1.14.6 (December 21. 2016):**
 
 * BUG FIX: Fixed bugs in the use of unspecific and whole protein as the digestion method.
