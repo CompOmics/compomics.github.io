@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.2.6 (January 31. 2017):**
+
+* LIBRARY UPDATE: Updated utilities to version 4.10.0.
+
+----
+
 **Changes in SearchGUI 3.2.5 (December 21. 2016):**
 
 * BUG FIX: Fixed bugs in the use of unspecific and whole protein as the digestion method.
