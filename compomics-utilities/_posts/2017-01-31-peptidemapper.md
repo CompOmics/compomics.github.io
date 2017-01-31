@@ -73,7 +73,7 @@ it appears in as well as the corresponding starting positions are returned.
 
 ## Performance ##
 
-For the following benchmark tests, we are using an Intel(R) Xeon(R) 2.80 GHz quad core desktop computer with 16 GB RAM. Note that only one core is used for the performance tests, since the task of mapping independent peptides against a sequence database can be heavily parallelized, the computation time can almost be divided by the number of cores used. We compared both index methods the prior ProteinTree with the new adapted FM-Index. Additionally, we compared the sequence tag mapping with TagRecon [\[6\]](#references).
+For the following benchmark tests, we are using an Intel(R) Xeon(R) 2.80 GHz quad core desktop computer with 16 GB RAM. Note that only one core is used for the performance tests, since the task of mapping independent peptides against a sequence database can be heavily parallelized, the computation time can almost be divided by the number of cores used. We compared both compomics-utilities index methods, the ProteinTree and the new adapted FM-Index. Additionally, we compared the sequence tag mapping with TagRecon [\[6\]](#references).
 
 ### Protein Sequences Databases and Benchmark Datasets ###
 
@@ -234,7 +234,7 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
     <td align="right">0.058</td>
     <td align="right">39.260</td>
     <td align="right">0.262</td>
-    <td align="right">259.200</td>
+    <td align="right">259.2</td>
     <td align="right">2.094</td>
     <td align="right">o.o.m.</td>
     <td align="right">17.710</td>
@@ -292,92 +292,92 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
   <tr>
     <td>Yeast</td>
     <td align="right">4.670</td>
-    <td align="right">238.000</td>
+    <td align="right">238.0</td>
     <td align="right">0.096</td>
-    <td align="right">20.640</td>
-    <td align="right">279.000</td>
+    <td align="right">20.64</td>
+    <td align="right">279.0</td>
     <td align="right">0.590</td>
-    <td align="right">38.120</td>
-    <td align="right">281.000</td>
+    <td align="right">38.12</td>
+    <td align="right">281.0</td>
     <td align="right">3.863</td>
-    <td align="right">205.900</td>
-    <td align="right">288.000</td>
-    <td align="right">33.596</td>
+    <td align="right">205.9</td>
+    <td align="right">288.0</td>
+    <td align="right">33.59</td>
   </tr>
   <tr>
     <td>Mouse</td>
     <td align="right">7.140</td>
-    <td align="right">915.000</td>
+    <td align="right">915.0</td>
     <td align="right">0.167</td>
-    <td align="right">29.480</td>
-    <td align="right">874.000</td>
+    <td align="right">29.48</td>
+    <td align="right">874.0</td>
     <td align="right">1.196</td>
-    <td align="right">107.300</td>
-    <td align="right">1002.000</td>
+    <td align="right">107.3</td>
+    <td align="right">1002</td>
     <td align="right">9.910</td>
-    <td align="right">871.500</td>
-    <td align="right">1226.000</td>
-    <td align="right">97.100</td>
+    <td align="right">871.5</td>
+    <td align="right">1226</td>
+    <td align="right">97.10</td>
   </tr>
   <tr>
     <td>Human</td>
     <td align="right">8.030</td>
-    <td align="right">1063.000</td>
+    <td align="right">1063</td>
     <td align="right">0.178</td>
-    <td align="right">31.760</td>
-    <td align="right">1151.000</td>
+    <td align="right">31.76</td>
+    <td align="right">1151</td>
     <td align="right">1.352</td>
-    <td align="right">146.000</td>
-    <td align="right">1328.000</td>
-    <td align="right">11.670</td>
+    <td align="right">146.0</td>
+    <td align="right">1328</td>
+    <td align="right">11.67</td>
     <td align="right">o.o.m.</td>
-    <td align="right">1608.000</td>
-    <td align="right">114.400</td>
+    <td align="right">1608</td>
+    <td align="right">114.4</td>
   </tr>
   <tr>
     <td>Proteogenomics</td>
     <td align="right">9.850</td>
     <td align="right">PTMs not supported</td>
     <td align="right">0.297</td>
-    <td align="right">40.110</td>
+    <td align="right">40.11</td>
     <td align="right">PTMs not supported</td>
     <td align="right">1.546</td>
-    <td align="right">234.700</td>
+    <td align="right">234.7</td>
     <td align="right">PTMs not supported</td>
-    <td align="right">12.160</td>
+    <td align="right">12.16</td>
     <td align="right">o.o.m.</td>
     <td align="right">PTMs not supported</td>
-    <td align="right">119.100</td>
+    <td align="right">119.1</td>
   </tr>
   <tr>
     <td>Metaproteomics</td>
-    <td align="right">63.930</td>
+    <td align="right">63.93</td>
     <td align="right">PTMs not supported</td>
     <td align="right">6.281</td>
     <td align="right">o.o.m.</td>
     <td align="right">PTMs not supported</td>
-    <td align="right">61.370</td>
+    <td align="right">61.37</td>
     <td align="right">o.o.m.</td>
     <td align="right">PTMs not supported</td>
-    <td align="right">609.300</td>
+    <td align="right">609.3</td>
     <td align="right">o.o.m.</td>
     <td align="right">PTMs not supported</td>
-    <td align="right">6205.000</td>
+    <td align="right">6205</td>
   </tr>
   <tr>
     <td>All Proteomes</td>
     <td align="right">o.o.m.</td>
-    <td align="right">21981.000</td>
+    <td align="right">21981</td>
     <td align="right">1.417</td>
     <td align="right">o.o.m.</td>
-    <td align="right">37791.000</td>
-    <td align="right">12.850</td>
+    <td align="right">37791</td>
+    <td align="right">12.85</td>
     <td align="right">o.o.m.</td>
-    <td align="right">37353.000</td>
-    <td align="right">112.800</td>
+    <td align="right">37353</td>
+    <td align="right">112.8</td>
     <td align="right">o.o.m.</td>
-    <td align="right">55171.000</td>
-    <td align="right">1145.000</td>
+    <td align="right">55171</td>
+    <td align="right">1145</td>
   </tr>
 </table>
 o.o.m. = out of memory
