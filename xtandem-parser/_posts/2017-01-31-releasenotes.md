@@ -10,10 +10,15 @@ github_project: https://github.com/compomics/xtandem-parser
 
 ----
 
+**Changes in XTandemParser 1.13.0 - (January 31. 2017):**
+
+* LIBRARY UPDATE: Updated utilities to version 4.10.0.
+
+---
+
 **Changes in XTandemParser 1.12.0 - (December 12. 2016):**
 
 * FEATURE IMPROVEMENT: Removed the references to the deprecated EBI Nexus repository.
-
 * LIBRARY UPDATE: Updated utilities to version 4.8.7.
 
 ---
