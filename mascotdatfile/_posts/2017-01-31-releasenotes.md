@@ -10,6 +10,10 @@ github_project: https://github.com/compomics/mascotdatfile
 
 *Starting from MascotDatfile version 3.0, all subsequent versions of the library are listed here.*
 
+### 3.6.0 (31 January 2017)
+ * Minor change in the compomics id file reader.
+ * Updated utilities to version 4.10.0.
+
 ### 3.5.0 (12 December 2016)
  * Removed the references to the deprecated EBI Nexus repository.
  * Fixed https://github.com/compomics/mascotdatfile/issues/14.
