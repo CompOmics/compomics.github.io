@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.15.0 (January 31. 2017):**
+
+* BUG FIX: The path to the jar file is now set even if the GUI has not been run first.
+* BUG FIX: The taxonomy files have been added, as these were needed when setting up the identification parameters on the command line.
+* LIBRARY UPDATE: Updated utilities to version 4.10.0.
+
+----
+
 **Changes in DeNovoGUI 1.14.5 (December 21. 2016):**
 
 * LIBRARY UPDATE: Updated utilities to version 4.8.9.
