@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/omssa-parser
 
 ----
 
+**Changes in omssa-parser v1.9.0 - (January 31. 2017):**
+
+* LIBRARY UPDATE: Updated utilities to version 4.10.0.
+
+---
+
 **Changes in omssa-parser v1.8.0 - (December 11. 2016):**
 
 * FEATURE IMPROVEMENT: Removed the references to the deprecated EBI Nexus repository.
