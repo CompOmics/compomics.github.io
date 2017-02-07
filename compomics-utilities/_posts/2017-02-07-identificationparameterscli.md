@@ -10,7 +10,7 @@ github_project: https://github.com/compomics/compomics-utilities
 
 # Identification Parameters Command Line Interface #
 
-IdentificationParametersCLI can be used to create or edit an identification parameter file via command line, for use in tools like [SearchGUI](http://compomics.github.io/projects/searchgui.html), [DeNovoGUI](http://compomics.github.io/projects/denovogui.html) and [PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html). Identification parameter files are in the [json](https://en.wikipedia.org/wiki/JSON) format and can also be created in the graphical user interface or using third party tools. Alternatively, the parameters can be used directly in the command lines of [SearchGUI](http://compomics.github.io/projects/searchgui.html) and [PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html).
+IdentificationParametersCLI can be used to create or edit an identification parameter file via command line, for use in tools like [SearchGUI](http://compomics.github.io/projects/searchgui.html), [PeptideMapper](/compomics-utilities/wiki/peptidemapper.html), [DeNovoGUI](http://compomics.github.io/projects/denovogui.html) and [PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html). Identification parameter files are in the [json](https://en.wikipedia.org/wiki/JSON) format and can also be created in the graphical user interface or using third party tools. Alternatively, the parameters can be created and edited directly in the command lines of [CompOmics-utilities](http://compomics.github.io/projects/compomics-utilities.html), [SearchGUI](http://compomics.github.io/projects/searchgui.html) and [PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html).
 
 Note that most of the advanced settings and algorithm specific parameters listed below are for expert usage only. Changes from the default settings should be done with care.
 
@@ -45,6 +45,11 @@ Note that most of the advanced settings and algorithm specific parameters listed
 ---
 
 ## General command lines ##
+
+```java
+java -cp utilities-X.Y.Z.jar 
+com.compomics.cli.identification_parameters.IdentificationParametersCLI[parameters]
+```
 
 ```java
 java -cp SearchGUI-X.Y.Z.jar 
