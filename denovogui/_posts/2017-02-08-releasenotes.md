@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.15.1 (February 8. 2017):**
+
+* LIBRARY UPDATE: Updated utilities to version 4.11.0.
+
+----
+
 **Changes in DeNovoGUI 1.15.0 (January 31. 2017):**
 
 * BUG FIX: The path to the jar file is now set even if the GUI has not been run first.
