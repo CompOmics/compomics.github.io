@@ -30,9 +30,9 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
 
 ```java
 -spectrum_files         Spectrum files (mgf format), comma separated list or an entire folder.
-                        Example: "file1.mgf, file2.mgf". (See also MGF Splitting below.)
+                        Example: "c:\file1.mgf, c:\file2.mgf". (See also MGF Splitting below.)
 
--output_folder          The output folder.
+-output_folder          The output folder, example: "c:\output_folder".
 
 -id_params              The identification parameters file (.par). 
                         Generated using the GUI or via IdentificationParametersCLI.
