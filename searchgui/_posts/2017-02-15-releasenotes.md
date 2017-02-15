@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.2.8 (February 15. 2017):**
+
+* LIBRARY UPDATE: Updated utilities to version 4.11.2.
+
+----
+
 **Changes in SearchGUI 3.2.7 (February 8. 2017):**
 
 * LIBRARY UPDATE: Updated utilities to version 4.11.0.
