@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.15.2 (February 15. 2017):**
+
+* LIBRARY UPDATE: Updated utilities to version 4.11.2.
+
+----
+
 **Changes in DeNovoGUI 1.15.1 (February 8. 2017):**
 
 * LIBRARY UPDATE: Updated utilities to version 4.11.0.
