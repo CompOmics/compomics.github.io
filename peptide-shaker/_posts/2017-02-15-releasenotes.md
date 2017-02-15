@@ -10,6 +10,16 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.0 (February 15. 2017):**
+
+* BUG FIX: Fixed issues in the FASTA file indexing.
+* BUG FIX: PSMs are now all accounted for PTM localization of the peptide.
+* BUG FIX: Improved the interaction between the object cache and database. 
+
+* LIBRARY UPDATE: Updated utilities to version 4.11.2.
+
+---
+
 **Changes in PeptideShaker 1.15.1 (February 8. 2017):**
 
 * BUG FIX: Fixed a bug in the handling of neutral losses in the mzIdentML export.
