@@ -10,6 +10,19 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.7.0 (February 15. 2017):**
+
+* NEW FEATURE: Made it possible for the user to reorder the samples to change the order in the cluster displays.
+* NEW FEATURE: The sample names are now shown in the maximized versions of the cluster plots.
+
+* BUG FIX: Added checks in the clustering when no elements are selected to avoid null pointers.
+* BUG FIX: Avoided a null pointer that occurred if a dataset was loaded that did not contain any reporters.
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.16.0.
+* LIBRARY UPDATE: Updated utilities to version 4.11.2.
+
+----
+
 **Changes in Reporter 0.6.6 (January 31. 2017):**
 
 * LIBRARY UPDATE: Updated PeptideShaker to version 1.15.0.
