@@ -404,7 +404,7 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
 o.o.m. = out of memory
 
 ## Quick Start ##
-To run PeptideMapper, download the packed zip archive of the latest [compomics-utilities](http://genesis.ugent.be/maven2/com/compomics/utilities/) library, version 4.9.0 or newer.
+To run PeptideMapper, download the packed zip archive of the latest [compomics-utilities](http://genesis.ugent.be/maven2/com/compomics/utilities/) library, version 4.10.0 or newer.
 
 ```java
 wget http://genesis.ugent.be/maven2/com/compomics/utilities/4.10.0/utilities-4.10.0.zip
