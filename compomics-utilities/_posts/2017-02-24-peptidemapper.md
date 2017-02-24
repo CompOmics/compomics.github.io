@@ -342,8 +342,8 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
     <td align="right">146.0</td>
     <td align="right">11.67</td>
 
-    <td align="right">o.o.m.</td>
     <td align="right">1608</td>
+    <td align="right">o.o.m.</td>
     <td align="right">114.4</td>
   </tr>
   <tr>
@@ -378,8 +378,8 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
     <td align="right">o.o.m.</td>
     <td align="right">609.3</td>
 
-    <td align="right">o.o.m.</td>
     <td align="right">PTMs not supported</td>
+    <td align="right">o.o.m.</td>
     <td align="right">6205</td>
   </tr>
   <tr>
