@@ -10,6 +10,13 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.7.1 (March 2. 2017):**
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.16.1.
+* LIBRARY UPDATE: Updated utilities to version 4.11.3.
+
+----
+
 **Changes in Reporter 0.7.0 (February 15. 2017):**
 
 * NEW FEATURE: Made it possible for the user to reorder the samples to change the order in the cluster displays.
