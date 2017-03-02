@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.15.4 (March 2. 2017):**
+
+* FEATURE IMPROVEMENT: Changed the default number of solutions for DirecTag from 20 to 10.
+
+* LIBRARY UPDATE: Updated utilities to version 4.11.3.
+
+----
+
 **Changes in DeNovoGUI 1.15.3 (February 17. 2017):**
 
 * FEATURE IMPROVEMENT: pNovo+ should now finally work again.
