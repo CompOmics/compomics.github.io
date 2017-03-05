@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.2 (March 5. 2017):**
+
+* FEATURE IMPROVEMENT: Updated the Example Dataset.
+
+---
+
 **Changes in PeptideShaker 1.16.1 (March 2. 2017):**
 
 * BUG FIX: Fixed a bug in the mzIdentML file reader that resulted in only the first SpectrumIdentificationItem being loaded for each SpectrumIdentificationResult element.
