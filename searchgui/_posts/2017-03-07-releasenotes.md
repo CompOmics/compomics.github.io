@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.2.10 (March 7. 2017):**
+
+* BUG FIX: Fixed bugs in the setting of the location of DirecTag and Novor, where the Andromeda location was set instead.
+* BUG FIX: Fixed a bug in the default locations for DirecTag on Linux.
+* BUG FIX: Ensured that the OMSSA modification files are the same for all platforms.
+
+----
+
 **Changes in SearchGUI 3.2.9 (March 2. 2017):**
 
 * BUG FIX: Removed the upper limitation for the number of threads/cores in the Processing Preferences dialog.
