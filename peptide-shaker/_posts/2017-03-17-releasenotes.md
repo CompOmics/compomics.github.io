@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.3 (March 17. 2017):**
+
+* BUG FIX: Corrected errors in the handling of the validation QC parameters. 
+* BUG FIX: Fixed bugs in the set up of the identification parameters from the command line. 
+
+* LIBRARY UPDATE: Updated utilities to version 4.11.4.
+
+---
+
 **Changes in PeptideShaker 1.16.2 (March 5. 2017):**
 
 * FEATURE IMPROVEMENT: Updated the Example Dataset.
