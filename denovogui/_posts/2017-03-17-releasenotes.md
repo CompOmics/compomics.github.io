@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.15.5 (March 17. 2017):**
+
+* BUG FIX: Fixed bugs in the set up of the identification parameters from the command line.
+
+* LIBRARY UPDATE: Updated utilities to version 4.11.4.
+
+----
+
 **Changes in DeNovoGUI 1.15.4 (March 2. 2017):**
 
 * FEATURE IMPROVEMENT: Changed the default number of solutions for DirecTag from 20 to 10.
