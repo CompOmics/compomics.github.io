@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.2.11 (March 17. 2017):**
+
+* BUG FIX: Fixed bugs in the set up of the identification parameters from the command line. 
+
+* LIBRARY UPDATE: Updated utilities to version 4.11.4.
+
+----
+
 **Changes in SearchGUI 3.2.10 (March 7. 2017):**
 
 * BUG FIX: Fixed bugs in the setting of the location of DirecTag and Novor, where the Andromeda location was set instead.
