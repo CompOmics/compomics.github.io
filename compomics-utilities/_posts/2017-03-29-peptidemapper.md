@@ -12,7 +12,10 @@ PeptideMapper is a lightweight and efficient application for the mapping of amin
 
 We have implemented queries for peptide sequences as well as sequence tags (alternating series of amino acids and mass gaps as produced by _de novo_ sequencing algorithms).
 
-PeptideMapper can be used standalone in command line or integrated as a dependency in other applications.
+PeptideMapper can be used standalone in command line or integrated as a dependency in other applications. 
+
+When using PeptideMapper, please cite [Kopczynski et al., Bioinformatics, 2017](https://doi.org/10.1093/bioinformatics/btx122).
+
 
 For command line options and format specifications, please refer to [PeptideMapperCLI](/compomics-utilities/wiki/peptidemappercli.html). For use as a dependency, please refer to [Usage As Dependency](/compomics-utilities/wiki/usageasdependency.html).
 
@@ -279,15 +282,12 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
     <td>TagRecon</td>
     <td>ProteinTree</td>
     <td>FM-Index</td>
-
     <td>TagRecon</td>
     <td>ProteinTree</td>
     <td>FM-Index</td>
-
     <td>TagRecon</td>
     <td>ProteinTree</td>
     <td>FM-Index</td>
-
     <td>TagRecon</td>
     <td>ProteinTree</td>
     <td>FM-Index</td>
@@ -297,15 +297,12 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
     <td align="right">238.0</td>
     <td align="right">4.670</td>
     <td align="right">0.096</td>
-
     <td align="right">279.0</td>
     <td align="right">20.64</td>
     <td align="right">0.590</td>
-
     <td align="right">281.0</td>
     <td align="right">38.12</td>
     <td align="right">3.863</td>
-
     <td align="right">288.0</td>
     <td align="right">205.9</td>
     <td align="right">33.59</td>
@@ -315,15 +312,12 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
     <td align="right">915.0</td>
     <td align="right">7.140</td>
     <td align="right">0.167</td>
-
     <td align="right">874.0</td>
     <td align="right">29.48</td>
     <td align="right">1.196</td>
-
     <td align="right">1002</td>
     <td align="right">107.3</td>
     <td align="right">9.910</td>
-
     <td align="right">1226</td>
     <td align="right">871.5</td>
     <td align="right">97.10</td>
@@ -333,15 +327,12 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
     <td align="right">1063</td>
     <td align="right">8.030</td>
     <td align="right">0.178</td>
-
     <td align="right">1151</td>
     <td align="right">31.76</td>
     <td align="right">1.352</td>
-
     <td align="right">1328</td>
     <td align="right">146.0</td>
     <td align="right">11.67</td>
-
     <td align="right">1608</td>
     <td align="right">o.o.m.</td>
     <td align="right">114.4</td>
@@ -351,15 +342,12 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
     <td align="right">PTMs not supported</td>
     <td align="right">9.850</td>
     <td align="right">0.297</td>
-
     <td align="right">PTMs not supported</td>
     <td align="right">40.11</td>
     <td align="right">1.546</td>
-
     <td align="right">PTMs not supported</td>
     <td align="right">234.7</td>
     <td align="right">12.16</td>
-
     <td align="right">PTMs not supported</td>
     <td align="right">o.o.m.</td>
     <td align="right">119.1</td>
@@ -369,15 +357,12 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
     <td align="right">PTMs not supported</td>
     <td align="right">63.93</td>
     <td align="right">6.281</td>
-
     <td align="right">PTMs not supported</td>
     <td align="right">o.o.m.</td>
     <td align="right">61.37</td>
-
     <td align="right">PTMs not supported</td>
     <td align="right">o.o.m.</td>
     <td align="right">609.3</td>
-
     <td align="right">PTMs not supported</td>
     <td align="right">o.o.m.</td>
     <td align="right">6205</td>
@@ -387,20 +372,18 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
     <td align="right">21981</td>
     <td align="right">o.o.m.</td>
     <td align="right">1.417</td>
-
     <td align="right">37791</td>
     <td align="right">o.o.m.</td>
     <td align="right">12.85</td>
-
     <td align="right">37353</td>
     <td align="right">o.o.m.</td>
     <td align="right">112.8</td>
-
     <td align="right">55171</td>
     <td align="right">o.o.m.</td>
     <td align="right">1145</td>
   </tr>
 </table>
+
 o.o.m. = out of memory
 
 ## Quick Start ##

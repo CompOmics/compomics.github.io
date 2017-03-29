@@ -47,7 +47,11 @@ The aim of this wiki page is to provide help with common Java related issues tha
 
   * **Does Not Start III** - Is the tool installed in a path containing special characters, i.e. `[`, `%`, æ, ø, å, etc? If so, move the whole folder to a different location or rename the folder(s) causing the problem and try again. (Note that on Linux, most tools have to be run from paths not containing spaces as well).
 
-  * **Does Not Start IV** - If the tool fails during start-up many of our tools generate a file called `startup.log` in the tool's `resources\conf` folder. Here you can find detailed information about why the program was not able to start.
+  * **Does Not Start IV** - Is the tool installed in the _Program Files_ folder? If the tool is located in the _Program Files_ folder you need to run the tool with administrator right. It is simpler and better practice to move the tool to another folder.
+
+  * **Does Not Start V** - Do you have read/write right to the folder where the tool is installed? Is the folder synced or mapped? The tool needs to write to its own folder, make sure that it is allowed to. Please also avoid synced and mapped folders like on client machines or dropbox folders as your computer might stall trying to sync while the tool is running.
+
+  * **Does Not Start VI** - If the tool fails during start-up many of our tools generate a file called `startup.log` in the tool's `resources\conf` folder. Here you can find detailed information about why the program was not able to start.
 
   * **Unidentified Developer** - If you run Java applications on a Mac you can get the warning _"Application" can't be opened because it is from an unidentified developer_. To escape this warning control-click on the file icon and then select "Open." This will give you the option of opening it regardless of its unidentified source. This only has to be done once for each version of the application.
 
