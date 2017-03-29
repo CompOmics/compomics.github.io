@@ -12,6 +12,7 @@ github_project: https://github.com/compomics/searchgui
 
 **Changes in SearchGUI 3.2.11 (March 17. 2017):**
 
+* BUG FIX: Corrected errors in the handling of the validation QC parameters.
 * BUG FIX: Fixed bugs in the set up of the identification parameters from the command line. 
 
 * LIBRARY UPDATE: Updated utilities to version 4.11.4.
