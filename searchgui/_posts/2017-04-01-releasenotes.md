@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.2.12 (April 1. 2017):**
+
+* FEATURE IMPROVEMENT: Updated Ensembl to version 88. 
+
+* LIBRARY UPDATE: Updated JSparklines to version 1.0.9.
+* LIBRARY UPDATE: Updated utilities to version 4.11.5.
+
+----
+
 **Changes in SearchGUI 3.2.11 (March 17. 2017):**
 
 * BUG FIX: Corrected errors in the handling of the validation QC parameters.
