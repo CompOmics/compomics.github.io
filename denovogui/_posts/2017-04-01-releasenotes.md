@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.15.6 (April 1. 2017):**
+
+* LIBRARY UPDATE: Updated utilities to version 4.11.5.
+
+----
+
 **Changes in DeNovoGUI 1.15.5 (March 17. 2017):**
 
 * BUG FIX: Fixed bugs in the set up of the identification parameters from the command line.
