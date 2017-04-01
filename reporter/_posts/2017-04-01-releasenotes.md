@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.7.3 (April 1. 2017):**
+
+* LIBRARY UPDATE: Updated JSparklines to version 1.0.9.
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.16.4.
+* LIBRARY UPDATE: Updated utilities to version 4.11.5.
+
+----
+
 **Changes in Reporter 0.7.2 (March 17. 2017):**
 
 * LIBRARY UPDATE: Updated PeptideShaker to version 1.16.3.
