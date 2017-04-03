@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.2.13 (April 3. 2017):**
+
+* BUG FIX: Fixed a problem that corrupted the previous release process.
+
+----
+
 **Changes in SearchGUI 3.2.12 (April 1. 2017):**
 
 * FEATURE IMPROVEMENT: Updated Ensembl to version 88. 
