@@ -12,7 +12,7 @@ github_project: https://github.com/compomics/searchgui
 
 **Changes in SearchGUI 3.2.13 (April 3. 2017):**
 
-* BUG FIX: Fixed a problem that corrupted the previous release process.
+* BUG FIX: Fixed a problem that corrupted the previous release.
 
 ----
 
