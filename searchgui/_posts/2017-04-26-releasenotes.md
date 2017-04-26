@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.2.14 (April 25. 2017):**
+
+* FEATURE IMPROVEMENT: Updated Ensembl Genomes to version 35. 
+
+* LIBRARY UPDATE: Updated utilities to version 4.11.7.
+
+----
+
 **Changes in SearchGUI 3.2.13 (April 3. 2017):**
 
 * BUG FIX: Fixed a problem that corrupted the previous release.
