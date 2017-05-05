@@ -2,13 +2,13 @@
 name: PeptideMapperCLI
 project: compomics-utilities
 layout: default
-permalink: /compomics-utilities/wiki/peptidemappercli.html
+permalink: /projects/compomics-utilities/wiki/peptidemappercli.html
 github_project: https://github.com/compomics/compomics-utilities
 ---
 
 # PeptideMapperCLI - PeptideMapper Command Line Interface #
 
-[PeptideMapper](/compomics-utilities/wiki/peptidemapper.html) can be used to map sequences and sequence tags to a database of protein sequences. This wiki page describes its command line usage.
+[PeptideMapper](/projects/compomics-utilities/wiki/peptidemapper.html) can be used to map sequences and sequence tags to a database of protein sequences. This wiki page describes its command line usage.
 
   * [Command Line](#command-line)
   * [Supported Formats](#supported-formats)
@@ -18,7 +18,7 @@ github_project: https://github.com/compomics/compomics-utilities
 
 ## Command Line ##
 
-[PeptideMapper](/compomics-utilities/wiki/peptidemapper.html) is distributed in the compomics-utilities package. PeptideMapperCLI can be run from the utilities jar file as detailed below.
+[PeptideMapper](/projects/compomics-utilities/wiki/peptidemapper.html) is distributed in the compomics-utilities package. PeptideMapperCLI can be run from the utilities jar file as detailed below.
 
 ```java
 java -cp utilities-X.Y.Z.jar com.compomics.util.experiment.identification.protein_inference.executable.PeptideMapping -[p|t] <InputFasta> <InputList> <OutputResultList> [<UtilitiesParameterFile>]
@@ -39,7 +39,7 @@ Please replace _X.Y.Z_ by the version used, _e.g._ 4.7.2.
 ## Supported Formats ##
 
 ### Protein Sequence database ###
-PeptideMapper supports protein sequence databases in the [FASTA format](http://en.wikipedia.org/wiki/FASTA_format). In a FASTA file each sequence is represented by a header and the sequence itself. The header contains information about the protein, e.g., protein accession number, database and species. However, the format of the header varies from database to database. [PeptideMapper](/compomics-utilities/wiki/peptidemapper.html) supports the most encountered databases like UniProt, Ensembl, NextProt, NCBI and IPI, plus a long list of other databases. For home made databases we recommend our [generic FASTA format](/searchgui/wiki/databasehelp#non-standard-fasta.html).
+PeptideMapper supports protein sequence databases in the [FASTA format](http://en.wikipedia.org/wiki/FASTA_format). In a FASTA file each sequence is represented by a header and the sequence itself. The header contains information about the protein, e.g., protein accession number, database and species. However, the format of the header varies from database to database. [PeptideMapper](/projects/compomics-utilities/wiki/peptidemapper.html) supports the most encountered databases like UniProt, Ensembl, NextProt, NCBI and IPI, plus a long list of other databases. For home made databases we recommend our [generic FASTA format](/projects/searchgui/wiki/databasehelp#non-standard-fasta.html).
 
 ### Peptide Sequences ###
 
@@ -66,7 +66,7 @@ Sequence tags should be provided in a text file, one tag per line, with the tag 
 
 ### Parameters File ###
 
-The parameters file should be in the json format. Parameters files can be generated using the [IdentificationParametersCLI](/compomics-utilities/wiki/identificationparameterscli.html).
+The parameters file should be in the json format. Parameters files can be generated using the [IdentificationParametersCLI](/projects/compomics-utilities/wiki/identificationparameterscli.html).
 
 ## Example ##
 

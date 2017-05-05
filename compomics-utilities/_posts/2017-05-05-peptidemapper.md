@@ -2,7 +2,7 @@
 name: PeptideMapper
 project: compomics-utilities
 layout: default
-permalink: /compomics-utilities/wiki/peptidemapper.html
+permalink: /projects/compomics-utilities/wiki/peptidemapper.html
 github_project: https://github.com/compomics/compomics-utilities
 ---
 
@@ -17,7 +17,7 @@ PeptideMapper can be used standalone in command line or integrated as a dependen
 When using PeptideMapper, please cite [Kopczynski et al., Bioinformatics, 2017](https://doi.org/10.1093/bioinformatics/btx122).
 
 
-For command line options and format specifications, please refer to [PeptideMapperCLI](/compomics-utilities/wiki/peptidemappercli.html). For use as a dependency, please refer to [Usage As Dependency](/compomics-utilities/wiki/usageasdependency.html).
+For command line options and format specifications, please refer to [PeptideMapperCLI](/projects/compomics-utilities/wiki/peptidemappercli.html). For use as a dependency, please refer to [Usage As Dependency](/projects/compomics-utilities/wiki/usageasdependency.html).
 
   * [Methods](#methods)
   * [Performance](#performance)
@@ -116,7 +116,7 @@ All UniProt proteomes concatenated (July 2016):
  * variable modifications: Acetylation of K
  * fragment tolerance: 0.02 Da
 
-For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of different sizes (|D1| = 1,000, |D2| = 10,000, |D3| = 100,000, |D4| = 1,000,000) were created by extracting peptides and tags at random positions in the database. All benchmark data (proteomes, data sets, parameter files) are available [here](/peptidemapper-benchmark.html).
+For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of different sizes (|D1| = 1,000, |D2| = 10,000, |D3| = 100,000, |D4| = 1,000,000) were created by extracting peptides and tags at random positions in the database. All benchmark data (proteomes, data sets, parameter files) are available [here](/projects/peptidemapper-benchmark.html).
 
 ### Results - Index Creation ###
 
@@ -396,11 +396,11 @@ cd utilities-4.10.0
 java -cp utilities-4.10.0.jar com.compomics.util.experiment.identification.protein_inference.executable.PeptideMapping -p exampleFiles/PeptideMapping/yeast.fasta exampleFiles/PeptideMapping/yeast-pep-1k.csv results.csv
 ```
 
-A detailed description of the command line instructions is available [here](/compomics-utilities/wiki/peptidemappercli.html).
+A detailed description of the command line instructions is available [here](/projects/compomics-utilities/wiki/peptidemappercli.html).
 
 ## Troubleshooting ##
 
-Should you encounter any issue with the usage of PeptideMapper, please create a new entry in the [issue tracker](/compomics-utilities/issues.html).
+Should you encounter any issue with the usage of PeptideMapper, please create a new entry in the [issue tracker](/projects/compomics-utilities/issues.html).
 
 ## References ##
 
