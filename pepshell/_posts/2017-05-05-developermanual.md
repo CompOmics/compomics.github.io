@@ -2,7 +2,7 @@
 name: DeveloperManual
 project: pepshell
 layout: default
-permalink: /pepshell/wiki/developermanual.html
+permalink: /projects/pepshell/wiki/developermanual.html
 github_project: https://github.com/compomics/pepshell
 ---
 
