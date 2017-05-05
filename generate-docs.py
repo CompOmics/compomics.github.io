@@ -18,6 +18,14 @@ def url_sub(matches):
     else:
         return url + '.html)'
 
+def url_sub_wiki(matches):
+    url = matches.group(1).lower()
+
+    if url.endswith('wiki'):
+        return 'projects' + url + '/home.html)'
+    else:
+        return 'projects' + url + '.html)'
+
 if __name__ == "__main__":
     sys.stdout.write('user: ' + getpass.getuser() + '\n')
     sys.stdout.write('Building documentation\n')
@@ -99,7 +107,7 @@ github_project: {3}
                     # fix wiki links
                     content = re.sub(
                         'https:\/\/github\.com\/compomics([^.]*)\)',
-                        url_sub,
+                        url_sub_wiki,
                         this_file.read()
                     )
 
