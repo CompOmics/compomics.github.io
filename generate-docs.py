@@ -14,9 +14,9 @@ def url_sub(matches):
     url = matches.group(1).lower()
 
     if url.endswith('wiki'):
-        return 'projects/' + url + '/home.html)'
+        return url + '/home.html)'
     else:
-        return 'projects/' + url + '.html)'
+        return url + '.html)'
 
 if __name__ == "__main__":
     sys.stdout.write('user: ' + getpass.getuser() + '\n')
