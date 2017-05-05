@@ -2,7 +2,7 @@
 name: ReleaseNotes
 project: jsparklines
 layout: default
-permalink: /jsparklines/wiki/releasenotes.html
+permalink: /projects/jsparklines/wiki/releasenotes.html
 github_project: https://github.com/compomics/jsparklines
 ---
 

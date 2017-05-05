@@ -76,7 +76,7 @@ wiki: "{3}"
                 page_name = ''.join(
                     x for x in os.path.splitext(wiki_file)[0] if x.isalnum()
                 )
-                permalink = '/projects/{0}/wiki/{1}.html'.format(project_name, page_name).lower()
+                permalink = '/{0}/wiki/{1}.html'.format(project_name, page_name).lower()
                 filename = '{0}{1}-{2}.md'.format(
                     directory, 
                     datetime.datetime.today().strftime('%Y-%m-%d'), 
