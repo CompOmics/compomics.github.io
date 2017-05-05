@@ -5,7 +5,7 @@ description: "Open-source java library for computational proteomics"
 wiki: "compomics-utilities"
 ---
 
-# compomics-utilities # 
+# compomics-utilities #
 
   * [What is compomics-utilities?](#what-is-compomics-utilities?)
   * [Projects Using compomics-utilities](#projects-using-compomics-utilities)
