@@ -23,7 +23,7 @@ wiki: "peptide-shaker"
 
 |   |   |   |
 | :------------------------- | :---------------: | :--: |
-| [![download](https://github.com/compomics/peptide-shaker/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/eu/isas/peptideshaker/PeptideShaker/1.16.6/PeptideShaker-1.16.6.zip) | *v1.16.6  - All platforms* | [ReleaseNotes](/peptide-shaker/wiki/releasenotes.html) |
+| [![download](https://github.com/compomics/peptide-shaker/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/eu/isas/peptideshaker/PeptideShaker/1.16.6/PeptideShaker-1.16.6.zip) | *v1.16.6  - All platforms* | [ReleaseNotes](/projects/peptide-shaker/wiki/releasenotes.html) |
 
 ---
 
@@ -57,7 +57,7 @@ All data can also easily be exported for follow up analysis in other tools.
 For further help see the [Bioinformatics for Proteomics Tutorial](http://compomics.com/bioinformatics-for-proteomics/).
 
 If you have any questions, suggestions or remarks, feel free to contact us via the
-[PeptideShaker Google Group](http://groups.google.com/group/peptide-shaker). For specific bug reports or issues please use the [issues tracker](/peptide-shaker/issues.html).
+[PeptideShaker Google Group](http://groups.google.com/group/peptide-shaker). For specific bug reports or issues please use the [issues tracker](/projects/peptide-shaker/issues.html).
 
 To start using PeptideShaker, unzip the downloaded file, and double-click the `PeptideShaker-X.Y.Z.jar file`. No additional installation required!
 
@@ -86,7 +86,7 @@ It should be possible to run PeptideShaker on almost any computer where Java 1.6
 
 However to get the best out of PeptideShaker a newer machine with at least 4 GB of memory is recommended. If parsing big datasets even more memory is required: the bigger the dataset the more memory you need.
 
-Note that in order to use more than 1500 MB of memory you need to install the 64 bit version of Java. See our [Java Troubleshooting](/compomics-utilities/wiki/javatroubleshooting.html) for help.
+Note that in order to use more than 1500 MB of memory you need to install the 64 bit version of Java. See our [Java Troubleshooting](/projects/compomics-utilities/wiki/javatroubleshooting.html) for help.
 
 The minimum screen resolution for PeptideShaker is 1280 x 800, but it is highly recommended to use at least 1680 x 1050. Again, the bigger the better.
 
@@ -98,7 +98,7 @@ The minimum screen resolution for PeptideShaker is 1280 x 800, but it is highly 
 
 The main purpose of PeptideShaker is to make it simpler to process and display the results of multiple search engines. We believe that a graphical user interface would be the best choice for most users, and therefore made PeptideShaker with a graphical user interface. However, PeptideShaker can also be used via the command line, for example for incorporation into different analysis pipelines.
 
-For details about the command line see: [PeptideShakerCLI](/peptide-shaker/wiki/peptideshakercli.html).
+For details about the command line see: [PeptideShakerCLI](/projects/peptide-shaker/wiki/peptideshakercli.html).
 
 [Go to top of page](#peptideshaker)
 
@@ -140,7 +140,7 @@ For more information on **SearchGUI** see [http://compomics.github.io/projects/s
 
 ### User Defined Modifications ###
 
-To add user defined modifications see [User Defined Modifications in SearchGUI](/searchgui#user-defined-modifications.html).
+To add user defined modifications see [User Defined Modifications in SearchGUI](/projects/searchgui#user-defined-modifications.html).
 
 [Go to top of page](#peptideshaker)
 
@@ -148,7 +148,7 @@ To add user defined modifications see [User Defined Modifications in SearchGUI](
 
 ### Database Help ###
 
-For help on obtaining a valid sequence database see the [Database Help](/searchgui/wiki/databasehelp.html).
+For help on obtaining a valid sequence database see the [Database Help](/projects/searchgui/wiki/databasehelp.html).
 
 [Go to top of page](#peptideshaker)
 
@@ -177,7 +177,7 @@ The following is required:
   * Spectrum file format has to be mgf.
   * Each PSM has a score or e-value as a [PSM score CV term](https://www.ebi.ac.uk/ontology-lookup/?termId=MS:1001143).
 
-If you have mzIdentML files that fulfill these criteria but do not load in PeptideShaker, please [let us know](/peptide-shaker/issues.html).
+If you have mzIdentML files that fulfill these criteria but do not load in PeptideShaker, please [let us know](/projects/peptide-shaker/issues.html).
 
 [Go to top of page](#peptideshaker)
 
@@ -211,11 +211,11 @@ PeptideShaker currently only supports mgf files as the input format for the spec
 
 ## Troubleshooting ##
 
-  * **Mascot Issues** - See [Mascot Support](#mascot-support) and [Database Help](/searchgui/wiki/databasehelp.html).
+  * **Mascot Issues** - See [Mascot Support](#mascot-support) and [Database Help](/projects/searchgui/wiki/databasehelp.html).
 
   * **mzIdentML Issues** - See [mzIdentML Support](#mzidentml-support).
 
-  * **Database Help** - For help on how to set up a proper FASTA database, please see [Database Help](/searchgui/wiki/databasehelp.html). For Mascot databases see [Mascot Support](#mascot-support). Also see [Databases Decoy Databases](#decoy).
+  * **Database Help** - For help on how to set up a proper FASTA database, please see [Database Help](/projects/searchgui/wiki/databasehelp.html). For Mascot databases see [Mascot Support](#mascot-support). Also see [Databases Decoy Databases](#decoy).
 
   * **Does Not Start I** - Do you have Java installed? Download the latest version of Java  [here](http://java.sun.com/javase/downloads/index.jsp) and try again. (You only need the JRE version (and not the JDK version) to run PeptideShaker.)
 
@@ -235,7 +235,7 @@ PeptideShaker currently only supports mgf files as the input format for the spec
 
   * **Xlib/X11 errorrs** - When running the command lines on systems without a grahpical user interface you may get errors related to X11. If that happens try adding `-Djava.awt.headless=true` to the command line.
 
-  * **Protein Not Found** - In order to provide the most comprehensive results, PeptideShaker needs to link the protein accession retrieved by the various search engines to the FASTA file. Various errors can result in PeptideShaker not being able to find your protein. First, verify that the accession number is indeed in your FASTA file. Then, set up an [issue](/peptide-shaker/issues.html) describing the problem and provide the accession not found together with its header and sequence in the FASTA file. Please, also mention the database type and version. See also [Database Help](/searchgui/wiki/databasehelp), [mascot support](#mascot-support) and [databases decoy databases](#decoy.html). Example for P60323 in UniProt:
+  * **Protein Not Found** - In order to provide the most comprehensive results, PeptideShaker needs to link the protein accession retrieved by the various search engines to the FASTA file. Various errors can result in PeptideShaker not being able to find your protein. First, verify that the accession number is indeed in your FASTA file. Then, set up an [issue](/projects/peptide-shaker/issues.html) describing the problem and provide the accession not found together with its header and sequence in the FASTA file. Please, also mention the database type and version. See also [Database Help](/projects/searchgui/wiki/databasehelp), [mascot support](#mascot-support) and [databases decoy databases](#decoy.html). Example for P60323 in UniProt:
 
 ```
             >sw|P60323|NANO3_HUMAN Nanos homolog 3 OS=Homo sapiens GN=NANOS3 PE=2 SV=1
@@ -255,7 +255,7 @@ PeptideShaker currently only supports mgf files as the input format for the spec
 
   * **General Error Diagnosis** - If you go to `Help` and then `Bug Report`, you will find a log of the PeptideShaker activity. This includes transcripts of any errors that the application has encountered, and can be very useful in diagnosing issues.
 
-  * **Problem Not Solved? Or Problem Not In List?** Contact the developers of PeptideShaker by setting up an [issue](/peptide-shaker/issues.html) describing the problem.
+  * **Problem Not Solved? Or Problem Not In List?** Contact the developers of PeptideShaker by setting up an [issue](/projects/peptide-shaker/issues.html) describing the problem.
 
 [Go to top of page](#peptideshaker)
 
