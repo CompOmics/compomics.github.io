@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.6 (May 8. 2017):**
+
+* FEATURE IMPROVEMENT: Added "Dimethylation of K 2H4" to the standard list of PTMs.
+
+* LIBRARY UPDATE: Updated utilities to version 4.11.8.
+
+---
+
 **Changes in PeptideShaker 1.16.5 (April 25. 2017):**
 
 * FEATURE IMPROVEMENT: Updated Ensembl Genomes to version 35. 
