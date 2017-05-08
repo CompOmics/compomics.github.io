@@ -421,6 +421,6 @@ java -jar PeptideShaker-X.Y.Z.jar -pxAccession "yourPxAccesion" -pxAccessionPriv
 
 **Help**
 
-If you experience any problems with the command line or have any suggestion please contact us via the [PeptideShaker issue tracker](/projects/peptide-shaker/issues.html).
+If you experience any problems with the command line or have any suggestion please contact us via the [PeptideShaker issue tracker](https://github.com/compomics/peptide-shaker/issues).
 
 [Go to top of page](#peptideshakercli)

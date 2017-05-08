@@ -15,6 +15,8 @@ def url_sub(matches):
 
     if url.endswith('wiki'):
         return '/projects' + url + '/home.html)'
+    elif url.endswith('issues'):
+        return matches.group(0)
     else:
         return '/projects' + url + '.html)'
 
@@ -23,6 +25,8 @@ def url_sub_wiki(matches):
 
     if url.endswith('wiki'):
         return '/projects' + url + '/home.html)'
+    elif url.endswith('issues'):
+        return matches.group(0)
     else:
         return '/projects' + url + '.html)'
 

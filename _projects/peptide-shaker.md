@@ -5,7 +5,7 @@ description: "Interpretation of proteomics identification results"
 wiki: "peptide-shaker"
 ---
 
-# PeptideShaker #
+# PeptideShaker # 
 
   * [Introduction](#introduction)
   * [Read Me](#read-me)
@@ -23,7 +23,7 @@ wiki: "peptide-shaker"
 
 |   |   |   |
 | :------------------------- | :---------------: | :--: |
-| [![download](https://github.com/compomics/peptide-shaker/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/eu/isas/peptideshaker/PeptideShaker/1.16.6/PeptideShaker-1.16.6.zip) | *v1.16.6  - All platforms* | [ReleaseNotes](/projects/peptide-shaker/wiki/releasenotes.html) |
+| [![download](https://github.com/compomics/peptide-shaker/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/eu/isas/peptideshaker/PeptideShaker/1.16.7/PeptideShaker-1.16.7.zip) | *v1.16.7  - All platforms* | [ReleaseNotes](/projects/peptide-shaker/wiki/releasenotes.html) |
 
 ---
 
@@ -57,7 +57,7 @@ All data can also easily be exported for follow up analysis in other tools.
 For further help see the [Bioinformatics for Proteomics Tutorial](http://compomics.com/bioinformatics-for-proteomics/).
 
 If you have any questions, suggestions or remarks, feel free to contact us via the
-[PeptideShaker Google Group](http://groups.google.com/group/peptide-shaker). For specific bug reports or issues please use the [issues tracker](/projects/peptide-shaker/issues.html).
+[PeptideShaker Google Group](http://groups.google.com/group/peptide-shaker). For specific bug reports or issues please use the [issues tracker](https://github.com/compomics/peptide-shaker/issues).
 
 To start using PeptideShaker, unzip the downloaded file, and double-click the `PeptideShaker-X.Y.Z.jar file`. No additional installation required!
 
@@ -177,7 +177,7 @@ The following is required:
   * Spectrum file format has to be mgf.
   * Each PSM has a score or e-value as a [PSM score CV term](https://www.ebi.ac.uk/ontology-lookup/?termId=MS:1001143).
 
-If you have mzIdentML files that fulfill these criteria but do not load in PeptideShaker, please [let us know](/projects/peptide-shaker/issues.html).
+If you have mzIdentML files that fulfill these criteria but do not load in PeptideShaker, please [let us know](https://github.com/compomics/peptide-shaker/issues).
 
 [Go to top of page](#peptideshaker)
 
@@ -235,7 +235,7 @@ PeptideShaker currently only supports mgf files as the input format for the spec
 
   * **Xlib/X11 errorrs** - When running the command lines on systems without a grahpical user interface you may get errors related to X11. If that happens try adding `-Djava.awt.headless=true` to the command line.
 
-  * **Protein Not Found** - In order to provide the most comprehensive results, PeptideShaker needs to link the protein accession retrieved by the various search engines to the FASTA file. Various errors can result in PeptideShaker not being able to find your protein. First, verify that the accession number is indeed in your FASTA file. Then, set up an [issue](/projects/peptide-shaker/issues.html) describing the problem and provide the accession not found together with its header and sequence in the FASTA file. Please, also mention the database type and version. See also [Database Help](/projects/searchgui/wiki/databasehelp), [mascot support](#mascot-support) and [databases decoy databases](#decoy.html). Example for P60323 in UniProt:
+  * **Protein Not Found** - In order to provide the most comprehensive results, PeptideShaker needs to link the protein accession retrieved by the various search engines to the FASTA file. Various errors can result in PeptideShaker not being able to find your protein. First, verify that the accession number is indeed in your FASTA file. Then, set up an [issue](https://github.com/compomics/peptide-shaker/issues) describing the problem and provide the accession not found together with its header and sequence in the FASTA file. Please, also mention the database type and version. See also [Database Help](/projects/searchgui/wiki/databasehelp), [mascot support](#mascot-support) and [databases decoy databases](#decoy.html). Example for P60323 in UniProt:
 
 ```
             >sw|P60323|NANO3_HUMAN Nanos homolog 3 OS=Homo sapiens GN=NANOS3 PE=2 SV=1
@@ -255,7 +255,7 @@ PeptideShaker currently only supports mgf files as the input format for the spec
 
   * **General Error Diagnosis** - If you go to `Help` and then `Bug Report`, you will find a log of the PeptideShaker activity. This includes transcripts of any errors that the application has encountered, and can be very useful in diagnosing issues.
 
-  * **Problem Not Solved? Or Problem Not In List?** Contact the developers of PeptideShaker by setting up an [issue](/projects/peptide-shaker/issues.html) describing the problem.
+  * **Problem Not Solved? Or Problem Not In List?** Contact the developers of PeptideShaker by setting up an [issue](https://github.com/compomics/peptide-shaker/issues) describing the problem.
 
 [Go to top of page](#peptideshaker)
 
