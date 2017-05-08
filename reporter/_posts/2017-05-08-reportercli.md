@@ -2,7 +2,7 @@
 name: ReporterCLI
 project: reporter
 layout: default
-permalink: /reporter/wiki/reportercli.html
+permalink: /projects/reporter/wiki/reportercli.html
 github_project: https://github.com/compomics/reporter
 ---
 
@@ -38,6 +38,6 @@ java -cp Reporter-X.Y.Z.jar eu.isas.reporter.cli.ReporterCLI [parameters]
 
 ## Help
 
-If you experience any problems with the command line or have any suggestion please contact us via the [Reporter issue tracker](/reporter/issues.html).
+If you experience any problems with the command line or have any suggestion please contact us via the [Reporter issue tracker](/projects/reporter/issues.html).
 
 [Go to top of page](# )

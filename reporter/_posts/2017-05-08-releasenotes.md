@@ -2,7 +2,7 @@
 name: ReleaseNotes
 project: reporter
 layout: default
-permalink: /reporter/wiki/releasenotes.html
+permalink: /projects/reporter/wiki/releasenotes.html
 github_project: https://github.com/compomics/reporter
 ---
 
