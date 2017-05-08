@@ -2,7 +2,7 @@
 name: DeNovoCLI
 project: denovogui
 layout: default
-permalink: /denovogui/wiki/denovocli.html
+permalink: /projects/denovogui/wiki/denovocli.html
 github_project: https://github.com/compomics/denovogui
 ---
 
@@ -16,7 +16,7 @@ DeNovoCLI takes a set of spectrum files as input and uses the [PepNovo+](http://
 
 Note that the spectra must be provided in the Mascot Generic File (mgf) format.
 
-The recommended way to generate an identification parameters file is via the DeNovoGUI graphical user interface. But the file can also be created using the [IdentificationParametersCLI](/compomics-utilities/wiki/identificationparameterscli.html). The folders used in the processing can be set via [PathSettingsCLI](#pathsettingscli).
+The recommended way to generate an identification parameters file is via the DeNovoGUI graphical user interface. But the file can also be created using the [IdentificationParametersCLI](/projects/compomics-utilities/wiki/identificationparameterscli.html). The folders used in the processing can be set via [PathSettingsCLI](#pathsettingscli).
 
 **General command line:**
 

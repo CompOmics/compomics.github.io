@@ -2,7 +2,7 @@
 name: ReleaseNotes
 project: denovogui
 layout: default
-permalink: /denovogui/wiki/releasenotes.html
+permalink: /projects/denovogui/wiki/releasenotes.html
 github_project: https://github.com/compomics/denovogui
 ---
 
