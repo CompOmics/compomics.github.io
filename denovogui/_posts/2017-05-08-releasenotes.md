@@ -12,6 +12,8 @@ github_project: https://github.com/compomics/denovogui
 
 **Changes in DeNovoGUI 1.15.7 (May 8. 2017):**
 
+* FEATURE IMPROVEMENT: Added "Dimethylation of K 2H4" to the standard list of PTMs.
+
 * LIBRARY UPDATE: Updated utilities to version 4.11.8.
 
 ----
