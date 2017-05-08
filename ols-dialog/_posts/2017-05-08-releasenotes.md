@@ -2,7 +2,7 @@
 name: ReleaseNotes
 project: ols-dialog
 layout: default
-permalink: /ols-dialog/wiki/releasenotes.html
+permalink: /projects/ols-dialog/wiki/releasenotes.html
 github_project: https://github.com/compomics/ols-dialog
 ---
 
