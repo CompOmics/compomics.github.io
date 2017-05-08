@@ -254,6 +254,6 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.FastaCLI [parameters]
 
 ## Help
 
-If you experience any problems with the command line or have any suggestion please contact us via the [SearchGUI issue tracker](/projects/searchgui/issues.html).
+If you experience any problems with the command line or have any suggestion please contact us via the [SearchGUI issue tracker](https://github.com/compomics/searchgui/issues).
 
 [Go to top of page](# )

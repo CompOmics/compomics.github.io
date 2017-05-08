@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.2.16 (May 8. 2017):**
+
+* BUG FIX: Fixed a typo in the "Dimethylation of K 2H4" PTM.
+
+* LIBRARY UPDATE: Updated utilities to version 4.11.9.
+
+----
+
 **Changes in SearchGUI 3.2.15 (May 8. 2017):**
 
 * FEATURE IMPROVEMENT: Added "Dimethylation of K 2H4" to the standard list of PTMs.

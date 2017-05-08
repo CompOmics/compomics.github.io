@@ -61,7 +61,7 @@ Examples:
 
 `AC:123132` will then be used as the protein accession number and `Hypothetical protein` as the protein description (if provided).
 
-If you have a sequence database that cannot be parsed, please let us know be setting up an [issue](/projects/searchgui/issues.html) at the SearchGUI home page</a>.
+If you have a sequence database that cannot be parsed, please let us know be setting up an [issue](https://github.com/compomics/searchgui/issues) at the SearchGUI home page</a>.
 
 To parse databases with generic FASTA headers in Mascot we recommend the following Mascot database parse rules:
 
