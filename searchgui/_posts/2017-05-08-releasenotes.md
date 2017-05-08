@@ -2,7 +2,7 @@
 name: ReleaseNotes
 project: searchgui
 layout: default
-permalink: /searchgui/wiki/releasenotes.html
+permalink: /projects/searchgui/wiki/releasenotes.html
 github_project: https://github.com/compomics/searchgui
 ---
 
