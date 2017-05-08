@@ -2,7 +2,7 @@
 name: PeptideShakerCLI
 project: peptide-shaker
 layout: default
-permalink: /peptide-shaker/wiki/peptideshakercli.html
+permalink: /projects/peptide-shaker/wiki/peptideshakercli.html
 github_project: https://github.com/compomics/peptide-shaker
 ---
 
@@ -25,7 +25,7 @@ Note that ReportCLI, FollowUpCLI, MzidCLI and PathSettingsCLI options can also b
 
 All command line options have the same overall structure and only differ in the features and parameters available.
 
-Identification parameters for use in PeptideShakerCLI can be provided as a file. Identification parameter files are in the [json](https://en.wikipedia.org/wiki/JSON) format and can be created in the graphical user interface, using the [IdentificationParametersCLI](/compomics-utilities/wiki/identificationparameterscli.html), or using third party tools. Alternatively, the parameters can be passed directly to PeptideShakerCLI by using the command line arguments of the [IdentificationParametersCLI](/compomics-utilities/wiki/identificationparameterscli.html).
+Identification parameters for use in PeptideShakerCLI can be provided as a file. Identification parameter files are in the [json](https://en.wikipedia.org/wiki/JSON) format and can be created in the graphical user interface, using the [IdentificationParametersCLI](/projects/compomics-utilities/wiki/identificationparameterscli.html), or using third party tools. Alternatively, the parameters can be passed directly to PeptideShakerCLI by using the command line arguments of the [IdentificationParametersCLI](/projects/compomics-utilities/wiki/identificationparameterscli.html).
 
 Temporary folders used in the processing can be set via [PathSettingsCLI](#pathsettingscli). Note that PeptideShaker back-end relies on a database allowing only a single open connection at a time. It is thus important to use a single instance of PeptideShakerCLI at a time. In distributed setups, we recommend keeping a clean copy of PeptideShaker, and distribute it to the different workers prior to execution.
 
@@ -389,7 +389,7 @@ Remember that big datasets require more than the default memory provided to the 
 java -Xmx2048M -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [parameters]
 ```
 
-See also: [JavaTroubleShooting](/compomics-utilities/wiki/javatroubleshooting.html).
+See also: [JavaTroubleShooting](/projects/compomics-utilities/wiki/javatroubleshooting.html).
 
 **Opening PeptideShaker Projects**
 
@@ -421,6 +421,6 @@ java -jar PeptideShaker-X.Y.Z.jar -pxAccession "yourPxAccesion" -pxAccessionPriv
 
 **Help**
 
-If you experience any problems with the command line or have any suggestion please contact us via the [PeptideShaker issue tracker](/peptide-shaker/issues.html).
+If you experience any problems with the command line or have any suggestion please contact us via the [PeptideShaker issue tracker](/projects/peptide-shaker/issues.html).
 
 [Go to top of page](#peptideshakercli)

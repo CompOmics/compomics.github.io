@@ -2,7 +2,7 @@
 name: ReleaseNotes
 project: peptide-shaker
 layout: default
-permalink: /peptide-shaker/wiki/releasenotes.html
+permalink: /projects/peptide-shaker/wiki/releasenotes.html
 github_project: https://github.com/compomics/peptide-shaker
 ---
 
