@@ -2,7 +2,7 @@
 name: UsageAndExamples
 project: jtraml
 layout: default
-permalink: /jtraml/wiki/usageandexamples.html
+permalink: /projects/jtraml/wiki/usageandexamples.html
 github_project: https://github.com/compomics/jtraml
 ---
 

@@ -2,7 +2,7 @@
 name: ReleaseNotes
 project: jtraml
 layout: default
-permalink: /jtraml/wiki/releasenotes.html
+permalink: /projects/jtraml/wiki/releasenotes.html
 github_project: https://github.com/compomics/jtraml
 ---
 
