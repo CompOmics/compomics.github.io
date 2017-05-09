@@ -5,7 +5,7 @@ description: "Interpretation of proteomics identification results"
 wiki: "peptide-shaker"
 ---
 
-# PeptideShaker # 
+# PeptideShaker #
 
   * [Introduction](#introduction)
   * [Read Me](#read-me)
