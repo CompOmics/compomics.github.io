@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.2.17 (May 10. 2017):**
+
+* BUG FIX: Fixed a rare bug in the mgf splitting where unusual line break characters could cause the indexing of the split files to fail.
+
+* LIBRARY UPDATE: Updated utilities to version 4.11.10.
+
+----
+
 **Changes in SearchGUI 3.2.16 (May 8. 2017):**
 
 * BUG FIX: Fixed a typo in the "Dimethylation of K 2H4" PTM.
