@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.8 (May 14. 2017):**
+
+* FEATURE IMPROVEMENT: Made it possible to export mzIdentML from the command line. 
+
+* LIBRARY UPDATE: Updated utilities to version 4.11.11.
+
+---
+
 **Changes in PeptideShaker 1.16.7 (May 8. 2017):**
 
 * BUG FIX: Fixed a typo in the "Dimethylation of K 2H4" PTM.
