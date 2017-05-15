@@ -316,6 +316,9 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.MzidCLI [parameters]
 
 -include_sequences         Include the protein sequences. 
                            1: true, 0: false, default is '0'.
+
+-mzid_version              The version of the mzIdentML scheme to use. 
+                           0: v1.1, 1: v1.2, default is '0'.
 ```
 
 [Go to top of page](#peptideshakercli)
