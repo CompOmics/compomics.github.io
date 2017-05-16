@@ -10,6 +10,16 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.9 (May 16. 2017):**
+
+* FEATURE IMPROVEMENT: Added a check for quotation marks in accession numbers when parsing FASTA files.
+
+* BUG FIX: Corrected the links to the compomics.github.io wiki pages.
+
+* LIBRARY UPDATE: Updated utilities to version 4.11.12.
+
+---
+
 **Changes in PeptideShaker 1.16.8 (May 14. 2017):**
 
 * FEATURE IMPROVEMENT: Made it possible to export mzIdentML from the command line. 
