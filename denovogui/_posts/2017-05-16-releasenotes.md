@@ -10,6 +10,16 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.15.9 (May 16. 2017):**
+
+* FEATURE IMPROVEMENT: Added a check for quotation marks in accession numbers when parsing FASTA files.
+
+* BUG FIX: Corrected the links to the compomics.github.io wiki pages.
+
+* LIBRARY UPDATE: Updated utilities to version 4.11.12.
+
+----
+
 **Changes in DeNovoGUI 1.15.8 (May 8. 2017):**
 
 * BUG FIX: Fixed a typo in the "Dimethylation of K 2H4" PTM.
