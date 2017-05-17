@@ -2,7 +2,7 @@
 name: 1Installation
 project: pladipus
 layout: default
-permalink: /pladipus/wiki/1installation.html
+permalink: /projects/pladipus/wiki/1installation.html
 github_project: https://github.com/compomics/pladipus
 ---
 

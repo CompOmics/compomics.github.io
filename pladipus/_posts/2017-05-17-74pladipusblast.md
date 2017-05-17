@@ -2,7 +2,7 @@
 name: 74Pladipusblast
 project: pladipus
 layout: default
-permalink: /pladipus/wiki/74pladipusblast.html
+permalink: /projects/pladipus/wiki/74pladipusblast.html
 github_project: https://github.com/compomics/pladipus
 ---
 

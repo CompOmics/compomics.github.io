@@ -2,7 +2,7 @@
 name: 4AdvancedOperations
 project: pladipus
 layout: default
-permalink: /pladipus/wiki/4advancedoperations.html
+permalink: /projects/pladipus/wiki/4advancedoperations.html
 github_project: https://github.com/compomics/pladipus
 ---
 

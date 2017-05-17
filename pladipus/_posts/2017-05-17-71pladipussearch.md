@@ -2,7 +2,7 @@
 name: 71Pladipussearch
 project: pladipus
 layout: default
-permalink: /pladipus/wiki/71pladipussearch.html
+permalink: /projects/pladipus/wiki/71pladipussearch.html
 github_project: https://github.com/compomics/pladipus
 ---
 
@@ -14,8 +14,8 @@ Pladipus-search is a sequence database searching module.
 
 Note that the discussed parameters are the ones mandatory for pladipus execution. For more detailed parameters, please refer to the respective pages.
 
-* [SearchGUI](/searchgui.html)
-* [PeptideShaker](/peptide-shaker.html)
+* [SearchGUI](/projects/searchgui.html)
+* [PeptideShaker](/projects/peptide-shaker.html)
 
 ----
 

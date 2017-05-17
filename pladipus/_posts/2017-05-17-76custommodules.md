@@ -2,7 +2,7 @@
 name: 76Custommodules
 project: pladipus
 layout: default
-permalink: /pladipus/wiki/76custommodules.html
+permalink: /projects/pladipus/wiki/76custommodules.html
 github_project: https://github.com/compomics/pladipus
 ---
 

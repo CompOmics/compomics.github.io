@@ -2,7 +2,7 @@
 name: 72Pladipusdenovo
 project: pladipus
 layout: default
-permalink: /pladipus/wiki/72pladipusdenovo.html
+permalink: /projects/pladipus/wiki/72pladipusdenovo.html
 github_project: https://github.com/compomics/pladipus
 ---
 
@@ -14,7 +14,7 @@ Pladipus-denovo is a denovo sequence identification module.
 
 Note that the discussed parameters are the ones mandatory for pladipus execution. For more detailed parameters, please refer to the respective pages.
 
-* [DeNovoGUI](/denovogui.html)
+* [DeNovoGUI](/projects/denovogui.html)
 
 ----
 

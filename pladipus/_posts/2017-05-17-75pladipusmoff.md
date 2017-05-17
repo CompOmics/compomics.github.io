@@ -2,7 +2,7 @@
 name: 75PladipusMoFF
 project: pladipus
 layout: default
-permalink: /pladipus/wiki/75pladipusmoff.html
+permalink: /projects/pladipus/wiki/75pladipusmoff.html
 github_project: https://github.com/compomics/pladipus
 ---
 
@@ -14,7 +14,7 @@ Pladipus-MoFF is a module designed to allow the Modest Feature Finder to be depl
 
 Note that the discussed parameters are the ones mandatory for pladipus execution. For more detailed parameters, please refer to the respective pages.
 
-* [MoFF](/moff.html)
+* [MoFF](/projects/moff.html)
 
 ----
 

@@ -2,7 +2,7 @@
 name: 7Pladipusmodules
 project: pladipus
 layout: default
-permalink: /pladipus/wiki/7pladipusmodules.html
+permalink: /projects/pladipus/wiki/7pladipusmodules.html
 github_project: https://github.com/compomics/pladipus
 ---
 
