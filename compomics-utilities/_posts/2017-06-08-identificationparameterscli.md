@@ -239,7 +239,7 @@ The following parameters allow controlling the identification workflow in detail
 -simplify_enzymaticity    Simplify protein groups based on the peptide enzymaticity.
                           1: true, 0: false, default is '1'.
 
--simplify_evidence        Simplify protein groups based on the Uniprot protein evidence.
+-simplify_evidence        Simplify protein groups based on the UniProt protein evidence.
                           1: true, 0: false, default is '1'.
 
 -simplify_uncharacterized Simplify protein groups based on the protein characterization.
