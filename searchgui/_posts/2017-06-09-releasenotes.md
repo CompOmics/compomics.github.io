@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.2.19 (June 9. 2017):**
+
+* FEATURE IMPROVEMENT: Updated Ensembl to version 89.
+* FEATURE IMPROVEMENT: Cleaned up the help files.
+
+* LIBRARY UPDATE: Updated utilities to version 4.11.15.
+
+----
+
 **Changes in SearchGUI 3.2.18 (May 16. 2017):**
 
 * FEATURE IMPROVEMENT: Added a check for quotation marks in accession numbers when parsing FASTA files.
