@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.15.10 (June 9. 2017):**
+
+* LIBRARY UPDATE: Updated utilities to version 4.11.15.
+
+----
+
 **Changes in DeNovoGUI 1.15.9 (May 16. 2017):**
 
 * FEATURE IMPROVEMENT: Added a check for quotation marks in accession numbers when parsing FASTA files.
