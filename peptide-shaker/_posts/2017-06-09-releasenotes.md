@@ -10,6 +10,20 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.10 (June 9. 2017):**
+
+* FEATURE IMPROVEMENT: Updated Ensembl to version 89.
+* FEATURE IMPROVEMENT: Cleaned up the help files. (work in progress)
+
+* BUG FIX: Corrected errors in the mzIdentML export where only one modification was exported when having multiple modifications with the same mass shift.
+* BUG FIX: Fixed bugs in the mzid export where only the main modifications were exported.
+* BUG FIX: Fixed a bug where the default project name in the PRIDE Reshake could end up as too long.
+* BUG FIX: Fixed a bug in the PRIDE Reshake that occurred if the enzyme was extracted from the mzid file but not mapped to utilities.
+
+* LIBRARY UPDATE: Updated utilities to version 4.11.15.
+
+---
+
 **Changes in PeptideShaker 1.16.9 (May 16. 2017):**
 
 * FEATURE IMPROVEMENT: Added a check for quotation marks in accession numbers when parsing FASTA files.
