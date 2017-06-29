@@ -86,7 +86,7 @@ If you want to include -ALL- the PeptideHits, then set alpha to '100000000' whic
 ## Running the SpectrumViewer graphical user interface (GUI)
 
 ```java
-$ java -jar mascotdatfile-X.Y.Z.jar com.compomics.mascotdatfile.research.tool.spectrumviewer.spectrumviewer_gui.Spectrumviewer_gui
+$ java -cp mascotdatfile-X.Y.Z.jar com.compomics.mascotdatfile.research.tool.spectrumviewer.spectrumviewer_gui.Spectrumviewer_gui
 ```
 
 [Go to top of page](#usage-and-examples)
