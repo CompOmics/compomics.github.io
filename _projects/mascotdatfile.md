@@ -5,7 +5,7 @@ description: "Java API for MS/MS search results by Mascot (Matrix Science)."
 wiki: "mascotdatfile"
 ---
 
-6# MascotDatfile
+# MascotDatfile
 
  * [Project Description](#project-description)
  * [Download](#download)
@@ -28,14 +28,14 @@ Proteomics bioinformatics deals with organising and analysing large amounts of i
 
 | Download | Version | Release info |
 |:--:|:--:|:--:|
-| [![download](https://github.com/compomics/mascotdatfile/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/com/compomics/mascotdatfile/3.6.0/mascotdatfile-3.6.0.zip) | *3.6.0 - All platforms* |    [Release notes](/mascotdatfile/wiki/releasenotes) |
+| [![download](https://github.com/compomics/mascotdatfile/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/com/compomics/mascotdatfile/3.6.0/mascotdatfile-3.6.0.zip) | *3.6.0 - All platforms* |    [Release notes](/projects/mascotdatfile/wiki/releasenotes) |
 
 [go to top of page](#mascotdatfile.html)
 
 ----
 
 ## Usage
-See the [wiki](/mascotdatfile/wiki/home.html) for additional information on how to setup, run and configure *MascotDatfile*.
+See the [wiki](/projects/mascotdatfile/wiki/home.html) for additional information on how to setup, run and configure *MascotDatfile*.
 
 [Go to top of page](#mascotdatfile)
 

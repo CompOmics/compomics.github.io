@@ -2,7 +2,7 @@
 name: UsageAndExamples
 project: mascotdatfile
 layout: default
-permalink: /mascotdatfile/wiki/usageandexamples.html
+permalink: /projects/mascotdatfile/wiki/usageandexamples.html
 github_project: https://github.com/compomics/mascotdatfile
 ---
 
@@ -10,6 +10,7 @@ github_project: https://github.com/compomics/mascotdatfile
 
  * [Introduction](#introduction)
  * [How to parse the peptide hits](#how-to-parse-the-peptide-hits)
+ * [Running the SpectrumViewer graphical user interface (GUI)](#running-the-spectrumviewer-graphical-user-interface-gui)
  * [Using MascotDatfile as a Maven dependency](#using-mascotdatfile-as-a-maven-dependency)
  * [Example code](#example-code)
 
@@ -46,7 +47,7 @@ Also feel free to contact the developers if you have suggestions/enhancements/co
 ### Print usage by running the JAR without parameters
 
 ```java
-$ java -jar mascotdatfile-3.2.11.jar
+$ java -jar mascotdatfile-X.Y.Z.jar
 	SimpleParser arguments:	 <alpha> <output> <input 1> [<input 2> <input 3> ... <input n>]
 		
 	Input Structure:
@@ -61,7 +62,7 @@ $ java -jar mascotdatfile-3.2.11.jar
 ### Example usage
 
 ```java
-$ java -jar mascotdatfile-3.2.11.jar 0.05 /tmp/test_peptidehitparser.txt /tmp/mascot/results/directory/F004071.dat
+$ java -jar mascotdatfile-X.Y.Z.jar 0.05 /tmp/test_peptidehitparser.txt /tmp/mascot/results/directory/F004071.dat
 
 	Processing /tmp/mascot/results/directory/F004071.dat
 	Successfully parsed 77 PSMs from 56 (1000) Queries above alpha 0.05
@@ -77,6 +78,16 @@ $ java -jar mascotdatfile-3.2.11.jar 0.05 /tmp/test_peptidehitparser.txt /tmp/ma
 ### Note
 
 If you want to include -ALL- the PeptideHits, then set alpha to '100000000' which will produce a negative confidence threshold. As the IonScore is by definition positive, all PeptideHits will be included.
+
+[Go to top of page](#usage-and-examples)
+
+----
+
+## Running the SpectrumViewer graphical user interface (GUI)
+
+```java
+$ java -jar mascotdatfile-X.Y.Z.jar com.compomics.mascotdatfile.research.tool.spectrumviewer.spectrumviewer_gui.Spectrumviewer_gui
+```
 
 [Go to top of page](#usage-and-examples)
 

@@ -2,7 +2,7 @@
 name: ReleaseNotes
 project: mascotdatfile
 layout: default
-permalink: /mascotdatfile/wiki/releasenotes.html
+permalink: /projects/mascotdatfile/wiki/releasenotes.html
 github_project: https://github.com/compomics/mascotdatfile
 ---
 
