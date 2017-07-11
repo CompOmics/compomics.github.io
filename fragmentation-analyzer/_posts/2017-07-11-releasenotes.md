@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/fragmentation-analyzer
 
 ----
 
+**Changes in FragmentationAnalyzer v1.5.16 - (July 11. 2017):** 
+
+* BUG FIX: Fixed a bug that made it impossible to create new projects based on OMSSA omx files.
+
+* LIBRARY UPDATE: Updated omssa-parser to version 1.9.0.
+* LIBRARY UPDATE: Updated utilities to version 4.10.0.
+
+----
+
 **Changes in FragmentationAnalyzer v1.5.15 - (November 12. 2016):** 
 
 * LIBRARY UPDATE: Updated xtandem-parser to version 1.8.0.
