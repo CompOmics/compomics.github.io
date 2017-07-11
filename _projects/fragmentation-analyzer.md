@@ -122,7 +122,7 @@ An example data set is included in the DataSet folder.
 
 ## Tutorial
 
-See [Tutorial](/fragmentation-analyzer/wiki/tutorial.html) page in the [wiki](/fragmentation-analyzer/wiki/home.html) section.
+See [Tutorial](/projects/fragmentation-analyzer/wiki/tutorial.html) page in the [wiki](/projects/fragmentation-analyzer/wiki/home.html) section.
 
 [Go to top of page](#fragmentation-analyzer)
 
@@ -137,7 +137,7 @@ Data can be imported from three different sources:
  * [OMSSA OMX Files](#omssa-omx-files)
 
 ### ms_lims
-For [ms_lims](/ms-lims/.html) one logs on to the ms_lims database via a dialog in the tool using ones normal login details. When connected all the required details about the identifications will be downloaded, while some details, e.g., the fragment ion information, is not downloaded but extracted when needed. The database connection will therefore be required during the use of the tool. Please note that depending on the size of the database the process of importing data from ms_lims might take a while. However, the progress of the import will be monitored closely and presented to the user.
+For [ms_lims](/projects/ms-lims/.html) one logs on to the ms_lims database via a dialog in the tool using ones normal login details. When connected all the required details about the identifications will be downloaded, while some details, e.g., the fragment ion information, is not downloaded but extracted when needed. The database connection will therefore be required during the use of the tool. Please note that depending on the size of the database the process of importing data from ms_lims might take a while. However, the progress of the import will be monitored closely and presented to the user.
  
 ### Mascot Dat Files
 When importing [Mascot dat files](http://www.matrixscience.com/) one simply selects the set of dat files to import and select the Mascot confidence level to use for the identifications. Only identifications above the selected confidence will be imported.

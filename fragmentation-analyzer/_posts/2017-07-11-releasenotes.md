@@ -2,7 +2,7 @@
 name: ReleaseNotes
 project: fragmentation-analyzer
 layout: default
-permalink: /fragmentation-analyzer/wiki/releasenotes.html
+permalink: /projects/fragmentation-analyzer/wiki/releasenotes.html
 github_project: https://github.com/compomics/fragmentation-analyzer
 ---
 
