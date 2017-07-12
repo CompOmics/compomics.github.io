@@ -2,7 +2,7 @@
 name: DatabaseRequirementsAndSetup
 project: colims
 layout: default
-permalink: /colims/wiki/databaserequirementsandsetup.html
+permalink: /projects/colims/wiki/databaserequirementsandsetup.html
 github_project: https://github.com/compomics/colims
 ---
 

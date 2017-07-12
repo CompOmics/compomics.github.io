@@ -2,7 +2,7 @@
 name: ModulesConfiguration
 project: colims
 layout: default
-permalink: /colims/wiki/modulesconfiguration.html
+permalink: /projects/colims/wiki/modulesconfiguration.html
 github_project: https://github.com/compomics/colims
 ---
 
@@ -15,7 +15,7 @@ github_project: https://github.com/compomics/colims
 
 ## Introduction
 
-Colims x.y.z can be downloaded from the [Downloads](/colims/#downloads.html) section on the home page. The zipped archive contains 3 folders:
+Colims x.y.z can be downloaded from the [Downloads](/projects/colims/#downloads.html) section on the home page. The zipped archive contains 3 folders:
 
   * `colims-client-x.y.z`: the graphical user interface module
   * `apache-activemq-5.9.0`: the storage queueing module
