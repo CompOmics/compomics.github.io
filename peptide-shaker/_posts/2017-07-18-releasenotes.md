@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.12 (July 17. 2017):**
+
+* BUG FIX: Fixed a broken link to the PDB for getting the protein structure information.
+
+* LIBRARY UPDATE: Updated utilities to version 4.11.19.
+
+---
+
 **Changes in PeptideShaker 1.16.11 (June 23. 2017):**
 
 * FEATURE IMPROVEMENT: Updated the example dataset.
