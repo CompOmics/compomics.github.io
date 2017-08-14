@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/fragmentation-analyzer
 
 ----
 
+**Changes in FragmentationAnalyzer v1.5.17 - (August 14. 2017):** 
+
+* FEATURE IMPROVEMENT: The OMSSA modification names are now shown instead of just the modification indexes when importing data from omx files.
+
+----
+
 **Changes in FragmentationAnalyzer v1.5.16 - (July 11. 2017):** 
 
 * BUG FIX: Fixed a bug that made it impossible to create new projects based on OMSSA omx files.
