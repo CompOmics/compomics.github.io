@@ -10,6 +10,13 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.15.12 (September 6. 2017):**
+
+* BUG FIX: Fixed a bug where the PTM mappings for PepNovo+ were not reset when changing the parameter file, which could result in unmapped PTMs unless the tool was restarted between runs.
+* BUG FIX: Fixed a bug where the Novor scores had gone missing from the Peptide Matches export.
+
+----
+
 **Changes in DeNovoGUI 1.15.11 (June 23. 2017):**
 
 * LIBRARY UPDATE: Updated utilities to version 4.11.17.
