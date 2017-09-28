@@ -18,7 +18,7 @@ Before using colims for the first time, some one-time installation steps have to
 
 ## System requirements
 
-As a single-user setup, colims can run on any modern laptop or desktop PC. Furthermore, since it is written in Java, it can run on any platform that supports a Java Virtual Machine version 1.7.0 or above (Windows, Linux, and Mac OS-X). However, if colims is to be used as a shared system between many different users, it will be more practical to set up a central database on a dedicated server that multiple users can access simultaneously. This task can easily be handled by any modern desktop machine with sufficient storage space.  
+As a single-user setup, colims can run on any modern laptop or desktop PC. Furthermore, since it is written in Java, it can run on any platform that supports a Java Virtual Machine version 1.8.0 or above (Windows, Linux, and Mac OS-X). However, if colims is to be used as a shared system between many different users, it will be more practical to set up a central database on a dedicated server that multiple users can access simultaneously. This task can easily be handled by any modern desktop machine with sufficient storage space.  
 
 ## Database
 
