@@ -10,16 +10,12 @@ github_project: https://github.com/compomics/colims
 
   * [Introduction](#introduction)
   * [Client module](#client-module)
-  * [Storage queueing module](#storage-queueing-module)
+  * [Storage queuing module](#storage-queuing-module)
   * [Distributed module](#distributed-module)
 
 ## Introduction
 
-Colims x.y.z can be downloaded from the [Downloads](/projects/colims/#downloads.html) section on the home page. The zipped archive contains 3 folders:
-
-  * `colims-client-x.y.z`: the graphical user interface module
-  * `apache-activemq-5.15.0`: the storage queuing module
-  * `colims-distributed-x.y.z`: the storage engine module
+The colims x.y.z client and distributed modules can be downloaded from the [Downloads](/projects/colims/#downloads.html) section on the home page.
 
 ----
 
@@ -67,7 +63,7 @@ It is highly recommended to change the default admin password once the admin use
 
 ----
 
-## Storage queueing module
+## Storage queuing module
 
 ### Purpose
 [Apache ActiveMQ](http://activemq.apache.org/) is used as an intermediate layer between the client(s) and the storage engine. It contains 3 messaging queues:
