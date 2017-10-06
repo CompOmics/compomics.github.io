@@ -59,7 +59,7 @@ Run the colims client by double clicking the *.jar* file in the *colims-client-x
   * name: admin
   * password: adminadmin
 
-It is highly recommended to change the default admin password once the admin user is logged in. This can be done in the admin section. See the [Manual](/projects/colims/wiki/manual.html) wiki page for how to use the client module.
+It is highly recommended to change the default admin password once the admin user is logged in. This can be done in the admin section. See the [Manual](/projects/colims/wiki/manual.html) wiki page for using the client module.
 
 ----
 
@@ -79,7 +79,7 @@ Using a separate queueing server has several advantages:
   * If the storage engine cannot be reached by the queueing module (network problems, distributed module crash), the different messages reside on the queues and nothing gets lost.
 
 ### Running
-Run the *activemq* file with a command line tool in the _bin_ directory of the provided `apache-activemq-5.9.0` distribution. ActiveMQ runs on both Windows and Linux machines.
+Run the *activemq* file with a command line tool in the _bin_ directory of the ActiveMQ distribution downloaded from the ActiveMQ website. ActiveMQ runs on both Windows and Linux machines.
 
 #### Remote
 When running ActiveMQ on a remote server, configure the JMX ports you want to use in the `activemq.xml` file in the *conf* directory:
