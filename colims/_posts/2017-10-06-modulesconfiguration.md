@@ -18,7 +18,7 @@ github_project: https://github.com/compomics/colims
 Colims x.y.z can be downloaded from the [Downloads](/projects/colims/#downloads.html) section on the home page. The zipped archive contains 3 folders:
 
   * `colims-client-x.y.z`: the graphical user interface module
-  * `apache-activemq-5.9.0`: the storage queueing module
+  * `apache-activemq-5.15.0`: the storage queuing module
   * `colims-distributed-x.y.z`: the storage engine module
 
 ----
@@ -28,8 +28,8 @@ Colims x.y.z can be downloaded from the [Downloads](/projects/colims/#downloads.
 The client module contains the graphical user interface (GUI). A user can run it on his local machine to
  
   * manage metadata of projects, experiments, samples, runs, users, instruments, materials, protocols...
-  * send analytical run storage tasks to the storage queueing module
-  * monitor the storage queueing module   
+  * send analytical runs storage tasks to the storage queuing module
+  * monitor the storage queuing module   
 
 Multiple clients can be active simultaneously.  
 
@@ -63,35 +63,7 @@ Run the colims client by double clicking the *.jar* file in the *colims-client-x
   * name: admin
   * password: adminadmin
 
-It is highly recommended to change the default admin password once the admin user is logged in. This can be done in the admin section.
-
-#### Admin section
-
-If a user belongs to the admin group, the admin management menu is visible. It has four sub menus
-
-  1. users: manage users and associated groups, roles and permissions
-  2. instruments: manage instrument metadata
-  3. materials: manage material metadata
-  4. protocols: manage protocol metadata
-
-Colims uses controlled vocabularies (see [ols](http://www.ebi.ac.uk/ontology-lookup/)) for defining instrument, material and protocol properties.
-
-A user can be linked to groups, a group to roles and roles to permissions. Colims has four default self explanatory permissions:
-
-  1. read: read data from the database
-  2. create: insert new records into the database
-  3. update: update existing records
-  4. delete: delete existing data
-
-A warning dialog will pop up if the user doesn't have the right permissions for a specific action (e.g. create a project).
-
-#### Projects management
-
-In this panel, projects, experiments, samples and related entities can be added, updated and deleted. A new storage task can be set up by selecting a sample and clicking on the _add run_ button. For the moment, [PeptideShaker](http://peptide-shaker.googlecode.com/) *.cps* files and [MaxQuant](http://www.maxquant.org/) experiments can be stored. A warning message is shown if the client cannot make a connection with the queueing module. The client can monitor the different queues (see further) by selecting *storage monitoring* in the *View* menu.
-
-#### Projects overview
-
-The stored data can be explored in this panel.
+It is highly recommended to change the default admin password once the admin user is logged in. This can be done in the admin section. See the [Manual](/projects/colims/wiki/manual.html) wiki page for how to use the client module.
 
 ----
 
