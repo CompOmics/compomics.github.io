@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.14 (October 9. 2017):**
+
+* FEATURE IMPROVEMENT: Fixed issues with getting data from QuickGO (changed from http to https).
+
+---
+
 **Changes in PeptideShaker 1.16.13 (September 5. 2017):**
 
 * FEATURE IMPROVEMENT: Fixed issues with getting data from the new QuickGO, mainly required in the GO Analysis tab.
