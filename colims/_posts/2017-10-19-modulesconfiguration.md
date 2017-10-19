@@ -76,9 +76,15 @@ Using a separate queueing server has several advantages:
 
   * ActiveMQ is widely used and has proven to be a stable component in distributed architectures.
   * The storage engine listens to the storage queue and processes storage tasks sequentially. This way, the entries in the protein and modifications tables can be kept unique.
-  * If the storage engine cannot be reached by the queueing module (network problems, distributed module crash), the different messages reside on the queues and nothing gets lost.
+  * If the storage engine cannot be reached by the queuing module (network problems, distributed module crash), the different messages reside on the queues and nothing gets lost.
 
 ### Running
+Before running, change the default broker name (`localhost`) to `colims_distributed` in the `activemq.xml` file in the *conf* directory:
+
+```
+<broker xmlns="http://activemq.apache.org/schema/core" brokerName="colims_distributed" dataDirectory="${activemq.data}">
+```
+
 Run the *activemq* file with a command line tool in the _bin_ directory of the ActiveMQ distribution downloaded from the ActiveMQ website. ActiveMQ runs on both Windows and Linux machines.
 
 #### Remote
