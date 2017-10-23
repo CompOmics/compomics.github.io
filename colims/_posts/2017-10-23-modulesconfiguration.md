@@ -117,18 +117,6 @@ instead of
 distributed.jmx.service.url = service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
 ```
 
-You also need to change the `wrapper.conf` file in the *bin/<win/linux version>*:
-
-```
-wrapper.java.additional.16=-Djava.rmi.server.hostname=127.0.0.1
-```
-
-becomes
-
-```
-wrapper.java.additional.16=-Djava.rmi.server.hostname=<host>
-```
-
 ----
 
 ## Distributed module
