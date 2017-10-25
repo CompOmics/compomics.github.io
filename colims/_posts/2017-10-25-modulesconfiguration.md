@@ -17,6 +17,10 @@ github_project: https://github.com/compomics/colims
 
 The colims x.y.z client and distributed modules can be downloaded from the [Downloads](/projects/colims/#downloads.html) section on the home page.
 
+**IMPORTANT** 
+
+The experiments and FASTA databases directories need to be accessible by the client(s) as well as the distributed module. When a client submits a storage task to the distributed module, no files are copied, only relative paths are being passed. For example, if the MaxQuant experiments are located on some shared storage server (oursharedstorageserver.com/maxquant/experiments), both the client and the distributed need access to it. On a client, this share can be mounted as Z:\\\experiments (on a windows machine) and as /media/storage/experiments on the (linux) machine where the distributed module runs. These different mount locations need to specified in the client and distributed property files, as shown below.
+
 ----
 
 ## Client module
@@ -36,7 +40,7 @@ Before running the colims client module for the first time, some database relate
 ```
 db.default_schema = colims
 db.url = jdbc:mysql://localhost:3306/colims
-db.driver = com.mysql.jdbc.Driver
+db.driver = org.mariadb.jdbc.Driver
 db.dialect = org.hibernate.dialect.MySQL5Dialect
 db.username = root
 ```
@@ -51,6 +55,22 @@ distributed.jmx.service.url = service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrm
 ```
 
 Adjust these URLs if necessary.
+
+Finally, the experiments and FASTA databases directories have to defined.
+
+```
+#Shared file system properties
+#the path of the experiments directory on the shared file system as mapped on your local machine
+#linux
+experiments.path = /home/user/Experiments
+#windows, please use double backslashes "\\" or a forward slash "/" as path separator
+#experiments.path = C:\\Users\\user\\Experiments
+#the path of the FASTA DB files directory on the shared file system as mapped on your local machine
+#linux
+fastas.path = /home/user/Fastas
+#windows, please use double backslashes "\\" or a forward slash "/" as path separator
+#fastas.path = C:\\Users\\user\\Fastas
+```
 
 ### Running
 
@@ -126,6 +146,31 @@ The distributed part is responsible for the storage of analytical runs and assoc
 ### Configuration
 
 Like the client module, the distributed module needs to connect with the database and the storage queueing module. The connection parameters are located in the `colims-distributed.properties` file in the *config* folder. The only difference is that the database password is stored there as well because the distributed module is managed by the administrator. Regular users should not be able to access it directly.
+
+```
+#Connection parameters
+#mysql
+db.default_schema = colims
+db.url = jdbc:mysql://localhost:3306/colims
+db.driver = org.mariadb.jdbc.Driver
+db.dialect = org.hibernate.dialect.MySQL5Dialect
+db.username = root
+db.password = root
+```
+
+```
+#Shared file system properties
+#the path of the experiments directory on the shared file system as mapped on the distributed module's machine
+#linux
+experiments.path = /home/user/Experiments
+#windows, please use double backslashes "\\" or a forward slash "/" as path separator
+#experiments.path = C:\\Users\\user\\Experiments
+#the path of the FASTA DBs directory on the shared file system as mapped on the distributed module's machine
+#linux
+fastas.path = /home/user/Fastas
+#windows, please use double backslashes "\\" or a forward slash "/" as path separator
+#fastas.path = C:\\Users\\user\\Fastas
+```
 
 ### Running
 
