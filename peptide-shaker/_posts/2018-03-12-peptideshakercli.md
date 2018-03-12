@@ -19,7 +19,7 @@ There are six main sections to this page:
   * [C) FollowUpCLI](#c---followupcli) - export for follow up analysis
   * [D) MzidCLI](#d---mzidcli) - export as mzIdentML
   * [E) PathSettingsCLI](#e---pathsettingscli) - set the paths to use
-  * [E) General](#f---general) - general command line help
+  * [F) General](#f---general) - general command line help
 
 Note that ReportCLI, FollowUpCLI, MzidCLI and PathSettingsCLI options can also be appended to PeptideShakerCLI command lines.
 
