@@ -10,6 +10,19 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.2.22 (April 11. 2018):**
+
+* FEATURE IMPROVEMENT: New Myrimatch Linux 64 version.
+* FEATURE IMPROVEMENT: Updated Comet to release 2017.01 rev. 3.
+* FEATURE IMPROVEMENT: Updated MS Amanda to version 2.0.0.9695 for Windows and version 2.0.0.9706 for Linux/Mac.
+
+* BUG FIX: Corrected the Andromeda parsing rule to work with RefSeq headers.
+* BUG FIX: Fixed typos in the mzIdentML and Percolator output format file names for Tide.
+
+* LIBRARY UPDATE: Updated utilities to version 4.12.1.
+
+----
+
 **Changes in SearchGUI 3.2.20 (June 23. 2017):**
 
 * FEATURE IMPROVEMENT: Updated Ensembl Genomes to version 36.
