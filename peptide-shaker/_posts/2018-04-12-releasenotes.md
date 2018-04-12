@@ -10,6 +10,23 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.18 (April 11. 2018):**
+
+* BUG FIX: Updated the parsing of the organism information from UniProt headers (after UniProt added the NCBI tax id to the headers)
+* BUG FIX: Fixed backwards compatibility issues with opening old projects.
+
+* LIBRARY UPDATE: Updated utilities to version 4.12.1.
+
+---
+
+**Changes in PeptideShaker 1.16.17 (March 15. 2018):**
+
+* BUG FIX: Fixed backwards compatibility issues with opening old projects.
+
+* LIBRARY UPDATE: Updated utilities to version 4.12.0.
+
+---
+
 **Changes in PeptideShaker 1.16.16 (March 9. 2018):**
 
 * BUG FIX: Fixed issues with the PRIDE Reshake.
