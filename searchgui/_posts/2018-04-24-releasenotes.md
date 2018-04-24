@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.2.23 (April 13. 2018):**
+
+* BUG FIX: Fixed bugs in the automatic detection of enzyme specificity that failed if non-enzymatic digestion was used.
+
+* LIBRARY UPDATE: Updated utilities to version 4.12.2.
+
+----
+
 **Changes in SearchGUI 3.2.22 (April 11. 2018):**
 
 * FEATURE IMPROVEMENT: New Myrimatch Linux 64 version.
