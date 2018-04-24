@@ -10,7 +10,17 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.19 (April 13. 2018):**
+
+* BUG FIX: Fixed bugs in the automatic detection of enzyme specificity that failed if non-enzymatic digestion was used.
+
+* LIBRARY UPDATE: Updated utilities to version 4.12.2.
+
+----
+
 **Changes in PeptideShaker 1.16.18 (April 11. 2018):**
+
+* FEATURE IMPROVEMENT: Added support for Pyrrolysine immonium ions.
 
 * BUG FIX: Updated the parsing of the organism information from UniProt headers (after UniProt added the NCBI tax id to the headers)
 * BUG FIX: Fixed backwards compatibility issues with opening old projects.
