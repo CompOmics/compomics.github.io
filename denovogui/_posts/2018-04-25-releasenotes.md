@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/denovogui
 
 ---
 
+**Changes in DeNovoGUI 1.16.0 (April 25. 2018):**
+
+* FEATURE IMPROVEMENT: Updated pNovo to version 3.1.1.
+
+* BUG FIX: Fixed a bug that resulted in changes to the paths to the algorithms being ignored.
+
+----
+
 **Changes in DeNovoGUI 1.15.12 (September 6. 2017):**
 
 * BUG FIX: Fixed a bug where the PTM mappings for PepNovo+ were not reset when changing the parameter file, which could result in unmapped PTMs unless the tool was restarted between runs.
