@@ -10,6 +10,16 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.2.24 (April 25. 2018):**
+
+* BUG FIX: Fixed a memory leak in the spectrum file conversion used when running Andromeda.
+* BUG FIX: Fixed a bug where the default path to DirecTag was set incorrectly.
+* BUG FIX: Fixed a bug in the IdentificationParametersInputBean where a break was missing when setting the cleavage preferences for MS-GF+.
+
+* LIBRARY UPDATE: Updated utilities to version 4.12.3.
+
+----
+
 **Changes in SearchGUI 3.2.23 (April 13. 2018):**
 
 * BUG FIX: Fixed bugs in the automatic detection of enzyme specificity that failed if non-enzymatic digestion was used.
