@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.21 (April 27. 2018):**
+
+* BUG FIX: Fixed a bug in the IdentificationParametersInputBean where a break was missing when setting the cleavage preferences for MS-GF+ and MyriMatch.
+* BUG FIX: Fixed a bug where upper case mgf file endings resulted in a null pointer when indexing such files.
+
+* LIBRARY UPDATE: Updated utilities to version 4.12.4.
+
+----
+
 **Changes in PeptideShaker 1.16.20 (April 25. 2018):**
 
 * BUG FIX: Fixed a memory leak in the mgf and mzIdentML exports.
