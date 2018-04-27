@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.2.25 (April 27. 2018):**
+
+* BUG FIX: Fixed a bug in the IdentificationParametersInputBean where a break was missing when setting the cleavage preferences for MS-GF+ and MyriMatch..
+* BUG FIX: Fixed a bug where upper case mgf file endings resulted in a null pointer when indexing such files.
+
+* LIBRARY UPDATE: Updated utilities to version 4.12.4.
+
+----
+
 **Changes in SearchGUI 3.2.24 (April 25. 2018):**
 
 * BUG FIX: Fixed a memory leak in the spectrum file conversion used when running Andromeda.
