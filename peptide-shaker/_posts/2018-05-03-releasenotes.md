@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.22 (May 3. 2018):**
+
+* BUG FIX: Fixed a bug in the search setting dialog regarding the use of semi-specific enzymes.
+
+* LIBRARY UPDATE: Updated utilities to version 4.12.5.
+
+----
+
 **Changes in PeptideShaker 1.16.21 (April 27. 2018):**
 
 * BUG FIX: Fixed a bug in the IdentificationParametersInputBean where a break was missing when setting the cleavage preferences for MS-GF+ and MyriMatch.
