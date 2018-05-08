@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.23 (May 8. 2018):**
+
+* LIBRARY UPDATE: Updated utilities to version 4.12.6.
+
+----
+
 **Changes in PeptideShaker 1.16.22 (May 3. 2018):**
 
 * BUG FIX: Fixed a bug in the search setting dialog regarding the use of semi-specific enzymes.
