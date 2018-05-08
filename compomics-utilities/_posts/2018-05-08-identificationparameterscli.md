@@ -412,12 +412,13 @@ The following parameters allow controlling specific identification algorithms sp
 -msgf_decoy               MS-GF+ search decoys option, 1: true, 0: false, default is '0'.
 
 -msgf_instrument          MS-GF+ instrument id option, 
-                          0: Low-res LCQ/LTQ (Default), 
-                          1: High-res LTQ, 2: TOF, 3: Q-Exactive.
+                          0: Low-res LCQ/LTQ, 
+                          1: Orbitrap/FTICR, 2: TOF, 3: Q-Exactive (Default).
 
 -msgf_fragmentation       MS-GF+ fragmentation id option, 
-                          0: As written in the spectrum or CID if no info (Default), 
-                          1: CID, 2: ETD, 3: HCD.
+                          0: As written in the spectrum or CID if no info, 
+                          1: CID, 2: ETD, 3: HCD, 4: UVPD.
+                          Default is '3'.
 
 -msgf_protocol            MS-GF+ protocol id option.
                           0: Automatic (Default)
@@ -441,9 +442,12 @@ The following parameters allow controlling specific identification algorithms sp
                           0: non-tryptic
                           1: semi-tryptic
                           2: fully-tryptic
-                          default is '2'.
+                          Default is '2'.
 
 -msgf_num_ptms            MS-GF+ max number of PTMs per peptide, default is '2'.
+
+-msgf_num_tasks           MS-GF+ number of tasks as an integer.
+                          Default: internally calculated based on inputs.
 ```
 
 ## OMSSA advanced parameters ##
@@ -575,8 +579,12 @@ The following parameters allow controlling specific identification algorithms sp
 
 -comet_isotope_correction Comet isotope correction.
                           0: off
-                          1: -1,0,+1,+2,+3 
-                          2: -8,-4,0,+4,+8, default is '0'
+                          1: 0, +1 
+                          2: 0, +1, +2
+                          3: 0, +1, +2, +3
+                          4: -8, -4, 0, +4, +8
+                          5: -1, 0, +1, +2, +3
+                          Default is '3'.
 
 -comet_min_prec_mass      Comet minimum precursor mass, default is '0.0'.
 
