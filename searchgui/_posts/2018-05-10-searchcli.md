@@ -12,7 +12,7 @@ github_project: https://github.com/compomics/searchgui
 
 The command line interface to SearchGUI, referred to as SearchCLI, makes it possible to run all search engines and _de novo_ algorithms supported by SearchGUI using a single command line.
 
-SearchCLI searches spectrum files according to search parameters using [X! Tandem](http://www.thegpm.org/tandem), [MS-GF+](https://bix-lab.ucsd.edu/pages/viewpage.action?pageId=13533355), [MS Amanda](http://ms.imp.ac.at/?goto=msamanda), [MyriMatch](http://forge.fenchurch.mc.vanderbilt.edu/scm/viewvc.php/*checkout*/trunk/doc/index.html?root=myrimatch), [Comet](http://comet-ms.sourceforge.net/), [Tide](http://cruxtoolkit.sourceforge.net), [Andromeda](http://www.andromeda-search.org), [OMSSA](http://www.ncbi.nlm.nih.gov/pubmed/15473683), [Novor](http://rapidnovor.com) and [DirecTag](http://fenchurch.mc.vanderbilt.edu/bumbershoot/directag/).
+SearchCLI searches spectrum files according to search parameters using [X! Tandem](http://www.thegpm.org/tandem), [MS-GF+](https://github.com/MSGFPlus/msgfplus), [MS Amanda](http://ms.imp.ac.at/?goto=msamanda), [MyriMatch](http://forge.fenchurch.mc.vanderbilt.edu/scm/viewvc.php/*checkout*/trunk/doc/index.html?root=myrimatch), [Comet](http://comet-ms.sourceforge.net/), [Tide](http://cruxtoolkit.sourceforge.net), [Andromeda](http://www.andromeda-search.org), [OMSSA](http://www.ncbi.nlm.nih.gov/pubmed/15473683), [Novor](http://rapidnovor.com) and [DirecTag](http://fenchurch.mc.vanderbilt.edu/bumbershoot/directag/).
 
 Note that the spectra must be provided in the Mascot Generic File (mgf) format. For spectrum file conversion, we recommend using msConvert, part of [ProteoWizard](http://proteowizard.sourceforge.net/).
 
