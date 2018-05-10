@@ -10,6 +10,13 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.3.1 (May 10. 2018):**
+
+* FEATURE IMPROVEMENT: MyriMatch now supports terminal modifications at specific amino acids.
+* FEATURE IMPROVEMENT: Updated the links to the MyriMatch web page.
+
+----
+
 **Changes in SearchGUI 3.3.0 (May 8. 2018):**
 
 * FEATURE IMPROVEMENT: Updated MS-GF+ to v2018.04.09.
