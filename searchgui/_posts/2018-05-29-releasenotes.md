@@ -10,6 +10,18 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.3.3 (May 28. 2018):**
+
+* BUG FIX: Fixed a resizing bug in the main SearchGUI dialog.
+
+----
+
+**Changes in SearchGUI 3.3.2 (May 24. 2018):**
+
+* BUG FIX: Fixed a resizing bug in the main SearchGUI dialog.
+
+----
+
 **Changes in SearchGUI 3.3.1 (May 10. 2018):**
 
 * FEATURE IMPROVEMENT: MyriMatch now supports terminal modifications at specific amino acids.
