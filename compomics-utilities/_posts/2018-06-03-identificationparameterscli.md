@@ -432,7 +432,7 @@ The following parameters allow controlling specific identification algorithms sp
 
 -msgf_max_pep_length      MS-GF+ maximum peptide length, default is '30'.
 
--msgf_num_matches         MS-GF+ maximum number of spectrum matches, default is '1'.
+-msgf_num_matches         MS-GF+ maximum number of spectrum matches, default is '10'.
 
 -msgf_additional          MS-GF+ additional features.
                           0: output basic scores only (Default)
