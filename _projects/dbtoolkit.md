@@ -10,6 +10,7 @@ wiki: "dbtoolkit"
 
  * [Project Description](#project-description)
  * [Download](#download)
+ * [Usage](#usage)
  * [Project Support](#project-support)
 
 ----

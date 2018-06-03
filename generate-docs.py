@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 
 import sys
+sys.path.insert(0,'/home/compomics/.local/lib/python2.7/site-packages')
 import re
 import shutil
 import os
 import datetime 
 import getpass
-
 import requests
 
 
