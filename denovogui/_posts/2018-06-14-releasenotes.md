@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/denovogui
 
 ----
 
+**Changes in DeNovoGUI 1.16.2 (June 14. 2018):**
+
+* Ensured that Novor results can be loaded across operating systems, e.g. run on Windows and open on Linux.
+
+* LIBRARY UPDATE: Updated utilities to version 4.12.7.
+
+----
+
 **Changes in DeNovoGUI 1.16.1 (June 12. 2018):**
 
 * LIBRARY UPDATE: Updated utilities to version 4.12.6.
