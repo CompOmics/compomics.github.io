@@ -10,9 +10,17 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.25 (June 15. 2018):**
+
+* FEATURE IMPROVEMENT: Updated the example dataset.
+
+* BUG FIX: Fixed a bug in the clear filter feature in the PRIDE Reshake dialog. 
+
+----
+
 **Changes in PeptideShaker 1.16.24 (June 14. 2018):**
 
-* Ensured that Novor results can be loaded across operating systems, e.g. run on Windows and open on Linux.
+* FEATURE IMPROVEMENT: Ensured that Novor results can be loaded across operating systems, e.g. run on Windows and open on Linux.
 
 * LIBRARY UPDATE: Updated utilities to version 4.12.7.
 
