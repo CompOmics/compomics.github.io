@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.27 (July 9. 2018):**
+
+* BUG FIX: Fixed a bug in the algorithm details features export.
+
+----
+
 **Changes in PeptideShaker 1.16.26 (June 24. 2018):**
 
 * BUG FIX: Fixed a bug where the PathSettingsCLI options where not supported when using the ReportCLI.
