@@ -6,7 +6,7 @@ wiki: "ms2pip_c"
 ---
 
 # MS²PIP
-MS²PIP is a tool  to predict MS² signal peak intensities from peptide sequences.
+MS²PIP is a tool to predict MS² signal peak intensities from peptide sequences.
 It employs the XGBoost machine learning algorithm and is written in Python.
 
 You can install MS²PIP on your machine by following the [instructions below](/projects/ms2pip_c#installation.html) or the [extended install instructions](/projects/ms2pip_c/wiki/extended-install-instructions.html).
