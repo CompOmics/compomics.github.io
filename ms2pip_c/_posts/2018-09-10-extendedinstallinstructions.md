@@ -1,11 +1,12 @@
 ---
-name: MS2PIPcextendedinstructions
+name: Extendedinstallinstructions
 project: ms2pip_c
 layout: default
-permalink: /projects/ms2pip_c/wiki/ms2pipcextendedinstructions.html
+permalink: /projects/ms2pip_c/wiki/extendedinstallinstructions.html
 github_project: https://github.com/compomics/ms2pip_c
 ---
 
+# Extended install instructions
 ## Prerequisites
 Install the required Python3 modules, which are listed in `requirements.txt`. If Python3 is the only installed version of Python on your system, you can probably use `pip` instead of `pip3`
 ```
@@ -19,7 +20,7 @@ sudo pip3 install xgboost
 ## Install MS2PIPc
 Download the repository from GitHub, go to the newly created project folder and compile the C-code:
 ```
-git clone https://github.com/sdgroeve/ms2pip_c.git
+git clone https://github.com/compomics/ms2pip_c.git
 cd ms2pip_c
 sh compile.sh
 ```
