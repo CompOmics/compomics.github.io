@@ -30,6 +30,6 @@ Once the database server is installed, the schema with the colims tables, fields
 
   1. connect to the database server (with the database command line tool or a database client like [MySQL Workbench](http://www.mysql.com/products/workbench/) or [SQuirreL SQL](http://www.squirrelsql.org/))
   2. create a new schema in the connected server and set it as the default schema
-  3. MySQL or MariaDB: run the [MySQL setup script](http://genesis.ugent.be/colims/colims_db_setup.sql). PostgreSQL: run the [setup script](http://genesis.ugent.be/colims/colims_db_setup_postgres.sql PostgreQL). The script creates the necessary tables, indexes, keys and inserts some default records into the database.
+  3. MySQL or MariaDB: run the [MySQL setup script](http://genesis.ugent.be/colims/colims_db_setup.sql). The script creates the necessary tables, indexes, keys and inserts some default records into the database.
 
 In principle, colims is designed to be able to run on other SQL databases as well, but some SQL syntax and code adjustments may be necessary. Let us know and we'll try to help you as much as possible.
