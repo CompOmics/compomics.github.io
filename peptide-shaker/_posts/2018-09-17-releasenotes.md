@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.28 (September 17. 2018):**
+
+* BUG FIX: The accuracy slider in the spectrum panel now works again.
+* BUG FIX: Improved the way the gene and GO mappings are checked and updated.
+
+* LIBRARY UPDATE: Updated utilities to version 4.12.8.
+
+----
+
 **Changes in PeptideShaker 1.16.27 (July 9. 2018):**
 
 * BUG FIX: Fixed a bug in the algorithm details features export.
