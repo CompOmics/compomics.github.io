@@ -122,27 +122,35 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.ReportCLI [parameters
 ```
 -reports                   Comma separated list of types of report to export. 
                            0: Certificate of Analysis, 
-                           1: Default Hierarchical Report,
+                           1: Default Hierarchical Report, 
                            2: Default PSM Phosphorylation Report, 
                            3: Default PSM Report, 
-                           4: Default Peptide Phosphorylation Report, 
-                           5: Default Peptide Report, 
-                           6: Default Protein Phosphorylation Report, 
-                           7: Default Protein Report, 
-                           8: Extended PSM Report, 
-                           9-n: Your own custom reports.
+                           4: Default PSM Report with non-validated matches, 
+                           5: Default Peptide Phosphorylation Report, 
+                           6: Default Peptide Report, 
+                           7: Default Peptide Report with non-validated matches, 
+                           8: Default Protein Phosphorylation Report, 
+                           9: Default Protein Report, 
+                           10: Default Protein Report with non-validated matches, 
+                           11: Extended PSM Report, 
+                           12-n: Your own custom reports.
+
+
 
 -documentation             Comma separated list of types of report documentation to export. 
                            0: Certificate of Analysis, 
-                           1: Default Hierarchical Report,
+                           1: Default Hierarchical Report, 
                            2: Default PSM Phosphorylation Report, 
                            3: Default PSM Report, 
-                           4: Default Peptide Phosphorylation Report, 
-                           5: Default Peptide Report, 
-                           6: Default Protein Phosphorylation Report, 
-                           7: Default Protein Report, 
-                           8: Extended PSM Report, 
-                           9-n: Your own custom reports.
+                           4: Default PSM Report with non-validated matches, 
+                           5: Default Peptide Phosphorylation Report, 
+                           6: Default Peptide Report, 
+                           7: Default Peptide Report with non-validated matches, 
+                           8: Default Protein Phosphorylation Report, 
+                           9: Default Protein Report, 
+                           10: Default Protein Report with non-validated matches, 
+                           11: Extended PSM Report, 
+                           12-n: Your own custom reports.
 ```
 
 To add custom reports see Export > Identification Features > Reports in PeptideShaker.
