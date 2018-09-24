@@ -248,6 +248,8 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.FastaCLI [parameters]
 -decoy_suffix           Target decoy suffix, defaults to _concatenated_target_decoy.fasta.
 ```
 
+The PathSettingsCLI options can also be used directly as options to FastaCLI. 
+
 [Go to top of page](# )
 
 ----
