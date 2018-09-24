@@ -10,6 +10,13 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.3.4 (September 24. 2018):**
+
+* FEATURE IMPROVEMENT: Updated Comet to 2018.01 rev. 2.
+* LIBRARY UPDATE: Updated utilities to version 4.12.8.
+
+----
+
 **Changes in SearchGUI 3.3.3 (May 28. 2018):**
 
 * BUG FIX: Fixed a resizing bug in the main SearchGUI dialog.
