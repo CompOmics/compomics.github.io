@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.3.5 (October 4. 2018):**
+
+* BUG FIX: Cleanup of the temp path options when used as options for the other command lines.
+
+----
+
 **Changes in SearchGUI 3.3.4 (September 24. 2018):**
 
 * FEATURE IMPROVEMENT: Updated Comet to 2018.01 rev. 2.
