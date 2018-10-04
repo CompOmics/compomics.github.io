@@ -10,6 +10,13 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.30 (October 4. 2018):**
+
+* BUG FIX: Cleanup of the temp path options when used as options for the other command lines.
+* BUG FIX: Made it possible to use the MzidCLI options directly on the PeptideShakerCLI command line.
+
+----
+
 **Changes in PeptideShaker 1.16.29 (September 18. 2018):**
 
 * FEATURE IMPROVEMENT: Added default protein, peptide and PSM reports that also include the non-validated hits. Note: Some of the numbers for the reports have changed and that you may need to update your command lines.
