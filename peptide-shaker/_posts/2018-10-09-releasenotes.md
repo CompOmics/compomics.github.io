@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.31 (October 9. 2018):**
+
+* BUG FIX: Removed a reference to GUI code in the PathSettingsCLI. 
+
+----
+
 **Changes in PeptideShaker 1.16.30 (October 4. 2018):**
 
 * BUG FIX: Cleanup of the temp path options when used as options for the other command lines.
