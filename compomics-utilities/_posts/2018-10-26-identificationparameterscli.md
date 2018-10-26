@@ -48,7 +48,7 @@ Note that most of the advanced settings and algorithm specific parameters listed
 
 ```java
 java -cp utilities-X.Y.Z.jar 
-com.compomics.cli.identification_parameters.IdentificationParametersCLI[parameters]
+com.compomics.cli.identification_parameters.IdentificationParametersCLI [parameters]
 ```
 
 ```java
