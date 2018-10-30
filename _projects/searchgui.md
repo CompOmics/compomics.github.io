@@ -54,7 +54,7 @@ For developer access to the search results we recommend the use of [compomics-ut
 ## Read Me
  
  * [From the Command Line](#from-the-command-line)
- * [Bioiconda](#bioconda)
+ * [Bioconda](#bioconda)
  * [Docker](#docker)
  * [Easybuild](#easybuild)
  * [Database Help](/projects/searchgui/wiki/databasehelp)
@@ -84,7 +84,7 @@ SearchGUI is available as a [Miniconda package](http://conda.pydata.org/minicond
 You can install SearchGUI with:
 
 ```bash
-conda install -c bioconda searchgui 
+conda install -c conda-forge -c bioconda searchgui 
 ```
 [Go to top of page](#searchgui)
 
