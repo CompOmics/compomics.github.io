@@ -10,9 +10,17 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.33 (November 9. 2018):**
+
+* BUG FIX: Fixed issues with http/https when accessing UniProt. 
+* LIBRARY UPDATE: Updated utilities to version 4.12.10.
+
+----
+
 **Changes in PeptideShaker 1.16.32 (November 5. 2018):**
 
 * FEATURE IMPROVEMENT: Added support for TMT 11-plex.
+* LIBRARY UPDATE: Updated httpclient to version 4.3.6.
 * LIBRARY UPDATE: Updated utilities to version 4.12.10.
 
 ----
