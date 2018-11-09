@@ -10,6 +10,13 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.7.13 (November 9. 2018):**
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.16.33.
+* LIBRARY UPDATE: Updated utilities to version 4.12.11.
+
+----
+
 **Changes in Reporter 0.7.12 (November 5. 2018):**
 
 * FEATURE IMPROVEMENT: Added support for TMT 11-plex.
