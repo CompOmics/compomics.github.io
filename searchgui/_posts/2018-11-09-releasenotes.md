@@ -10,7 +10,7 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
-**Changes in SearchGUI 3.3.6 (November 6. 2018):**
+**Changes in SearchGUI 3.3.6 (November 5. 2018):**
 
 * FEATURE IMPROVEMENT: Added support for TMT 11-plex.
 * LIBRARY UPDATE: Updated utilities to version 4.12.10.
