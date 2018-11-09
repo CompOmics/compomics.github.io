@@ -10,6 +10,13 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.3.7 (November 9. 2018):**
+
+* BUG FIX: Fixed issues with http/https when accessing UniProt.
+* LIBRARY UPDATE: Updated utilities to version 4.12.10.
+
+----
+
 **Changes in SearchGUI 3.3.6 (November 5. 2018):**
 
 * FEATURE IMPROVEMENT: Added support for TMT 11-plex.
