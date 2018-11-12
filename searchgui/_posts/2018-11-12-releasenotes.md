@@ -13,7 +13,7 @@ github_project: https://github.com/compomics/searchgui
 **Changes in SearchGUI 3.3.7 (November 9. 2018):**
 
 * BUG FIX: Fixed issues with http/https when accessing UniProt.
-* LIBRARY UPDATE: Updated utilities to version 4.12.10.
+* LIBRARY UPDATE: Updated utilities to version 4.12.11.
 
 ----
 
