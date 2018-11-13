@@ -10,6 +10,16 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.3.8 (November 13. 2018):**
+
+* FEATURE IMPROVEMENT: Added support for Iron atoms. 
+* FEATURE IMPROVEMENT: Added support for iodoTMT.
+* FEATURE IMPROVEMENT: Added Heme B as a default PTM.
+
+* LIBRARY UPDATE: Updated utilities to version 4.12.12.
+
+----
+
 **Changes in SearchGUI 3.3.7 (November 9. 2018):**
 
 * BUG FIX: Fixed issues with http/https when accessing UniProt.
