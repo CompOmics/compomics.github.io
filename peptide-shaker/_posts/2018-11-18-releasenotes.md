@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.35 (November 18. 2018):**
+
+* FEATURE IMPROVEMENT: Added support for hyperplexing combining SILAC and TMT.
+
+* LIBRARY UPDATE: Updated utilities to version 4.12.13.
+
+----
+
 **Changes in PeptideShaker 1.16.34 (November 13. 2018):**
 
 * FEATURE IMPROVEMENT: Added support for Iron atoms. 
