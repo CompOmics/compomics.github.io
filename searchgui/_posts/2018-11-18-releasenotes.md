@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.3.9 (November 18. 2018):**
+
+* FEATURE IMPROVEMENT: Added support for hyperplexing combining SILAC and TMT.
+
+* LIBRARY UPDATE: Updated utilities to version 4.12.13.
+
+----
+
 **Changes in SearchGUI 3.3.8 (November 13. 2018):**
 
 * FEATURE IMPROVEMENT: Added support for Iron atoms. 
