@@ -10,6 +10,13 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.36 (December 13. 2018):**
+
+* FEATURE IMPROVEMENT: Changed the order of the files in zip for faster access to reports and indexes when read as a stream.
+* FEATURE IMPROVEMENT: Included the path to the log file in the error message printed if the command line fails.
+
+----
+
 **Changes in PeptideShaker 1.16.35 (November 18. 2018):**
 
 * FEATURE IMPROVEMENT: Added support for hyperplexing combining SILAC and TMT.
