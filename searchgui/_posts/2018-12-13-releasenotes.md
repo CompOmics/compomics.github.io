@@ -10,6 +10,13 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.3.10 (December 13. 2018):**
+
+* FEATURE IMPROVEMENT: Updated Comet to version 2018.01 rev. 3.
+* FEATURE IMPROVEMENT: Included the path to the log file in the error message printed if the command line fails.
+
+----
+
 **Changes in SearchGUI 3.3.9 (November 18. 2018):**
 
 * FEATURE IMPROVEMENT: Added support for hyperplexing combining SILAC and TMT.
