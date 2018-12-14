@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.3.11 (December 14. 2018):**
+
+* FEATURE IMPROVEMENT: Updated the help pages and the SearchGUI reference.
+
+----
+
 **Changes in SearchGUI 3.3.10 (December 13. 2018):**
 
 * FEATURE IMPROVEMENT: Updated Comet to version 2018.01 rev. 3.
