@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.3.12 (January 17. 2019):**
+
+* FEATURE IMPROVEMENT: The user is now referred to the log file if an error occurs when running FastaCLI.
+
+----
+
 **Changes in SearchGUI 3.3.11 (December 14. 2018):**
 
 * FEATURE IMPROVEMENT: Updated the help pages and the SearchGUI reference.
