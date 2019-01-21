@@ -8,29 +8,33 @@ github_project: https://github.com/compomics/ms2pip_c
 
 # Extended install instructions
 ## Prerequisites
-Install the required Python3 modules, which are listed in `requirements.txt`. If Python3 is the only installed version of Python on your system, you can probably use `pip` instead of `pip3`
+MS2PIPc runs on Python 3.5 and greater. We recommend you to install a virtual environment for MS2PIPc:
 ```
-sudo pip3 install -r requirements.txt
+python3 -m venv venv
+source venv/bin/activate
+```
+
+## Set up MS2PIPc
+Download the [latest release](/projects/ms2pip_c/releases/latest.html) and unzip it. In the MS2PIPc project folder, you can find the required Python modules listed in `requirements.txt`. Install these with pip:
+```
+pip install -r requirements.txt
 ```
 To train models (instead of just running predictions with the pre-trained models), XGBoost is also required:
 ```
 sudo pip3 install xgboost
 ```
-
-## Install MS2PIPc
-Download the repository from GitHub, go to the newly created project folder and compile the C-code:
+Compile the machine specific C-code. This can take a while...
 ```
-git clone https://github.com/compomics/ms2pip_c.git
-cd ms2pip_c
 sh compile.sh
 ```
+MS2PIP is now fully set up!
 
 ## Configure MS2PIPc to your use case
 A few parameters need to be set in the configuration file (by default `config.txt`):
-- `frag_method`: The peptide fragmentation method or specific MS2PIP model to employ to predict peak intensities. The available models are listed in `README.md`.
+- `model`: The peptide fragmentation method or specific MS2PIP model to employ to predict peak intensities. The available models are listed in `README.md`.
 - `frag_error`: The MS/MS error tolerance in Da. This defines the width of the region around theoretical fragment peak m/z's where MS2PIPc looks for emperical peaks. This value is only of importance if you provide MGF spectrum files.
 - Post-translational modifications (PTMs): This part of the configuration file describes the PTMs that are present in the PEPREC file. Each line represents a certain PTM and is written as follows: `ptm=name,mass-shift,opt,AA`. The name should be identical to the PTM name that is used in the PEPREC file and is case-sensitive. Next is the mass-shift of the PTM in Da. The next variable is not relevant for MS2PIP, so it can be `opt`. Last in line is the one-letter code of the amino acid (AA) on which the PTM occurs. If a certain PTM occurs on different AAs, every AA should have it's own line in the configuration file and have a unique name (eg `PhosphoT`, `PhosphoS` and `PhosphoY`). For N- and C-terminal modifications `AA` should be `N-term` or `C-term`, respectively. This leads, for instance, to the following syntax: `ptm=name,mass-shift,opt,N-term`
-- Lines can be commented out using a hash tag (`#`).
+- Lines can be commented out using a hashtag (`#`).
 
 ## Prepare your input data
 MS2PIP always takes a PEPREC file as input. It is a space-separated file that lists all peptides. It has the following columns:

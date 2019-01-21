@@ -27,7 +27,7 @@ def run_ms2pip_server(peptides, frag_method, ptm_list, url='https://iomics.ugent
             print("{} is missing from peptides DataFrame".format(col))
             return None
 
-    # Split-up into batches of 10 000 peptides (maximum MS2PIP Server accepts per request)
+    # Split-up into batches of 100 000 peptides (maximum MS2PIP Server accepts per request)
     batch_size = 100000
     result = pd.DataFrame()
     for i in list(range(0, len(peptides), batch_size)):
@@ -94,7 +94,7 @@ def run_ms2pip_server(peptides, frag_method, ptm_list, url='https://iomics.ugent
 
     return result
 ```
-The function takes three arguments: `peptides`, `frag_method` and `ptm_list`. `peptides` is an MS2PIP PEPREC-formatted Pandas DataFrame. `ptm_list` is a list of MS2PIP formatted PTM definitions. A detailed explanation of both data structures can be found on the [MS2PIP Server webpage](https://iomics.ugent.be/ms2pip/#howto). `frag_method` is the fragmentation method for which peak intensities need to be predicted. This can be any of the following: `HCD`, `CID`, `ETD` (for EThcD, in developmental stage), `HCDch2` (for HCD including +2 fragment ions, also in developmental stage).
+The function takes three arguments: `peptides`, `frag_method` and `ptm_list`. `peptides` is an MS2PIP PEPREC-formatted Pandas DataFrame. `ptm_list` is a list of MS2PIP formatted PTM definitions. A detailed explanation of both data structures can be found on the [MS2PIP Server webpage](https://iomics.ugent.be/ms2pip/#howto). `frag_method` is the specific model with which you want to predict peak intensities (e.g. HCD, CID, iTRAQ...) Checkout [README.md](/projects/ms2pip_c/#ms2pip-models.html) for a list of all available models.
 
 The function also takes an argument `url`, in which you can provide a custom URL to the server. By default this is `https://iomics.ugent.be/ms2pip/api`.
 
