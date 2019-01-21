@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.37 (January 21. 2019):**
+
+* FEATURE IMPROVEMENT: Non-standard characters in the submitter details (i.e. the Person and Organization elements) are now escaped when exporting to mzIdentML.
+
+----
+
 **Changes in PeptideShaker 1.16.36 (December 13. 2018):**
 
 * FEATURE IMPROVEMENT: Changed the order of the files in zip for faster access to reports and indexes when read as a stream.
