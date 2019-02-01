@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.38 (February 1. 2019):**
+
+* FEATURE IMPROVEMENT: Made the -out option non-mandatory, making it possible to, for example, only generate an mzid file as output.
+
+* BUG FIX: Fixed a bug in the closing of the PeptideShaker db when ran via the command line.
+
+----
+
 **Changes in PeptideShaker 1.16.37 (January 21. 2019):**
 
 * FEATURE IMPROVEMENT: Non-standard characters in the submitter details (i.e. the Person and Organization elements) are now escaped when exporting to mzIdentML.

@@ -53,10 +53,6 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [par
                            in a comma separated list, as compressed zip file, or an entire folder.
                            Example: "c:\file1.omx, c:\file1.dat, c:\file1.t.xml".
 
--out                       PeptideShaker output file (.cpsx). If the file already exists 
-                           it will be silently overwritten.
-                           Example: "c:\ps_output.cpsx".
-
 -spectrum_files (*)        The spectrum files (mgf format) in a comma
                            separated list or an entire folder.
                            Example: "c:\file1.mgf, c:\file2.mgf".
@@ -69,9 +65,13 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [par
 (*) Not mandatory if these files are part of a zip file input with the identification files.
 ```
 
-**Optional export parameters**
+**Optional output parameters**
 
 ```
+-out                       PeptideShaker output file (.cpsx). If the file already exists 
+                           it will be silently overwritten.
+                           Example: "c:\ps_output.cpsx".
+
 -zip                       Exports the entire project as a zip file in the file specified.
 ```
 
