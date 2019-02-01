@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.3.13 (February 1. 2019):**
+
+* NEW FEATURE: Added a new command line option -output_default_name that provides better control over the default name of the output files.
+
+----
+
 **Changes in SearchGUI 3.3.12 (January 17. 2019):**
 
 * FEATURE IMPROVEMENT: The user is now referred to the log file if an error occurs when running FastaCLI.

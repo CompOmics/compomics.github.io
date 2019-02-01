@@ -131,6 +131,8 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
 ### Optional output compression parameters
 
 ```java
+-output_default_name    Optional output default name, default is 'searchgui_out'.
+
 -output_option          Optional result file compression:
                         0: Single zip file,
                         1: One zip file per mgf,
