@@ -15,18 +15,15 @@ source venv/bin/activate
 ```
 
 ## Set up MS2PIPc
-Download the [latest release](/projects/ms2pip_c/releases/latest.html) and unzip it. In the MS2PIPc project folder, you can find the required Python modules listed in `requirements.txt`. Install these with pip:
+Download the source code of the [latest release](/projects/ms2pip_c/releases/latest.html) and unzip it. In the MS2PIPc project folder, you can find the required Python modules listed in `requirements.txt`. Install these with pip:
 ```
 pip install -r requirements.txt
 ```
-To train models (instead of just running predictions with the pre-trained models), XGBoost is also required:
-```
-sudo pip3 install xgboost
-```
-Compile the machine specific C-code. This can take a while...
-```
-sh compile.sh
-```
+
+MS2PIPc requires some code to be compiled. For this:
+- Run the compilation with the command `sh compile.sh` (this can take a while...)
+- Or, alternatively, you can use the precompiled files that are posted on the release page. Extract the files in the `cython_modules` folder. For this option to work, Linux, Python 3.7 and Cython 0.29.2 are required!
+
 MS2PIP is now fully set up!
 
 ## Configure MS2PIPc to your use case
