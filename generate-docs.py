@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import sys
-sys.path.insert(0,'/home/compomics/.local/lib/python2.7/site-packages')
+# sys.path.insert(0,'/home/compomics/.local/lib/python2.7/site-packages')
 import re
 import shutil
 import os
