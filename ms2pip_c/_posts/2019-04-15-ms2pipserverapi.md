@@ -82,7 +82,7 @@ def run_ms2pip_server(peptides, frag_method, ptm_list, url='https://iomics.ugent
         if state == 'SUCCESS':
             response = requests.post('{}/download'.format(url), json=task_id_payload)
             result_batch = pd.DataFrame.from_dict(response.json()['ms2pip_out'])
-            result_batch = result_batch[['spec_id', 'charge', 'peplen', 'ion', 'ionnumber', 'mz', 'prediction']]
+            result_batch = result_batch[['spec_id', 'charge', 'ion', 'ionnumber', 'mz', 'prediction']]
             result = result.append(result_batch)
             print("Result received", end='\n\n')
         else:
