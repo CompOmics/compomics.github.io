@@ -1,28 +1,22 @@
 ---
-name: 11Xilmassparameters
+name: 31XilmassparametersCLI
 project: xilmass
 layout: default
-permalink: /xilmass/wiki/11xilmassparameters.html
+permalink: /projects/xilmass/wiki/31xilmassparameterscli.html
 github_project: https://github.com/compomics/xilmass
 ---
 
 **Inputs files related parameters are as follows:**
 
-`givenDBName`: full path to the FASTA file that contains the protein sequences that are cross linked.
+`givenDBName`: full path to the FASTA file that contains the protein sequences that are cross linked. See [here](https://github.com/compomics/xilmass/wiki/5.-Database) for the right database format.
 
 `contaminantDBName`: full path to the FASTA file that contains contaminant protein sequences (OPTIONAL). If this information is provided, contaminant proteins are in silico digested and scored. Such contaminant derived spectra will not be included in the final identification list.
 
 `cxDBName`: full path of the search database that contain cross-linked and mono-linked peptides. Required only a name (and no file extension). .
 
 `mgfs`: full path to the folder that contains the mgf files (MS/MS spectra)
-resultFolder: full path to the folder with the Xilmass result files for each mgf. An mgf name is written in the title of each of these Xilmass output file.
 
-`resultFolder`: Full path of the folder with the Xilmass result files for each mgf. An mgf name is written in the title of each of these Xilmass output files.
-
-`tdfile`: The validated list of target hits with a given FDR.
-
-`allXPSMoutput`: A list of merged XPSMs 
-
+`resultFolder`: Full path of the folder with the Xilmass result files for each mgf. An mgf name is written in the title of each of these Xilmass output files. When Xilmass executes searching, there will be also one file which contains all XPSMs (allXPSMs_list.txt), one file file which contains the validated XPSMs (validatedXPSMs_list.txt), and one file which contains the search settings (settings.txt)
 
 
 **Cross-linking experiment related parameters are as follows:**
@@ -31,13 +25,13 @@ resultFolder: full path to the folder with the Xilmass result files for each mgf
 
 `isLabeled`: T: usage of a heavy labeled cross-linker; F: usage of a light labeled cross-linker; B: usage of both a heavy and light labeled cross-linker
 
-`crossLinkedProteinTypes`: intra: intra-protein cross linking; inter: inter-protein; both: inter- and intra-protein cross linking (case insensitive)
-
 `isConsideredSideReactionSerine`: Whether side reactions are considered (T) or not (F). Enabling this option assumps Serine (S) residue as linkeable for only N-hydroxysuccinimide cross-linkers, such as DSS and BS3
 
 `isConsideredSideReactionThreonine`: Whether side reactions are considered (T) or not (F). Enabling this option assumps Threonine (T) residue as linkeable for only N-hydroxysuccinimide cross-linkers, such as DSS and BS3
 
 `isConsideredSideReactionTyrosine`: Whether side reactions are considered (T) or not (F). Enabling this option assumps Tyrosine(Y) residue as linkeable for only N-hydroxysuccinimide cross-linkers, such as DSS and BS3
+
+`crossLinkedProteinTypes`: intra: intra-protein cross linking; inter: inter-protein; both: inter- and intra-protein cross linking (case insensitive)
 
 `searcForAlsoMonoLink`: T: includes to search also for mono-linked peptides; F: excludes to search for monolinked peptides
 
@@ -76,6 +70,8 @@ resultFolder: full path to the folder with the Xilmass result files for each mgf
 
 
 **Scoring related parameters are as following:**
+
+`consider_neutrallosses`: Allows including peaks for neutral losses while scoring. 0: No neutral losses are taken into account; 1: Water losses for D/E/S/T and ammonia losses for K/N/Q/R if there is a parent ion in both cases (only singly charged); 2: All water losses are considered (including doubly charged).
 
 `fragMode`: Fragmentation modes are as follows: HCD (b and y ions also a2); CID (b and y ions), ETD (c and z ions). 
 
@@ -116,13 +112,13 @@ resultFolder: full path to the folder with the Xilmass result files for each mgf
 `peptide_tol5_base`: Center of peptide_tol5 mass window.
 
 
-
 `msms_tol`: Fragment mass tolerance (in Dalton)
 
 `report_in_ppm`: Reporting MS1 differences in either PPM(T) or Da (F).
 
 `minRequiredPeaks`: Number of minimum required theoretical peaks along peptide-bonds from each peptide. 
 
+`isAllMatchedPeaks`: Finding all matched theoretical peaks within a tolerance (T), or only the closest theoretical peak within a tolerance (F) (default=F)
 
 
 **Spectrum processing related parameters are as follows:**
@@ -132,7 +128,6 @@ resultFolder: full path to the folder with the Xilmass result files for each mgf
 `minimumFiltedPeaksNumberForEachWindow`: minimum number of filtered peaks per mass window during scoring - Inclusive (Default=1)
 
 `maximumFiltedPeaksNumberForEachWindow`: Set maximum number of filtered peaks per mass window during scoring - Inclusive(Default=10)
-
 
 `minPrecMassIsotopicPeakSelected`: minimum precursor mass (Da) that C13 peak might be selected over C12 (we start observing C13 peak selection above this given precursor mass).
 
@@ -146,14 +141,12 @@ resultFolder: full path to the folder with the Xilmass result files for each mgf
 
 `threadNumbers`: number of cores for multithreading 
 
-`isPercolatorAsked`: T: Write separate Percolator input files; F: Do not write Percolator input files (Still not fully-functional and tested)
+`isPercolatorAsked`: allows writing separate Percolator input files (T); or do not write Percolator input files (Still not fully-functional and tested) (F)
 
-`isSPLITFDR`: T: splits the XL sites lists into two groups and computes FDR for each sub-XL sites with the following 
+`isImprovedFDR`: T: splits the XL sites lists into two groups and computes FDR for each sub-XL sites with the following if it is set to `isImprovedFDR=T`, otherwise it computes global FDR for `isImprovedFDR=F`.
 
-`fdrInterPro` and `fdrIntraPro` parameters. F: computes FDR from all XL sites without splitting with using `fdr` option
+`fdrInterPro`: A double value to compute FDR from only inter-protein XL site containing XPSMs by splitting XPSMs into two group as inter-protein and intra-protein XL sites lists. Only function for `isImprovedFDR=T`
 
-`fdrInterPro`: A double value to compute FDR from only inter-protein XL site containing XPSMs by splitting XPSMs into two group as inter-protein and intra-protein XL sites lists. 
+`fdrIntraPro`: A double value to compute FDR from only intra-protein XL site containing XPSMs by splitting XPSMs into two group as inter-protein and intra-protein XL sites lists. Only function for `isImprovedFDR=T`
 
-`fdrIntraPro`: A double value to compute FDR from only intra-protein XL site containing XPSMs by splitting XPSMs into two group as inter-protein and intra-protein XL sites lists.
-
-`fdr`: A double value to compute FDR with all XL sites; this is only function if isSPLITFDR is set to F.
+`fdr`: A double value to compute FDR with all XL sites (global FDR); Only function for `isImprovedFDR=F`.

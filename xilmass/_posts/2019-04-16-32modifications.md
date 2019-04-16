@@ -1,8 +1,8 @@
 ---
-name: 111Modifications
+name: 32Modifications
 project: xilmass
 layout: default
-permalink: /xilmass/wiki/111modifications.html
+permalink: /projects/xilmass/wiki/32modifications.html
 github_project: https://github.com/compomics/xilmass
 ---
 
