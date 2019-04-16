@@ -10,6 +10,18 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.7.17 (February 14. 2019):**
+
+* BUG FIX: Fixed a bug in the ReporterCLI command line where the supported options had gotten mixed up with the ReportCLI options.
+
+----
+
+**Changes in Reporter 0.7.16 (November 30. 2018):**
+
+* BUG FIX: Removed the unused methods_file option from the command line.
+
+----
+
 **Changes in Reporter 0.7.15 (November 18. 2018):**
 
 * LIBRARY UPDATE: Updated PeptideShaker to version 1.16.35.
