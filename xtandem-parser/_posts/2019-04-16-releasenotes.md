@@ -2,7 +2,7 @@
 name: ReleaseNotes
 project: xtandem-parser
 layout: default
-permalink: /xtandem-parser/wiki/releasenotes.html
+permalink: /projects/xtandem-parser/wiki/releasenotes.html
 github_project: https://github.com/compomics/xtandem-parser
 ---
 
