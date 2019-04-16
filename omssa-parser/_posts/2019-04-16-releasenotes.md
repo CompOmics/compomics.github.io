@@ -2,7 +2,7 @@
 name: ReleaseNotes
 project: omssa-parser
 layout: default
-permalink: /omssa-parser/wiki/releasenotes.html
+permalink: /projects/omssa-parser/wiki/releasenotes.html
 github_project: https://github.com/compomics/omssa-parser
 ---
 

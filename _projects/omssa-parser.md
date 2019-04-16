@@ -31,7 +31,7 @@ wiki: "omssa-parser"
 
 |   |   |   |
 | :------------------------- | :---------------: | :--: |
-| [![download](https://github.com/compomics/omssa-parser/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/de/proteinms/omxparser/omssa-parser/1.9.0/omssa-parser-1.9.0.zip) | *v1.9.0 - All platforms* | [ReleaseNotes](/omssa-parser/wiki/releasenotes) |
+| [![download](https://github.com/compomics/omssa-parser/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/de/proteinms/omxparser/omssa-parser/1.9.0/omssa-parser-1.9.0.zip) | *v1.9.0 - All platforms* | [ReleaseNotes](/projects/omssa-parser/wiki/releasenotes) |
 
 ---
 
