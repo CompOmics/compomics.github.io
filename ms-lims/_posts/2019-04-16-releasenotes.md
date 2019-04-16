@@ -2,7 +2,7 @@
 name: ReleaseNotes
 project: ms-lims
 layout: default
-permalink: /ms-lims/wiki/releasenotes.html
+permalink: /projects/ms-lims/wiki/releasenotes.html
 github_project: https://github.com/compomics/ms-lims
 ---
 

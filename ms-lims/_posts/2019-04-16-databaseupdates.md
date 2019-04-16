@@ -2,7 +2,7 @@
 name: DatabaseUpdates
 project: ms-lims
 layout: default
-permalink: /ms-lims/wiki/databaseupdates.html
+permalink: /projects/ms-lims/wiki/databaseupdates.html
 github_project: https://github.com/compomics/ms-lims
 ---
 
