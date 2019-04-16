@@ -16,8 +16,8 @@ def url_sub(matches):
     sys.stdout.write('fvwewqw ffffffff' + url + '\n')
     if url.endswith('wiki'):
         return '/projects' + url + '/home.html)'
-    elif url.endswith('issues' or 'releases'):
-        sys.stdout.write('fvffffffff' + matches + '\n')
+    elif url.endswith('issues') or url.endswith('releases'):
+        sys.stdout.write('fvffffffff' + matches.group(0) + '\n')
         return matches.group(0)
     else:
         return '/projects' + url + '.html)'
