@@ -2,7 +2,7 @@
 name: 3GUIapairwisespectrumview
 project: spectrum_similarity
 layout: default
-permalink: /spectrum_similarity/wiki/3guiapairwisespectrumview.html
+permalink: /projects/spectrum_similarity/wiki/3guiapairwisespectrumview.html
 github_project: https://github.com/compomics/spectrum_similarity
 ---
 
@@ -40,7 +40,7 @@ A pairwise spectra can be inspected either as bubble spectra (see above) or mirr
 
 
 
-**FILTERING:** Each visualization can be also inspected by applying noise filtering. Clicking the `NoiseFilter` button applies an adaptive noise filtering from [pride-asa-pipeline](/pride-asa-pipeline.html). The resulted remaining percentage can be automatically given.
+**FILTERING:** Each visualization can be also inspected by applying noise filtering. Clicking the `NoiseFilter` button applies an adaptive noise filtering from [pride-asa-pipeline](/projects/pride-asa-pipeline.html). The resulted remaining percentage can be automatically given.
 
 
 ![NoiseFilterSpecA](https://dl.dropboxusercontent.com/u/10018463/github_wiki_pages/pairwise/Step4-NoiseFilteringSpecA.PNG)

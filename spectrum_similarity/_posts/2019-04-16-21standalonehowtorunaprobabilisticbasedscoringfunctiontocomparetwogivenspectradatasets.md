@@ -2,7 +2,7 @@
 name: 21Standalonehowtorunaprobabilisticbasedscoringfunctiontocomparetwogivenspectradatasets
 project: spectrum_similarity
 layout: default
-permalink: /spectrum_similarity/wiki/21standalonehowtorunaprobabilisticbasedscoringfunctiontocomparetwogivenspectradatasets.html
+permalink: /projects/spectrum_similarity/wiki/21standalonehowtorunaprobabilisticbasedscoringfunctiontocomparetwogivenspectradatasets.html
 github_project: https://github.com/compomics/spectrum_similarity
 ---
 

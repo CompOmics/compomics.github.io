@@ -2,7 +2,7 @@
 name: 11GUIhowtorunaprobabilisticbasedscoringfunctiontocomparetwogivenspectradatasets
 project: spectrum_similarity
 layout: default
-permalink: /spectrum_similarity/wiki/11guihowtorunaprobabilisticbasedscoringfunctiontocomparetwogivenspectradatasets.html
+permalink: /projects/spectrum_similarity/wiki/11guihowtorunaprobabilisticbasedscoringfunctiontocomparetwogivenspectradatasets.html
 github_project: https://github.com/compomics/spectrum_similarity
 ---
 
@@ -18,7 +18,7 @@ The GUI starts after executing this command:
 
 ![GUI](https://dl.dropboxusercontent.com/u/10018463/github_wiki_pages/comparison/step2_pairwiseGUI.PNG)
 
-**2-Set the parameters**: The details on the parameters can be found [here](/spectrum_similarity/wiki/setting-parameters-of-the-gui-application.html).
+**2-Set the parameters**: The details on the parameters can be found [here](/projects/spectrum_similarity/wiki/setting-parameters-of-the-gui-application.html).
 
 **3-Run**: Click the `run` button to start the comparison.
 

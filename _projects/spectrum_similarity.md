@@ -68,5 +68,5 @@ The settings to perform spectrum comparison are in the bookChapter.properties fi
 ----
 
 # Usage
-See the [wiki](/spectrum_similarity/wiki/home.html) for additional information on how to setup, run and configure spectrum comparison related projects.
+See the [wiki](/projects/spectrum_similarity/wiki/home.html) for additional information on how to setup, run and configure spectrum comparison related projects.
 

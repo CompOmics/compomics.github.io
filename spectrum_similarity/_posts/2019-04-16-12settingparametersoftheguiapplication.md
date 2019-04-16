@@ -2,7 +2,7 @@
 name: 12SettingparametersoftheGUIapplication
 project: spectrum_similarity
 layout: default
-permalink: /spectrum_similarity/wiki/12settingparametersoftheguiapplication.html
+permalink: /projects/spectrum_similarity/wiki/12settingparametersoftheguiapplication.html
 github_project: https://github.com/compomics/spectrum_similarity
 ---
 
@@ -30,7 +30,7 @@ github_project: https://github.com/compomics/spectrum_similarity
 
 `Transformation` enables intensity transformation of peaks. Currently, there are three options avaliable: none, log2 or square root transformation of peak intensities.
 
-`Noise filter` enables noise filtering by removing peaks. Currently, there are three options avaliable: none, [pride-asap](/pride-asa-pipeline.html)-adaptive noise filtering, topN intense peak selection and discarding peaks with less than x% of precursor intensity
+`Noise filter` enables noise filtering by removing peaks. Currently, there are three options avaliable: none, [pride-asap](/projects/pride-asa-pipeline.html)-adaptive noise filtering, topN intense peak selection and discarding peaks with less than x% of precursor intensity
 
 `Number of peaks cutoff` is required for `topN intense peak selection` a number of peaks with top intensity to keep in a spectrum.
 

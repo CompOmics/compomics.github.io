@@ -2,7 +2,7 @@
 name: 22SettingparametersofthestandaloneapplicationMS2Similarityproperties
 project: spectrum_similarity
 layout: default
-permalink: /spectrum_similarity/wiki/22settingparametersofthestandaloneapplicationms2similarityproperties.html
+permalink: /projects/spectrum_similarity/wiki/22settingparametersofthestandaloneapplicationms2similarityproperties.html
 github_project: https://github.com/compomics/spectrum_similarity
 ---
 
@@ -28,7 +28,7 @@ github_project: https://github.com/compomics/spectrum_similarity
 
 `transformation` enables intensity transformation of peaks. Currently, there are three options avaliable: `transformation=0`: none, `transformation=1`: log2 or `transformation=2`: square root transformation of peak intensities. Must be one of these three integer values!
 
-`noise.filtering` enables noise filtering, by removing peaks. Currently, there are three options avaliable: `noise.filtering=0`: none, `noise.filtering=1`: [pride-asap](/pride-asa-pipeline.html)-adaptive noise filtering, `noise.filtering=2`: topN intense peak selection and `noise.filtering=3`: discarding peaks with less than x% of the precursor intensity. Must be one of these four integer values!
+`noise.filtering` enables noise filtering, by removing peaks. Currently, there are three options avaliable: `noise.filtering=0`: none, `noise.filtering=1`: [pride-asap](/projects/pride-asa-pipeline.html)-adaptive noise filtering, `noise.filtering=2`: topN intense peak selection and `noise.filtering=3`: discarding peaks with less than x% of the precursor intensity. Must be one of these four integer values!
 
 `topN` is required for `noise.filtering=2`. A number of peaks with top intensity to keep in a spectrum. Must be an integer value!
 
