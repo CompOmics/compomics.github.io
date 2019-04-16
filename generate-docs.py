@@ -15,7 +15,7 @@ def url_sub(matches):
 
     if url.endswith('wiki'):
         return '/projects' + url + '/home.html)'
-    elif url.endswith('issues'):
+    elif url.endswith('issues' or 'releases'):
         return matches.group(0)
     else:
         return '/projects' + url + '.html)'
