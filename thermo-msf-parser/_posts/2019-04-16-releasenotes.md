@@ -2,7 +2,7 @@
 name: ReleaseNotes
 project: thermo-msf-parser
 layout: default
-permalink: /thermo-msf-parser/wiki/releasenotes.html
+permalink: /projects/thermo-msf-parser/wiki/releasenotes.html
 github_project: https://github.com/compomics/thermo-msf-parser
 ---
 

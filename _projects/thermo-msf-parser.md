@@ -35,7 +35,7 @@ Note that we only support MSF files from ProteomeDiscoverer version 1.2, 1.3 and
 
 | Download | Version | Release info |
 | :--: |:--:| :--:|
-| <a href="http://genesis.ugent.be/maven2/com/compomics/thermo_msf_parser/thermo_msf_parser_GUI/2.0.5/thermo_msf_parser_GUI-2.0.5-archive.zip" onclick="trackOutboundLink('usage','download','thermo-msf-parser','http://genesis.ugent.be/maven2/com/compomics/thermo_msf_parser/thermo_msf_parser_GUI/2.0.5/thermo_msf_parser_GUI-2.0.5-archive.zip'); return false;"><img src="https://github.com/compomics/thermo-msf-parser/wiki/images/download_button.png" alt="download" /></a> | *2.0.5 - All platforms* |    [Release notes](/thermo-msf-parser/wiki/releasenotes.html) |
+| <a href="http://genesis.ugent.be/maven2/com/compomics/thermo_msf_parser/thermo_msf_parser_GUI/2.0.5/thermo_msf_parser_GUI-2.0.5-archive.zip" onclick="trackOutboundLink('usage','download','thermo-msf-parser','http://genesis.ugent.be/maven2/com/compomics/thermo_msf_parser/thermo_msf_parser_GUI/2.0.5/thermo_msf_parser_GUI-2.0.5-archive.zip'); return false;"><img src="https://github.com/compomics/thermo-msf-parser/wiki/images/download_button.png" alt="download" /></a> | *2.0.5 - All platforms* |    [Release notes](/projects/thermo-msf-parser/wiki/releasenotes.html) |
 
 ### Example Dataset
 [Example Dataset 1](https://github.com/compomics/thermo-msf-parser/blob/master/thermo_msf_parser_API/src/test/resources/test-msf-v-1.2.msf), click on *raw* to download.
@@ -45,7 +45,7 @@ Note that we only support MSF files from ProteomeDiscoverer version 1.2, 1.3 and
 ----
 
 ## Usage
-See the [wiki](/thermo-msf-parser/wiki/home.html) for additional information on how to use *Thermo MSF Parser*.
+See the [wiki](/projects/thermo-msf-parser/wiki/home.html) for additional information on how to use *Thermo MSF Parser*.
 
 [Go to top of page](#thermo-msf-parser)
 
@@ -58,7 +58,7 @@ The Thermo MSF viewer makes use of [compomics-utilities](http://code.google.com/
 Similar parsers for OMSSA and X!Tandem results files are also available, see [OMSSA Parser](http://code.google.com/p/omssa-parser) and [XTandem Parser](http://code.google.com/p/xtandem-parser).
 
 You might also find some of the following projects interesting: [Peptizer](http://code.google.com/p/peptizer),
-[dbtoolkit](/dbtoolkit.html),
+[dbtoolkit](/projects/dbtoolkit.html),
 [ms-lims](http://code.google.com/p/ms-lims),
 [Rover](http://code.google.com/p/compomics-rover) and
 [PeptideShaker](http://code.google.com/p/peptide-shaker).
