@@ -13,6 +13,7 @@ import requests
 def url_sub(matches):
     url = matches.group(1).lower()
 
+    sys.stdout.write('fvfddddfffffff')
     if url.endswith('wiki'):
         return '/projects' + url + '/home.html)'
     elif url.endswith('issues' or 'releases'):
