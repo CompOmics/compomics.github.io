@@ -51,7 +51,7 @@ ThermoRawFileParser.exe  usage is (use -option=value for the optional arguments)
 
 ## Download
 
-Click [here](/projects/thermorawfileparser/releases.html) to go to the release page.
+Click [here](https://github.com/compomics/ThermoRawFileParser/releases) to go to the release page.
 
 ## Build
 
