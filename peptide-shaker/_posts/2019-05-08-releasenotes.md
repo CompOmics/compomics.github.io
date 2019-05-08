@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.39 (May 8. 2019):**
+
+* BUG FIX: The paths are now updated before the IdentificationParametersCLI is executed.
+
+----
+
 **Changes in PeptideShaker 1.16.38 (February 1. 2019):**
 
 * FEATURE IMPROVEMENT: Made the -out option non-mandatory, making it possible to, for example, only generate an mzid file as output.
