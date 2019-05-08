@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/denovogui
 
 ----
 
+**Changes in DeNovoGUI 1.16.3 (May 8. 2019):**
+
+* BUG FIX: The paths are now updated before the IdentificationParametersCLI is executed.
+
+----
+
 **Changes in DeNovoGUI 1.16.2 (June 14. 2018):**
 
 * FEATURE IMPROVEMENT: Ensured that Novor results can be loaded across operating systems, e.g. run on Windows and open on Linux.
