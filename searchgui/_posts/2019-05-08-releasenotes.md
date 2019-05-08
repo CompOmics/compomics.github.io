@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.3.14 (May 8. 2019):**
+
+* BUG FIX: The paths are now updated before the IdentificationParametersCLI is executed.
+
+----
+
 **Changes in SearchGUI 3.3.13 (February 1. 2019):**
 
 * NEW FEATURE: Added a new command line option -output_default_name that provides better control over the default name of the output files.
