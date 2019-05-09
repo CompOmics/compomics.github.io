@@ -10,6 +10,16 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.7.18 (May 8. 2019):**
+
+* FEATURE IMPROVEMENT: GUI cleanups of the RatioEstimationSettingsDialog. 
+
+* BUG FIX: The paths are now updated before the IdentificationParametersCLI is executed.
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.16.39.
+
+----
+
 **Changes in Reporter 0.7.17 (February 14. 2019):**
 
 * BUG FIX: Fixed a bug in the ReporterCLI command line where the supported options had gotten mixed up with the ReportCLI options.
