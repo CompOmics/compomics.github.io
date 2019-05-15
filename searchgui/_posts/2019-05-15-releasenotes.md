@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.3.15 (May 15. 2019):**
+
+* BUG FIX: Fixed a bug in the use of user-defined terminal PTMs.
+
+* LIBRARY UPDATE: Updated utilities to version 4.12.14.
+
+----
+
 **Changes in SearchGUI 3.3.14 (May 8. 2019):**
 
 * BUG FIX: The paths are now updated before the IdentificationParametersCLI is executed.
