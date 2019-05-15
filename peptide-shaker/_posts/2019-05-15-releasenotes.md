@@ -10,6 +10,14 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.40 (May 15. 2019):**
+
+* BUG FIX: Fixed a bug in the use of user-defined terminal PTMs.
+
+* LIBRARY UPDATE: Updated utilities to version 4.12.14
+
+----
+
 **Changes in PeptideShaker 1.16.39 (May 8. 2019):**
 
 * BUG FIX: The paths are now updated before the IdentificationParametersCLI is executed.
