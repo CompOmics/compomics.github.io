@@ -10,6 +10,15 @@ github_project: https://github.com/compomics/reporter
 
 ---
 
+**Changes in Reporter 0.7.19 (May 15. 2019):**
+
+* BUG FIX: Fixed a bug in the use of user-defined terminal PTMs.
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 1.16.40.
+* LIBRARY UPDATE: Updated utilities to version 4.12.14
+
+----
+
 **Changes in Reporter 0.7.18 (May 8. 2019):**
 
 * FEATURE IMPROVEMENT: GUI cleanups of the RatioEstimationSettingsDialog. 
