@@ -27,6 +27,7 @@ For running on Windows, omit `mono`. The optional parameters only work in the -o
 ThermoRawFileParser.exe --help
  usage is (use -option=value for the optional arguments):
   -h, --help                 Prints out the options.
+      --version              Prints out the library version.
   -i, --input=VALUE          The raw file input.
   -o, --output=VALUE         The output directory. Specify this or an output
                                file.
@@ -76,7 +77,7 @@ By default the parser only logs to console. To enable logging to file, uncomment
     <root>
         <level value="INFO" />
         <appender-ref ref="console" />
-        <appender-ref ref="file" />
+        <!--<appender-ref ref="file" />-->
     </root>
     <appender name="console" type="log4net.Appender.ConsoleAppender">
         <layout type="log4net.Layout.PatternLayout">
