@@ -8,8 +8,8 @@ wiki: "thermorawfileparser"
 # ThermoRawFileParser
 
 Wrapper around the .net (C#) ThermoFisher ThermoRawFileReader library for running on Linux with mono (works on Windows too). It takes a thermo RAW file as input and outputs a metadata file and the spectra in 3 possible formats
-* MGF: only MS2 and MS3 spectra
-* mzML and indexed mzML: both MS1 and MS2 spectra
+* MGF: MS2 and MS3 spectra
+* mzML and indexed mzML: both MS1, MS2 and MS3 spectra
 * Apache Parquet: under development
 
 RawFileReader reading tool. Copyright © 2016 by Thermo Fisher Scientific, Inc. All rights reserved
@@ -21,7 +21,7 @@ RawFileReader reading tool. Copyright © 2016 by Thermo Fisher Scientific, Inc. 
 ```
 mono ThermoRawFileParser.exe -i=/home/user/data_input/raw_file.raw -o=/home/user/data_input/output/ -f=0 -g -m=0
 ```
-For running on Windows, omit `mono`. The optional parameters only work in the -option=value format. The tool can output some RAW file metadata `-m=0|1` (0 for JSON, 1 for TXT) and the spectra file `-f=0|1|2|3` (0 for MGF, 1 for mzML, 2 for indexed mzML, 3 for Parquet) or both. Use the `-p` flag to disable the thermo native peak peacking. 
+For running on Windows, omit `mono`. The optional parameters only work in the -option=value format. The tool can output some RAW file metadata `-m=0|1` (0 for JSON, 1 for TXT) and the spectra file `-f=0|1|2|3` (0 for MGF, 1 for mzML, 2 for indexed mzML, 3 for Parquet) or both. Use the `-p` flag to disable the thermo native peak picking. 
 
 ```
 ThermoRawFileParser.exe --help
@@ -56,9 +56,13 @@ ThermoRawFileParser.exe --help
                              S3 bucket name
 ```
 
+A (java) graphical user interface is also available [here](/projects/thermorawfileparsergui.html) that enables the selection of an input RAW directory or one ore more RAW files.
+
 ## Download
 
 Click [here](https://github.com/compomics/ThermoRawFileParser/releases) to go to the release page (with [release notes](/projects/thermorawfileparser/wiki/releasenotes.html) starting from v1.1.7).
+
+You can find the ThermoRawFileParserGUI [here](/projects/thermorawfileparsergui.html).
 
 ## Galaxy integration
 
