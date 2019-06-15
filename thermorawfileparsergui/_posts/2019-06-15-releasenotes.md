@@ -8,10 +8,16 @@ github_project: https://github.com/compomics/ThermoRawFileParserGUI
 
 # ReleaseNotes
 
+**Changes in ThermoRawFileParserGUI 1.1.1 (June 14. 2019):**
+
+  * FEATURE IMPROVEMENT: Minor GUI cleanups.
+
+---
+
 **Changes in ThermoRawFileParserGUI 1.1 (June 14. 2019):**
 
-  * Updated ThermoRawFileParser to v1.1.7.
-  * Addition of peak picking option.
+  * NEW FEATURE: Adding peak picking option.
+  * FEATURE IMPROVEMENT: Updated ThermoRawFileParser to v1.1.7.
 
 ---
 
