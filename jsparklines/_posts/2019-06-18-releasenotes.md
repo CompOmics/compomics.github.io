@@ -10,6 +10,13 @@ github_project: https://github.com/compomics/jsparklines
 
 ----
 
+**Changes in JSparklines 1.0.10 (June 18. 2019):**
+
+* FEATURE IMPROVEMENT: The font colors for the ChromosomeTableCellRenderer are no longer hardcoded
+* BUG FIX: Fixed a bug in the JSparklinesMultiIntervalChartTableCellRenderer where the reference line could not be hidden.
+
+----
+
 **Changes in JSparklines 1.0.9 (March 31. 2017):**
 
 * FEATURE IMPROVEMENT: Minor JavaDoc corrections.
