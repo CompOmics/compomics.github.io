@@ -10,6 +10,13 @@ github_project: https://github.com/compomics/ThermoRawFileParser
 
 ---
 
+**Changes in ThermoRawFileParser 1.1.8 (Jun 18. 2019):**
+
+* addition of a progress indicator
+* in MGF output: if no charge is found, no `CHARGE` header instead of `CHARGE=0+`
+
+---
+
 **Changes in ThermoRawFileParser 1.1.7 (Jun 4. 2019):**
 
 * reports the monoisotopic mass as precursor mass when available
