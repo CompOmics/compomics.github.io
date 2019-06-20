@@ -8,6 +8,13 @@ github_project: https://github.com/compomics/ThermoRawFileParserGUI
 
 # ReleaseNotes
 
+**Changes in ThermoRawFileParserGUI 1.2.0 (June 19. 2019):**
+
+  * FEATURE IMPROVEMENT: Updated ThermoRawFileParser to v1.1.8, which include progress indication.
+  * FEATURE IMPROVEMENT: The last selected folder is now stored during the running of the GUI.
+
+---
+
 **Changes in ThermoRawFileParserGUI 1.1.1 (June 14. 2019):**
 
   * FEATURE IMPROVEMENT: Minor GUI cleanups.
