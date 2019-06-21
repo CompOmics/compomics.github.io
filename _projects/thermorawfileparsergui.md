@@ -18,6 +18,11 @@ For help on the conversion options please see the [ThermoRawFileParser](/project
 ## Release notes
 See [ReleaseNotes](/projects/thermorawfileparsergui/wiki/releasenotes.html).
 
+## Screenshot
+
+![](https://github.com/compomics/ThermoRawFileParserGUI/wiki/images/ThermoRawFileParserGUI.png)
+
 ## About the ThermoRawFileReader library
 
 Copyright © 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+
