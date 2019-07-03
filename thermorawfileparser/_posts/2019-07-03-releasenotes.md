@@ -10,6 +10,11 @@ github_project: https://github.com/compomics/ThermoRawFileParser
 
 ---
 
+**Changes in ThermoRawFileParser 1.1.9 (Jul 2. 2019):**
+
+* no zlib compression flag addition for the binary data in the mzML output
+---
+
 **Changes in ThermoRawFileParser 1.1.8 (Jun 18. 2019):**
 
 * addition of a progress indicator
