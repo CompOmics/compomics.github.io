@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/searchgui
 
 ----
 
+**Changes in SearchGUI 3.3.16 (July 7. 2019):**
+
+* LIBRARY UPDATE: Updated utilities to version 4.12.15.
+
+----
+
 **Changes in SearchGUI 3.3.15 (May 15. 2019):**
 
 * BUG FIX: Fixed a bug in the use of user-defined terminal PTMs.
