@@ -10,11 +10,19 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.41 (July 7. 2019):**
+
+* FEATURE IMPROVEMENT: Re-implemented the PRIDE Reshake to not show all projects but rather the results of the user's search.
+
+* LIBRARY UPDATE: Updated utilities to version 4.12.15.
+
+----
+
 **Changes in PeptideShaker 1.16.40 (May 15. 2019):**
 
 * BUG FIX: Fixed a bug in the use of user-defined terminal PTMs.
 
-* LIBRARY UPDATE: Updated utilities to version 4.12.14
+* LIBRARY UPDATE: Updated utilities to version 4.12.14.
 
 ----
 
