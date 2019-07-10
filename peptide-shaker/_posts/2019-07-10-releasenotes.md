@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/peptide-shaker
 
 ---
 
+**Changes in PeptideShaker 1.16.42 (July 10. 2019):**
+
+* FEATURE IMPROVEMENT: Updated the example dataset.
+
+----
+
 **Changes in PeptideShaker 1.16.41 (July 7. 2019):**
 
 * FEATURE IMPROVEMENT: Re-implemented the PRIDE Reshake to not show all projects but rather the results of the user's search.
