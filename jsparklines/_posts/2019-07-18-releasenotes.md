@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/jsparklines
 
 ----
 
+**Changes in JSparklines 1.0.11 (July 18. 2019):**
+
+* FEATURE IMPROVEMENT: Added an empty default constructor to the XYDataPoint class (needed by PeptideShaker).
+
+----
+
 **Changes in JSparklines 1.0.10 (June 18. 2019):**
 
 * FEATURE IMPROVEMENT: The font colors for the ChromosomeTableCellRenderer are no longer hardcoded
