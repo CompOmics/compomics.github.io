@@ -37,7 +37,7 @@ A few parameters need to be set in the configuration file (by default `config.tx
 MS2PIP always takes a PEPREC file as input. It is a space-separated file that lists all peptides. It has the following columns:
 - `spec_id`: A unique ID for the peptide that, if an MGF file is given, matches with one fragmentation spectrum.
 - `peptide`: Peptide sequence.
-- `modifications`: PTMs for the given peptide. Every modification is listed as `name|location`, separated by a pipe (`|`) between the name, the location and other PTMs. The location is an integer counted starting at `1` for the first AA. `0` is reserved for N-terminal modifications. `Name` has to correspond to a PTM listed in the configuration file. Unmodified peptides are marked with a hyphen (`-`).
+- `modifications`: PTMs for the given peptide. Every modification is listed as `location|name`, separated by a pipe (`|`) between the location, the name, and other PTMs. The location is an integer counted starting at `1` for the first AA. `0` is reserved for N-terminal modifications. `Name` has to correspond to a PTM listed in the configuration file. Unmodified peptides are marked with a hyphen (`-`).
 - `charge`: Precursor charge of the peptide.
 
 Example of a PEPREC file:
