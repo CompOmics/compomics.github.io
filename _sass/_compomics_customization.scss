@@ -1,0 +1,21 @@
+.navbar-dark{
+    background-color: theme-color("primary-darker");
+}
+
+.navbar .navbar-brand img{
+    max-width: 120px;
+    padding: 10px 0px;
+}
+.navbar-brand{
+    padding: 0px 15px;
+}
+
+.footer-social-icons,
+.footer-social-icons a{
+    font-size: 1.2em; color: theme-color("primary-darker");
+}
+
+.highlight pre {
+    margin-bottom: 1rem;
+    border: 0px;
+}

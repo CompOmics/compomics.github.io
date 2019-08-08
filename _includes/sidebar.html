@@ -1,76 +1,53 @@
-<aside id="sidebar">
-  {% if page.url != "/index.html" %}
-  <div class="widget-wrap">
-    <h3 class="widget-title">Links</h3>
-    <div class="widget">
-      <ul class="post-list">
-        <li>
-          {% if page.page_type == "project" %}
-          <i class="fa fa-home"></i> <a href="{{ page.url | prepend: site.baseurl | append: site.projects.output_ext }}">Project Home</a>
-          {% endif %}
-          {% if page.date %}
-            {% for project in site.projects %}
-              {% if project.name == page.project %}
-              <i class="fa fa-home"></i> <a href="{{ project.url | prepend: site.baseurl | append: site.projects.output_ext }}">Project Home</a>
-              {% endif %}
+<div class="sidebar">
+    {% if page.tags contains "project_home" or page.tags contains "wiki"%}
+    <div class="sidebar-links">
+        <h5>Links</h5>
+        <div class="list-group">
+            <a class="list-group-item list-group-item-action" href="/projects/{{ page.project }}/">
+                <i class="fa fa-home pr-1"></i>Project home
+            </a>
+            <a class="list-group-item list-group-item-action" href="{{ page.github_project }}" target="_blank">
+                <i class="fa fa-github pr-1"></i>Source
+            </a>
+            <a class="list-group-item list-group-item-action" href="{{ page.github_project }}/issues" target="_blank">
+                <i class="fa fa-exclamation-circle pr-1"></i>Issues
+            </a>
+        </div>
+    </div>
+
+    <div class="sidebar-wiki">
+        <!-- Check if their are wiki pages, only then print wiki head -->
+        {% for site_page in site.pages %}
+            {% assign site_page_tags = site_page.tags | split: ", " %}
+            {% if site_page_tags contains "wiki" %} {% if site_page_tags contains page.project %}
+                <h5 class="mt-5">Wiki</h5>
+                {% break %}
+            {% endif %} {% endif %}
+        {% endfor %}
+        <div class="list-group">
+            {% for site_page in site.pages %}
+                {% assign site_page_tags = site_page.tags | split: ", " %}
+                {% if site_page_tags contains "wiki" %} {% if site_page_tags contains page.project %}
+                    <a class="list-group-item list-group-item-action" href="{{ site_page.permalink }}">
+                        {{site_page.title}}
+                    </a>
+                {% endif %} {% endif %}
             {% endfor %}
-          {% endif %}
-        </li>
-        <li>
-            <i class="fa fa-github"></i> <a href="{{ page.github_project }}">Source</a>
-        </li>
-        <li>
-            <i class="fa fa-exclamation-circle"></i> <a href="{{ page.github_project }}/issues">Issues</a>
-        </li>
-      </ul>
+        </div>
     </div>
-  </div>
-  {% endif %}
-  {% if page.page_type == "project" and site.categories.[page.wiki].size > 0 %}
-  <div class="widget-wrap">
-    <h3 class="widget-title">Wiki</h3>
-    <div class="widget">
-      <ul class="post-list">
-        {% for page in site.categories.[page.wiki] reversed %}
-          <li>
-              <a href="{{ page.url | prepend: site.baseurl }}">{{ page.name }}</a>
-          </li>
-        {% endfor %}
-      </ul>
+    {% endif %}
+
+    <div class="sidebar-projects">
+        <h5 class="mt-5">Projects</h5>
+        <div class="list-group">
+            {% for site_page in site.pages %}
+                {% if site_page.tags contains "project_home" %}
+                    <a class="list-group-item list-group-item-action" href="{{ site_page.permalink }}">
+                        {{ site_page.title }}
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
     </div>
-  </div>
-  {% endif %}
-  {% if page.date and page.page_type != "project" %}
-  <div class="widget-wrap">
-    <h3 class="widget-title">Wiki</h3>
-    <div class="widget">
-      <ul class="post-list">
-        {% for page in site.categories.[page.project] reversed %}
-          <li>
-              <a href="{{ page.url | prepend: site.baseurl }}">{{ page.name }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-  {% endif %}
-  <div class="widget-wrap">
-    <h3 class="widget-title">Projects</h3>
-    <div class="widget">
-      <ul class="post-list">
-        {% for project in site.projects %}
-          <li>
-              {% if page.name == project.name or page.project == project.name %}
-              <i class="fa fa-caret-right"></i>
-              <b>
-              {% endif %}
-              <a href="{{ project.url | prepend: site.baseurl | append: site.projects.output_ext }}">{{ project.name }}</a>
-              {% if page.name == project.name or page.project == project.name %}
-              </b>
-              {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</aside>
+
+</div>

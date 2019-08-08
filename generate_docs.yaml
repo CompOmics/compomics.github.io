@@ -1,0 +1,32 @@
+user: compomics
+projects:
+ - colims
+ - compomics-utilities
+ - dbtoolkit
+ - denovogui
+ - fragmentation-analyzer
+ - iceLogo
+ - icelogoserver
+ - jsparklines
+ - jtraml
+ - mappi-dat
+ - mascotdatfile
+ - ms-lims
+ - ms2pip_c
+ - ols-dialog
+ - omssa-parser
+ - pepshell
+ - peptide-shaker
+ - pladipus
+ - pride-asa-pipeline
+ - reporter
+ - search-all-assess-subset
+ - searchgui
+ - spectrum_similarity
+ - tabloidproteome
+ - thermo-msf-parser
+ - ThermoRawFileParser
+ - ThermoRawFileParserGUI
+ - xilmass
+ - xtandem-parser
+github_token: 16be30b92dab2378c9b0e5201012116f065170a7

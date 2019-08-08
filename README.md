@@ -1,5 +1,63 @@
-# Compomics Documentation Website
+# compomics.github.io
+Overview and documentation of CompOmics GitHub repositories.
 
-This repository contains the compomics.github.io site, which collates documentation from all Compomics projects on Github. The site is built automatically as the result of a Jenkins build triggered by a Github webhook. This runs a Groovy postbuild script (see [https://gist.github.com/iain8/d6cd41e4e2ef920c50af](here)) which passes the project name and github url to the script `generate-docs.py`, which retrieves the readme and wiki files and adds the necessary front-matter for Jekyll to parse them. Links in wiki pages are automatically amended to still point to the correct place.
+## Run website locally
+- Install Jekyll requirements
+- Install webpage dependencies: `bundle install`
+- Run Jekyll web server: `bundle exec jekyll serve`
+- The website is now hosted at http://localhost:4000
 
-The site can be viewed locally using `bundle exec jekyll serve` (useful for troubleshooting). It is strongly advised to separate all elements in a markdown file with newlines, as the jekyll parser is a lot less forgiving than the one on github wiki pages.
+## Create pages for GitHub repositories
+The entire pages folder can be generated automatically by `generate_docs.py`.
+This script can be configured trough a YAML config file or the command line
+interface (run `python generate_docs.py -h`). See `requirements.txt` for the
+required Python packages.
+
+### Folder structure
+Requires the following folder structure for projects:
+```
+pages/
+|-- sample_project/
+    |-- sample_project.md
+    |-- wiki/
+        |-- sample_wikipage.md
+        |-- sample_wikipage2.md
+```
+where every GitHub repository has one folder with in its root the README file
+and a subfolder containing all wiki pages of that repository.
+
+
+### Jekyll file headers
+The project markdown files need to contain the following items in their header:
+
+#### README file
+```
+---
+name: "simple"
+description: "A simple tool"
+layout: default
+tags: project_home, simple
+permalink: /projects/simple
+project: simple
+github_project: "https://github.com/compomics/simple"
+---
+```
+
+#### Wiki page
+```
+---
+name: docs
+title: docs
+layout: default
+permalink: "/projects/simple/wiki/docs"
+tags: wiki, simple
+project: simple
+github_project: https://github.com/compomics/simple
+---
+```
+
+# Created with
+- Jekyll template [Boostrap 4 Github Pages](https://nicolas-van.github.io/bootstrap-4-github-pages/).
+- Bootstrap 4
+- Font Awesome 4.7.0
+- ...
