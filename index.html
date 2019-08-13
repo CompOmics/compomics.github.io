@@ -11,8 +11,28 @@ layout: no_sidebar
     <a href="https://github.com/compomics">Github</a>).
 </p>
 
-<h3>Projects</h3>
-<div class='list-group my-2'>
+<!--
+<h3>Featured</h3> 
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 15rem;">
+                <img src="/assets/img/featured_logos/thermo-raw-file-parser-gui.png" class="card-img-top" alt="thermo raw file parser gui logo">
+                <div class="card-body">
+                    <h5 class="card-title">Thermo Raw File Parser</h5>
+                    <p class="card-text">Thermo RAW file parser that runs on Linux with Mono</p>
+                    <a href="/projects/ThermoRawFileParser" class="btn btn-primary">Go to project page</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+-->
+
+<div class='list-group my-5'>
+    <h3 class='list-group-item list-group-item-heading'>
+        Projects
+    </h3>
     {% for page in site.pages %}
         {% if page.tags contains "project_home" %}
             <a class="list-group-item list-group-item-action" href="{{ page.permalink }}">

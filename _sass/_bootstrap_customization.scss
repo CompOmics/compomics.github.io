@@ -34,7 +34,7 @@ $font-family-serif:      Georgia, Cambria, "Times New Roman", Times, serif !defa
 
 // Typography ==================================================================
 
-p {
+p, .page-content li {
   font-family: $font-family-serif;
 }
 
