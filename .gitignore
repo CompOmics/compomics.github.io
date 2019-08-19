@@ -5,3 +5,5 @@ node_modules
 Gemfile.lock
 
 test_git.py
+generate_docs_token.yaml
+
