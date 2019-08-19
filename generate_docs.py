@@ -273,8 +273,8 @@ def main():
     config = load_config(args)
 
     if args.update_github:
-        repo = git_get_repo("./", config['github_token'], PUSH_USER, PUSH_REPO_NAME)
-        git_pull(repo)
+        pages_repo = git_get_repo("./", config['github_token'], PUSH_USER, PUSH_REPO_NAME)
+        git_pull(pages_repo)
 
     for project in config['projects']:
         config['project_name'] = project
@@ -312,7 +312,7 @@ def main():
             logging.info("Project has no wiki.")
 
         if args.update_github:
-            git_add_commit(repo, "Update {} documentation".format(
+            git_add_commit(pages_repo, "Update {} documentation".format(
                 config['project_name']
             ))
 
@@ -323,7 +323,7 @@ def main():
 
     if args.update_github:
         logging.info("Pushing changes to GitHub...")
-        git_push(repo)
+        git_push(pages_repo)
 
     logging.info("Ready")
 
