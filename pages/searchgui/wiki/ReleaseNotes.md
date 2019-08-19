@@ -1,13 +1,12 @@
 ---
-title: ReleaseNotes
+title: "ReleaseNotes"
 layout: default
-permalink: /projects/searchgui/wiki/ReleaseNotes
+permalink: "/projects/searchgui/wiki/ReleaseNotes"
 tags: wiki, searchgui
-project: searchgui
-github_project: https://github.com/compomics/searchgui
+project: "searchgui"
+github_project: "https://github.com/compomics/searchgui"
 ---
 
-# ReleaseNotes
 # ReleaseNotes
 
 ----

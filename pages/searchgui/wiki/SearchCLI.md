@@ -1,13 +1,12 @@
 ---
-title: SearchCLI
+title: "SearchCLI"
 layout: default
-permalink: /projects/searchgui/wiki/SearchCLI
+permalink: "/projects/searchgui/wiki/SearchCLI"
 tags: wiki, searchgui
-project: searchgui
-github_project: https://github.com/compomics/searchgui
+project: "searchgui"
+github_project: "https://github.com/compomics/searchgui"
 ---
 
-# SearchCLI
 # SearchCLI [ ](# )
 
 ## SearchGUI Command Line Interface

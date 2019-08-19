@@ -1,13 +1,12 @@
 ---
-title: DatabaseHelp
+title: "DatabaseHelp"
 layout: default
-permalink: /projects/searchgui/wiki/DatabaseHelp
+permalink: "/projects/searchgui/wiki/DatabaseHelp"
 tags: wiki, searchgui
-project: searchgui
-github_project: https://github.com/compomics/searchgui
+project: "searchgui"
+github_project: "https://github.com/compomics/searchgui"
 ---
 
-# DatabaseHelp
 # Database Help [ ](# )
 
  * [Introduction](#introduction)
