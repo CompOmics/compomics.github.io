@@ -17,13 +17,16 @@ import logging
 import argparse
 import urllib.parse
 
-import git
 import yaml
+import git
+from git import Repo
 from github import Github
 
 
 # Globals
 LOG_LEVEL = logging.INFO
+PUSH_USER = "ralfg"
+PUSH_REPO_NAME = "ralfg.github.io"
 
 
 def argument_parser():
@@ -38,6 +41,8 @@ def argument_parser():
                         help='Name of GitHub repository to parse')
     parser.add_argument('-u', dest='user', action='store',
                         help='Name of GitHub profile to parse from.')
+    parser.add_argument('-g', action='store_true', default=False,
+                        dest='update_github', help='Push changes to GitHub')
     args = parser.parse_args()
     return args
 
@@ -170,7 +175,7 @@ def get_wiki_files(config, repo_meta):
     # Remove tmp files (if exists)
     if os.path.isdir("tmp_wiki_clone"):
         shutil.rmtree("tmp_wiki_clone")
-    
+
     # Remove existing wiki files
     wiki_dir = os.path.join('pages', config['project_name'], 'wiki')
     if os.path.isdir(wiki_dir):
@@ -218,6 +223,43 @@ Disable wiki in GitHub repository options to prevent warning.")
     shutil.rmtree("tmp_wiki_clone")
 
 
+def git_get_repo(path, token, user, repo_name):
+    """
+    Define GitPython repository and set remote URL to include access token.
+    """
+    remote_url = "https://{}:x-oauth-basic@github.com/{}/{}".format(
+        token, user, repo_name
+    )
+    repo = Repo(path)
+    if "origin" in repo.remotes:
+        repo.remotes["origin"].set_url(remote_url)
+    else:
+        repo.create_remote('origin_with_token', url=remote_url)
+    return repo
+
+
+def git_pull(repo):
+    """
+    Pull from remote using GitPython.
+    """
+    repo.remotes["origin"].pull(refspec='master:master')
+
+
+def git_add_commit(repo, commit_message):
+    """
+    Add all changes and commit with given message using GitPython.
+    """
+    repo.git.add(all=True)
+    repo.index.commit(commit_message)
+
+
+def git_push(repo):
+    """
+    Push changes to GitHub using GitPython.
+    """
+    repo.remotes["origin"].push(refspec='master:master', force=True, quiet=True)
+
+
 def main():
     # Set up logging
     logging.basicConfig(
@@ -229,6 +271,10 @@ def main():
     # Get config
     args = argument_parser()
     config = load_config(args)
+
+    if args.update_github:
+        repo = git_get_repo("./", config['github_token'], PUSH_USER, PUSH_REPO_NAME)
+        git_pull(repo)
 
     for project in config['projects']:
         config['project_name'] = project
@@ -265,10 +311,19 @@ def main():
         else:
             logging.info("Project has no wiki.")
 
+        if args.update_github:
+            git_add_commit(repo, "Update {} documentation".format(
+                config['project_name']
+            ))
+
         logging.info(
             "Succesfully parsed %s/%s", config['user'],
             config['project_name']
         )
+
+    if args.update_github:
+        logging.info("Pushing changes to GitHub...")
+        git_push(repo)
 
     logging.info("Ready")
 
