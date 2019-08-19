@@ -19,7 +19,6 @@ import urllib.parse
 
 import git
 import yaml
-import requests
 from github import Github
 
 
@@ -55,9 +54,9 @@ def load_config(args):
 
     if args.github_token:
         config['github_token'] = args.github_token
-    if args.github_token:
+    if args.project:
         config['projects'] = [args.project]
-    if args.github_token:
+    if args.user:
         config['user'] = args.user
 
     # Check if config options are passed
