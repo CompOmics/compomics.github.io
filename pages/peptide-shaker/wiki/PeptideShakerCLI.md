@@ -1,13 +1,12 @@
 ---
-title: PeptideShakerCLI
+title: "PeptideShakerCLI"
 layout: default
-permalink: /projects/peptide-shaker/wiki/PeptideShakerCLI
+permalink: "/projects/peptide-shaker/wiki/PeptideShakerCLI"
 tags: wiki, peptide-shaker
-project: peptide-shaker
-github_project: https://github.com/compomics/peptide-shaker
+project: "peptide-shaker"
+github_project: "https://github.com/compomics/peptide-shaker"
 ---
 
-# PeptideShakerCLI
 # PeptideShakerCLI
 
 # PeptideShaker Command Line Interface #

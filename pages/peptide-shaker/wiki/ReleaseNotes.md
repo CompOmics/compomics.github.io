@@ -1,13 +1,12 @@
 ---
-title: ReleaseNotes
+title: "ReleaseNotes"
 layout: default
-permalink: /projects/peptide-shaker/wiki/ReleaseNotes
+permalink: "/projects/peptide-shaker/wiki/ReleaseNotes"
 tags: wiki, peptide-shaker
-project: peptide-shaker
-github_project: https://github.com/compomics/peptide-shaker
+project: "peptide-shaker"
+github_project: "https://github.com/compomics/peptide-shaker"
 ---
 
-# ReleaseNotes
 # ReleaseNotes
 
 ---
