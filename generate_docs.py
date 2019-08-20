@@ -261,7 +261,6 @@ def git_push(repo):
 
 
 def main():
-    print(os.getcwd())
     # Set up logging
     logging.basicConfig(
         format='%(asctime)s - %(levelname)s - %(message)s',
