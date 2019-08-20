@@ -56,7 +56,21 @@ github_project: https://github.com/compomics/simple
 ---
 ```
 
-# Created with
+## Jenkins post-build Groovy script
+```
+def projectName = manager.build.project.name
+ 
+// replace with command of your choice for OS of your choice
+def processBuilder=new ProcessBuilder('/home/compomics/miniconda3/bin/python', 'generate_docs.py', '-c', 'generate_docs_token.yaml', '-u', 'compomics', '-p', projectName, '-g')
+manager.listener.logger.println(processBuilder.command())
+processBuilder.redirectErrorStream(true)
+processBuilder.directory(new File('/home/compomics/ralfg.github.io'))
+def process = processBuilder.start()
+
+process.inputStream.eachLine {manager.listener.logger.println it}
+```
+
+## Created with
 - Jekyll template [Boostrap 4 Github Pages](https://nicolas-van.github.io/bootstrap-4-github-pages/).
 - Bootstrap 4
 - Font Awesome 4.7.0
