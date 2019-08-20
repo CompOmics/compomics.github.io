@@ -1,4 +1,4 @@
-git
-yaml
 requests
-github
+PyYAML
+GitPython
+PyGithub

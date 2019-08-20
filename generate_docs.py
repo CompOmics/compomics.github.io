@@ -68,7 +68,7 @@ def load_config(args):
     for k in ['github_token', 'projects', 'user']:
         if k not in config:
             logging.error("`%s` not specified. Use either YAML or CLI arguments\
-to specifiy `%s`")
+ to specifiy `%s`", k, k)
             exit(1)
 
     return config
