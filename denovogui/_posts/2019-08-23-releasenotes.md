@@ -10,6 +10,12 @@ github_project: https://github.com/compomics/denovogui
 
 ----
 
+**Changes in DeNovoGUI 1.16.5 (August 23. 2019):**
+
+* BUG FIX: Fixed a bug in the use of the PathSettingsCLI.
+
+----
+
 **Changes in DeNovoGUI 1.16.4 (May 15. 2019):**
 
 * BUG FIX: Fixed a bug in the use of user-defined terminal PTMs.
@@ -17,7 +23,6 @@ github_project: https://github.com/compomics/denovogui
 * LIBRARY UPDATE: Updated utilities to version 4.12.14
 
 ----
-
 
 **Changes in DeNovoGUI 1.16.3 (May 8. 2019):**
 
