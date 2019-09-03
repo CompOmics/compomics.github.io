@@ -9,6 +9,7 @@ compomics.github.io pages.
 - Add required Jekyll front-end matter
 """
 
+import re
 import os
 import sys
 import shutil
@@ -16,6 +17,7 @@ import base64
 import logging
 import argparse
 import urllib.parse
+from glob import glob
 
 import yaml
 import git
@@ -41,6 +43,8 @@ def argument_parser():
                         help='Name of GitHub repository to parse')
     parser.add_argument('-u', dest='user', action='store',
                         help='Name of GitHub profile to parse from.')
+    parser.add_argument('-a', action='store_true', default=False,
+                        dest='update_all', help='Update all existing projects')
     parser.add_argument('-g', action='store_true', default=False,
                         dest='update_github', help='Push changes to GitHub')
     args = parser.parse_args()
@@ -61,6 +65,9 @@ def load_config(args):
         config['github_token'] = args.github_token
     if args.project:
         config['projects'] = [args.project]
+    elif args.update_all:
+        exising_projects = [p.split('/')[1] for p in glob('pages/*')]
+        config['projects'] = exising_projects
     if args.user:
         config['user'] = args.user
 
@@ -136,14 +143,41 @@ github_project: "{github_project}"
     return header
 
 
+def file_parser_old(line, config):
+    """
+    Parse Markdown page for compomics.github.io pages:
+     - Replace wiki URLs to pages URLs
+    """
+    line = line.replace(
+        "https://github.com/{}/{}/wiki/".format(config['user'], config['project_name']),
+        "https://compomics.github.io/projects/{}/wiki/".format(config['project_name'])
+    )
+    return line
+
+
+def url_sub(matches):
+    """
+    Function for re.sub() that returns a parsed URL
+    """
+    url = matches.group(1).lower()
+
+    if url.endswith('wiki'):
+        return '/projects' + url + ')'
+    elif url.endswith('issues') or url.endswith('releases'):
+        return matches.group(0)
+    else:
+        return '/projects' + url + ')'
+
+
 def file_parser(line, config):
     """
     Parse Markdown page for compomics.github.io pages:
      - Replace wiki URLs to pages URLs
     """
-    line.replace(
-        "https://github.com/{}/{}/wiki/".format(config['user'], config['project_name']),
-        "https://compomics.github.io/projects/{}/wiki/".format(config['project_name'])
+    line = re.sub(
+        r'https:\/\/github\.com\/compomics([^.]*)\)',
+        url_sub,
+        line
     )
     return line
 
