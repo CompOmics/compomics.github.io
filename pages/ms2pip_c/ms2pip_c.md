@@ -42,7 +42,7 @@ https://doi.org/10.1093/bioinformatics/btt544
 Please also take note of and mention the MS²PIP-version and [model-version](#ms2pip-models) you used.
 
 ## Installation
-Download the [latest release](/projects/ms2pip_c/releases/latest)
+Download the [latest release](https://github.com/compomics/ms2pip_c/releases/latest)
 and unzip. MS2PIPc runs on Python 3.5 or greater and the required Python packages are listed
 in `requirements.txt`. MS2PIPc requires machine specific compilation of the
 C-code:
@@ -139,8 +139,9 @@ Currently the following models are supported in MS²PIP:
 If you use MS²PIP for your research, always mention the MS²PIP-version (see releases page) and model-version (see table below) you used.
 
 #### Models, version numbers, and the train and test datasets used to create each model
+
 Model | Current version | Train-test dataset (unique peptides) | Evaluation dataset (unique peptides) | Median Pearson correlation on evaluation dataset
--|-|-|-|-
+|-|-|-|-|-|
 HCD | v20190107 | [MassIVE-KB](https://doi.org/10.1016/j.cels.2018.08.004) (1 623 712) | [PXD008034](https://doi.org/10.1016/j.jprot.2017.12.006) (35 269) | 0.903786
 CID | v20190107 | [NIST CID Human](https://chemdata.nist.gov/) (340 356) | [NIST CID Yeast](https://chemdata.nist.gov/) (92 609) | 0.904947
 iTRAQ | v20190107 | [NIST iTRAQ](https://chemdata.nist.gov/) (704 041) | [PXD001189](https://doi.org/10.1182/blood-2016-05-714048) (41 502) | 0.905870

@@ -35,11 +35,16 @@ h1, h2, h3, h4, h5, h6,
     border: 0px;
 }
 
-// List-group-item
 .list-group-item-heading {
-    background-color: $gray-200;
+    background-color: $gray-300;
+}
+.list-group-item {
+    border: 1px solid $gray-300;
+}
+.list-group-item-action:hover {
+    background-color: $gray-300;
 }
 
 .card p {
     text-align: left;
-}
+}  
