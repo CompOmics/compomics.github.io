@@ -71,5 +71,5 @@ The settings to perform spectrum comparison are in the bookChapter.properties fi
 ----
 
 # Usage
-See the [wiki](https://github.com/compomics/spectrum_similarity/wiki) for additional information on how to setup, run and configure spectrum comparison related projects.
+See the [wiki](/projects/spectrum_similarity/wiki) for additional information on how to setup, run and configure spectrum comparison related projects.
 

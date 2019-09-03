@@ -1,13 +1,12 @@
 ---
-title: ReleaseNotes
+title: "ReleaseNotes"
 layout: default
-permalink: /projects/omssa-parser/wiki/ReleaseNotes
+permalink: "/projects/omssa-parser/wiki/ReleaseNotes"
 tags: wiki, omssa-parser
-project: omssa-parser
-github_project: https://github.com/compomics/omssa-parser
+project: "omssa-parser"
+github_project: "https://github.com/compomics/omssa-parser"
 ---
 
-# ReleaseNotes
 # Release Notes
 
 ----

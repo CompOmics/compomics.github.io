@@ -1,10 +1,10 @@
 ---
-title: Home
+title: "Home"
 layout: default
-permalink: /projects/ms-lims/wiki/Home
+permalink: "/projects/ms-lims/wiki/Home"
 tags: wiki, ms-lims
-project: ms-lims
-github_project: https://github.com/compomics/ms-lims
+project: "ms-lims"
+github_project: "https://github.com/compomics/ms-lims"
 ---
 
 # Home

@@ -1,14 +1,19 @@
 ---
-title: ReleaseNotes
+title: "ReleaseNotes"
 layout: default
-permalink: /projects/denovogui/wiki/ReleaseNotes
+permalink: "/projects/denovogui/wiki/ReleaseNotes"
 tags: wiki, denovogui
-project: denovogui
-github_project: https://github.com/compomics/denovogui
+project: "denovogui"
+github_project: "https://github.com/compomics/denovogui"
 ---
 
 # ReleaseNotes
-# ReleaseNotes
+
+----
+
+**Changes in DeNovoGUI 1.16.5 (August 23. 2019):**
+
+* BUG FIX: Fixed a bug in the use of the PathSettingsCLI.
 
 ----
 
@@ -19,7 +24,6 @@ github_project: https://github.com/compomics/denovogui
 * LIBRARY UPDATE: Updated utilities to version 4.12.14
 
 ----
-
 
 **Changes in DeNovoGUI 1.16.3 (May 8. 2019):**
 

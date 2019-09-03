@@ -43,7 +43,7 @@ Download ms-lims 7.7.7 [here](http://genesis.ugent.be/uvpublicdata/ms-lims/ms-li
  * The zip file contains the *ms-lims* jar file and all the libraries needed to run the tool. *Double clicking this resulting jar file will start ms-lims.*
  * Download the manual [here](http://genesis.ugent.be/uvpublicdata/ms-lims/ms_lims_manual.pdf).
  * Download the database schema [here](http://genesis.ugent.be/uvpublicdata/ms-lims/schema_7.6.png).
- * Check out the [release notes](https://github.com/compomics/ms-lims/wiki/ReleaseNotes) and [database updates](https://github.com/compomics/ms-lims/wiki/DatabaseUpdates) in the [wiki](https://github.com/compomics/ms-lims/wiki) section.
+ * Check out the [release notes](/projects/ms-lims/wiki/releasenotes) and [database updates](/projects/ms-lims/wiki/databaseupdates) in the [wiki](/projects/ms-lims/wiki) section.
 
 ### Troubleshooting
 Please report any issues or requests in the [issues section](https://github.com/compomics/ms-lims/issues). We will attempt to come up with a solution as soon as possible.
@@ -56,7 +56,7 @@ Please report any issues or requests in the [issues section](https://github.com/
 Ms-lims makes use of [compomics-utilities](http://code.google.com/p/compomics-utilities).
 
 You might also find some of the following projects interesting: [Peptizer](http://code.google.com/p/peptizer),
-[dbtoolkit](https://github.com/compomics/dbtoolkit),
+[dbtoolkit](/projects/dbtoolkit),
 [ms-lims](http://code.google.com/p/ms-lims),
 [Rover](http://code.google.com/p/compomics-rover) and
 [PeptideShaker](http://code.google.com/p/peptide-shaker)

@@ -1,13 +1,12 @@
 ---
-title: DatabaseUpdates
+title: "DatabaseUpdates"
 layout: default
-permalink: /projects/ms-lims/wiki/DatabaseUpdates
+permalink: "/projects/ms-lims/wiki/DatabaseUpdates"
 tags: wiki, ms-lims
-project: ms-lims
-github_project: https://github.com/compomics/ms-lims
+project: "ms-lims"
+github_project: "https://github.com/compomics/ms-lims"
 ---
 
-# DatabaseUpdates
 # Database updates
 
 **Save the ms-lims update scripts as .cdf and apply them by using the ConfigurationGUI in the ms-lims menu.**

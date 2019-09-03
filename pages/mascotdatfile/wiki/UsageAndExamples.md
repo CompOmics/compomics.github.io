@@ -1,13 +1,12 @@
 ---
-title: UsageAndExamples
+title: "UsageAndExamples"
 layout: default
-permalink: /projects/mascotdatfile/wiki/UsageAndExamples
+permalink: "/projects/mascotdatfile/wiki/UsageAndExamples"
 tags: wiki, mascotdatfile
-project: mascotdatfile
-github_project: https://github.com/compomics/mascotdatfile
+project: "mascotdatfile"
+github_project: "https://github.com/compomics/mascotdatfile"
 ---
 
-# UsageAndExamples
 # Usage And Examples
 
  * [Introduction](#introduction)

@@ -1,13 +1,12 @@
 ---
-title: Usage
+title: "Usage"
 layout: default
-permalink: /projects/thermo-msf-parser/wiki/Usage
+permalink: "/projects/thermo-msf-parser/wiki/Usage"
 tags: wiki, thermo-msf-parser
-project: thermo-msf-parser
-github_project: https://github.com/compomics/thermo-msf-parser
+project: "thermo-msf-parser"
+github_project: "https://github.com/compomics/thermo-msf-parser"
 ---
 
-# Usage
 # Usage
 
 ## Using Thermo MSF Parser as a Maven dependency

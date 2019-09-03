@@ -24,7 +24,7 @@ Proteomics bioinformatics contributes to the ever improved characterization of p
 
 Here, we propose a free framework named **Pladipus** facilitating the establishment of such a distributed computing network for proteomics bioinformatics tools. Pladipus can straightforwardly be installed and operated thanks to its user friendly graphical interface, allowing complex bioinformatics tasks to be easily run on a network instead of a single computer. As a result, any scientist can benefit from the increased computational efficiency provided by distributed computing, hence empowering them to tackle more complex bioinformatics challenges. Notably, it enables the large scale reprocessing of publicly available data, supporting the scientific community in mining these for novel discoveries.
 
-To start using Pladipus please see the [Pladipus wiki](https://github.com/compomics/pladipus/wiki).
+To start using Pladipus please see the [Pladipus wiki](/projects/pladipus/wiki).
 
 ----
 

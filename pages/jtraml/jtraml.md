@@ -48,7 +48,7 @@ Download jTraML 1.0.4 [here](http://genesis.ugent.be/maven2/com/compomics/jtraml
 ----
 
 ## Usage
-See the [wiki](https://github.com/compomics/jtraml/wiki) for additional information on how to setup, run and configure jTraML.
+See the [wiki](/projects/jtraml/wiki) for additional information on how to setup, run and configure jTraML.
 
 [Go to top of page](#jtraml)
 

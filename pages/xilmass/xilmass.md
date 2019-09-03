@@ -63,7 +63,7 @@ You can run Xilmass as CLI or our user-friendly GUI.
 ----
 
 ## Usage
-See the [wiki](https://github.com/compomics/xilmass/wiki).
+See the [wiki](/projects/xilmass/wiki).
 
 ----
 

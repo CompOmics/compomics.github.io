@@ -1,13 +1,12 @@
 ---
-title: DatabaseRequirementsAndSetup
+title: "DatabaseRequirementsAndSetup"
 layout: default
-permalink: /projects/colims/wiki/DatabaseRequirementsAndSetup
+permalink: "/projects/colims/wiki/DatabaseRequirementsAndSetup"
 tags: wiki, colims
-project: colims
-github_project: https://github.com/compomics/colims
+project: "colims"
+github_project: "https://github.com/compomics/colims"
 ---
 
-# DatabaseRequirementsAndSetup
 # Database requirements and setup 
  
   * [Introduction](#introduction)

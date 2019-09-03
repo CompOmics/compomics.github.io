@@ -1,10 +1,10 @@
 ---
-title: Home
+title: "Home"
 layout: default
-permalink: /projects/thermo-msf-parser/wiki/Home
+permalink: "/projects/thermo-msf-parser/wiki/Home"
 tags: wiki, thermo-msf-parser
-project: thermo-msf-parser
-github_project: https://github.com/compomics/thermo-msf-parser
+project: "thermo-msf-parser"
+github_project: "https://github.com/compomics/thermo-msf-parser"
 ---
 
 # Home

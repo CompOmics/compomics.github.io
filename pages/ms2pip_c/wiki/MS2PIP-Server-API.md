@@ -95,7 +95,7 @@ def run_ms2pip_server(peptides, frag_method, ptm_list, url='https://iomics.ugent
 
     return result
 ```
-The function takes three arguments: `peptides`, `frag_method` and `ptm_list`. `peptides` is an MS2PIP PEPREC-formatted Pandas DataFrame. `ptm_list` is a list of MS2PIP formatted PTM definitions. A detailed explanation of both data structures can be found on the [MS2PIP Server webpage](https://iomics.ugent.be/ms2pip/#howto). `frag_method` is the specific model with which you want to predict peak intensities (e.g. HCD, CID, iTRAQ...) Checkout [README.md](https://github.com/compomics/ms2pip_c/#ms2pip-models) for a list of all available models.
+The function takes three arguments: `peptides`, `frag_method` and `ptm_list`. `peptides` is an MS2PIP PEPREC-formatted Pandas DataFrame. `ptm_list` is a list of MS2PIP formatted PTM definitions. A detailed explanation of both data structures can be found on the [MS2PIP Server webpage](https://iomics.ugent.be/ms2pip/#howto). `frag_method` is the specific model with which you want to predict peak intensities (e.g. HCD, CID, iTRAQ...) Checkout [README.md](/projects/ms2pip_c/#ms2pip-models) for a list of all available models.
 
 The function also takes an argument `url`, in which you can provide a custom URL to the server. By default this is `https://iomics.ugent.be/ms2pip/api`.
 

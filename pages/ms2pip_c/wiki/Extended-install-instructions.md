@@ -16,7 +16,7 @@ source venv/bin/activate
 ```
 
 ## Set up MS2PIPc
-Download the source code of the [latest release](https://github.com/compomics/ms2pip_c/releases/latest) and unzip it. In the MS2PIPc project folder, you can find the required Python modules listed in `requirements.txt`. Install these with pip:
+Download the source code of the [latest release](/projects/ms2pip_c/releases/latest) and unzip it. In the MS2PIPc project folder, you can find the required Python modules listed in `requirements.txt`. Install these with pip:
 ```
 pip install -r requirements.txt
 ```

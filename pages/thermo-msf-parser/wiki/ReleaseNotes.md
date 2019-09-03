@@ -1,13 +1,12 @@
 ---
-title: ReleaseNotes
+title: "ReleaseNotes"
 layout: default
-permalink: /projects/thermo-msf-parser/wiki/ReleaseNotes
+permalink: "/projects/thermo-msf-parser/wiki/ReleaseNotes"
 tags: wiki, thermo-msf-parser
-project: thermo-msf-parser
-github_project: https://github.com/compomics/thermo-msf-parser
+project: "thermo-msf-parser"
+github_project: "https://github.com/compomics/thermo-msf-parser"
 ---
 
-# ReleaseNotes
 # Release notes
 
 **Starting from thermo-msf-parser version 1.0, all subsequent versions of the library are listed here.**

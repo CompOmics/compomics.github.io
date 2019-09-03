@@ -1,13 +1,12 @@
 ---
-title: Troubleshooting
+title: "Troubleshooting"
 layout: default
-permalink: /projects/colims/wiki/Troubleshooting
+permalink: "/projects/colims/wiki/Troubleshooting"
 tags: wiki, colims
-project: colims
-github_project: https://github.com/compomics/colims
+project: "colims"
+github_project: "https://github.com/compomics/colims"
 ---
 
-# Troubleshooting
 # Troubleshooting
  
   * [Introduction](#introduction)

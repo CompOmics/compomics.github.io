@@ -36,7 +36,7 @@ moFF is built up from two  modules :
 
 NOTE : Please use *moff_all.py* script to run the entire pipeline with both MBR and apex strategies.
 
-The version presented here is a commandline tool that can easily be adapted to a cluster environment. A graphical user interface can be found [here](https://github.com/compomics/moff-gui). The latter is designed to be able to use [PeptideShaker](https://github.com/compomics/peptide-shaker) results as an input format. Please refer to the [moff-GUI](https://github.com/compomics/moff-gui) manual for more information on how to do this.
+The version presented here is a commandline tool that can easily be adapted to a cluster environment. A graphical user interface can be found [here](/projects/moff-gui). The latter is designed to be able to use [PeptideShaker](/projects/peptide-shaker) results as an input format. Please refer to the [moff-GUI](/projects/moff-gui) manual for more information on how to do this.
 
 [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/moff/README.html) 
 

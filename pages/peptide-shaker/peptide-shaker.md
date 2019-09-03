@@ -26,7 +26,7 @@ permalink: /projects/peptide-shaker
 
 |   |   |   |
 | :------------------------- | :---------------: | :--: |
-| [![download](https://github.com/compomics/peptide-shaker/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/eu/isas/peptideshaker/PeptideShaker/1.16.42/PeptideShaker-1.16.42.zip) | *v1.16.42 - All platforms* | [ReleaseNotes](https://github.com/compomics/peptide-shaker/wiki/ReleaseNotes) |
+| [![download](https://github.com/compomics/peptide-shaker/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/eu/isas/peptideshaker/PeptideShaker/1.16.42/PeptideShaker-1.16.42.zip) | *v1.16.42 - All platforms* | [ReleaseNotes](/projects/peptide-shaker/wiki/releasenotes) |
 
 ---
 
@@ -90,7 +90,7 @@ It should be possible to run PeptideShaker on almost any computer where Java 1.6
 
 However to get the best out of PeptideShaker a newer machine with at least 4 GB of memory is recommended. If parsing big datasets even more memory is required: the bigger the dataset the more memory you need.
 
-Note that in order to use more than 1500 MB of memory you need to install the 64 bit version of Java. See our [Java Troubleshooting](https://github.com/compomics/compomics-utilities/wiki/JavaTroubleShooting) for help.
+Note that in order to use more than 1500 MB of memory you need to install the 64 bit version of Java. See our [Java Troubleshooting](/projects/compomics-utilities/wiki/javatroubleshooting) for help.
 
 The minimum screen resolution for PeptideShaker is 1280 x 800, but it is highly recommended to use at least 1680 x 1050. Again, the bigger the better.
 
@@ -102,7 +102,7 @@ The minimum screen resolution for PeptideShaker is 1280 x 800, but it is highly 
 
 The main purpose of PeptideShaker is to make it simpler to process and display the results of multiple search engines. A graphical user interface is the best choice for smaller projects. PeptideShaker can also be used _via_ the command line, and be incorporated in different analysis pipelines.
 
-For details about the command line see: [PeptideShakerCLI](https://github.com/compomics/peptide-shaker/wiki/PeptideShakerCLI).
+For details about the command line see: [PeptideShakerCLI](/projects/peptide-shaker/wiki/peptideshakercli).
 
 [Go to top of page](#peptideshaker)
 
@@ -167,7 +167,7 @@ For more information on **SearchGUI** see [http://compomics.github.io/projects/s
 
 ### User Defined Modifications ###
 
-To add user defined modifications see [User Defined Modifications in SearchGUI](https://github.com/compomics/searchgui#user-defined-modifications).
+To add user defined modifications see [User Defined Modifications in SearchGUI](/projects/searchgui#user-defined-modifications).
 
 [Go to top of page](#peptideshaker)
 
@@ -175,7 +175,7 @@ To add user defined modifications see [User Defined Modifications in SearchGUI](
 
 ### Database Help ###
 
-For help on obtaining a valid sequence database see the [Database Help](https://github.com/compomics/searchgui/wiki/DatabaseHelp).
+For help on obtaining a valid sequence database see the [Database Help](/projects/searchgui/wiki/databasehelp).
 
 [Go to top of page](#peptideshaker)
 
@@ -238,11 +238,11 @@ PeptideShaker currently only supports mgf files as the input format for the spec
 
 ## Troubleshooting ##
 
-  * **Mascot Issues** - See [Mascot Support](#mascot-support) and [Database Help](https://github.com/compomics/searchgui/wiki/DatabaseHelp).
+  * **Mascot Issues** - See [Mascot Support](#mascot-support) and [Database Help](/projects/searchgui/wiki/databasehelp).
 
   * **mzIdentML Issues** - See [mzIdentML Support](#mzidentml-support).
 
-  * **Database Help** - For help on how to set up a proper FASTA database, please see [Database Help](https://github.com/compomics/searchgui/wiki/DatabaseHelp). For Mascot databases see [Mascot Support](#mascot-support). Also see [Databases Decoy Databases](#decoy).
+  * **Database Help** - For help on how to set up a proper FASTA database, please see [Database Help](/projects/searchgui/wiki/databasehelp). For Mascot databases see [Mascot Support](#mascot-support). Also see [Databases Decoy Databases](#decoy).
 
   * **Does Not Start I** - Do you have Java installed? Download the latest version of Java  [here](http://java.sun.com/javase/downloads/index.jsp) and try again. (You only need the JRE version (and not the JDK version) to run PeptideShaker.)
 
@@ -262,7 +262,7 @@ PeptideShaker currently only supports mgf files as the input format for the spec
 
   * **Xlib/X11 errorrs** - When running the command lines on systems without a grahpical user interface you may get errors related to X11. If that happens try adding `-Djava.awt.headless=true` to the command line.
 
-  * **Protein Not Found** - In order to provide the most comprehensive results, PeptideShaker needs to link the protein accession retrieved by the various search engines to the FASTA file. Various errors can result in PeptideShaker not being able to find your protein. First, verify that the accession number is indeed in your FASTA file. Then, set up an [issue](https://github.com/compomics/peptide-shaker/issues) describing the problem and provide the accession not found together with its header and sequence in the FASTA file. Please, also mention the database type and version. See also [Database Help](https://github.com/compomics/searchgui/wiki/DatabaseHelp), [Mascot Support](#mascot-support) and [Databases Decoy Databases](#decoy). Example for P60323 in UniProt:
+  * **Protein Not Found** - In order to provide the most comprehensive results, PeptideShaker needs to link the protein accession retrieved by the various search engines to the FASTA file. Various errors can result in PeptideShaker not being able to find your protein. First, verify that the accession number is indeed in your FASTA file. Then, set up an [issue](https://github.com/compomics/peptide-shaker/issues) describing the problem and provide the accession not found together with its header and sequence in the FASTA file. Please, also mention the database type and version. See also [Database Help](/projects/searchgui/wiki/databasehelp), [mascot support](#mascot-support) and [databases decoy databases](#decoy). Example for P60323 in UniProt:
 
 ```
             >sw|P60323|NANO3_HUMAN Nanos homolog 3 OS=Homo sapiens GN=NANOS3 PE=2 SV=1

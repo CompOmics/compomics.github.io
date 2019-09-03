@@ -101,19 +101,19 @@ permalink: /projects/meta-proteome-analyzer
 
 **MPA Portable** is a light-weight and stand-alone software for the identification of proteins and in-depth analysis of metaproteomics (and also proteomics) data. The MPA software currently supports the database search engines [Comet](http://comet-ms.sourceforge.net/), [MS-GF+](https://bix-lab.ucsd.edu/pages/viewpage.action?pageId=13533355) and [X!Tandem](http://www.thegpm.org/tandem/) taking MGF spectrum files as input data. User-provided FASTA databases (preferably downloaded from UniProtKB) are formatted automatically.
 
-*Please note:* MPA Portable can be run directly on your desktop PC or laptop and no separate installation is needed: just double-click the provided JAR file or use the provided batch file (see below on this page). Otherwise, you can use the command line interface ([MetaProteomeAnalyzerCLI](https://github.com/compomics/meta-proteome-analyzer/wiki/MetaProteomeAnalyzerCLI)).
+*Please note:* MPA Portable can be run directly on your desktop PC or laptop and no separate installation is needed: just double-click the provided JAR file or use the provided batch file (see below on this page). Otherwise, you can use the command line interface ([MetaProteomeAnalyzerCLI](/projects/meta-proteome-analyzer/wiki/metaproteomeanalyzercli)).
 
 ---
 
 ## Command Line Usage ##
 
-MPA can also be used via the command line, see [MetaProteomeAnalyzerCLI](https://github.com/compomics/meta-proteome-analyzer/wiki/MetaProteomeAnalyzerCLI) for details.
+MPA can also be used via the command line, see [MetaProteomeAnalyzerCLI](/projects/meta-proteome-analyzer/wiki/metaproteomeanalyzercli) for details.
 
 ---
 
 ## MzIdentML Import ##
 
-It is also possible to import results in mzIdentML format which have been generated in other database search tools, see [MzIdentML-Import](https://github.com/compomics/meta-proteome-analyzer/wiki/MzIdentML-Import) for details.
+It is also possible to import results in mzIdentML format which have been generated in other database search tools, see [MzIdentML-Import](/projects/meta-proteome-analyzer/wiki/mzidentml-import) for details.
 
 ---
 

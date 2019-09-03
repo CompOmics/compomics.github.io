@@ -53,12 +53,12 @@ The [Computational Omics and Systems Biology Group](http://www.compomics.com) de
 | [jmzML](http://jmzML.googlecode.com) |_java implementation of the PSI-MS mzML specification_|_[Côté et al: Proteomics 2010;10(7):1332-5](http://www.ncbi.nlm.nih.gov/pubmed/20127693)_|
 | [Fragmentation Analyzer](http://compomics.github.io/projects/fragmentation-analyzer.html) | _analyzing MS/MS fragmentation data_|_[Barsnes et al: Proteomics 2010;10(5):1087-90](http://www.ncbi.nlm.nih.gov/pubmed/20049869)_|
 | [ms\_lims](http://compomics.github.io/projects/ms-lims.html) | _mass spectrometry based proteomics information management system_|_[Helsens et al: Proteomics 2010;10(6):1261-4](http://www.ncbi.nlm.nih.gov/pubmed/20058248)_|
-| [Rover](https://github.com/compomics/compomics-rover) | _visualize and validate quantitative proteomics data_|_[Colaert et al: Proteomics 2010;10(6):1226-9](http://www.ncbi.nlm.nih.gov/pubmed/20058247)_|
+| [Rover](/projects/compomics-rover) | _visualize and validate quantitative proteomics data_|_[colaert et al: proteomics 2010;10(6):1226-9](http://www.ncbi.nlm.nih.gov/pubmed/20058247)_|
 | [IceLogo](http://compomics.github.io/projects/icelogo.html) | _next-generation visualization of protein consensus sequences_|_[Colaert et al: Nature Methods 2009;6(11):786-7](http://www.ncbi.nlm.nih.gov/pubmed/19876014)_|
 | [OMSSA Parser](http://compomics.github.io/projects/omssa-parser.html) | _java parser for OMSSA omx files_|_[Barsnes et al: Proteomics 2009;9(14):3772-4](http://www3.interscience.wiley.com/journal/122524294/abstract)_|
-| [Peptizer](https://github.com/compomics/peptizer) | _automating manual validation of MS/MS search results_|_[Helsens et al: MCP 2008;7(12):2363-72](http://www.ncbi.nlm.nih.gov/pubmed/18667410)_|
+| [Peptizer](/projects/peptizer) | _automating manual validation of ms/ms search results_|_[helsens et al: mcp 2008;7(12):2363-72](http://www.ncbi.nlm.nih.gov/pubmed/18667410)_|
 | [MascotDatfile](http://compomics.github.io/projects/mascotdatfile.html) | _java API for MS/MS search results by Mascot_|_[Helsens et al: Proteomics 2007;7(3):364-6](http://www.ncbi.nlm.nih.gov/pubmed/17203510)_|
-| [DBToolkit](https://github.com/compomics/dbtoolkit) | _manipulating fasta sequence databases_|_[Martens et al: Bioinformatics 2005;21(17):3584-5](http://www.ncbi.nlm.nih.gov/pubmed/16030071)_|
+| [DBToolkit](/projects/dbtoolkit) | _manipulating fasta sequence databases_|_[martens et al: bioinformatics 2005;21(17):3584-5](http://www.ncbi.nlm.nih.gov/pubmed/16030071)_|
 
 [Go to top of page](#compomics-utilities)
 
@@ -66,7 +66,7 @@ The [Computational Omics and Systems Biology Group](http://www.compomics.com) de
 
 ## Using compomics-utilities ##
 
-For example code and demos showing how the **compomics-utilities** library can be used in your project see [Examples](https://github.com/compomics/compomics-utilities/wiki/Examples). Also check the [JavaDoc](http://compomics.github.io/compomics-utilities/javadoc/).
+For example code and demos showing how the **compomics-utilities** library can be used in your project see [Examples](/projects/compomics-utilities/wiki/examples). Also check the [JavaDoc](http://compomics.github.io/compomics-utilities/javadoc/).
 
 [Go to top of page](#compomics-utilities)
 

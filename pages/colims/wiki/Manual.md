@@ -1,13 +1,12 @@
 ---
-title: Manual
+title: "Manual"
 layout: default
-permalink: /projects/colims/wiki/Manual
+permalink: "/projects/colims/wiki/Manual"
 tags: wiki, colims
-project: colims
-github_project: https://github.com/compomics/colims
+project: "colims"
+github_project: "https://github.com/compomics/colims"
 ---
 
-# Manual
 # Manual
 
 ## [Table of contents](#table-of-contents)

@@ -12,7 +12,7 @@ permalink: /projects/ms2pip_c
 MS²PIP is a tool to predict MS² signal peak intensities from peptide sequences.
 It employs the XGBoost machine learning algorithm and is written in Python.
 
-You can install MS²PIP on your machine by following the [instructions below](https://github.com/compomics/ms2pip_c#installation) or the [extended install instructions](https://github.com/compomics/ms2pip_c/wiki/Extended-install-instructions).
+You can install MS²PIP on your machine by following the [instructions below](/projects/ms2pip_c#installation) or the [extended install instructions](/projects/ms2pip_c/wiki/extended-install-instructions).
 For a more user friendly experience, we created a [web server](https://iomics.ugent.be/ms2pip)
 . There, you can easily upload a list of peptide sequences, after which the
 corresponding predicted MS² spectra can be downloaded in multiple file
@@ -42,22 +42,22 @@ https://doi.org/10.1093/bioinformatics/btt544
 Please also take note of and mention the MS²PIP-version and [model-version](#ms2pip-models) you used.
 
 ## Installation
-Download the [latest release](https://github.com/compomics/ms2pip_c/releases/latest)
+Download the [latest release](/projects/ms2pip_c/releases/latest)
 and unzip. MS2PIPc runs on Python 3.5 or greater and the required Python packages are listed
 in `requirements.txt`. MS2PIPc requires machine specific compilation of the
 C-code:
 ```
 sh compile.sh
 ```
-Check out the [extended install instructions](https://github.com/compomics/ms2pip_c/wiki/Extended-install-instructions)
+Check out the [extended install instructions](/projects/ms2pip_c/wiki/extended-install-instructions)
 for a more detailed explanation.
 
 
 ## Predicting MS2 peak intensities
 MS2PIPc comes with pre-trained models for a variety of fragmentation methods and
 modifications. These models can easily be applied by configuring MS2PIPc in the
-[config.txt file](https://github.com/compomics/ms2pip_c#config-file) and
-providing a list of peptides in the form of a [PEPREC file](https://github.com/compomics/ms2pip_c#peprec-file).
+[config.txt file](/projects/ms2pip_c#config-file) and
+providing a list of peptides in the form of a [PEPREC file](/projects/ms2pip_c#peprec-file).
 
 ### MS2PIPc command line interface
 ```
@@ -164,4 +164,4 @@ TTOF5600 |	CID	| Quadrupole Time-of-Flight	| Tryptic digest
 HCDch2	| HCD	| Orbitrap |	Tryptic digest
 CIDch2 |	CID	| Linear ion trap	| Tryptic digest
 
-To train custom MS2PIPc models, please refer to [Training new MS2PIP models](https://github.com/compomics/ms2pip_c/wiki/Training-new-MS2PIP-models) on our Wiki pages.
+To train custom MS2PIPc models, please refer to [Training new MS2PIP models](/projects/ms2pip_c/wiki/training-new-ms2pip-models) on our Wiki pages.

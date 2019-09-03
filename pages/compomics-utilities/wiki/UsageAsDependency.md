@@ -1,13 +1,12 @@
 ---
-title: UsageAsDependency
+title: "UsageAsDependency"
 layout: default
-permalink: /projects/compomics-utilities/wiki/UsageAsDependency
+permalink: "/projects/compomics-utilities/wiki/UsageAsDependency"
 tags: wiki, compomics-utilities
-project: compomics-utilities
-github_project: https://github.com/compomics/compomics-utilities
+project: "compomics-utilities"
+github_project: "https://github.com/compomics/compomics-utilities"
 ---
 
-# UsageAsDependency
 # Usage As Depencency
 
 The utilities package can be used as dependency in other applications. This can be done in [Maven](https://maven.apache.org) by adding the following blocs in your _pom_ file. Please replace _X.Y.Z_ by the version of interest, _e.g._ 4.7.2.
@@ -57,7 +56,7 @@ The utilities package can be used as dependency in other applications. This can 
   * [Automatic Generation of Data Access Code](#automatic-generation-of-data-access-code)
   * [Amino Acid Sequence Mapping](#amino-acid-sequence-mapping)
 
-For the complete source code of the demos see the [com.compomics.util.examples](https://github.com/compomics/compomics-utilities/tree/master/src/main/java/com/compomics/util/examples) package.
+For the complete source code of the demos see the [com.compomics.util.examples](/projects/compomics-utilities/tree/master/src/main/java/com/compomics/util/examples) package.
 
 See also the  [compomics-utilities JavaDoc](http://genesis.ugent.be/maven2/com/compomics/utilities/javadoc/).
 
@@ -437,7 +436,7 @@ The above command line will create a class called TestTableAccessor in the com.c
 
 ## Amino Acid Sequence Mapping ##
 
-It is often necessary to map amino acid sequences to a protein database. This can be achieved using our [PeptideMapper](https://github.com/compomics/compomics-utilities/wiki/PeptideMapper) application. The code below shows how to use this application as a dependency. Example code can be found in the PeptideMapper command line interface [class](https://github.com/compomics/compomics-utilities/blob/master/src/main/java/com/compomics/util/experiment/identification/protein_inference/executable/PeptideMapping.java).
+It is often necessary to map amino acid sequences to a protein database. This can be achieved using our [PeptideMapper](/projects/compomics-utilities/wiki/peptidemapper) application. The code below shows how to use this application as a dependency. Example code can be found in the PeptideMapper command line interface [class](https://github.com/compomics/compomics-utilities/blob/master/src/main/java/com/compomics/util/experiment/identification/protein_inference/executable/PeptideMapping.java).
 
 ```java
 
@@ -461,7 +460,7 @@ The above code uses the following objects:
 | Object                 | Class        | Description                                                                    |
 | ---------------------- | ------------ | ------------------------------------------------------------------------------ |
 | fastaFile | [File](https://docs.oracle.com/javase/7/docs/api/java/io/File.html) | File containing the protein sequences in the [FASTA format](https://en.wikipedia.org/wiki/FASTA_format). |
-| waitingHandler | [WaitingHandler](https://github.com/compomics/compomics-utilities/blob/master/src/main/java/com/compomics/util/waiting/WaitingHandler.java) | A waiting handler, see some implementations [here](https://github.com/compomics/compomics-utilities/tree/master/src/main/java/com/compomics/util/gui/waiting/waitinghandlers). Ignored if null. |
+| waitingHandler | [WaitingHandler](https://github.com/compomics/compomics-utilities/blob/master/src/main/java/com/compomics/util/waiting/WaitingHandler.java) | A waiting handler, see some implementations [here](/projects/compomics-utilities/tree/master/src/main/java/com/compomics/util/gui/waiting/waitinghandlers). Ignored if null. |
 | ptmSettings | [PtmSettings](https://github.com/compomics/compomics-utilities/blob/master/src/main/java/com/compomics/util/experiment/identification/identification_parameters/PtmSettings.java) | The PTM settings to use. |
 | peptideVariantsPreferences | [PeptideVariantsPreferences](https://github.com/compomics/compomics-utilities/blob/master/src/main/java/com/compomics/util/preferences/PeptideVariantsPreferences.java) | Peptide variants to consider. For no variants use PeptideVariantsPreferences.getNoVariantPreferences(). |
 | sequence | [String](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html) | A peptide sequence as String. |

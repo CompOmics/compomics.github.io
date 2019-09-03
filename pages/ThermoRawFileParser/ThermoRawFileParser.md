@@ -24,6 +24,14 @@ RawFileReader reading tool. Copyright © 2016 by Thermo Fisher Scientific, Inc. 
 ```
 mono ThermoRawFileParser.exe -i=/home/user/data_input/raw_file.raw -o=/home/user/data_input/output/ -f=0 -g -m=0
 ```
+with only the mimimal required argument `-i` or `-d` this becomes
+```
+mono ThermoRawFileParser.exe -i=/home/user/data_input/raw_file.raw
+```
+or
+```
+mono ThermoRawFileParser.exe -d=/home/user/data_input/
+```
 For running on Windows, omit `mono`. The optional parameters only work in the -option=value format. The tool can output some RAW file metadata `-m=0|1` (0 for JSON, 1 for TXT) and the spectra file `-f=0|1|2|3` (0 for MGF, 1 for mzML, 2 for indexed mzML, 3 for Parquet) or both. Use the `-p` flag to disable the thermo native peak picking. 
 
 ```
@@ -31,23 +39,33 @@ ThermoRawFileParser.exe --help
  usage is (use -option=value for the optional arguments):
   -h, --help                 Prints out the options.
       --version              Prints out the library version.
-  -i, --input=VALUE          The raw file input.
+  -i, --input=VALUE          The raw file input (Required). Specify this or an
+                               input directory -d.
+  -d, --input_directory=VALUE
+                             The directory containing the raw files (Required).
+                               Specify this or an input raw file -i.
   -o, --output=VALUE         The output directory. Specify this or an output
-                               file.
-  -b, --output_file=VALUE    The output file. Specify this or an output
+                               file -b. Specifying neither writes to the input
                                directory.
-  -f, --format=VALUE         The output format for the spectra (0 for MGF, 1
-                               for mzMl, 2 for indexed mzML, 3 for Parquet).
-  -m, --metadata=VALUE       The metadata output format (0 for JSON, 1 for TXT).
-  -g, --gzip                 GZip the output file if this flag is specified (
-                               without value).
+  -b, --output_file=VALUE    The output file. Specify this or an output
+                               directory -o. Specifying neither writes to the
+                               input directory.
+  -f, --format=VALUE         The spectra output format: 0 for MGF, 1 for mzML,
+                               2 for indexed mzML, 3 for Parquet. Defaults to
+                               mzML if no format is specified.
+  -m, --metadata=VALUE       The metadata output format: 0 for JSON, 1 for TXT.
+  -c, --metadata_output_file=VALUE
+                             The metadata output file. By default the metadata
+                               file is written to the output directory.
+  -g, --gzip                 GZip the output file.
   -p, --noPeakPicking        Don't use the peak picking provided by the native
-                               thermo library (by default peak picking is
-                               enabled).
+                               Thermo library. By default peak picking is
+                               enabled.
   -z, --noZlibCompression    Don't use zlib compression for the m/z ratios and
-                               intensities (by default zlib compression is
-                               enabled).
-  -v, --verbose              Enable verbose logging.
+                               intensities. By default zlib compression is
+                               enabled.
+  -l, --logging=VALUE        Optional logging level: 0 for silent, 1 for
+                               verbose.
   -e, --ignoreInstrumentErrors
                              Ignore missing properties by the instrument.
   -u, --s3_url[=VALUE]       Optional property to write directly the data into
@@ -62,13 +80,13 @@ ThermoRawFileParser.exe --help
                              S3 bucket name
 ```
 
-A (java) graphical user interface is also available [here](https://github.com/compomics/ThermoRawFileParserGUI) that enables the selection of an input RAW directory or one ore more RAW files.
+A (java) graphical user interface is also available [here](/projects/thermorawfileparsergui) that enables the selection of an input RAW directory or one ore more RAW files.
 
 ## Download
 
-Click [here](https://github.com/compomics/ThermoRawFileParser/releases) to go to the release page (with [release notes](https://github.com/compomics/ThermoRawFileParser/wiki/ReleaseNotes) starting from v1.1.7).
+Click [here](https://github.com/compomics/ThermoRawFileParser/releases) to go to the release page (with [release notes](/projects/thermorawfileparser/wiki/releasenotes) starting from v1.1.7).
 
-You can find the ThermoRawFileParserGUI [here](https://github.com/compomics/ThermoRawFileParserGUI).
+You can find the ThermoRawFileParserGUI [here](/projects/thermorawfileparsergui).
 
 ## Galaxy integration
 

@@ -1,13 +1,12 @@
 ---
-title: Manual
+title: "Manual"
 layout: default
-permalink: /projects/pride-asa-pipeline/wiki/Manual
+permalink: "/projects/pride-asa-pipeline/wiki/Manual"
 tags: wiki, pride-asa-pipeline
-project: pride-asa-pipeline
-github_project: https://github.com/compomics/pride-asa-pipeline
+project: "pride-asa-pipeline"
+github_project: "https://github.com/compomics/pride-asa-pipeline"
 ---
 
-# Manual
 # Manual
 
   * [In a nutshell](#in-a-netshell)

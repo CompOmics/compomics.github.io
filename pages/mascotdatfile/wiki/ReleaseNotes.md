@@ -1,13 +1,12 @@
 ---
-title: ReleaseNotes
+title: "ReleaseNotes"
 layout: default
-permalink: /projects/mascotdatfile/wiki/ReleaseNotes
+permalink: "/projects/mascotdatfile/wiki/ReleaseNotes"
 tags: wiki, mascotdatfile
-project: mascotdatfile
-github_project: https://github.com/compomics/mascotdatfile
+project: "mascotdatfile"
+github_project: "https://github.com/compomics/mascotdatfile"
 ---
 
-# ReleaseNotes
 # Release notes
 
 *Starting from MascotDatfile version 3.0, all subsequent versions of the library are listed here.*

@@ -1,10 +1,10 @@
 ---
-title: Tutorial
+title: "Tutorial"
 layout: default
-permalink: /projects/fragmentation-analyzer/wiki/Tutorial
+permalink: "/projects/fragmentation-analyzer/wiki/Tutorial"
 tags: wiki, fragmentation-analyzer
-project: fragmentation-analyzer
-github_project: https://github.com/compomics/fragmentation-analyzer
+project: "fragmentation-analyzer"
+github_project: "https://github.com/compomics/fragmentation-analyzer"
 ---
 
 # Tutorial
@@ -36,7 +36,7 @@ After starting the tool the data selection dialog will be shown. (The
 dialog can also be opened from the File menu by selection 'Open'.) You
 can either import new data sets from one of the three supported formats,
 or use one of the already imported data sets. For this tutorial we will
-use the example data set provided with the tool. See [Importing Data](https://github.com/compomics/fragmentation-analyzer#importing-data) for details on how to import data. For now, select 'example data set' in the list of
+use the example data set provided with the tool. See [Importing Data](/projects/fragmentation-analyzer#importing-data) for details on how to import data. For now, select 'example data set' in the list of
 available data sets and click on 'Load Data'.
  
 The tool will now load the data set. Note that depending on the

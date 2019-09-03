@@ -1,15 +1,22 @@
 ---
-title: ReleaseNotes
+title: "ReleaseNotes"
 layout: default
-permalink: /projects/ThermoRawFileParser/wiki/ReleaseNotes
+permalink: "/projects/ThermoRawFileParser/wiki/ReleaseNotes"
 tags: wiki, ThermoRawFileParser
-project: ThermoRawFileParser
-github_project: https://github.com/compomics/ThermoRawFileParser
+project: "ThermoRawFileParser"
+github_project: "https://github.com/compomics/ThermoRawFileParser"
 ---
 
 # ReleaseNotes
-# ReleaseNotes
 
+---
+
+**Changes in ThermoRawFileParser 1.1.10 (Aug 23. 2019):**
+
+* input directory argument addition
+* silent logging mode
+* metadata output file argument addition
+* error handling improvements
 ---
 
 **Changes in ThermoRawFileParser 1.1.9 (Jul 2. 2019):**

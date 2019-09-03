@@ -1,13 +1,12 @@
 ---
-title: JavaTroubleShooting
+title: "JavaTroubleShooting"
 layout: default
-permalink: /projects/compomics-utilities/wiki/JavaTroubleShooting
+permalink: "/projects/compomics-utilities/wiki/JavaTroubleShooting"
 tags: wiki, compomics-utilities
-project: compomics-utilities
-github_project: https://github.com/compomics/compomics-utilities
+project: "compomics-utilities"
+github_project: "https://github.com/compomics/compomics-utilities"
 ---
 
-# JavaTroubleShooting
 # Java Troubleshooting #
 
 The aim of this wiki page is to provide help with common Java related issues that one can encounter when using software from the CompOmics group. If you have a Java related question that is not answered below please let us know _via_ our [Issue Tracker](https://github.com/compomics/compomics-utilities/issues).

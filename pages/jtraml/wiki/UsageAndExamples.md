@@ -1,13 +1,12 @@
 ---
-title: UsageAndExamples
+title: "UsageAndExamples"
 layout: default
-permalink: /projects/jtraml/wiki/UsageAndExamples
+permalink: "/projects/jtraml/wiki/UsageAndExamples"
 tags: wiki, jtraml
-project: jtraml
-github_project: https://github.com/compomics/jtraml
+project: "jtraml"
+github_project: "https://github.com/compomics/jtraml"
 ---
 
-# UsageAndExamples
 # Usage And Examples
 
  * [Traml Standard](#traml-standard)

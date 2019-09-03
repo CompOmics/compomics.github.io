@@ -1,13 +1,12 @@
 ---
-title: Manual
+title: "Manual"
 layout: default
-permalink: /projects/pepshell/wiki/Manual
+permalink: "/projects/pepshell/wiki/Manual"
 tags: wiki, pepshell
-project: pepshell
-github_project: https://github.com/compomics/pepshell
+project: "pepshell"
+github_project: "https://github.com/compomics/pepshell"
 ---
 
-# Manual
 # Manual
 
 ## Table of contents
@@ -130,7 +129,7 @@ If your file type is not supported automatically, it is possible to provide PepS
 
 ### Connecting to a proteomics database
 
-PepShell supports data stored in an [ms-lims](https://github.com/compomics/ms-lims/) database out of the box, while [colims](https://github.com/compomics/colims/) support is currently being implemented as well. 
+PepShell supports data stored in an [ms-lims](/projects/ms-lims/) database out of the box, while [colims](/projects/colims/) support is currently being implemented as well. 
 
 For the inclusion of another database, you can contact the developers, or you can build your own importer if desired.
 
@@ -182,7 +181,7 @@ In the above example, the accession masking (forcing PepShell to display an acce
 
 Adding additional steps
 
-Own defined steps can be added to PepShell. This is described in detail [here](https://github.com/compomics/pepshell/wiki/DeveloperManual) with an example to follow. 
+Own defined steps can be added to PepShell. This is described in detail [here](/projects/pepshell/wiki/developermanual) with an example to follow. 
 
 [Go to top of page](#table-of-contents)
 
@@ -268,7 +267,7 @@ PepShell also creates some configuration files in the home folder of the current
 
 ## Expanding on the base program (plugins and modding)
 
-For a detailed guide on how to expand the functionality and make alterations to the source code, please look [here](https://github.com/compomics/pepshell/wiki/DeveloperManual).
+For a detailed guide on how to expand the functionality and make alterations to the source code, please look [here](/projects/pepshell/wiki/developermanual).
 
 [Go to top of page](#table-of-contents)
 

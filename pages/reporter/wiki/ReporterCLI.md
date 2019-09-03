@@ -1,13 +1,12 @@
 ---
-title: ReporterCLI
+title: "ReporterCLI"
 layout: default
-permalink: /projects/reporter/wiki/ReporterCLI
+permalink: "/projects/reporter/wiki/ReporterCLI"
 tags: wiki, reporter
-project: reporter
-github_project: https://github.com/compomics/reporter
+project: "reporter"
+github_project: "https://github.com/compomics/reporter"
 ---
 
-# ReporterCLI
 # ReporterCLI [ ](# )
 
 ## Reporter Command Line Interface

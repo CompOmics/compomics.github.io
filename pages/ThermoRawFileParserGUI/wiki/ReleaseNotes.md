@@ -1,13 +1,12 @@
 ---
-title: ReleaseNotes
+title: "ReleaseNotes"
 layout: default
-permalink: /projects/ThermoRawFileParserGUI/wiki/ReleaseNotes
+permalink: "/projects/ThermoRawFileParserGUI/wiki/ReleaseNotes"
 tags: wiki, ThermoRawFileParserGUI
-project: ThermoRawFileParserGUI
-github_project: https://github.com/compomics/ThermoRawFileParserGUI
+project: "ThermoRawFileParserGUI"
+github_project: "https://github.com/compomics/ThermoRawFileParserGUI"
 ---
 
-# ReleaseNotes
 # ReleaseNotes
 
 **Changes in ThermoRawFileParserGUI 1.2.0 (June 19. 2019):**

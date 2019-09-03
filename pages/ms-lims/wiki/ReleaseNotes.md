@@ -1,13 +1,12 @@
 ---
-title: ReleaseNotes
+title: "ReleaseNotes"
 layout: default
-permalink: /projects/ms-lims/wiki/ReleaseNotes
+permalink: "/projects/ms-lims/wiki/ReleaseNotes"
 tags: wiki, ms-lims
-project: ms-lims
-github_project: https://github.com/compomics/ms-lims
+project: "ms-lims"
+github_project: "https://github.com/compomics/ms-lims"
 ---
 
-# ReleaseNotes
 # Release notes
 
 **Short summary of changes for each version of ms-lims. (starting from version 7.5)**

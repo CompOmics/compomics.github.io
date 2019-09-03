@@ -34,12 +34,12 @@ permalink: /projects/omssa-parser
 
 |   |   |   |
 | :------------------------- | :---------------: | :--: |
-| [![download](https://github.com/compomics/omssa-parser/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/de/proteinms/omxparser/omssa-parser/1.9.0/omssa-parser-1.9.0.zip) | *v1.9.0 - All platforms* | [ReleaseNotes](https://github.com/compomics/omssa-parser/wiki/ReleaseNotes) |
+| [![download](https://github.com/compomics/omssa-parser/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/de/proteinms/omxparser/omssa-parser/1.9.0/omssa-parser-1.9.0.zip) | *v1.9.0 - All platforms* | [ReleaseNotes](/projects/omssa-parser/wiki/releasenotes) |
 
 ---
 
-## Introduction ##
-**OMSSA Parser** is a Java based parser for [OMSSA (Open Mass Spectrometry Search Algorithm)](http://pubchem.ncbi.nlm.nih.gov/omssa/) omx files.
+## introduction ##
+**omssa parser** is a java based parser for [omssa (open mass spectrometry search algorithm)](http://pubchem.ncbi.nlm.nih.gov/omssa/) omx files.
 
 Initially created by Steffen Huber for Prof. Dr. Albert Sickmann under the guidance of Dr. Lennart Martens, and further developed by Harald Barsnes, including the addition of a simple, lightweight and platform independent OMSSA Viewer.
 

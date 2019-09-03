@@ -1,13 +1,12 @@
 ---
-title: ReleaseNotes
+title: "ReleaseNotes"
 layout: default
-permalink: /projects/jsparklines/wiki/ReleaseNotes
+permalink: "/projects/jsparklines/wiki/ReleaseNotes"
 tags: wiki, jsparklines
-project: jsparklines
-github_project: https://github.com/compomics/jsparklines
+project: "jsparklines"
+github_project: "https://github.com/compomics/jsparklines"
 ---
 
-# ReleaseNotes
 # Release Notes
 
 ----

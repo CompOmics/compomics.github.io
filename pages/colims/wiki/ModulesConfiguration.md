@@ -1,13 +1,12 @@
 ---
-title: ModulesConfiguration
+title: "ModulesConfiguration"
 layout: default
-permalink: /projects/colims/wiki/ModulesConfiguration
+permalink: "/projects/colims/wiki/ModulesConfiguration"
 tags: wiki, colims
-project: colims
-github_project: https://github.com/compomics/colims
+project: "colims"
+github_project: "https://github.com/compomics/colims"
 ---
 
-# ModulesConfiguration
 # Modules Configuration
 
   * [Introduction](#introduction)
@@ -17,7 +16,7 @@ github_project: https://github.com/compomics/colims
 
 ## Introduction
 
-The colims x.y.z client and distributed modules can be downloaded from the [Downloads](https://github.com/compomics/colims/#downloads) section on the home page.
+The colims x.y.z client and distributed modules can be downloaded from the [Downloads](/projects/colims/#downloads) section on the home page.
 
 **IMPORTANT** 
 
@@ -81,7 +80,7 @@ Run the colims client by double clicking the *.jar* file in the *colims-client-x
   * name: admin
   * password: adminadmin
 
-It is highly recommended to change the default admin password once the admin user is logged in. This can be done in the admin section. See the [Manual](https://github.com/compomics/colims/wiki/Manual) wiki page for using the client module.
+It is highly recommended to change the default admin password once the admin user is logged in. This can be done in the admin section. See the [Manual](/projects/colims/wiki/manual) wiki page for using the client module.
 
 ----
 

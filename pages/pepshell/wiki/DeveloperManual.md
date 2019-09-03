@@ -1,13 +1,12 @@
 ---
-title: DeveloperManual
+title: "DeveloperManual"
 layout: default
-permalink: /projects/pepshell/wiki/DeveloperManual
+permalink: "/projects/pepshell/wiki/DeveloperManual"
 tags: wiki, pepshell
-project: pepshell
-github_project: https://github.com/compomics/pepshell
+project: "pepshell"
+github_project: "https://github.com/compomics/pepshell"
 ---
 
-# DeveloperManual
 # Developer manual
 
 ## Use PepShell as Maven dependency

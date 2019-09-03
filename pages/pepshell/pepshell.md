@@ -44,7 +44,7 @@ Test files can be found [here](http://genesis.ugent.be/uvpublicdata/pepshell/tes
 ----
 
 ## Usage
-See the [wiki](https://github.com/compomics/pepshell/wiki) for additional information on how to use Pepshell.
+See the [wiki](/projects/pepshell/wiki) for additional information on how to use Pepshell.
 
 [Go to top of page](#pepshell)
 

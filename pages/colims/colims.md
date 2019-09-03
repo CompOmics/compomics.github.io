@@ -34,7 +34,7 @@ Download the colims client [here](https://github.com/compomics/colims/releases/t
 ----
 
 ## Usage
-See the [wiki](https://github.com/compomics/colims/wiki) for additional information on how to setup, run and configure colims.
+See the [wiki](/projects/colims/wiki) for additional information on how to setup, run and configure colims.
 
 [Go to top of page](#colims)
 

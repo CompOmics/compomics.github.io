@@ -1,13 +1,12 @@
 ---
-title: ReleaseNotes
+title: "ReleaseNotes"
 layout: default
-permalink: /projects/jtraml/wiki/ReleaseNotes
+permalink: "/projects/jtraml/wiki/ReleaseNotes"
 tags: wiki, jtraml
-project: jtraml
-github_project: https://github.com/compomics/jtraml
+project: "jtraml"
+github_project: "https://github.com/compomics/jtraml"
 ---
 
-# ReleaseNotes
 # Release notes
 
 ### 1.04 (30 January 2014)

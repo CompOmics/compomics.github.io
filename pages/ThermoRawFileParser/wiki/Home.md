@@ -1,10 +1,10 @@
 ---
-title: Home
+title: "Home"
 layout: default
-permalink: /projects/ThermoRawFileParser/wiki/Home
+permalink: "/projects/ThermoRawFileParser/wiki/Home"
 tags: wiki, ThermoRawFileParser
-project: ThermoRawFileParser
-github_project: https://github.com/compomics/ThermoRawFileParser
+project: "ThermoRawFileParser"
+github_project: "https://github.com/compomics/ThermoRawFileParser"
 ---
 
 # Home

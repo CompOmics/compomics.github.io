@@ -1,13 +1,12 @@
 ---
-title: ProteinInference
+title: "ProteinInference"
 layout: default
-permalink: /projects/compomics-utilities/wiki/ProteinInference
+permalink: "/projects/compomics-utilities/wiki/ProteinInference"
 tags: wiki, compomics-utilities
-project: compomics-utilities
-github_project: https://github.com/compomics/compomics-utilities
+project: "compomics-utilities"
+github_project: "https://github.com/compomics/compomics-utilities"
 ---
 
-# ProteinInference
 # Protein Inference #
 
 This page describes what **protein inference** is, why it is so complicated, and how protein inference is handled in bioinformatic tools.
@@ -35,6 +34,6 @@ Search engines provide their own peptide to protein mapping. However, the mappin
 
 Also, this task is complicated by the presence of Xs (which can be any amino-acid), combination of amino-acids like B or J and indistinguishable amino-acids like I and L: the software then has to test every possibility and false peptide to protein matches might occur. An extreme example where protein inference breaks down is proteins containing series of Xs (like [UniProtKB/Swiss-Prot Mucin-3A](http://www.uniprot.org/uniprot/Q02505) at the time of writing) which can basically map to any peptide.
 
-Peptide to protein mapping is implemented in online resources like in the [Protein Information Resource](http://proteininformationresource.org/peptide.shtml) and in software packages like [OpenMS](http://open-ms.sourceforge.net/). In this package, the mapping is done via [PeptideMapper](https://github.com/compomics/compomics-utilities/wiki/PeptideMapper). PeptideMapper also presents the particularity to map partial sequences similarly to [DirecTag](http://www.ncbi.nlm.nih.gov/pubmed/18630943). It is used in [PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html) and [DeNovoGUI](http://compomics.github.io/projects/denovogui.html). For more information please refer to the [PeptideMapper wiki page](https://github.com/compomics/compomics-utilities/wiki/PeptideMapper).
+Peptide to protein mapping is implemented in online resources like in the [Protein Information Resource](http://proteininformationresource.org/peptide.shtml) and in software packages like [OpenMS](http://open-ms.sourceforge.net/). In this package, the mapping is done via [PeptideMapper](/projects/compomics-utilities/wiki/peptidemapper). PeptideMapper also presents the particularity to map partial sequences similarly to [DirecTag](http://www.ncbi.nlm.nih.gov/pubmed/18630943). It is used in [PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html) and [DeNovoGUI](http://compomics.github.io/projects/denovogui.html). For more information please refer to the [PeptideMapper wiki page](/projects/compomics-utilities/wiki/peptidemapper).
 
 For the sake of speed and quality, it is thus crucial that the protein database used contains as few sequences as possible with as low ambiguity as possible - while maintaining the best coverage of the proteins in the sample including potential contaminants.

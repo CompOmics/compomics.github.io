@@ -1,13 +1,12 @@
 ---
-title: ReleaseNotes
+title: "ReleaseNotes"
 layout: default
-permalink: /projects/xtandem-parser/wiki/ReleaseNotes
+permalink: "/projects/xtandem-parser/wiki/ReleaseNotes"
 tags: wiki, xtandem-parser
-project: xtandem-parser
-github_project: https://github.com/compomics/xtandem-parser
+project: "xtandem-parser"
+github_project: "https://github.com/compomics/xtandem-parser"
 ---
 
-# ReleaseNotes
 # ReleaseNotes
 
 ----

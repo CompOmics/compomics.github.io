@@ -1,13 +1,12 @@
 ---
-title: Tutorial
+title: "Tutorial"
 layout: default
-permalink: /projects/jsparklines/wiki/Tutorial
+permalink: "/projects/jsparklines/wiki/Tutorial"
 tags: wiki, jsparklines
-project: jsparklines
-github_project: https://github.com/compomics/jsparklines
+project: "jsparklines"
+github_project: "https://github.com/compomics/jsparklines"
 ---
 
-# Tutorial
 # Tutorial [ ](# )
 
 ----

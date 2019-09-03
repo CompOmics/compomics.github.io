@@ -1,13 +1,12 @@
 ---
-title: ReleaseNotes
+title: "ReleaseNotes"
 layout: default
-permalink: /projects/fragmentation-analyzer/wiki/ReleaseNotes
+permalink: "/projects/fragmentation-analyzer/wiki/ReleaseNotes"
 tags: wiki, fragmentation-analyzer
-project: fragmentation-analyzer
-github_project: https://github.com/compomics/fragmentation-analyzer
+project: "fragmentation-analyzer"
+github_project: "https://github.com/compomics/fragmentation-analyzer"
 ---
 
-# ReleaseNotes
 # Release Notes
 
 ----

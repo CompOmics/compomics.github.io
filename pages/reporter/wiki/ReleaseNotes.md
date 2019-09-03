@@ -1,13 +1,12 @@
 ---
-title: ReleaseNotes
+title: "ReleaseNotes"
 layout: default
-permalink: /projects/reporter/wiki/ReleaseNotes
+permalink: "/projects/reporter/wiki/ReleaseNotes"
 tags: wiki, reporter
-project: reporter
-github_project: https://github.com/compomics/reporter
+project: "reporter"
+github_project: "https://github.com/compomics/reporter"
 ---
 
-# ReleaseNotes
 # ReleaseNotes
 
 ---

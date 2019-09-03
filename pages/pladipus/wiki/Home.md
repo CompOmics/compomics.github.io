@@ -1,13 +1,12 @@
 ---
-title: Home
+title: "Home"
 layout: default
-permalink: /projects/pladipus/wiki/Home
+permalink: "/projects/pladipus/wiki/Home"
 tags: wiki, pladipus
-project: pladipus
-github_project: https://github.com/compomics/pladipus
+project: "pladipus"
+github_project: "https://github.com/compomics/pladipus"
 ---
 
-# Home
 # Welcome to the Pladipus wiki!
 
 <img src="https://github.com/compomics/pladipus/wiki/Pladipus_ad.png" width="590">
