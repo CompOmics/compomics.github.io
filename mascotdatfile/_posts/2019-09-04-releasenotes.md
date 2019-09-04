@@ -10,6 +10,11 @@ github_project: https://github.com/compomics/mascotdatfile
 
 *Starting from MascotDatfile version 3.0, all subsequent versions of the library are listed here.*
 
+### 3.6.1 (4 September 2019)
+ * fix for new distiller version in the processMGFTitleToFilename method. Support for the new "Sum of 2 scans. 
+   Range" title format as well as the old "Sum of 2 scans in range".
+ * Updated utilities to version 4.10.0.
+
 ### 3.6.0 (31 January 2017)
  * Minor change in the compomics id file reader.
  * Updated utilities to version 4.10.0.
