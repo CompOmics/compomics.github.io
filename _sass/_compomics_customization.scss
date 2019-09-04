@@ -35,6 +35,7 @@ h1, h2, h3, h4, h5, h6,
     border: 0px;
 }
 
+// List groups
 .list-group-item-heading {
     background-color: $gray-300;
 }
@@ -43,6 +44,11 @@ h1, h2, h3, h4, h5, h6,
 }
 .list-group-item-action:hover {
     background-color: $gray-300;
+}
+
+// Tables
+.table th, .table td {
+    vertical-align: middle;
 }
 
 .card p {
