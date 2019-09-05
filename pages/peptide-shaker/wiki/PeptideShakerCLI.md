@@ -26,7 +26,7 @@ Note that ReportCLI, FollowUpCLI, MzidCLI and PathSettingsCLI options can also b
 
 All command line options have the same overall structure and only differ in the features and parameters available.
 
-Identification parameters for use in PeptideShakerCLI can be provided as a file. Identification parameter files are in the [json](https://en.wikipedia.org/wiki/JSON) format and can be created in the graphical user interface, using the [IdentificationParametersCLI](/projects/compomics-utilities/wiki/identificationparameterscli), or using third party tools. Alternatively, the parameters can be passed directly to PeptideShakerCLI by using the command line arguments of the [IdentificationParametersCLI](/projects/compomics-utilities/wiki/identificationparameterscli).
+Identification parameters for use in PeptideShakerCLI can be provided as a file. Identification parameter files are in the [json](https://en.wikipedia.org/wiki/JSON) format and can be created in the graphical user interface, using the [IdentificationParametersCLI](/projects/compomics-utilities/wiki/IdentificationParametersCLI), or using third party tools. Alternatively, the parameters can be passed directly to PeptideShakerCLI by using the command line arguments of the [IdentificationParametersCLI](/projects/compomics-utilities/wiki/IdentificationParametersCLI).
 
 Temporary folders used in the processing can be set via [PathSettingsCLI](#pathsettingscli). Note that PeptideShaker back-end relies on a database allowing only a single open connection at a time. It is thus important to use a single instance of PeptideShakerCLI at a time. In distributed setups, we recommend keeping a clean copy of PeptideShaker, and distribute it to the different workers prior to execution.
 
@@ -401,7 +401,7 @@ Remember that big datasets require more than the default memory provided to the 
 java -Xmx2048M -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [parameters]
 ```
 
-See also: [JavaTroubleShooting](/projects/compomics-utilities/wiki/javatroubleshooting).
+See also: [JavaTroubleShooting](/projects/compomics-utilities/wiki/JavaTroubleShooting).
 
 **Opening PeptideShaker Projects**
 

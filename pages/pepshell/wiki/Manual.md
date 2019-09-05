@@ -181,7 +181,7 @@ In the above example, the accession masking (forcing PepShell to display an acce
 
 Adding additional steps
 
-Own defined steps can be added to PepShell. This is described in detail [here](/projects/pepshell/wiki/developermanual) with an example to follow. 
+Own defined steps can be added to PepShell. This is described in detail [here](/projects/pepshell/wiki/DeveloperManual) with an example to follow. 
 
 [Go to top of page](#table-of-contents)
 
@@ -267,7 +267,7 @@ PepShell also creates some configuration files in the home folder of the current
 
 ## Expanding on the base program (plugins and modding)
 
-For a detailed guide on how to expand the functionality and make alterations to the source code, please look [here](/projects/pepshell/wiki/developermanual).
+For a detailed guide on how to expand the functionality and make alterations to the source code, please look [here](/projects/pepshell/wiki/DeveloperManual).
 
 [Go to top of page](#table-of-contents)
 

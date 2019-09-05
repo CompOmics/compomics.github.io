@@ -43,7 +43,7 @@ Download ms-lims 7.7.7 [here](http://genesis.ugent.be/uvpublicdata/ms-lims/ms-li
  * The zip file contains the *ms-lims* jar file and all the libraries needed to run the tool. *Double clicking this resulting jar file will start ms-lims.*
  * Download the manual [here](http://genesis.ugent.be/uvpublicdata/ms-lims/ms_lims_manual.pdf).
  * Download the database schema [here](http://genesis.ugent.be/uvpublicdata/ms-lims/schema_7.6.png).
- * Check out the [release notes](/projects/ms-lims/wiki/releasenotes) and [database updates](/projects/ms-lims/wiki/databaseupdates) in the [wiki](/projects/ms-lims/wiki) section.
+ * Check out the [release notes](/projects/ms-lims/wiki/ReleaseNotes) and [database updates](/projects/ms-lims/wiki/DatabaseUpdates) in the [wiki](/projects/ms-lims/wiki) section.
 
 ### Troubleshooting
 Please report any issues or requests in the [issues section](https://github.com/compomics/ms-lims/issues). We will attempt to come up with a solution as soon as possible.

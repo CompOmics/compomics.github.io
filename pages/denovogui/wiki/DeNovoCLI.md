@@ -17,7 +17,7 @@ DeNovoCLI takes a set of spectrum files as input and uses the [PepNovo+](http://
 
 Note that the spectra must be provided in the Mascot Generic File (mgf) format.
 
-The recommended way to generate an identification parameters file is via the DeNovoGUI graphical user interface. But the file can also be created using the [IdentificationParametersCLI](/projects/compomics-utilities/wiki/identificationparameterscli). The folders used in the processing can be set via [PathSettingsCLI](#pathsettingscli).
+The recommended way to generate an identification parameters file is via the DeNovoGUI graphical user interface. But the file can also be created using the [IdentificationParametersCLI](/projects/compomics-utilities/wiki/IdentificationParametersCLI). The folders used in the processing can be set via [PathSettingsCLI](#pathsettingscli).
 
 **General command line:**
 

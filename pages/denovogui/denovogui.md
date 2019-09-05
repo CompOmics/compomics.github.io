@@ -26,8 +26,8 @@ permalink: /projects/denovogui
 
 |   |   |   |
 | :------------------------- | :--------------- | :--: |
-| [![download](https://github.com/compomics/denovogui/wiki/images/download_denovogui_button.png)](http://genesis.ugent.be/maven2/com/compomics/denovogui/DeNovoGUI/1.16.5/DeNovoGUI-1.16.5-windows.zip) | *v1.16.5 - Windows* | [ReleaseNotes](/projects/denovogui/wiki/releasenotes) |
-| [![download](https://github.com/compomics/denovogui/wiki/images/download_denovogui_button_mac_linux.png)](http://genesis.ugent.be/maven2/com/compomics/denovogui/DeNovoGUI/1.16.5/DeNovoGUI-1.16.5-mac_and_linux.tar.gz) | *v1.16.5 - Mac and Linux* |[ReleaseNotes](/projects/denovogui/wiki/releasenotes) |
+| [![download](https://github.com/compomics/denovogui/wiki/images/download_denovogui_button.png)](http://genesis.ugent.be/maven2/com/compomics/denovogui/DeNovoGUI/1.16.5/DeNovoGUI-1.16.5-windows.zip) | *v1.16.5 - Windows* | [ReleaseNotes](/projects/denovogui/wiki/ReleaseNotes) |
+| [![download](https://github.com/compomics/denovogui/wiki/images/download_denovogui_button_mac_linux.png)](http://genesis.ugent.be/maven2/com/compomics/denovogui/DeNovoGUI/1.16.5/DeNovoGUI-1.16.5-mac_and_linux.tar.gz) | *v1.16.5 - Mac and Linux* |[ReleaseNotes](/projects/denovogui/wiki/ReleaseNotes) |
 
 ---
 
@@ -49,7 +49,7 @@ To start using DeNovoGUI, unzip the downloaded file, and double-click the `DeNov
 
 ## Command Line ##
 
-DeNovoGUI can also be used via the command line, see [DeNovoCLI](/projects/denovogui/wiki/denovocli) for details.
+DeNovoGUI can also be used via the command line, see [DeNovoCLI](/projects/denovogui/wiki/DeNovoCLI) for details.
 
 [Go to top of page](#denovogui)
 
@@ -61,7 +61,7 @@ Note that PepNovo+ is not supported on Linux 32 bit, pNovo+ is only supported on
 
 If you get problems running PepNovo+ on Linux (or OSX), please try the following: (1) install dos2unix, (2) run the following two commands inside the resources/PepNovo folder: `dos2unix Models/*.*` and `dos2unix Models/*/*.*`.
 
-For problems related to Java, memory or startup issues, please see: [Java Troubleshooting](/projects/compomics-utilities/wiki/javatroubleshooting).
+For problems related to Java, memory or startup issues, please see: [Java Troubleshooting](/projects/compomics-utilities/wiki/JavaTroubleShooting).
 
 For other questions or suggestions please contact the developers of DeNovoGUI by setting up an [Issue](https://github.com/compomics/denovogui/issues) with your comment, or by sending an e-mail to the [DeNovoGUI Google Group](http://groups.google.com/group/denovogui).
 

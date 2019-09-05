@@ -12,5 +12,5 @@ Welcome to the mascotdatfile wiki!
 
 This wiki consists of the following pages:
 
-  * [Release notes for MascotDatfile](/projects/mascotdatfile/wiki/releasenotes)
-  * [Usage and examples](/projects/mascotdatfile/wiki/usageandexamples)
+  * [Release notes for MascotDatfile](/projects/mascotdatfile/wiki/ReleaseNotes)
+  * [Usage and examples](/projects/mascotdatfile/wiki/UsageAndExamples)

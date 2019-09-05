@@ -125,7 +125,7 @@ An example data set is included in the DataSet folder.
 
 ## Tutorial
 
-See [Tutorial](/projects/fragmentation-analyzer/wiki/tutorial) page in the [wiki](/projects/fragmentation-analyzer/wiki) section.
+See [Tutorial](/projects/fragmentation-analyzer/wiki/Tutorial) page in the [wiki](/projects/fragmentation-analyzer/wiki) section.
 
 [Go to top of page](#fragmentation-analyzer)
 

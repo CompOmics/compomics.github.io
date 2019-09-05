@@ -12,4 +12,4 @@ Welcome to the pride-asa-pipeline wiki!
 
 This wiki consists of the following page:
 
-  * [Manual: how to run the pipeline](/projects/pride-asa-pipeline/wiki/manual)
+  * [Manual: how to run the pipeline](/projects/pride-asa-pipeline/wiki/Manual)

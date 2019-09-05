@@ -80,13 +80,13 @@ ThermoRawFileParser.exe --help
                              S3 bucket name
 ```
 
-A (java) graphical user interface is also available [here](/projects/thermorawfileparsergui) that enables the selection of an input RAW directory or one ore more RAW files.
+A (java) graphical user interface is also available [here](/projects/ThermoRawFileParserGUI) that enables the selection of an input RAW directory or one ore more RAW files.
 
 ## Download
 
-Click [here](https://github.com/compomics/ThermoRawFileParser/releases) to go to the release page (with [release notes](/projects/thermorawfileparser/wiki/releasenotes) starting from v1.1.7).
+Click [here](https://github.com/compomics/ThermoRawFileParser/releases) to go to the release page (with [release notes](/projects/ThermoRawFileParser/wiki/ReleaseNotes) starting from v1.1.7).
 
-You can find the ThermoRawFileParserGUI [here](/projects/thermorawfileparsergui).
+You can find the ThermoRawFileParserGUI [here](/projects/ThermoRawFileParserGUI).
 
 ## Galaxy integration
 

@@ -80,7 +80,7 @@ Run the colims client by double clicking the *.jar* file in the *colims-client-x
   * name: admin
   * password: adminadmin
 
-It is highly recommended to change the default admin password once the admin user is logged in. This can be done in the admin section. See the [Manual](/projects/colims/wiki/manual) wiki page for using the client module.
+It is highly recommended to change the default admin password once the admin user is logged in. This can be done in the admin section. See the [Manual](/projects/colims/wiki/Manual) wiki page for using the client module.
 
 ----
 

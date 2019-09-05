@@ -436,7 +436,7 @@ The above command line will create a class called TestTableAccessor in the com.c
 
 ## Amino Acid Sequence Mapping ##
 
-It is often necessary to map amino acid sequences to a protein database. This can be achieved using our [PeptideMapper](/projects/compomics-utilities/wiki/peptidemapper) application. The code below shows how to use this application as a dependency. Example code can be found in the PeptideMapper command line interface [class](https://github.com/compomics/compomics-utilities/blob/master/src/main/java/com/compomics/util/experiment/identification/protein_inference/executable/PeptideMapping.java).
+It is often necessary to map amino acid sequences to a protein database. This can be achieved using our [PeptideMapper](/projects/compomics-utilities/wiki/PeptideMapper) application. The code below shows how to use this application as a dependency. Example code can be found in the PeptideMapper command line interface [class](https://github.com/compomics/compomics-utilities/blob/master/src/main/java/com/compomics/util/experiment/identification/protein_inference/executable/PeptideMapping.java).
 
 ```java
 

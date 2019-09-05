@@ -12,5 +12,5 @@ Welcome to the jTraML wiki!
 
 This wiki consists of the following pages:
 
-  * [Release notes](/projects/jtraml/wiki/releasenotes)
-  * Read more about the traml standard, the jTraML API and example usage [here](/projects/jtraml/wiki/usageandexamples)
+  * [Release notes](/projects/jtraml/wiki/ReleaseNotes)
+  * Read more about the traml standard, the jTraML API and example usage [here](/projects/jtraml/wiki/UsageAndExamples)

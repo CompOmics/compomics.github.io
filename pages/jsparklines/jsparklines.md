@@ -28,13 +28,13 @@ If you like JSparklines you may also want to check out [JSparklines Factory](htt
 
 |   |   |   |   |
 | :------------------------- | :---------------: | :--: | :--: |
-| [![download](https://github.com/compomics/jsparklines/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/no/uib/jsparklines/1.0.11/jsparklines-1.0.11.zip) | *v1.0.11 - All platforms* | [ReleaseNotes](/projects/jsparklines/wiki/releasenotes) | [JavaDoc](http://compomics.github.io/jsparklines/javadoc) |
+| [![download](https://github.com/compomics/jsparklines/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/no/uib/jsparklines/1.0.11/jsparklines-1.0.11.zip) | *v1.0.11 - All platforms* | [ReleaseNotes](/projects/jsparklines/wiki/ReleaseNotes) | [JavaDoc](http://compomics.github.io/jsparklines/javadoc) |
 
 ---
 
 ## How to use JSparklines
 
-See the [How to use JSparklines](/projects/jsparklines/wiki/tutorial) wiki page for code examples. JSparklines is also available as a [Maven dependency](/projects/jsparklines/wiki/tutorial#maven-dependency).
+See the [How to use JSparklines](/projects/jsparklines/wiki/Tutorial) wiki page for code examples. JSparklines is also available as a [Maven dependency](/projects/jsparklines/wiki/Tutorial#maven-dependency).
 
 _If you have questions or would like to contribute to the **JSparklines** project, please contact the developers._
 
