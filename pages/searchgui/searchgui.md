@@ -27,8 +27,8 @@ permalink: /projects/searchgui
 
 |   |   |   |
 | :------------------------- | :--------------- | :--: |
-| [![download](https://github.com/compomics/searchgui/wiki/images/download_button_windows.png)](http://genesis.ugent.be/maven2/eu/isas/searchgui/SearchGUI/3.3.16/SearchGUI-3.3.16-windows.zip) | *v3.3.16 - Windows* | [ReleaseNotes](/projects/searchgui/wiki/releasenotes) | 
-| [![download](https://github.com/compomics/searchgui/wiki/images/download_button_unix.png)](http://genesis.ugent.be/maven2/eu/isas/searchgui/SearchGUI/3.3.16/SearchGUI-3.3.16-mac_and_linux.tar.gz) | *v3.3.16 - Mac and Linux* |[ReleaseNotes](/projects/searchgui/wiki/releasenotes) | 
+| [![download](https://github.com/compomics/searchgui/wiki/images/download_button_windows.png)](http://genesis.ugent.be/maven2/eu/isas/searchgui/SearchGUI/3.3.16/SearchGUI-3.3.16-windows.zip) | *v3.3.16 - Windows* | [ReleaseNotes](/projects/searchgui/wiki/ReleaseNotes) | 
+| [![download](https://github.com/compomics/searchgui/wiki/images/download_button_unix.png)](http://genesis.ugent.be/maven2/eu/isas/searchgui/SearchGUI/3.3.16/SearchGUI-3.3.16-mac_and_linux.tar.gz) | *v3.3.16 - Mac and Linux* |[ReleaseNotes](/projects/searchgui/wiki/ReleaseNotes) | 
 
 ----
 
@@ -60,10 +60,10 @@ For developer access to the search results we recommend the use of [compomics-ut
  * [Bioconda](#bioconda)
  * [Docker](#docker)
  * [Easybuild](#easybuild)
- * [Database Help](/projects/searchgui/wiki/databasehelp)
- * [user defined modifications](#user-defined-modifications)
- * [converting spectrum data](#converting-spectrum-data)
- * [result analysis](#result-analysis)
+ * [Database Help](/projects/searchgui/wiki/DatabaseHelp)
+ * [User Defined Modifications](#user-defined-modifications)
+ * [Converting Spectrum Data](#converting-spectrum-data)
+ * [Result Analysis](#result-analysis)
 
 To start identifying peptides and proteins using SearchGUI, download the latest version, unzip the downloaded file, and double-click on the SearchGUI-X.Y.Z.jar file.
 
@@ -71,7 +71,7 @@ To start identifying peptides and proteins using SearchGUI, download the latest 
 
 The main purpose of SearchGUI is to make it simpler to use multiple search engines at the same time. A graphical user interface is the best choice for smaller projects. SearchGUI can also be used _via_ the command line, and be incorporated in different analysis pipelines.
 
-For details about the command line see: [SearchCLI](/projects/searchgui/wiki/searchcli).
+For details about the command line see: [SearchCLI](/projects/searchgui/wiki/SearchCLI).
 
 [Go to top of page](#searchgui)
 

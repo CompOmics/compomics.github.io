@@ -7,3 +7,4 @@ Gemfile.lock
 test_git.py
 generate_docs_token.yaml
 
+.token
