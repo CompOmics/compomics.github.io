@@ -40,7 +40,7 @@
     <div class="sidebar-projects mt-5">
         <div class="list-group">
             <h5 class="list-group-item list-group-item-heading">Projects</h5>
-            {% for site_page in site.pages %}
+            {% for site_page in site.pages | sort_natural %}
                 {% if site_page.tags contains "project_home" %}
                     <a class="list-group-item list-group-item-action" href="{{ site_page.permalink }}">
                         {{ site_page.title }}
