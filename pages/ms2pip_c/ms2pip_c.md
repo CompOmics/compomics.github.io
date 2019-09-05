@@ -12,7 +12,7 @@ permalink: /projects/ms2pip_c
 MS²PIP is a tool to predict MS² signal peak intensities from peptide sequences.
 It employs the XGBoost machine learning algorithm and is written in Python.
 
-You can install MS²PIP on your machine by following the [instructions below](/projects/ms2pip_c#installation) or the [extended install instructions](/projects/ms2pip_c/wiki/extended-install-instructions).
+You can install MS²PIP on your machine by following the [instructions below](/projects/ms2pip_c#installation) or the [extended install instructions](/projects/ms2pip_c/wiki/Extended-install-instructions).
 For a more user friendly experience, we created a [web server](https://iomics.ugent.be/ms2pip)
 . There, you can easily upload a list of peptide sequences, after which the
 corresponding predicted MS² spectra can be downloaded in multiple file
@@ -49,7 +49,7 @@ C-code:
 ```
 sh compile.sh
 ```
-Check out the [extended install instructions](/projects/ms2pip_c/wiki/extended-install-instructions)
+Check out the [extended install instructions](/projects/ms2pip_c/wiki/Extended-install-instructions)
 for a more detailed explanation.
 
 
@@ -139,9 +139,8 @@ Currently the following models are supported in MS²PIP:
 If you use MS²PIP for your research, always mention the MS²PIP-version (see releases page) and model-version (see table below) you used.
 
 #### Models, version numbers, and the train and test datasets used to create each model
-
 Model | Current version | Train-test dataset (unique peptides) | Evaluation dataset (unique peptides) | Median Pearson correlation on evaluation dataset
-|-|-|-|-|-|
+-|-|-|-|-
 HCD | v20190107 | [MassIVE-KB](https://doi.org/10.1016/j.cels.2018.08.004) (1 623 712) | [PXD008034](https://doi.org/10.1016/j.jprot.2017.12.006) (35 269) | 0.903786
 CID | v20190107 | [NIST CID Human](https://chemdata.nist.gov/) (340 356) | [NIST CID Yeast](https://chemdata.nist.gov/) (92 609) | 0.904947
 iTRAQ | v20190107 | [NIST iTRAQ](https://chemdata.nist.gov/) (704 041) | [PXD001189](https://doi.org/10.1182/blood-2016-05-714048) (41 502) | 0.905870
@@ -165,4 +164,4 @@ TTOF5600 |	CID	| Quadrupole Time-of-Flight	| Tryptic digest
 HCDch2	| HCD	| Orbitrap |	Tryptic digest
 CIDch2 |	CID	| Linear ion trap	| Tryptic digest
 
-To train custom MS2PIPc models, please refer to [Training new MS2PIP models](/projects/ms2pip_c/wiki/training-new-ms2pip-models) on our Wiki pages.
+To train custom MS2PIPc models, please refer to [Training new MS2PIP models](/projects/ms2pip_c/wiki/Training-new-MS2PIP-models) on our Wiki pages.
