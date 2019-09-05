@@ -64,7 +64,7 @@ def projectName = manager.build.project.name
 def processBuilder=new ProcessBuilder('/home/compomics/miniconda3/bin/python', 'generate_docs.py', '-c', 'generate_docs_token.yaml', '-u', 'compomics', '-p', projectName, '-g')
 manager.listener.logger.println(processBuilder.command())
 processBuilder.redirectErrorStream(true)
-processBuilder.directory(new File('/home/compomics/ralfg.github.io'))
+processBuilder.directory(new File('/home/compomics/compomics.github.io'))
 def process = processBuilder.start()
 
 process.inputStream.eachLine {manager.listener.logger.println it}
