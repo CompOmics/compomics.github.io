@@ -27,8 +27,8 @@ from github import Github
 
 # Globals
 LOG_LEVEL = logging.INFO
-PUSH_USER = "ralfg"
-PUSH_REPO_NAME = "ralfg.github.io"
+PUSH_USER = "compomics"
+PUSH_REPO_NAME = "compomics.github.io"
 
 
 def argument_parser():
