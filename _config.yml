@@ -1,32 +1,42 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-title: Compomics Docs
-email: iain.buchanan@ugent.be
-description: > # this means to ignore newlines until "baseurl:"
- Welcome to the website for software projects created and maintained by the Computational Omics and 
- Systems Biology Group. Below you can find a list of software we have developed, and on the subsequent 
- pages are documentation and links to downloads and source code (hosted on our Github page).
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://compomics.github.io" # the base hostname & protocol for your site
-twitter_username: compomics
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: CompOmics documentation
+email: "compomics"
+description: >- # this means to ignore newlines until "baseurl:"
+  CompOmics projects documentation
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: CompOmics
 github_username:  compomics
 
-exclude: ["generate-docs.py", "README.md", "Gemfile", "Gemfile.lock"]
+repository: "compomics/compomics.github.io"
 
 # Build settings
-markdown: kramdown
-kramdown:
-  input: GFM
+plugins:
+#  - jekyll-feed
+  - jekyll-sitemap
 
-defaults:
-  -
-    scope:
-      type: projects
-    values:
-      layout: "default"
-      page_type: project
+# A list of the pages to display in the navigation bar
+header_pages:
 
-collections:
-  projects:
-    output: true
-    output_ext: html
-    permalink: /projects/:path.html
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - update_boostrap.sh
