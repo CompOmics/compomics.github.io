@@ -11,6 +11,11 @@ github_project: "https://github.com/compomics/ThermoRawFileParser"
 
 ---
 
+**Changes in ThermoRawFileParser 1.1.11 (Sep 25. 2019):**
+
+* Addition of more Thermo instrument models
+---
+
 **Changes in ThermoRawFileParser 1.1.10 (Aug 23. 2019):**
 
 * input directory argument addition
