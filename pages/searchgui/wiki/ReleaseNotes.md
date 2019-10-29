@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 3.3.17 (October 29. 2019):**
+
+* FEATURE IMPROVEMENT: Fixed mono path issue with Mac OSX El Capitan (10.11) and later.
+
+----
+
 **Changes in SearchGUI 3.3.16 (July 7. 2019):**
 
 * LIBRARY UPDATE: Updated utilities to version 4.12.15.
