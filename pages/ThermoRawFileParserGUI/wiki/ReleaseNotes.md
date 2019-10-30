@@ -9,6 +9,12 @@ github_project: "https://github.com/compomics/ThermoRawFileParserGUI"
 
 # ReleaseNotes
 
+**Changes in ThermoRawFileParserGUI 1.2.1 (October 29. 2019):**
+
+  * FEATURE IMPROVEMENT: Fixed mono path issue with Mac OSX El Capitan (10.11) and later.
+
+---
+
 **Changes in ThermoRawFileParserGUI 1.2.0 (June 19. 2019):**
 
   * FEATURE IMPROVEMENT: Updated ThermoRawFileParser to v1.1.8, which include progress indication.
