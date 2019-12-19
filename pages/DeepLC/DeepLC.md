@@ -48,24 +48,29 @@ module.
 ## Graphical user interface
 ### Installation
 
-- Download `deeplc_gui.zip` from the
+[![Download GUI](https://img.shields.io/badge/download-GUI-green?style=flat-square)](/projects/DeepLC/releases/latest/)
+
+1. Download `deeplc_gui.zip` from the
 [latest release](/projects/DeepLC/releases/latest/) and
 unzip.
-- Install DeepLC GUI with `install_gui_windows.bat` or `install_gui_linux.sh`,
+2. Install DeepLC GUI with `install_gui_windows.bat` or `install_gui_linux.sh`,
 depending on your operating system.
-- Run DeepLC GUI with `run_gui_windows.bat` or `run_gui_linux.sh`, depending on
-your operating system.
+3. Run DeepLC GUI by running the `deeplc_gui.jar`.
 
 
 ## Python package
 
 ### Installation
 
-Install with pip:
+[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/deeplc/README.html)
+[![install with pip](https://img.shields.io/badge/install%20with-pip-blue.svg?style=flat-square)](http://bioconda.github.io/recipes/deeplc/README.html)
+[![container](https://img.shields.io/badge/pull&nbsp;docker-biocontainers-green?style=flat-square)](https://quay.io/repository/biocontainers/deeplc)
 
-```sh
-pip install deeplc
-```
+Install with conda, using the bioconda and conda-forge channels:  
+`conda install -c bioconda -c conda-forge deeplc`
+
+Or install with pip:  
+`pip install deeplc`
 
 ### Command line interface
 
@@ -140,12 +145,12 @@ for more examples.
 DeepLC comes with multiple CNN models trained on data from various experimental
 settings:
 
-| Model filename | Experimental settings | Publication | PXD identifier |
-| - | - | - | - |
-| full_hc_dia_fixed_mods.hdf5 | | | |
-| full_hc_LUNA_HILIC_fixed_mods.hdf5 | | | |
-| full_hc_LUNA_SILICA_fixed_mods.hdf5 | | | |
-| full_hc_PXD000954_fixed_mods.hdf5 | | | |
+| Model filename | Experimental settings | Publication |
+| - | - | - |
+| full_hc_dia_fixed_mods.hdf5 | Reverse phase | [Rosenberger et al. 2014](https://doi.org/10.1038/sdata.2014.31) |
+| full_hc_LUNA_HILIC_fixed_mods.hdf5 | HILIC | [Spicer et al. 2018](https://doi.org/10.1016/j.chroma.2017.12.046) |
+| full_hc_LUNA_SILICA_fixed_mods.hdf5 | HILIC | [Spicer et al. 2018](https://doi.org/10.1016/j.chroma.2017.12.046) |
+| full_hc_PXD000954_fixed_mods.hdf5 | Reverse phase | [Rosenberger et al. 2014](https://doi.org/10.1038/sdata.2014.31) |
 
 By default, DeepLC selects the best model based on the calibration dataset. If
 no calibration is performed, the first default model is selected. Always keep
