@@ -4,7 +4,9 @@
 
 // Variables ===================================================================
 
-$font-family-serif:      Georgia, Cambria, "Times New Roman", Times, serif !default;
+$font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif !default;
+$font-family-sans-serif: 'Open Sans', sans-serif !default;
+$font-family-headers: 'Raleway', sans-serif !default;
 
 // Navbar ======================================================================
 /*
@@ -35,7 +37,8 @@ $font-family-serif:      Georgia, Cambria, "Times New Roman", Times, serif !defa
 // Typography ==================================================================
 
 p, .page-content li {
-  font-family: $font-family-serif;
+  font-family: $font-family-sans-serif;
+  font-weight: ;
 }
 
 blockquote {
@@ -48,7 +51,7 @@ footer {
 
 .lead {
   color: $gray-600;
-  font-family: $font-family-sans-serif;
+  font-family: $font-family-headers;
 }
 
 // Tables ======================================================================
