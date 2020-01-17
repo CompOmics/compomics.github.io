@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 1.16.43 (January 17. 2020):**
+
+* NEW IMPROVEMENT: Added support for exporting peptide sequences to [Unipept](https://unipept.ugent.be). 
+
+----
+
 **Changes in PeptideShaker 1.16.42 (July 10. 2019):**
 
 * FEATURE IMPROVEMENT: Updated the example dataset.
