@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/jsparklines"
 
 ----
 
+**Changes in JSparklines 1.0.12 (January 26. 2020):**
+
+* FEATURE IMPROVEMENT: Moved the code to Java 8.
+* FEATURE IMPROVEMENT: Made the JavaDoc compiler work on Java 9 and newer.
+
+----
+
 **Changes in JSparklines 1.0.11 (July 18. 2019):**
 
 * FEATURE IMPROVEMENT: Added an empty default constructor to the XYDataPoint class (needed by PeptideShaker).
