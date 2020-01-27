@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/denovogui"
 
 ----
 
+**Changes in DeNovoGUI 1.16.6 (January 26. 20120):**
+
+* FEATURE IMPROVEMENT: Moved the code to Java 8.
+* FEATURE IMPROVEMENT: Made the JavaDoc compiler work on Java 9 and newer. 
+
+----
+
 **Changes in DeNovoGUI 1.16.5 (August 23. 2019):**
 
 * BUG FIX: Fixed a bug in the use of the PathSettingsCLI.
