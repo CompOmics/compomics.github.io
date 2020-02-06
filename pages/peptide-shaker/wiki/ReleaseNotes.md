@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 1.16.44 (February 6. 2020):**
+
+* BUG FIX: Fixed a bug in the Unipept export where unnecessary white space was added in the XML. 
+
+----
+
 **Changes in PeptideShaker 1.16.43 (January 17. 2020):**
 
 * NEW IMPROVEMENT: Added support for exporting peptide sequences to [Unipept](https://unipept.ugent.be). 
