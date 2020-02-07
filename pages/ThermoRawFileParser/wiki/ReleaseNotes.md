@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/ThermoRawFileParser"
 
 ---
 
+**Changes in ThermoRawFileParser 1.2.0 (Feb 6. 2020):**
+
+* Addition xic and query subcommands (beta)
+* Minor bug fixes
+---
+
 **Changes in ThermoRawFileParser 1.1.11 (Sep 25. 2019):**
 
 * Addition of more Thermo instrument models
