@@ -31,7 +31,7 @@ DeepLC: Retention time prediction for (modified) peptides using Deep Learning.
   - [Python module](#python-module)
 - [Input files](#input-files)
 - [Prediction models](#prediction-models)
-- [Q&A](#Q&A)
+- [Q&A](#qa)
 
 ---
 
