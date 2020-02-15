@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/ThermoRawFileParser"
 
 ---
 
+**Changes in ThermoRawFileParser 1.2.1 (Feb 14. 2020):**
+
+* Bug fixes
+* Additional XIC input validation
+---
+
 **Changes in ThermoRawFileParser 1.2.0 (Feb 6. 2020):**
 
 * Addition xic and query subcommands (beta)
