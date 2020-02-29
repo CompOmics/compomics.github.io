@@ -41,16 +41,18 @@ However, specific input formats (such as PEPREC) are not required for
  [Pyteomics (Levitsky et al.)](https://doi.org/10.1021/acs.jproteome.8b00717)
  for the in silico protein digestion. If you use *fasta2speclib* and MS²PIP
  for your research please cite:
->Gabriels, R., Martens, L., Degroeve, S. (2019). **Updated MS²PIP web server
+>Gabriels, R., Martens, L., Degroeve, S. **Updated MS²PIP web server
 delivers fast and accurate MS² peak intensity prediction for multiple
 fragmentation methods, instruments and labeling techniques.** *Nucleic Acids
-Research* doi: https://doi.org/10.1093/nar/gkz299
+Research* (2019)  
+[doi: 10.1093/nar/gkz299](https://doi.org/10.1093/nar/gkz299)
 
 *fasta2speclib* was first described in:
 >Van Puyvelde, B.\*, Willems, S.\*, Gabriels, R.\*, Daled, S., De Clerck, L.,
-Staes, A., Impens, F., Deforce, D., Martens, L., Degroeve, S., Dhaenens, M.§
-(2019). **The future of peptide-centric Data-Independent Acquisition is
-predicted.** *bioRxiv* 681429 doi: https://doi.org/10.1101/681429
+Staes, A., Impens, F., Deforce, D., Martens, L., Degroeve, S., Dhaenens, M.§.
+**Removing the Hidden Data Dependency of DIA with Predicted Spectral
+Libraries.** *Proteomics* (2020)  
+[doi: 10.1002/pmic.201900306](https://doi.org/10.1002/pmic.201900306)
 
 ---
 
@@ -79,7 +81,7 @@ All *fasta2speclib* settings need to be set in a JSON config file (by default
 
 Name | Description | Possible values | Default value | Data type
 --- | --- | --- | --- | ---
-`output_filetype` | Output file formats for spectral library | `msp`, `mgf` and/or `hdf` | `["msp"]` | array of strings
+`output_filetype` | Output file formats for spectral library | `msp`, `mgf`, `spectronaut`, `bibliospec` (also for Skyline) and/or `hdf` | `["msp"]` | array of strings
 `charges` | Precusor charges to include | positive integer | `[2, 3]` | array of numbers
 `min_peplen` | Minimum length of peptides to include | positive integer | `8` | number
 `max_pepmass` | Maximum peptide mass (in Dalton) to include | positive integer | `5000` | number
