@@ -11,6 +11,11 @@ github_project: "https://github.com/compomics/ThermoRawFileParser"
 
 ---
 
+**Changes in ThermoRawFileParser 1.2.2 (Mar 2. 2020):**
+
+* Minor change in biocontainer docker file
+---
+
 **Changes in ThermoRawFileParser 1.2.1 (Feb 14. 2020):**
 
 * Bug fixes
