@@ -84,11 +84,12 @@ Name | Description | Possible values | Default value | Data type
 `output_filetype` | Output file formats for spectral library | `msp`, `mgf`, `spectronaut`, `bibliospec` (also for Skyline) and/or `hdf` | `["msp"]` | array of strings
 `charges` | Precusor charges to include | positive integer | `[2, 3]` | array of numbers
 `min_peplen` | Minimum length of peptides to include | positive integer | `8` | number
-`max_pepmass` | Maximum peptide mass (in Dalton) to include | positive integer | `5000` | number
+`max_peplen` | Maximum length of peptides to include | positive integer | `30` | number
 `missed_cleavages` | Number of missed cleavages to include | positive integer | `2` | number
 `modifications` | Modifications to include. See below for more information | *see below* | modifications object | object
 `ms2pip_model` | MS2PIP model to use for predictions | *see MS2PIPc documentation* | `"HCD"` | string
 `decoy` | Also create decoy spectral library by reversing peptide sequences | `true`, `false` | `true` | boolean
+`add_retention_time` | Add retention times using [DeepLC](/projects/DeepLC) | `true`, `false` | `true` | boolean
 `elude_model_file` | If not null, predict retention times with this ELUDE model* | `path/to/model.file` or `null` | `null` | string or null
 `peprec_filter` | If not null, do not predict spectra for peptides present in this peprec | `path/to/peprec.file` or `null` | `null` | string or null
 `batch_size` | To reduce memory consumption, the (still unmodified) peptides to predict are split-up into batches. A higher batch size is slightly faster, but requires more RAM. | positive integer | `5000` | number 
@@ -112,7 +113,7 @@ Name | Description | Type
 `fixed` | Set to `true` if only the modified version of the peptide should be present in the spectral library (e.g. for Carbamidomethyl). | boolean
 
 Please take the following into account:
-- As is the case in the MS2PIPc configuration, if a modification occurs on
+- As is the case in the MS²PIP configuration, if a modification occurs on
 multiple specific modifications (such as phosphorylation), a separate entry is
 required, each with a unique name (e.g. PhosphoS, PhosphoT, and PhosphoY) for
 every amino acid.
@@ -125,25 +126,27 @@ for instance, combine Glu->pyro-Glu (combination of N-term and normal PTM) with
 other PTMS for Glu on the first AA, while this is not possible in reality!
 
 ### Example configuration file
-```
+```json
 {
-    "output_filetype":["msp", "mgf", "bibliospec", "hdf"],
+    "output_filetype":["msp", "mgf", "bibliospec", "spectronaut", "hdf"],
     "charges":[2, 3],
     "min_peplen":8,
-    "max_pepmass":5000,
+    "max_peplen":30,
     "missed_cleavages":2,
     "modifications":[
         {"name":"Glu->pyro-Glu", "unimod_accession":27, "mass_shift":-18.0153, "amino_acid":"E", "n_term":true, "fixed":false},
         {"name":"Gln->pyro-Glu", "unimod_accession":28, "mass_shift":-17.0305, "amino_acid":"Q", "n_term":true, "fixed":false},
-        {"name":"Acetyl", "unimod_accession":1, "mass_shift":42.0367, "amino_acid":null, "n_term":true, "fixed":false},
+        {"name":"Acetyl", "unimod_accession":1, "mass_shift":42.01057, "amino_acid":null, "n_term":true, "fixed":false},
         {"name":"Oxidation", "unimod_accession":35, "mass_shift":15.9994, "amino_acid":"M", "n_term":false, "fixed":false},
         {"name":"Carbamidomethyl", "unimod_accession":4, "mass_shift":57.0513, "amino_acid":"C", "n_term":false, "fixed":true}
     ],
     "ms2pip_model":"HCD",
     "decoy":true,
+    "add_retention_time":true,
     "elude_model_file":null,
+    "rt_predictions_file":null,
     "peprec_filter":null,
-    "batch_size":5000,
+    "batch_size":10000,
     "num_cpu":24
 }
 ```
