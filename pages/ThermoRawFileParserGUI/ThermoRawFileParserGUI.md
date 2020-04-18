@@ -15,8 +15,8 @@ You can either select one or more RAW files or a directory containing the RAW fi
 
 For help on the conversion options please see the [ThermoRawFileParser](/projects/ThermoRawFileParser) documentation.
 
-## Download (v1.3.0 - all platforms)
-[![download](https://github.com/compomics/ThermoRawFileParserGUI/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/no/uib/thermo-raw-file-parser-gui/ThermoRawFileParserGUI/1.3.0/ThermoRawFileParserGUI-1.3.0.zip)
+## Download (v1.4.0 - all platforms)
+[![download](https://github.com/compomics/ThermoRawFileParserGUI/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/no/uib/thermo-raw-file-parser-gui/ThermoRawFileParserGUI/1.4.0/ThermoRawFileParserGUI-1.4.0.zip)
 
 ## Release notes
 See [ReleaseNotes](/projects/ThermoRawFileParserGUI/wiki/ReleaseNotes).

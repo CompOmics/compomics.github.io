@@ -9,6 +9,12 @@ github_project: "https://github.com/compomics/ThermoRawFileParserGUI"
 
 # ReleaseNotes
 
+**Changes in ThermoRawFileParserGUI 1.4.0 (April 17. 2020):**
+
+  * FEATURE IMPROVEMENT: Made it possible to turn the zlib compression off.
+
+---
+
 **Changes in ThermoRawFileParserGUI 1.3.0 (April 14. 2020):**
 
   * FEATURE IMPROVEMENT: Added display of progress.
