@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 3.3.18 (April 18. 2020):**
+
+* BUG FIX: Fixed a bug in setting up unspecific searches for X! Tandem.
+
+----
+
 **Changes in SearchGUI 3.3.17 (October 29. 2019):**
 
 * FEATURE IMPROVEMENT: Fixed mono path issue with Mac OSX El Capitan (10.11) and later.
