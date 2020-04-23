@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 1.16.45 (April 23. 2020):**
+
+* BUG FIX: Peptides and spectra occurring in only one spectrum file are no longer excluded.
+
+----
+
 **Changes in PeptideShaker 1.16.44 (February 6. 2020):**
 
 * BUG FIX: Fixed a bug in the Unipept export where unnecessary white space was added in the XML. 
