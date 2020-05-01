@@ -11,6 +11,14 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 3.3.19 (May 1. 2020):**
+
+* BUG FIX: Fixed a bug in the OmssaParametersDialog where setIntensityCutOffIncrement was used instead of setMinPeaks.
+
+* LIBRARY UPDATE: Updated utilities to version 4.12.16.
+
+----
+
 **Changes in SearchGUI 3.3.18 (April 18. 2020):**
 
 * BUG FIX: Fixed a bug in setting up unspecific searches for X! Tandem.
