@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/ThermoRawFileParser"
 
 ---
 
+**Changes in ThermoRawFileParser 1.2.3 (May 4. 2020):**
+
+* Default centroiding of segmented scan data
+* Thermo libraries upgrade
+---
+
 **Changes in ThermoRawFileParser 1.2.2 (Mar 2. 2020):**
 
 * Minor change in biocontainer docker file
