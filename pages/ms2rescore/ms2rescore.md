@@ -2,7 +2,7 @@
 title: "ms2rescore"
 project: "ms2rescore"
 github_project: "https://github.com/compomics/ms2rescore"
-description: "Sensitive PSM rescoring with predicted MS² peak intensities using MS²PIP and Percolator."
+description: "Sensitive PSM rescoring with predicted MS² peak intensities using MS²PIP, DeepLC, and Percolator."
 layout: default
 tags: project_home, ms2rescore
 permalink: /projects/ms2rescore
