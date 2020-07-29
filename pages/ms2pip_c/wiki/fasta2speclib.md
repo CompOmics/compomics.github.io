@@ -10,6 +10,7 @@ github_project: "https://github.com/compomics/ms2pip_c"
 # fasta2speclib: generate MS²PIP-predicted spectral libraries
 
 - [Introduction](#introduction)
+- [Installation](#installation)
 - [Usage](#usage)
   - [Command line interface](#command-line-interface)
   - [Configuration file](#configuration-file)
@@ -27,19 +28,11 @@ allows you to easily create a predicted decoy spectral library (currently by
 reversing digested peptide sequences). All information on the usage of
 *fasta2speclib* and its parameters is listed below.
 
-To use *fasta2speclib*, the installation of MS²PIP (and optionally of Elude,
-which is included with
-[Percolator](https://github.com/percolator/percolator/releases)) is required.
-Instructions on how to install MS²PIP are detailed in the
-[Extended Install Instructions](http://compomics.github.io/projects/ms2pip_c/wiki/extended-install-instructions.html).
-However, specific input formats (such as PEPREC) are not required for
-*fasta2speclib*, only a protein/proteome FASTA file.
+*fasta2speclib* can now add [DeepLC](/projects/DeepLC)-predicted
+retention times to its spectral libraries! Just set `add_retention_time` to `true`
+in the configuration file.
 
-*fasta2speclib* makes use of the
-[Biopython (Cock et al.)](https://doi.org/10.1093/bioinformatics/btp163) library
- to read the FASTA file and of
- [Pyteomics (Levitsky et al.)](https://doi.org/10.1021/acs.jproteome.8b00717)
- for the in silico protein digestion. If you use *fasta2speclib* and MS²PIP
+If you use *fasta2speclib* and MS²PIP
  for your research please cite:
 >Gabriels, R., Martens, L., Degroeve, S. **Updated MS²PIP web server
 delivers fast and accurate MS² peak intensity prediction for multiple
@@ -56,11 +49,18 @@ Libraries.** *Proteomics* (2020)
 
 ---
 
+## Installation
+fasta2speclib is installed alongside MS²PIP. See the
+[MS²PIP README page](/projects/ms2pip_c#installation)
+for installation instructions.
+
+---
+
 ## Usage
 ### Command line interface
 ```
-usage: fasta2speclib.py [-h] [-o OUTPUT_FILENAME] [-c CONFIG_FILENAME]
-                        fasta_filename
+usage: fasta2speclib [-h] [-o OUTPUT_FILENAME] [-c CONFIG_FILENAME]
+                     fasta_filename
 
 Create an MS2PIP-predicted spectral library, starting from a fasta file.
 
@@ -146,6 +146,7 @@ other PTMS for Glu on the first AA, while this is not possible in reality!
     "elude_model_file":null,
     "rt_predictions_file":null,
     "peprec_filter":null,
+    "save_peprec":false,
     "batch_size":10000,
     "num_cpu":24
 }
