@@ -11,6 +11,15 @@ github_project: "https://github.com/compomics/ThermoRawFileParser"
 
 ---
 
+**Changes in ThermoRawFileParser 1.3.0 (Aug 26. 2020):**
+
+* Able to extract additional detector data - UV, PDA, pressure chromatograms, PDA spectra (new command line argument `-a|--allDetectors`)
+* Fix instrument mapping and adding new instruments (Exploris series, ID-X etc)
+* Update PSI-MS ontology version
+* Fix empty output directory bug
+
+---
+
 **Changes in ThermoRawFileParser 1.2.3 (May 4. 2020):**
 
 * Default centroiding of segmented scan data
