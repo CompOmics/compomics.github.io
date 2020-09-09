@@ -9,6 +9,13 @@ github_project: "https://github.com/compomics/ThermoRawFileParserGUI"
 
 # ReleaseNotes
 
+**Changes in ThermoRawFileParserGUI 1.4.2 (September 8. 2020):**
+
+ * FEATURE IMPROVEMENT: Added support for extracting additional detector data.
+ * FEATURE IMPROVEMENT: Updated ThermoRawFileParser to v1.3.0.
+
+---
+
 **Changes in ThermoRawFileParserGUI 1.4.1 (May 11. 2020):**
 
   * FEATURE IMPROVEMENT: Updated ThermoRawFileParser to v1.2.3.
