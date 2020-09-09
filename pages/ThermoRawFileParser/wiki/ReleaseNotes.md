@@ -11,6 +11,15 @@ github_project: "https://github.com/compomics/ThermoRawFileParser"
 
 ---
 
+**Changes in ThermoRawFileParser 1.3.1 (Sep 08. 2020):**
+
+* Select MS levels to be written to the file (`-L|--msLevel` command line argument)
+* Write precursor scan number in the TITLE of MGF file (`-P|--mgfPrecursor` command line argument)
+* Correct version of the assembly
+* Correct typo in `-a` flag description
+
+---
+
 **Changes in ThermoRawFileParser 1.3.0 (Aug 26. 2020):**
 
 * Able to extract additional detector data - UV, PDA, pressure chromatograms, PDA spectra (new command line argument `-a|--allDetectors`)

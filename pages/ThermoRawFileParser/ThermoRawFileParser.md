@@ -81,11 +81,16 @@ optional subcommands are xic|query (use [subcommand] -h for more info]):
   -z, --noZlibCompression    Don't use zlib compression for the m/z ratios and
                                intensities. By default zlib compression is
                                enabled.
-  -a, --allDetectors         Extract additonal detector data: UV/PDA etc
+  -a, --allDetectors         Extract additional detector data: UV/PDA etc
   -l, --logging=VALUE        Optional logging level: 0 for silent, 1 for
                                verbose.
   -e, --ignoreInstrumentErrors
                              Ignore missing properties by the instrument.
+  -L, --msLevel=VALUE        Select MS levels (MS1, MS2, etc) included in the
+                               output, should be a comma-separated list of
+                               integers ( 1,2,3 ) and/or intervals ( 1-3 ),
+                               open-end intervals ( 1- ) are allowed
+  -P, --mgfPrecursor         Include precursor scan number in MGF file TITLE
   -u, --s3_url[=VALUE]       Optional property to write directly the data into
                                S3 Storage.
   -k, --s3_accesskeyid[=VALUE]
