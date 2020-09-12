@@ -9,6 +9,14 @@ github_project: "https://github.com/compomics/ThermoRawFileParserGUI"
 
 # ReleaseNotes
 
+**Changes in ThermoRawFileParserGUI 1.5.0 (September 11. 2020):**
+
+ * FEATURE IMPROVEMENT: Added support for including the precursor information in the MGF spectrum titles.
+ * FEATURE IMPROVEMENT: Added support for choosing the MS level range to include in the exports.
+ * FEATURE IMPROVEMENT: Updated ThermoRawFileParser to version 1.3.1.
+
+---
+
 **Changes in ThermoRawFileParserGUI 1.4.2 (September 8. 2020):**
 
  * FEATURE IMPROVEMENT: Added support for extracting additional detector data.
