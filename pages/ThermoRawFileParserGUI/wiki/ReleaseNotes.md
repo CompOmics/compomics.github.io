@@ -9,6 +9,12 @@ github_project: "https://github.com/compomics/ThermoRawFileParserGUI"
 
 # ReleaseNotes
 
+**Changes in ThermoRawFileParserGUI 1.5.1 (September 14. 2020):**
+
+ * FEATURE IMPROVEMENT: Updated ThermoRawFileParser to version 1.3.1.
+
+---
+
 **Changes in ThermoRawFileParserGUI 1.5.0 (September 11. 2020):**
 
  * FEATURE IMPROVEMENT: Added support for including the precursor information in the MGF spectrum titles.
