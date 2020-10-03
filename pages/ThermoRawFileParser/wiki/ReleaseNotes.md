@@ -11,6 +11,15 @@ github_project: "https://github.com/compomics/ThermoRawFileParser"
 
 ---
 
+**Changes in ThermoRawFileParser 1.3.2 (Oct 02. 2020):**
+
+* Flag -x include reference and exception peaks
+* SPS masses are included as precursors in mzML
+* Ignore all not .raw files when processing folder
+* Updates in instrument and detector mapping to PSI-MS CV terms
+
+---
+
 **Changes in ThermoRawFileParser 1.3.1 (Sep 08. 2020):**
 
 * Select MS levels to be written to the file (`-L|--msLevel` command line argument)
