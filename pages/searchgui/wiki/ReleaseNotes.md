@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 3.3.21 (October 13. 2020):**
+
+* BUG FIX: Fixed a bug with the missed cleavages setting for unspecific searches in MS Amanda.
+
+----
+
 **Changes in SearchGUI 3.3.20 (May 9. 2020):**
 
 * BUG FIX: Fixed a bug in raw file searches that could occur if running two or more searches in a row without closing the tool.
