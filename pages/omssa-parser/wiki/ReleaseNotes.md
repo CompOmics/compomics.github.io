@@ -11,6 +11,14 @@ github_project: "https://github.com/compomics/omssa-parser"
 
 ----
 
+**Changes in omssa-parser v2.0.0 - (November 4. 2020):**
+
+* FEATURE IMPROVEMENT: Made the code compatible with Java 9 and newer.
+* LIBRARY UPDATE: Updated JSparklines to version 1.0.12.
+* LIBRARY UPDATE: Updated utilities to version 5.0.0.
+
+---
+
 **Changes in omssa-parser v1.9.0 - (January 31. 2017):**
 
 * LIBRARY UPDATE: Updated utilities to version 4.10.0.

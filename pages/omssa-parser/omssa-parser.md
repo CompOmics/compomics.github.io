@@ -27,14 +27,14 @@ permalink: /projects/omssa-parser
 ---
 
 **SearchGUI and PeptideShaker:**
-  * To run OMSSA searches we recommend the use of [SearchGUI](http://compomics.github.io/projects/searchgui.html).
-  * To visualize and analyze OMSSA results we recommend the use of [PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html).
+  * To run OMSSA searches we recommend [SearchGUI](http://compomics.github.io/projects/searchgui.html).
+  * To visualize and analyze OMSSA results we recommend [PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html).
 
 ---
 
 |   |   |   |
 | :------------------------- | :---------------: | :--: |
-| [![download](https://github.com/compomics/omssa-parser/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/de/proteinms/omxparser/omssa-parser/1.9.0/omssa-parser-1.9.0.zip) | *v1.9.0 - All platforms* | [ReleaseNotes](/projects/omssa-parser/wiki/ReleaseNotes) |
+| [![download](https://github.com/compomics/omssa-parser/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/de/proteinms/omxparser/omssa-parser/2.0.0/omssa-parser-2.0.0.zip) | *v2.0.0 - All platforms* | [ReleaseNotes](/projects/omssa-parser/wiki/ReleaseNotes) |
 
 ---
 
