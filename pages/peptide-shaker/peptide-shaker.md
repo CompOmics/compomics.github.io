@@ -12,21 +12,21 @@ permalink: /projects/peptide-shaker
 
   * [Introduction](#introduction)
   * [Read Me](#read-me)
-  * [Issues, Questions and Bug Reports](#Issues-questions-and-bug-reports)
+  * [Troubleshooting](#troubleshooting)
 
   * [Bioinformatics for Proteomics Tutorial](http://compomics.com/bioinformatics-for-proteomics/)
 
 ---
 
 ## PeptideShaker Publication:
-  * Vaudel M, Burkhart J, Zahedi RP, Oveland E, Berven FS, Sickmann A, Martens L: _PeptideShaker enables reanalysis of MS-derived proteomics data sets_ [[PMID 25574629](https://www.ncbi.nlm.nih.gov/pubmed/25574629)] [[pdf (accepted version)](https://github.com/mvaudel/Publications/blob/master/docs/aam/Barsnes_et_al_SearchGUI%20-%20revision.pdf)] [[Request a reprint](lennart.martens@UGent.be)].
-  * If you use PeptideShaker as part of a publication, please include this reference.
+  * [Vaudel et al. Nature Biotechnol. 2015 Jan;33(1):22–24](http://www.nature.com/nbt/journal/v33/n1/full/nbt.3109.html).
+  * If you use PeptideShaker as part of a publication please include this reference.
 
 ---
 
 |   |   |   |
 | :------------------------- | :---------------: | :--: |
-| [![download](https://github.com/compomics/peptide-shaker/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/eu/isas/peptideshaker/PeptideShaker/1.16.45/PeptideShaker-1.16.45.zip) | *v1.16.45 - All platforms* | [ReleaseNotes](/projects/peptide-shaker/wiki/ReleaseNotes) |
+| [![download](https://github.com/compomics/peptide-shaker/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/eu/isas/peptideshaker/PeptideShaker/2.0.0/PeptideShaker-2.0.0.zip) | *v2.0.0 - All platforms* | [ReleaseNotes](/projects/peptide-shaker/wiki/ReleaseNotes) |
 
 ---
 
@@ -41,7 +41,8 @@ permalink: /projects/peptide-shaker
 
 ## Introduction ##
 
-PeptideShaker is a search engine independent platform for interpretation of proteomics identification results from multiple search engines, currently supporting  [X!Tandem](http://www.thegpm.org/tandem), [MS-GF+](https://github.com/MSGFPlus/msgfplus), [MS Amanda](http://ms.imp.ac.at/?goto=msamanda), [OMSSA](http://www.ncbi.nlm.nih.gov/pubmed/15473683), [MyriMatch](http://www.ncbi.nlm.nih.gov/pubmed/?term=17269722), [Comet](http://comet-ms.sourceforge.net/), [Tide](http://cruxtoolkit.sourceforge.net), [Mascot](http://www.matrixscience.com), [Andromeda](http://www.coxdocs.org/doku.php?id=maxquant:andromeda:start) and [mzIdentML](http://www.psidev.info/mzidentml). By combining the results from multiple search engines, while re-calculating PTM localization scores and redoing the protein inference, PeptideShaker attempts to give you the best possible understanding of your proteomics data!
+PeptideShaker is a search engine independent platform for interpretation of proteomics identification results from multiple search and _de novo_ engines, currently supporting  [X!Tandem](http://www.thegpm.org/tandem), [MS-GF+](https://github.com/MSGFPlus/msgfplus), [MS Amanda](http://ms.imp.ac.at/?goto=msamanda), [OMSSA](http://www.ncbi.nlm.nih.gov/pubmed/15473683), [MyriMatch](http://www.ncbi.nlm.nih.gov/pubmed/?term=17269722), [Comet](http://comet-ms.sourceforge.net/), [Tide](http://cruxtoolkit.sourceforge.net), [Mascot](http://www.matrixscience.com), [Andromeda](http://www.coxdocs.org/doku.php?id=maxquant:andromeda:start) and [mzIdentML](http://www.psidev.info/mzidentml). PeptideShaker aggregates the results in a single identification set, annotates spectra, computes a consensus score, maps sequences and performs protein inference, scores post-translational modification localization, runs statistical validation, quality control, and annotates the results using multiple sources of information like Gene Ontology, Uniprot and Ensembl annotation, and Protein structures. PeptideShaker can be used in command line and comes with rich visualization capabilities to navigate the results. It can be used on local data as well as on data sets deposited to the ProteomeXchange PRIDE repository.
+
 
 PeptideShaker currently supports nine different analysis tasks:
 
@@ -236,17 +237,7 @@ PeptideShaker currently only supports mgf files as the input format for the spec
 
 ---
 
-## Issues, Questions and Bug Reports
-
-### Code of Conduct
-
-As part of our efforts toward delivering open and inclusive science, we follow the [Contributor Convenant](https://www.contributor-covenant.org) [Code of Conduct for Open Source Projects](docs/CODE_OF_CONDUCT.md).
-
-### Issue Tracker
-
-Despite our efforts at enforcing good practices in our work, like every software, PeptideShaker might crash, fail to cover specific use cases, not perform as well as expected. We apologize for any inconvenience and will try to fix things to the best of our capabilities. We welcome bug reports, suggestions of improvements, and contributions _via_ our [issue tracker](https://github.com/compomics/peptide-shaker/issues). 
-
-### Troubleshooting
+## Troubleshooting ##
 
   * **Mascot Issues** - See [Mascot Support](#mascot-support) and [Database Help](/projects/searchgui/wiki/DatabaseHelp).
 

@@ -22,7 +22,7 @@ There are six main sections to this page:
   * [E) PathSettingsCLI](#e---pathsettingscli) - set the paths to use
   * [F) General](#f---general) - general command line help
 
-Note that ReportCLI, FollowUpCLI, MzidCLI and PathSettingsCLI options can also be appended to PeptideShakerCLI command lines.
+Note that ReportCLI, FollowUpCLI, MzidCLI and PathSettingsCLI options can also be appended directly to PeptideShakerCLI command lines.
 
 All command line options have the same overall structure and only differ in the features and parameters available.
 
@@ -43,20 +43,15 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [par
 **Mandatory parameters**
 
 ```
--experiment                Specifies the experiment name.
+-reference                 The reference for the project.
 
--sample                    Specifies the sample name.
+-fasta_file (*)            The complete path to the FASTA file.
 
--replicate                 The replicate number.
+-identification_files      Identification files in a comma separated list, as compressed zip file, 
+                           or an entire folder. Example: "c:\file1.omx, c:\file1.mzid, c:\file1.t.xml".
 
--identification_files      Identification files (X!Tandem .t.xml, mzIdentML .mzid, MS Amanda .cvs, 
-                           OMSSAgo .omx, Mascot .dat files, Tide .txt, Comet .pep.xml or .zip) 
-                           in a comma separated list, as compressed zip file, or an entire folder.
-                           Example: "c:\file1.omx, c:\file1.dat, c:\file1.t.xml".
-
--spectrum_files (*)        The spectrum files (mgf format) in a comma
-                           separated list or an entire folder.
-                           Example: "c:\file1.mgf, c:\file2.mgf".
+-spectrum_files (*)        The spectrum files (mgf or mzML format) in a comma separated list or an 
+                           entire folder. Example: "c:\file1.mgf, c:\file2.mzml".
 
 -id_params (*)             The identification parameters file (.par). 
                            Generated using the GUI or via IdentificationParametersCLI.
@@ -70,10 +65,12 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [par
 
 ```
 -out                       PeptideShaker output file (.cpsx). If the file already exists 
-                           it will be silently overwritten.
-                           Example: "c:\ps_output.cpsx".
+                           it will be silently overwritten. Example: "c:\ps_output.cpsx".
 
 -zip                       Exports the entire project as a zip file in the file specified.
+
+-output_mgf                When using zipped output, exports mgf file(s) out of the zip file 
+                           into the same folder in addition. 0: no, 1: yes, default is '0'.
 ```
 
 **Optional processing parameters**
@@ -90,7 +87,7 @@ PeptideShakerCLI example where _X_, _Y_ and _Z_ have to be replaced by the actua
 
 ```java
 java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI 
--experiment myExperiment -sample mySample -replicate 1 
+-reference myReference -fasta_file "C:\my folder\my_data.fasta"
 -identification_files "C:\my folder" -spectrum_files "C:\my folder" 
 -id_params "C:\my folder\my_search_params.par" 
 -out "C:\my folder\myCpsFile.cpsx"
@@ -113,7 +110,7 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.ReportCLI [parameters
 **Mandatory parameters**
 
 ```
--in                        PeptideShaker project (.cpsx file)
+-in                        PeptideShaker project (.psdb or zip file)
 
 -out_reports               Output folder for report files. (Existing files will be overwritten.)
 ```
@@ -136,7 +133,7 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.ReportCLI [parameters
                            11: Extended PSM Report, 
                            12-n: Your own custom reports.
 
-
+-report_prefix             Prefix added to the report file name.
 
 -documentation             Comma separated list of types of report documentation to export. 
                            0: Certificate of Analysis, 
@@ -152,6 +149,9 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.ReportCLI [parameters
                            10: Default Protein Report with non-validated matches, 
                            11: Extended PSM Report, 
                            12-n: Your own custom reports.
+                           
+-gzip                      Indicates whether the report should be compressed.
+                           0: no, 1: yes, default is 0.
 ```
 
 To add custom reports see Export > Identification Features > Reports in PeptideShaker.
@@ -162,7 +162,7 @@ ReportCLI example where _X_, _Y_ and _Z_ have to be replaced by the actual versi
 
 ```java
 java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.ReportCLI 
--in "C:\my folder\myCpsFile.cpsx" -out_reports "C:\my folder" -reports "0, 3"
+-in "C:\my folder\myCpsFile.cpsx" -out_reports "C:\my folder" -reports "0, 3" -report_prefix "my_" -gzip 0
 ```
 
 [Go to top of page](#peptideshakercli)
@@ -180,7 +180,7 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.FollowUpCLI [paramete
 **Mandatory parameters**
 
 ```
--in                        PeptideShaker project (.cpsx file)
+-in                        PeptideShaker project (.psdb or zip file)
 ```
 
 **Optional recalibration parameters**
@@ -235,13 +235,13 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.FollowUpCLI [paramete
                            2: Non-Validated Accessions.
 ```
 
-**Optional FASTA export parameters**
+**Optional protein sequences (in FASTA format) export parameters**
 
 ```
--fasta_file                File where to export the protein details in fasta format. 
+-sequences_file            File where to export the protein details in fasta format. 
                            (Existing files will be overwritten.)
 
--fasta_type                When exporting protein details, select a category of proteins. 
+-sequences_type            When exporting protein details, select a category of proteins. 
                            0: Main Accession of Validated Protein Groups (default), 
                            1: All Accessions of Validated Protein Groups, 
                            2: Non-Validated Accessions.
@@ -274,6 +274,12 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.FollowUpCLI [paramete
 -inclusion_list_rt_window  Retention time window for the inclusion list export (in seconds).
 ```
 
+**Optional proteoforms parameters**
+
+```
+-proteoforms_file      Output file for the proteoforms. (Existing file will be overwritten.)
+```
+
 **FollowUpCLI Example**
 
 FollowUpCLI example where _X_, _Y_ and _Z_ have to be replaced by the actual version of PeptideShaker and _my folder_ by the folder containing the desired files:
@@ -297,7 +303,7 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.MzidCLI [parameters]
 **Mandatory parameters**
 
 ```
--in                        PeptideShaker project (.cpsx file)
+-in                        PeptideShaker project (.psdb or zip file)
 
 -output_file               Output file.
 
@@ -319,6 +325,9 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.MzidCLI [parameters]
 **Optional parameters:**
 
 ```
+-gzip                      Indicates whether the mzIdentML file should be compressed.
+                           0: no, 1: yes, default is 0.
+
 -contact_url               Contact URL.
 
 -organization_url          Organization URL.   

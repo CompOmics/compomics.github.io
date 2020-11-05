@@ -11,6 +11,34 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.0 (November 4. 2020):**
+
+* NEW FEATURE: Added support for spectrum files in mzML format.
+* NEW FEATURE: Added support for loading Morpheus mzIdentML files files.
+* FEATURE IMPROVEMENT: Novor results are now parsed as tags instead of complete peptides.
+* FEATURE IMPROVEMENT: New faster and more memory efficient database backend.
+* FEATURE IMPROVEMENT: Enabled launching of several instances on one computer.
+* FEATURE IMPROVEMENT: Decreased file sizes when storing PS projects.
+* FEATURE IMPROVEMENT: Increased GUI performance.
+* FEATURE IMPROVEMENT: Sped up and reduced the memory load when parsing several of the search and de novo engine file formats.
+* FEATURE IMPROVEMENT: Added support for gzipped search and de novo result files.
+* FEATURE IMPROVEMENT: Moved the FASTA file out of the search parameters.
+* FEATURE IMPROVEMENT: Added support for loading IdentiPy pep.xml files.
+* FEATURE IMPROVEMENT: Added support for TMTpro (i.e. TMT 16-plex).
+* FEATURE IMPROVEMENT: Updated Ensembl to version 101 and Ensembl Genomes to version 48.
+* FEATURE IMPROVEMENT: Updated the validation icons and added a new icon for "Not Validated".
+* FEATURE IMPROVEMENT: Refactored the command lines.
+* FEATURE IMPROVEMENT: Enabled partial projects processing (i.e. PSMs or peptide and PSMs only).
+* FEATURE IMPROVEMENT: Moved the code to Java 14. Note that Java 9 or newer is now required to run PeptideShaker!
+* FEATURE IMPROVEMENT: Removed charge/modification grouping of PSM/peptides during scoring.
+* FEATURE IMPROVEMENT: Better use of secondary hits.
+* FEATURE IMPROVEMENT: Filtered hits are now visible in the interface.
+* FEATURE IMPROVEMENT: Refactored the PTM alignment between peptides.
+* FEATURE IMPROVEMENT: Improved the use of multiple threads.
+* LIBRARY UPDATE: Updated utilities to version 5.0.0.
+
+----
+
 **Changes in PeptideShaker 1.16.45 (April 23. 2020):**
 
 * BUG FIX: Peptides and spectra occurring in only one spectrum file are no longer excluded.
