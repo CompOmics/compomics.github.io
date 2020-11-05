@@ -13,13 +13,11 @@ github_project: "https://github.com/compomics/searchgui"
 
 The command line interface to SearchGUI, referred to as SearchCLI, makes it possible to run all search engines and _de novo_ algorithms supported by SearchGUI using a single command line.
 
-SearchCLI searches spectrum files according to search parameters using [X! Tandem](http://www.thegpm.org/tandem), [MS-GF+](https://github.com/MSGFPlus/msgfplus), [MS Amanda](http://ms.imp.ac.at/?goto=msamanda), [MyriMatch](http://forge.fenchurch.mc.vanderbilt.edu/scm/viewvc.php/*checkout*/trunk/doc/index.html?root=myrimatch), [Comet](http://comet-ms.sourceforge.net/), [Tide](http://cruxtoolkit.sourceforge.net), [Andromeda](http://www.andromeda-search.org), [OMSSA](http://www.ncbi.nlm.nih.gov/pubmed/15473683), [Novor](http://rapidnovor.com) and [DirecTag](http://fenchurch.mc.vanderbilt.edu/bumbershoot/directag/).
-
-Note that the spectra must be provided in the Mascot Generic File (mgf) format. For spectrum file conversion, we recommend using msConvert, part of [ProteoWizard](http://proteowizard.sourceforge.net/).
+SearchCLI searches spectrum files according to search parameters using [X! Tandem](http://www.thegpm.org/tandem), [MyriMatch](http://forge.fenchurch.mc.vanderbilt.edu/scm/viewvc.php/*checkout*/trunk/doc/index.html?root=myrimatch), [MS Amanda](http://ms.imp.ac.at/?goto=msamanda), [MS-GF+](https://github.com/MSGFPlus/msgfplus), [OMSSA](http://www.ncbi.nlm.nih.gov/pubmed/15473683), [Comet](http://comet-ms.sourceforge.net/), [Tide](http://cruxtoolkit.sourceforge.net), [Andromeda](http://www.andromeda-search.org), [MetaMorpheus](https://github.com/smith-chem-wisc/MetaMorpheus), [Novor](http://rapidnovor.com) and [DirecTag](http://fenchurch.mc.vanderbilt.edu/bumbershoot/directag/).
 
 Identification parameters for use in SearchCLI can be provided as a file. Identification parameter files are in the [json](https://en.wikipedia.org/wiki/JSON) format and can be created in the graphical user interface, using the [IdentificationParametersCLI](/projects/compomics-utilities/wiki/IdentificationParametersCLI), or using third party tools. Alternatively, the parameters can be passed directly to SearchCLI by using the command line arguments of the [IdentificationParametersCLI](/projects/compomics-utilities/wiki/IdentificationParametersCLI).
 
-We strongly recommend to [redirect temporary folders and logs](#pathsettingscli). Please note that search engines use indexes and temporary files stored locally in their folder. It is thus important to use a single instance of SearchCLI at a time. In distributed setups, we recommend keeping a clean copy of SearchGUI, and distribute it to the different workers prior to execution.
+We recommend [redirecting temporary folders and logs](#pathsettingscli) when running SearchGUI on the command line. Please note that the search engines use indexes and temporary files stored locally in their folders. It is thus important to use a single instance of SearchCLI at a time. In distributed setups, we recommend keeping a clean copy of SearchGUI, and distribute it to the different workers prior to execution.
 
 ### General command line
 
@@ -30,8 +28,10 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
 ### Mandatory parameters
 
 ```java
--spectrum_files         Spectrum files (mgf format), comma separated list or an entire folder.
-                        Example: "c:\file1.mgf, c:\file2.mgf". (See also MGF Splitting below.)
+-spectrum_files         Spectrum files (mgf or mzml), comma separated list or an entire folder.
+                        Example: "c:\file1.mgf, c:\file2.mzml".
+
+-fasta_file             The complete path to the FASTA file.
 
 -output_folder          The output folder, example: "c:\output_folder".
 
@@ -68,6 +68,9 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
 -andromeda              Turn the Andromeda search on or off. 
                         (1: on, 0: off, default is '0')
 
+-metamorpheus           Turn the MetaMorpheus search on or off. 
+                        (1: on, 0: off, default is '0')
+
 -novor                  Turn the Novor sequencing on or off. 
                         (1: on, 0: off, default is '0')
 
@@ -102,6 +105,9 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
 -andromeda_folder       The folder where Andromeda is installed, defaults                        
                         to the provided version for the given OS.
 
+-metamorpheus_folder    The folder where MetaMorpheus is installed, defaults                        
+                        to the provided version for the given OS.
+
 -novor_folder           The folder where Novor is installed, defaults                        
                         to the provided version for the given OS.
 
@@ -110,6 +116,9 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
 
 -makeblastdb_folder     The folder where makeblastdb is installed, defaults                        
                         to the provided version for the given OS.
+
+-mgf_check_size         Turn the mgf size check on or off. 
+                        0: off, 1: on, default is '0'.
 
 -mgf_splitting          The maximum mgf file size in MB before 
                         splitting an mgf. Default is '1000'.
@@ -127,6 +136,9 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
 
 -threads                The number of threads to use for the processing. 
                         Default is the number of cores available.
+
+-ref_mass               Reference mass for the conversion of the fragment ion tolerance 
+                        from ppm to Dalton. Default is '2000'.
 ```
 
 ### Optional output compression parameters
@@ -146,6 +158,12 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
 
 -output_date            Include date in zipped output name 
                         (0: no, 1: yes, default is '0').
+
+-rename_xtandem         Turn the renaming of the X! Tandem files on/off.
+                        0: off, 1: on, default is '1'.
+
+-target_decoy_tag       The tag added after adding decoy sequences to a FASTA file. 
+                        Default is '_concatenated_target_decoy'.
 ```
 
 [Go to top of page](# )

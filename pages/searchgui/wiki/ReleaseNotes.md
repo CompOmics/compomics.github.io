@@ -11,6 +11,41 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.1 (November 5. 2020):**
+
+* FEATURE IMPROVEMENT: Added a missing underscore when naming the SearchGUI output file.
+
+----
+
+**Changes in SearchGUI 4.0.0 (November 4. 2020):**
+
+* NEW FEATURE: Added support for MetaMorpheus (version 0.0.312).
+* NEW FEATURE: Added support for spectrum files in mzML format.
+* NEW FEATURE: Added ThermoRawFileParser for support for Thermo raw file conversion.
+* NEW FEATURE: The user can now edit the enzymes via the graphical user interface.
+* FEATURE IMPROVEMENT: Updated MS-GF+ to version 2020.08.05.
+* FEATURE IMPROVEMENT: Updated Comet to version 2019.01 rev. 5.
+* FEATURE IMPROVEMENT: Updated MS Amanda to version 2.0.0.14828.
+* FEATURE IMPROVEMENT: Moved the FASTA file out of the search parameters.
+* FEATURE IMPROVEMENT: Search and de novo engines results are now gzipped upon completion.
+* FEATURE IMPROVEMENT: Added support for TMTpro (i.e. TMT 16-plex).
+* FEATURE IMPROVEMENT: Added support for the X! Tandem parameter "spectrum, parent monoisotopic mass isotope error", previously hard coded to "yes".
+* FEATURE IMPROVEMENT: Updated Ensembl to version 101 and Ensembl Genomes to version 48.
+* FEATURE IMPROVEMENT: Refactored the command lines.
+* FEATURE IMPROVEMENT: Moved the code to Java 14. Note that Java 9 or newer is now required to run SearchGUI.
+* FEATURE IMPROVEMENT: The time stamp is now also included in the PeptideShaker output file name (if selected in the advanced settings).
+* FEATURE IMPROVEMENT: The last user selected spectrum and output folders are now remembered in the same way as the FASTA file folder.
+* FEATURE IMPROVEMENT: Added support for parsing the new NCBI FASTA headers.
+* FEATURE IMPROVEMENT: Added taxonomy name to the protein export options.
+* FEATURE IMPROVEMENT: Added coverage including the non-validated peptides to the protein export options.
+* BUG FIX: Fixed a bug with unspecific searches and missed cleavages for MS Amanda.
+* BUG FIX: Better handling of exceptions thrown if MyriMatch runs out of symbols to represent variable modifications.
+* LIBRARY UPDATE: Updated jsparklines to version 1.0.12.
+* LIBRARY UPDATE: Updated junit to version 4.13.1.
+* LIBRARY UPDATE: Updated utilities to version 5.0.0.
+
+----
+
 **Changes in SearchGUI 3.3.21 (October 13. 2020):**
 
 * BUG FIX: Fixed a bug with the missed cleavages setting for unspecific searches in MS Amanda.

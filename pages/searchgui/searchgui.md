@@ -12,23 +12,23 @@ permalink: /projects/searchgui
 
  * [Introduction](#introduction)
  * [Read Me](#read-me)
- * [Issues, Questions and Bug reports](#Issues-questions-and-bug-reports)
+ * [Troubleshooting](#troubleshooting)
 
  * [Bioinformatics for Proteomics Tutorial](http://compomics.com/bioinformatics-for-proteomics)
 
 ----
 
 ## SearchGUI Publications:
- * Barsnes H and Vaudel M: _SearchGUI: a highly adaptable common interface for proteomics search and de novo engines_. [[PMID 29774740](https://www.ncbi.nlm.nih.gov/pubmed/29774740)] [[pdf (accepted version)](https://github.com/mvaudel/Publications/blob/master/docs/aam/Barsnes_et_al_SearchGUI%20-%20revision.pdf)] [[Request a reprint](mailto:marc.vaudel@uib.no)].
- * Vaudel M, Barsnes H, Berven FS, Sickmann A, Martens L: _SearchGUI: An open-source graphical user interface for simultaneous OMSSA and X!Tandem searches_. [[PMID 21337703](http://www.ncbi.nlm.nih.gov/pubmed/21337703)] [[pdf (accepted version)](https://github.com/mvaudel/Publications/blob/master/docs/aam/Vaudel_et_al_SearchGUI_17092010.pdf)] [[Request a reprint](mailto:Harald.Barsnes@uib.no)]. 
- * If you use SearchGUI as part of a publication, please refer to the most recent publication above.
+ * Barsnes H and Vaudel M: SearchGUI: a highly adaptable common interface for proteomics search and de novo engines. [J Proteome Res. 2018;17(7):2552-2555](https://www.ncbi.nlm.nih.gov/pubmed/29774740).
+ * Vaudel M, Barsnes H, Berven FS, Sickmann A, Martens L: SearchGUI: An open-source graphical user interface for simultaneous OMSSA and X!Tandem searches. [Proteomics 2011;11(5):996-9](http://www.ncbi.nlm.nih.gov/pubmed/21337703). 
+ * If you use SearchGUI as part of a publication, please refer to the most recent publication.
 
 ----
 
 |   |   |   |
 | :------------------------- | :--------------- | :--: |
-| [![download](https://github.com/compomics/searchgui/wiki/images/download_button_windows.png)](http://genesis.ugent.be/maven2/eu/isas/searchgui/SearchGUI/3.3.21/SearchGUI-3.3.21-windows.zip) | *v3.3.21 - Windows* | [ReleaseNotes](/projects/searchgui/wiki/ReleaseNotes) | 
-| [![download](https://github.com/compomics/searchgui/wiki/images/download_button_unix.png)](http://genesis.ugent.be/maven2/eu/isas/searchgui/SearchGUI/3.3.21/SearchGUI-3.3.21-mac_and_linux.tar.gz) | *v3.3.21 - Mac and Linux* |[ReleaseNotes](/projects/searchgui/wiki/ReleaseNotes) | 
+| [![download](https://github.com/compomics/searchgui/wiki/images/download_button_windows.png)](http://genesis.ugent.be/maven2/eu/isas/searchgui/SearchGUI/4.0.1/SearchGUI-4.0.1-windows.zip) | *v4.0.1 - Windows* | [ReleaseNotes](/projects/searchgui/wiki/ReleaseNotes) | 
+| [![download](https://github.com/compomics/searchgui/wiki/images/download_button_unix.png)](http://genesis.ugent.be/maven2/eu/isas/searchgui/SearchGUI/4.0.1/SearchGUI-4.0.1-mac_and_linux.tar.gz) | *v4.0.1 - Mac and Linux* |[ReleaseNotes](/projects/searchgui/wiki/ReleaseNotes) | 
 
 ----
 
@@ -42,7 +42,7 @@ permalink: /projects/searchgui
 
 ## Introduction
 
-SearchGUI is a highly adaptable open-source common interface for configuring and running proteomics search and de novo engines, currently supporting [X! Tandem](http://www.thegpm.org/tandem), [MS-GF+](http://www.ncbi.nlm.nih.gov/pubmed/?term=25358478), [MS Amanda](https://ms.imp.ac.at/?goto=msamanda), [MyriMatch](http://www.ncbi.nlm.nih.gov/pubmed/?term=17269722), [Comet](http://comet-ms.sourceforge.net/), [Tide](http://cruxtoolkit.sourceforge.net), [Andromeda](http://www.coxdocs.org/doku.php?id=maxquant:andromeda:start), [OMSSA](http://www.ncbi.nlm.nih.gov/pubmed/15473683), [Novor](http://rapidnovor.com) and [DirecTag](http://fenchurch.mc.vanderbilt.edu/bumbershoot/directag/). It can be used in command line mode or via a user-friendly graphical interface.
+SearchGUI is a a highly adaptable open-source common interface for configuring and running proteomics search and de novo engines, currently supporting [X! Tandem](http://www.thegpm.org/tandem), [MS-GF+](http://www.ncbi.nlm.nih.gov/pubmed/?term=25358478), [MS Amanda](http://ms.imp.ac.at/?goto#msamanda), [MyriMatch](http://www.ncbi.nlm.nih.gov/pubmed/?term=17269722), [Comet](http://comet-ms.sourceforge.net/), [Tide](http://cruxtoolkit.sourceforge.net), [Andromeda](http://www.coxdocs.org/doku.php?id=maxquant:andromeda:start), [OMSSA](http://www.ncbi.nlm.nih.gov/pubmed/15473683), [Novor](http://rapidnovor.com) and [DirecTag](http://fenchurch.mc.vanderbilt.edu/bumbershoot/directag/).
 
 To start using SearchGUI, unzip the downloaded file, and double-click the `SearchGUI-X.Y.Z.jar file`. No additional installation required!
 
@@ -123,7 +123,7 @@ In this example we are also writing the ouput of the command (`-out` parameter) 
 
 ### Easybuild
 
-An [Easybuild](http://easybuilders.github.io/easybuild) easyconfig file is available in the [Easybuild development branch](https://github.com/easybuilders/easybuild-easyconfigs/blob/develop/easybuild/easyconfigs/s/SearchGUI/SearchGUI-3.3.3-Java-1.8.0_152.eb). SearchGUI can be installed with:
+A [Easybuild](http://easybuilders.github.io/easybuild) easyconfig file is available in the [Easybuild development branch](https://github.com/easybuilders/easybuild-easyconfigs/blob/develop/easybuild/easyconfigs/s/SearchGUI/SearchGUI-3.3.3-Java-1.8.0_152.eb). SearchGUI can be installed with:
 
 
 ```bash
@@ -174,17 +174,7 @@ To visualize and analyze the SearchGUI results we recommend the use of [PeptideS
 
 ----
 
-## Issues, Questions and Bug Reports
-
-### Code of Conduct
-
-As part of our efforts toward delivering open and inclusive science, we follow the [Contributor Convenant](https://www.contributor-covenant.org/) [Code of Conduct for Open Source Projects](docs/CODE_OF_CONDUCT.md).
-
-### Issue Tracker
-
-Despite our efforts at enforcing good practices in our work, like every software, SearchGUI might crash, fail to cover specific use cases, not perform as well as expected. We apologize for any inconvenience and will try to fix things to the best of our capabilities. We welcome bug reports, suggestions of improvements, and contributions _via_ our [issue tracker](https://github.com/compomics/searchgui/issues). 
-
-### Troubleshooting
+## Troubleshooting
 
  * **Does Not Start I** - Do you have Java installed? Download the latest version of Java  [here](http://java.sun.com/javase/downloads/index.jsp) and try again. (You only need the JRE version (and not the JDK version) to run SearchGUI.)
 
@@ -201,8 +191,6 @@ Despite our efforts at enforcing good practices in our work, like every software
  * **Linux Support** - Users wanting to use SearchGUI on Linux may have to install the search engines first, see the tools web pages for available search engine versions. *Important:* Please verify that the search engines are working outside of SearchGUI before using them inside SearchGUI.
 
  * **Linux Support II** - If you get problems running makeblastdb (need to prepare FASTA files for OMSSA searches) make sure that you have the required 32 bit libraries. To install the libraries you can use "sudo apt-get install ia32-libs".
- 
- * **OMSSA on Mac** - Note that OMSSA is only available in a 32 bits version and that Mac OSX Catalina and newer only allows 64-bits apps. It is therefore recommended to use one or more of the other search engines in this setting.
 
  * **MS Amanda Log** - If you encounter problems with MS Amanda it may help to inspect the MS Amanda log files. On Windows these are located here: `C:\ProgramData\MSAmanda`.
 
@@ -210,16 +198,16 @@ Despite our efforts at enforcing good practices in our work, like every software
 
  * **MS Amanda on Mac** - Running MS Amanda on Linux requires that you have [Mono](http://www.mono-project.com) installed. Mono 3.10.0 or newer is required. For help on installing Mono please see [http://www.mono-project.com/download](http://www.mono-project.com/download).
 
- * **MyriMatch on Linux** - If you get the error "`locale::facet::_S_create_c_locale name not valid`", this can be fixed by running the command "export LC_ALL=C" before running SearchGUI/MyriMatch. To make this fix permanent, put the export line in your .bash_profile (~/.bash_profile). If you still have problems, please contact the [MyriMatch developers](http://www.mc.vanderbilt.edu/root/vumc.php?site=msrc/bioinformatics&doc=27121).
- 
+ * **MyriMatch on Linux** - If you get the error "`locale::facet::_S_create_c_locale name not valid`", this can be fixed by running the command "`export LC_ALL=C`" before running SearchGUI/MyriMatch. To make this fix permanent, put the export line in your .bash_profile (~/.bash_profile). If you still have problems, please contact the [MyriMatch developers](http://www.mc.vanderbilt.edu/root/vumc.php?site=msrc/bioinformatics&doc=27121).
+
  * **MyriMatch on Linux II** - If you get the error "`myrimatch: loadlocale.c:129: _nl_intern_locale_data: Assertion cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.`" (or other locale-related variable than `LC_TIME`), this can be fixed by running the command "`export LC_TIME=C`" before running SearchGUI/MyriMatch. To make this fix permanent, put the export line in your .bash_profile (~/.bash_profile). 
 
- * **MyriMatch on Windows** - If Myrimatch finishes almost immediately and SearchGUI log shows something like "`MyriMatch finished for * (47.0 milliseconds). Could not find MyriMatch result file`", myrimatch executable may not be running properly. Into its internal path (similar to <SearchGUI>\resources\MyriMatch\windows\windows_64bit, depending on your platform) you can execute it just writing `myriMatch`. If it throws errors about missing libraries like MSVCR100.dll or MSVCP100.dll you will need to install the last version available of them from Microsoft. MSVCR100.dll and MSVCP100.dll need this specific Microsoft Visual C++ package: [Microsoft Visual C++ 2010 Service Pack 1 Redistributable Package MFC Security Update](https://www.microsoft.com/en-us/download/details.aspx?id=26999). Other versions of Visual C++ redistributable libraries may be obtained here: [The latest supported Visual C++ downloads](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads).
+ * **MyriMatch on Windows** - If Myrimatch finishes almost immediately and SearchGUI log shows something like "`MyriMatch finished for * (47.0 milliseconds). Could not find MyriMatch result file`", myrimatch executable may not be running properly. Into its internal path (similar to <SearchGUI>\resources\MyriMatch\windows\windows_64bit, depending on your platform) you can execute it just writing `myriMatch` . If it throws errors about missing libraries like MSVCR100.dll or MSVCP100.dll you will need to install the last version available of them from Microsoft. MSVCR100.dll and MSVCP100.dll need this specific Microsoft Visual C++ package: [Microsoft Visual C++ 2010 Service Pack 1 Redistributable Package MFC Security Update](https://www.microsoft.com/en-us/download/details.aspx?id=26999). Other versions of Visual C++ redistributable libraries may be obtained here:[The latest supported Visual C++ downloads](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
 
  * **Linux and Mac OSX File Permissions** - On Linux and Mac OSX you may have to edit the permissions for the executable files in order for SearchGUI to work. Allow execution for all users.
 
- * **32 bits vs 64 bits** - Please make sure that your using versions of the search engines that are compatible with your OS.
- 
+ * **32 bits vs 64 bits** - Please make sure that your using versions of the search engines that are compatible with your OS. Note that the latest releases of OMSSA are only available in 64 bits versions. For older versions of OMSSA see the [OMSSA archive](ftp://ftp.ncbi.nlm.nih.gov/pub/lewisg/omssa). However, it is always recommended to use the latest version if possible. Also note that OMSSA versions up until version 2.1.9 does not support precursor mass tolerance in ppm.
+
  * **Xlib/X11 errorrs** - When running the command lines on systems without a grahpical user interface you may get errors related to X11. If that happens try adding `-Djava.awt.headless=true` to the command line.
 
  * **Problem Not Solved? Or Problem Not List?** - Contact the developers of SearchGUI by setting up an [issue](https://github.com/compomics/searchgui/issues) describing the problem. If the issue is related to the installation of the search engines, please contact the search engine developers directly.
