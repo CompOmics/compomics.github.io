@@ -11,7 +11,7 @@ github_project: "https://github.com/compomics/compomics-utilities"
 
 # Identification Parameters Command Line Interface #
 
-IdentificationParametersCLI can be used to create or edit an identification parameter file via command line, for use in tools like [SearchGUI](http://compomics.github.io/projects/searchgui.html), [PeptideMapper](/projects/compomics-utilities/wiki/PeptideMapper), [DeNovoGUI](http://compomics.github.io/projects/denovogui.html) and [PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html). Identification parameter files are in the [json](https://en.wikipedia.org/wiki/JSON) format and can also be created in the graphical user interface or using third party tools. Alternatively, the parameters can be created and edited directly in the command lines of [CompOmics-utilities](http://compomics.github.io/projects/compomics-utilities.html), [SearchGUI](http://compomics.github.io/projects/searchgui.html) and [PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html).
+IdentificationParametersCLI can be used to create or edit an identification parameter file via command line, for use in tools like [SearchGUI](http://compomics.github.io/projects/searchgui.html), [PeptideMapper](/projects/compomics-utilities/wiki/PeptideMapper) and [PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html). Identification parameter files are in the [json](https://en.wikipedia.org/wiki/JSON) format and can also be created in the graphical user interface or using third party tools. Alternatively, the parameters can be created and edited directly in the command lines of [CompOmics-utilities](http://compomics.github.io/projects/compomics-utilities.html), [SearchGUI](http://compomics.github.io/projects/searchgui.html) and [PeptideShaker](http://compomics.github.io/projects/peptide-shaker.html).
 
 Note that most of the advanced settings and algorithm specific parameters listed below are for expert usage only. Changes from the default settings should be done with care.
 
@@ -27,6 +27,7 @@ Note that most of the advanced settings and algorithm specific parameters listed
     * [Protein Inference](#protein-inference)
     * [Validation Levels](#validation-levels)
     * [Fraction Analysis](#fraction-analysis)
+    * [Database Processing](#database-processing)
   * [Algorithm specific parameters](#general-parameters)
     * [XTandem advanced parameters](#xtandem-advanced-parameters)
     * [MS-GF advanced parameters](#ms-gf-advanced-parameters)
@@ -36,6 +37,7 @@ Note that most of the advanced settings and algorithm specific parameters listed
     * [Comet advanced parameters](#comet-advanced-parameters)
     * [Tide advanced parameters](#tide-advanced-parameters)
     * [Andromeda advanced parameters](#andromeda-advanced-parameters)
+    * [MetaMorpheus advanced parameters](#metamorpheus-advanced-parameters)
     * [PepNovo advanced parameters](#pepnovo-advanced-parameters)
     * [DirecTag advanced parameters](#directag-advanced-parameters)
     * [pNovo advanced parameters](#pnovo-advanced-parameters)
@@ -62,11 +64,6 @@ java -cp PeptideShaker-X.Y.Z.jar
 eu.isas.peptideshaker.cmd.IdentificationParametersCLI [parameters]
 ```
 
-```java
-java -cp DeNovoGUI-X.Y.Z.jar 
-com.compomics.denovogui.cmd.IdentificationParametersCLI [parameters]
-```
-
 ## General parameters ##
 
 ```
@@ -75,31 +72,25 @@ com.compomics.denovogui.cmd.IdentificationParametersCLI [parameters]
 -id_params                An identification parameters file to modify (optional).
 
 -mods                     Lists the available modifications.
-                          "Name (Description)" is given for every modification.
-                          Use the name for the setting of parameters.
+
+-enzymes                  Lists the available enzymes.
 ```
 
 ## Spectrum matching parameters ##
 
 ```
--db                       The sequence database in FASTA format.
-
 -prec_tol                 Precursor ion mass tolerance, default is '10'.
 
--prec_ppm                 Precursor ion tolerance unit: ppm (1) or Da (0), default is '1'. 
-                          (NB: Not supported for DeNovoGUI as here only Dalton is used.)
+-prec_ppm                 Precursor ion tolerance unit: ppm (1) or Da (0), default is '1'.
 
 -frag_tol                 Fragment ion mass tolerance, default is '0.5'.
 
--frag_ppm                 Fragment ion tolerance unit: ppm (1) or Da (0), default is '0'. 
-                          (NB: Not supported for DeNovoGUI as here only Dalton is used.)
+-frag_ppm                 Fragment ion tolerance unit: ppm (1) or Da (0), default is '1'.
 
 -digestion                The type of digestion to consider: 
                           0: Enzyme, 1: Unspecific or 2: Whole Protein. Default is 0.
 
--enzyme                   Enzyme, default is 'Trypsin'. 
-                          Available enzymes are listed in the GUI.
-                          Note: case sensitive.
+-enzyme                   Enzyme, default is 'Trypsin'. Note: case sensitive.
 
 -specificity              Specificity of the enzyme: 
                           0: Specific, 1: Semi-Specific, 2: N-term Specific or 3: C-term Specific
@@ -107,6 +98,8 @@ com.compomics.denovogui.cmd.IdentificationParametersCLI [parameters]
                           every enzyme in the same order as comma separated list with quotes, e.g. "0, 1"
 
 -mc                       Number of allowed missed cleavages, default is '2'.
+                          If more than one enzyme was used, please provide the missed cleavages for every 
+                          enzyme in the same order as comma separated list with quotes, e.g. "2, 1".
 
 -fixed_mods               Fixed modifications as comma separated list,
                           e.g., "Oxidation of M, Phosphorylation of S"
@@ -136,11 +129,16 @@ The following parameters allow controlling the identification workflow in detail
 ## Spectrum Annotation ##
 
 ```
--annotation_level         The intensity percentile to consider for annotation.
-                          e.g. 0.75 means that the 25% most intense peaks will be annotated.
+-annotation_level         The intensity threshold to consider for annotation.
+                          e.g. using percentiles, 0.75 means that the 25% most intense peaks will be annotated.
                           Default is 0.75.
+                          
+-annotation_level_type    The type of the intensity threshold.
+                          percentile: Percentile of the intensities, snp: Signal to noise probability.
+                          Default is percentile.
 
--annotation_mz_tolerance  The m/z tolerance to annotate peaks, default is equal to the search settings MS2 tolerance.
+-annotation_mz_tolerance  The m/z tolerance to annotate peaks. 
+                          Default: equal to the search settings MS2 tolerance.
 
 -annotation_high_resolution    
                           If true the most accurate peak will be selected within the m/z tolerance.
@@ -151,10 +149,6 @@ The following parameters allow controlling the identification workflow in detail
 ## Sequence Matching ##
 
 ```
--sequence_index_type      The protein database index type. Default is 0.
-                          0: FM-Index
-                          1: Tree
-
 -sequence_matching_type   The peptide to protein sequence matching type. Default is 2.
                           0: Character Sequence
                           1: Amino Acids
@@ -162,6 +156,17 @@ The following parameters allow controlling the identification workflow in detail
 
 -sequence_matching_x      The maximal share of Xs in a sequence, 0.25 means 25% of Xs, default is 0.25.
 
+-sequence_matching_enzymatic_tags
+                          Tags should only be mapped to enzymatic peptides. 1: true, 0: false. Default is 0.
+
+-sequence_matching_max_ptms_per_tag
+                          The maximum number of PTMs per peptide when mapping tags, default is 3.
+
+-sequence_matching_min_amino_acid_score
+                          The minimum amino acid score when mapping tags, default is 30.
+
+-sequence_matching_min_tag_length
+                          The minimum tag length when mapping tags, default is 3.
 ```
 
 ## Import Filters ##
@@ -174,36 +179,38 @@ The following parameters allow controlling the identification workflow in detail
                           The maximal peptide length to consider when importing identification files, default is 30.
 
 -import_missed_cleavages_min
-                          The minimal number if missed cleavages to consider when importing identification files, default is no filter.
+                          The minimal number of missed cleavages to consider when importing identification files, 
+                          default is no filter.
 
 -import_missed_cleavages_max
-                          The maximal number if missed cleavages to consider when importing identification files, default is no filter.
+                          The maximal number of missed cleavages to consider when importing identification files, 
+                          default is no filter.
 
--import_precurosor_mz     The maximal precursor precursor deviation to allow when importing identification files, the precursor tolerance by default.
+-import_precursor_mz      The maximal precursor precursor deviation to allow when importing identification files, 
+                          the precursor tolerance by default.
 
--import_precurosor_mz_ppm Maximal precursor ion deviation unit: ppm (1) or Da (0), default is '1'.
+-import_precursor_mz_ppm  Maximal precursor ion deviation unit: ppm (1) or Da (0), default is '1'.
 
 -exclude_unknown_ptms     If true peptides presenting unrecognized PTMs will be excluded.
                           1: true, 0: false, default is '1'.
-
 ```
 
 ## PTM Localization ##
 
 ```
--ptm_score                The PTM probabilistic score to use for PTM localization, default is 1.
+-ptm_score                The PTM probabilistic score to use for modification localization, default is 1.
                           0: A-score
                           1: PhosphoRS
                           2: None
 
--ptm_threshold            The threshold to use for the PTM scores. Automatic mode will be used if not set.
-                          Default is automatic threshold.
+-ptm_threshold            The threshold to use for the modification localization score. 
+                          Default is 95. 
 
 -score_neutral_losses     Include neutral losses in spectrum annotation of the PTM score.
                           1: true, 0: false, default is '0'.
 
 -ptm_sequence_matching_type    
-                          The PTM to peptide sequence matching type. Default is 1.
+                          The modification to peptide sequence matching type. Default is 1.
                           0: Character Sequence
                           1: Amino Acids
                           2: Indistinguishable Amino Acids
@@ -229,21 +236,25 @@ The following parameters allow controlling the identification workflow in detail
 ## Protein Inference ##
 
 ```
--db_pi                    The sequence database to use for protein inference in FASTA format.
-
 -simplify_groups          Simplify protein groups.
                           1: true, 0: false, default is '1'.
-
--simplify_score           Simplify protein groups based on the PeptideShaker target/decoy score.
+                          
+-simplify_evidence        Simplify protein groups based on the UniProt protein evidence.
                           1: true, 0: false, default is '1'.
+
+-simplify_confidence      Simplify protein groups based on the peptide confidence.
+                          1: true, 0: false, default is '1'.
+
+-simplify_confidence_threshold      
+                          Peptide confidence threshold below which a peptide is considered absent, default is 0.05.
 
 -simplify_enzymaticity    Simplify protein groups based on the peptide enzymaticity.
                           1: true, 0: false, default is '1'.
 
--simplify_evidence        Simplify protein groups based on the UniProt protein evidence.
+-simplify_variant         Simplify protein groups based on the variant matching
                           1: true, 0: false, default is '1'.
 
--simplify_uncharacterized Simplify protein groups based on the protein characterization.
+-pi_modifications         Account for modifications when mapping peptides to proteins.
                           1: true, 0: false, default is '1'.
 
 ```
@@ -257,15 +268,6 @@ The following parameters allow controlling the identification workflow in detail
 
 -protein_fdr              FDR at the protein level in percent, default is 1.
 
--group_psms               Group PSMs by charge for scoring and validation.
-                          1: yes, 0: no, default is 1.
-
--group_peptides           Group peptides by modification status for scoring and validation.
-                          1: yes, 0: no, default is 1.
-
--merge_subgroups          Merge small PSM and peptide groups for scoring and validation.
-                          1: yes, 0: no, default is 1.
-
 ```
 
 ## Fraction Analysis ##
@@ -273,6 +275,20 @@ The following parameters allow controlling the identification workflow in detail
 ```
 -protein_fraction_mw_confidence
                           Minimum confidence required for a protein in the fraction MW plot (default 95%: '95.0').
+
+```
+
+## Database Processing ##
+
+```
+-fasta_target_decoy       FASTA file should be processed as target-decoy. 1: true, 0: false, default is '1'.
+
+-fasta_decoy_tag          The flag for decoy proteins in the accession. Default is '-REVERSED'.
+
+-fasta_decoy_type         Decoy type. 0: prefix, 1: suffix, default is '1'.
+
+-fasta_decoy_file_tag     The tag added after adding decoy sequences to a FASTA file. Default is 
+                          '_concatenated_target_decoy'.
 
 ```
 
@@ -289,12 +305,16 @@ The following parameters allow controlling specific identification algorithms sp
 
 -xtandem_min_frag_mz      X!Tandem 'spectrum, minimum fragment mz' option, default is '200'.
 
--xtandem_min_peaks        X!Tandem 'spectrum, minimum peaks' option, default is '15'.
+-xtandem_min_peaks        X!Tandem 'spectrum, minimum peaks' option, default is '5'.
 
 -xtandem_noise_suppr      X!Tandem 'spectrum, use noise suppression' option.
                           1: true, 0: false, default is '0'.
 
 -xtandem_min_prec_mass    X!Tandem 'spectrum, minimum parent m+h' option, default is '500'.
+
+-xtandem_parent_isotope_correction
+                          X!Tandem 'spectrum, parent monoisotopic mass isotope error. 
+                          1: true, 0: false, default is '1'.
 
 -xtandem_quick_acetyl     X!Tandem 'protein, quick acetyl' option.
                           1: true, 0: false, default is '1'.
@@ -304,6 +324,8 @@ The following parameters allow controlling specific identification algorithms sp
 
 -xtandem_stp_bias         X!Tandem 'protein, stP bias' option.
                           1: true, 0: false, default is '0'.
+
+-xtandem_ptm_complexity   X!Tandem 'protein, ptm complexity' option, default is '6.0'.
 
 -xtandem_refine           X!Tandem 'refine' option.
                           1: true, 0: false, default is '1'.
@@ -322,7 +344,7 @@ The following parameters allow controlling specific identification algorithms sp
 -xtandem_refine_p_mut     X!Tandem 'refine, point mutations' option.
                           1: true, 0: false, default is '0'.
 
--xtandem_refine_snaps     X!Tandem 'refine, saps' option.
+-xtandem_refine_snaps     X!Tandem 'refine, sNAps' option.
                           1: true, 0: false, default is '1'.
 
 -xtandem_refine_spec_synt X!Tandem 'refine, spectrum synthesis' option.
@@ -333,12 +355,16 @@ The following parameters allow controlling specific identification algorithms sp
 -xtandem_output_results   X!Tandem 'output, results' option (all|valid|stochastic), default is 'all'.
 
 -xtandem_output_proteins  X!Tandem 'output, proteins' option.
-                          1: true, 0: false, default is '0'.
+                          1: true, 0: false, default is '1'.
 
 -xtandem_output_sequences X!Tandem 'output, sequences' option.
                           1: true, 0: false, default is '0'.
 
 -xtandem_output_spectra   X!Tandem 'output, spectra' option.
+                          1: true, 0: false, default is '1'.
+
+-xtandem_output_histograms   
+                          X!Tandem 'output, histograms' option.
                           1: true, 0: false, default is '0'.
 
 -xtandem_skyline_path     X!Tandem 'spectrum, skyline path' option.
@@ -387,6 +413,9 @@ The following parameters allow controlling specific identification algorithms sp
 -myrimatch_num_batches    MyriMatch number of batches option, default is '50'.
 
 -myrimatch_max_peak       MyriMatch max peak count option, default is '100'.
+
+-myrimatch_output         MyriMatch output format option, mzIdentML or pepXML, default is 'mzIdentML'.
+
 ```
 
 ## MS Amanda advanced parameters ##
@@ -394,6 +423,9 @@ The following parameters allow controlling specific identification algorithms sp
 ```
 -ms_amanda_decoy          MS Amanda generate decoys option.
                           0: false, 1: true, default is '0'.
+
+-ms_amanda_decoy_ranking  MS Amanda decoys ranking options, 0: shared rank, 1: rank target and decoy 
+                          separately, default is '1'.
 
 -ms_amanda_instrument     MS Amanda instrument id option. Available enzymes are listed in the GUI. 
                           (Note: case sensitive.).
@@ -405,6 +437,42 @@ The following parameters allow controlling specific identification algorithms sp
 
 -ms_low_mem_mode          MS Amanda use low memory mode option.
                           0: false, 1: true, default is '1'.
+
+-ms_amanda_perform_deisotoping
+                          MS Amanda perform deisotoping. 
+                          0: false, 1: true, default is '1'.
+
+-ms_amanda_max_mod        MS Amanda maximum number of occurrences of a specific modification on 
+                          a peptide (0-10), default is '3'.
+                          
+-ms_amanda_max_var_mod.   MS Amanda maximum number of variable modifications per peptide (0-10). 
+                          default is '4'
+                          
+-ms_amanda_max_mod_sites  MS Amanda maximum number of potential modification sites per modification 
+                          per peptide (0-20), default is '6'.
+                          
+-ms_amanda_max_neutraul_losses
+                          MS Amanda maximum number of water and ammonia losses per peptide (0-5), 
+                          default is '1'.
+                          
+-ms_amanda_max_neutral_losses_mod
+                          MS Amanda maximum number identical modification specific losses per 
+                          peptide (0-5), default is '2'.
+                          
+-ms_amanda_min_pep_length MS Amanda minimum peptide length. Default is '8'.
+
+-ms_amanda_max_pep_length MS Amanda maximum peptide length. Default is '30'.
+                          
+-ms_amanda_loaded_proteins
+                          MS Amanda maximum number of proteins loaded into memory (1000-500000). 
+                          default is '100000'
+                          
+-ms_amanda_loaded_spectra MS Amanda maximum number of spectra loaded into memory (1000-500000). 
+                          default is '2000'
+                          
+-ms_amanda_output         MS Amanda output format option, csv or mzIdentML.
+                          default is 'csv'.
+
 ```
 
 ## MS-GF advanced parameters ##
@@ -454,16 +522,37 @@ The following parameters allow controlling specific identification algorithms sp
 ## OMSSA advanced parameters ##
 
 ```
--omssa_memory             OMSSA map sequences in memory option.
-                          1: true, 0: false, default is '1'.
-
--omssa_neutron            Mass after which OMSSA should consider neutron exact mass, default is '1446.94'.
-
 -omssa_low_intensity      OMSSA low intensity cutoff as percentage of the most intense peak, default is '0.0'.
 
 -omssa_high_intensity     OMSSA high intensity cutoff as percentage of the most intense peak, default is '0.2'.
 
 -omssa_intensity_incr     OMSSA intensity increment, default is '0.0005'.
+
+-omssa_min_peaks          OMSSA minimum number of peaks, integer, default is '4'.
+
+-omssa_remove_prec        OMSSA eliminate charge reduced precursors in spectra option, 
+                          1: true, 0: false, default is '0'.
+
+-omssa_estimate_charge    OMSSA estimate precursor charge option.
+                          1: Use range, 0: Believe input file, default is '1'.
+
+-omssa_plus_one           OMSSA estimate plus one charge algorithmically option. 
+                          1: true, 0: false, default is '1'.
+
+-omssa_fraction           OMSSA fraction of precursor m/z for charge one estimation, default is '0.95'.
+
+-omssa_prec_per_spectrum  OMSSA minimum number of precursors per spectrum, integer, default is '1'.
+
+-omssa_scale_prec         OMSSA scale precursor mass option.
+                          1: true, 0: false, default is '1'.
+
+-omssa_memory             OMSSA map sequences in memory option.
+                          1: true, 0: false, default is '1'.
+
+-omssa_methionine         OMSSA N-terminal methionine cleavage option.
+                          1: true, 0: false, default is '1'.
+
+-omssa_neutron            Mass after which OMSSA should consider neutron exact mass, default is '1446.94'.
 
 -omssa_single_window_wd   OMSSA single charge window width in Da, integer, default is '27'.
 
@@ -479,23 +568,11 @@ The following parameters allow controlling specific identification algorithms sp
 -omssa_min_annotated_peaks
                           OMSSA minimum number of annotated peaks, integer, default is '2'.
 
--omssa_min_peaks          OMSSA minimum number of peaks, integer, default is '4'.
-
--omssa_methionine         OMSSA N-terminal methionine cleavage option.
-                          1: true, 0: false, default is '1'.
-
 -omssa_max_ladders        OMSSA maximum number of m/z ladders, integer, default is '128'.
 
 -omssa_max_frag_charge    OMSSA maximum fragment charge, integer, default is '2'.
 
--omssa_fraction           OMSSA fraction of peaks to estimate charge 1, default is '0.95'.
-
--omssa_plus_one           OMSSA estimate plus one charge algorithmically option. 
-                          1: true, 0: false, default is '1'.
-
 -omssa_charge             OMSSA fragment charge option, 1: plus, 0: minus, default is '1'.
-
--omssa_prec_per_spectrum  OMSSA minimum number of precursors per spectrum, integer, default is '1'.
 
 -omssa_forward            OMSSA include first forward ion (b1) in search.
                           1: true, 0: false, default is '0'.
@@ -510,6 +587,8 @@ The following parameters allow controlling specific identification algorithms sp
 
 -omssa_consecutive_p      OMSSA consecutive ion probability, default is '0.5'.
 
+-omssa_hitlist_charge     OMSSA number of hits per spectrum per charge, default is '30'.
+
 -omssa_it_sequence_evalue
                           OMSSA e-value cutoff to consider a sequence in the iterative search 0.0 means all.
                           Default is '0.0'.
@@ -520,28 +599,18 @@ The following parameters allow controlling specific identification algorithms sp
 
 -omssa_it_replace_evalue  OMSSA e-value cutoff to replace a hit in the iterative search 0.0 means keep best.
                           Default is '0.0'.
+                          
+-omssa_min_pep_length     OMSSA minumum peptide length (semi-tryptic or no enzyme searches only).
 
--omssa_remove_prec        OMSSA remove precursor option, 1: true, 0: false, default is '1'.
-
--omssa_scale_prec         OMSSA scale precursor mass option.
-                          1: true, 0: false, default is '0'.
-
--omssa_estimate_charge    OMSSA estimate precursor charge option.
-                          1: true, 0: false, default is '1'.
+-omssa_max_pep_length     OMSSA maximum peptide length (OMSSA semi-tryptic or no enzyme searches only).
 
 -omssa_max_evalue         OMSSA maximal evalue considered, default is '100'.
 
 -omssa_hitlist_length     OMSSA hitlist length.
                           0 means all, default is '0'.
 
--omssa_hitlist_charge     OMSSA number of hits per spectrum per charge, default is '30'.
-
--omssa_min_pep_length     OMSSA minumum peptide length (semi-tryptic or no enzyme searches only).
-
--omssa_max_pep_length     OMSSA maximum peptide length (OMSSA semi-tryptic or no enzyme searches only).
-
 -omssa_format             OMSSA output format.
-                          0: omx, 1: csv, default is 'omx'.
+                          0: omx, 1: csv, 2: pepXML, default is 'omx'.
 
 ```
 
@@ -559,9 +628,12 @@ The following parameters allow controlling specific identification algorithms sp
 
 -comet_min_peak_int       Comet min peak intensity, default is '0.0'.
 
--comet_remove_prec        Comet remove precursor.
-                          0: off, 1: on, 2: as expected for ETD/ECD spectra.
-                          default is '0'.
+-comet_remove_prec        Comet remove precursor peaks:
+                          0: off, 
+                          1: all peaks around the precursor m/z, 
+                          2: all charge reduced precursor peaks, 
+                          3: precursor phosphate neutral loss peaks.
+                          Default is '0'.
 
 -comet_remove_prec_tol    Comet remove precursor tolerance, default is '1.5'.
 
@@ -584,12 +656,15 @@ The following parameters allow controlling specific identification algorithms sp
                           2: 0, +1, +2
                           3: 0, +1, +2, +3
                           4: -8, -4, 0, +4, +8
-                          5: -1, 0, +1, +2, +3
                           Default is '3'.
 
 -comet_min_prec_mass      Comet minimum precursor mass, default is '0.0'.
 
 -comet_max_prec_mass      Comet maximum precursor mass, default is '10000.0'.
+
+-comet_min_pep_length     Comet minimum peptide length, default is '8'.
+
+-comet_max_pep_length     Comet maximum peptide length, default is '30'.
 
 -comet_max_frag_charge    Comet maximum fragment charge [1-5], default is '3'.
 
@@ -603,15 +678,15 @@ The following parameters allow controlling specific identification algorithms sp
                           Comet theoretical_fragment_ions option, default is '1'.
 
 -comet_frag_bin_offset    Comet fragment bin offset, default is '0.0'.
+
+-comet_num_matches        Comet maximum number of spectrum matches, default is '10'.
+
+-comet_output             Comet output type, PepXML, SQT, TXT, Percolator or mzIdentML, default is 'PepXML'.
 ```
 
 ## Tide advanced parameters ##
 
 ```
--tide_num_ptms            Tide max number of PTMs per peptide, default is no limit.
-
--tide_num_ptms_per_type   Tide max number of PTMs of each type per peptide, default is '2'.
-
 -tide_min_pep_length      Tide minumum peptide length, default is '8'.
 
 -tide_max_pep_length      Tide maximum peptide length, default is '30'.
@@ -620,33 +695,34 @@ The following parameters allow controlling specific identification algorithms sp
 
 -tide_max_prec_mass       Tide maximum precursor mass, default is '7200.0'.
 
--tide_decoy_format        Tide decoy fomat (none|shuffle|peptide-reverse|protein-reverse), default is 'none'.
-
--tide_keep_terminals      Tide keep terminal amino acids when creating decoys (N|C|NC|none), default is 'NC'.
-
--tide_dedoy_seed          Tide decoy seed, default is '1'.
-
--tide_output_folder       Tide output folder (relative to the Tide working folder), default is 'crux-output'.
-
--tide_print_peptides      Tide print peptides.
-                          1: true, 0: false, default is '0'.
-
--tide_verbosity           Tide progress display verbosity (0|10|20|30|40|50|60), default is '30'.
-
 -tide_monoisotopic        Tide monoisotopic precursor.
                           1: true, 0: false, default is '1'.
 
 -tide_clip_n_term         Tide clip n term methionine.
                           1: true, 0: false, default is '0'.
 
+-tide_num_ptms            Tide max number of PTMs per peptide, default is no limit.
+
+-tide_num_ptms_per_type   Tide max number of PTMs of each type per peptide, default is '2'.
+
 -tide_digestion_type      Tide digetion type (full-digest or partial-digest), default is 'full-digest'.
 
--tide_compute_sp          Tide compute sp score.
+-tide_print_peptides      Tide print peptides.
                           1: true, 0: false, default is '0'.
 
--tide_max_psms            Tide maximum number of spectrum matches spectrum, default is '10'.
+-tide_decoy_format        Tide decoy fomat (none|shuffle|peptide-reverse|protein-reverse), default is 'none'.
+
+-tide_keep_terminals      Tide keep terminal amino acids when creating decoys (N|C|NC|none), default is 'NC'.
+
+-tide_dedoy_seed          Tide decoy seed, default is '1'.
+
+-tide_remove_temp         Tide remove temp folders when the search is done.
+                          1: true, 0: false, default is '1'.
 
 -tide_compute_p           Tide compute exact p-values.
+                          1: true, 0: false, default is '0'.
+
+-tide_compute_sp          Tide compute sp score.
                           1: true, 0: false, default is '0'.
 
 -tide_min_spectrum_mz     Tide minimum spectrum mz, default is '0.0'.
@@ -662,8 +738,6 @@ The following parameters allow controlling specific identification algorithms sp
 
 -tide_remove_prec_tol     Tide remove precursor tolerance, default is '1.5'.
 
--tide_progress_indicator  Tide progress indicator frequency, default is '1000'.
-
 -tide_use_flanking        Tide use flanking peaks.
                           1: true, 0: false, default is '0'.
 
@@ -674,10 +748,7 @@ The following parameters allow controlling specific identification algorithms sp
 
 -tide_mz_bin_offset       Tide mz bin offset, default is '0.0'.
 
--tide_concat              Tide concatenate target and decoy results.
-                          1: true, 0: false, default is '0'.
-
--tide_store_spectra       Tide file name in with to store the binary spectra, default is null, i.e., not set.
+-tide_max_psms            Tide maximum number of spectrum matches spectrum, default is '10'.
 
 -tide_export_text         Tide export text file.
                           1: true, 0: false, default is '1'.
@@ -694,8 +765,16 @@ The following parameters allow controlling specific identification algorithms sp
 -tide_export_pin          Tide export Percolator input file.
                           1: true, 0: false, default is '0'.
 
--tide_remove_temp         Tide remove temp folders when the search is done.
-                          1: true, 0: false, default is '1'.
+-tide_output_folder       Tide output folder (relative to the Tide working folder), default is 'crux-output'.
+
+-tide_verbosity           Tide progress display verbosity (0|10|20|30|40|50|60), default is '30'.
+
+-tide_progress_indicator  Tide progress indicator frequency, default is '1000'.
+
+-tide_concat              Tide concatenate target and decoy results.
+                          1: true, 0: false, default is '0'.
+
+-tide_store_spectra       Tide file name in with to store the binary spectra, default is null, i.e., not set.
 ```
 
 ## Andromeda advanced parameters ##
@@ -735,12 +814,119 @@ The following parameters allow controlling specific identification algorithms sp
 
 -andromeda_min_pep_length Andromeda minimum peptide length when using no enzyme, default is '8'.
 
--andromeda_max_pep_length Andromeda maximum peptide length when using no enzyme, default is '25'.
+-andromeda_max_pep_length Andromeda maximum peptide length when using no enzyme, default is '30'.
 
 -andromeda_equal_il       Andromeda whether I and L should be considered indistinguishable.
                           1: true, 0: false, default is '0'.
 
 -andromeda_max_psms       Andromeda maximum number of spectrum matches spectrum, default is '10'.
+```
+
+## MetaMorpheus advanced parameters ##
+
+```
+-meta_morpheus_min_pep_length
+                          MetaMorpheus minimum peptide length, default is '8'.
+
+-meta_morpheus_max_pep_length
+                          MetaMorpheus maximum peptide length, default is '30'.
+
+-meta_morpheus_search_type
+                          MetaMorpheus search type, Classic, Modern or NonSpecific, default is 'Classic'.
+
+-meta_morpheus_num_partitions
+                          MetaMorpheus number of partitions when indexing, default is '1'.
+
+-meta_morpheus_dissociation_type
+                          MetaMorpheus dissociation type, HCD, CID, ECD or ETD, default is 'HCD'.
+
+-meta_morpheus_max_mods_for_peptide
+                          MetaMorpheus maximum modifications per peptide, default is '2'.
+
+-meta_morpheus_meth       MetaMorpheus initiator methionine behavior: 
+                          Undefined, Retain, Cleave or Variable, default is 'Variable'.
+
+-meta_morpheus_score_cutoff
+                          MetaMorpheus score cutoff, default is '5.0'.
+
+-meta_morpheus_use_delta_score
+                          MetaMorpheus use delta score, 1: true, 0: false, default is '0'.
+
+-meta_morpheus_frag_term  MetaMorpheus fragmentation terminus, Both, N or C, default is 'Both'.
+
+-meta_morpheus_max_frag_size
+                          MetaMorpheus maximum fragmentation size, default is '30000'.
+
+-meta_morpheus_mass_diff_acceptor_type
+                          MetaMorpheus mass difference acceptor type, Exact, OneMM, TwoMM, ThreeMM, 
+                          PlusOrMinusThreeMM, ModOpen or Open, default is 'OneMM'.
+
+-meta_morpheus_write_mzid MetaMorpheus write mzid, 1: true, 0: false, default is '1'.
+
+-meta_morpheus_write_pepxml
+                          MetaMorpheus write pepxml, 1: true, 0: false, default is '0'.
+
+-meta_morpheus_use_provided_prec
+                          MetaMorpheus use provided precursor info, 1: true, 0: false, default is '1'.
+
+-meta_morpheus_do_prec_deconv
+                          MetaMorpheus do precursor deconvolution, 1: true, 0: false, default is '1'.
+
+-meta_morpheus_deconv_int_ratio
+                          MetaMorpheus deconvolution intensity ratio, default is '3.0'.
+
+-meta_morpheus_deconv_mass_tol
+                          MetaMorpheus deoconvolution mass tolerance, default is '4.0'.
+
+-meta_morpheus_deconv_mass_tol_type
+                          MetaMorpheus deoconvolution mass tolerance type, PPM or Absolute, default is 'PPM'.
+
+-meta_morpheus_trim_ms1   MetaMorpheus trim MS1 peaks, 1: true, 0: false, default is '0'.
+
+-meta_morpheus_trim_msms  MetaMorpheus trim MSMS peaks, 1: true, 0: false, default is '1'.
+
+-meta_morpheus_num_peaks_per_window
+                          MetaMorpheus number of peaks per window, default is '200'.
+
+-meta_morpheus_min_allowed_int_ratio_to_base_peak
+                          MetaMorpheus minium allowed intensity ratio to base peak, default is '0.01'.
+
+-meta_morpheus_window_with_thompson
+                          MetaMorpheus window width in Thompson.
+
+-meta_morpheus_num_windows
+                          MetaMorpheus number of windows.
+
+-meta_morpheus_norm_across_all_windows
+                          MetaMorpheus normalize peaks across all windows, 1: true, 0: false, default is '0'.
+
+-meta_morpheus_mod_peptides_are_different
+                          MetaMorpheus modified peptides are different, 1: true, 0: false, default is '0'.
+
+-meta_morpheus_no_one_hit_wonders
+                          MetaMorpheus exclude one hit wonders, 1: true, 0: false, default is '0'.
+
+-meta_morpheus_search_target
+                          MetaMorpheus search target sequences, 1: true, 0: false, default is '1'.
+
+-meta_morpheus_decoy_type MetaMorpheus decoy type, None, Reverse or Slide, default is 'None'.
+
+-meta_morpheus_max_mod_isoforms
+                          MetaMorpheus maximum modified isoforms, default is '1024'.
+
+-meta_morpheus_min_variant_depth
+                          MetaMorpheus minimum variant depth, default is '1'.
+
+-meta_morpheus_max_hetrozygous_var
+                          MetaMorpheus maximum hetrozygous variants, default is '4'.
+
+-meta_morpheus_gptm       MetaMorpheus run G-PTM, 1: true, 0: false, default is '0'.
+
+-meta_morpheus_gptm_categories
+                          MetaMorpheus G-PTM categories to include in the G-PTM search:
+                          Common, Common_Biological, Common_Artifact, Metal, Glyco,
+                          Less_Common, Labeling, Nucleotide_Substitution_One, 
+                          Nucleotide_Substitution_TwoPlus, Other.
 ```
 
 ## PepNovo advanced parameters ##
@@ -765,58 +951,6 @@ The following parameters allow controlling specific identification algorithms sp
                           1: true, 0: false, default is '0'.
 ```
 
-## DirecTag advanced parameters ##
-
-```
--directag_tic_cutoff      DirecTag TIC cutoff in percent, default is '85'.
-
--directag_max_peak_count  DirecTag max peak count, default is '400'.
-
--directag_intensity_classes
-                          DirecTag number of intensity classses, default is '3'.
-
--directag_adjust_precursor
-                          DirecTag adjust precursor, 1: true, 0: false, default is '0'.
-
--directag_min_adjustment  DirecTag minimum precursor adjustment, default is '-2.5'.
-
--directag_max_adjustment  DirecTag maximum precursor adjustment, default is '2.5'.
-
--directag_adjustment_step DirecTag precursor adjustment step, default is '0.1'.
-
--directag_charge_states   DirecTag number of charge states considered, default is '3'.
-
--directag_output_suffix   DirecTag output suffic, default is no suffix.
-
--directag_ms_charge_state DirecTag use charge state from M spectrum, 1: true, 0: false, default is '0'.
-
--directag_duplicate_spectra
-                          DirecTag duplicate spectra per charge, 1: true, 0: false, default is '1'.
-
--directag_deisotoping     DirecTag deisotoping mode, default is '0', 0: no deisotoping, 
-                          1: precursor only, 2: precursor and candidate.
-
--directag_isotope_tolerance
-                          DirecTag isotope mz tolerance, default is '0.25'.
-
--directag_complement_tolerance
-                          DirecTag complement mz tolerance, default is '0.5'.
-
--directag_tag_length      DirecTag tag length, default is '3'.
-
--directag_max_var_mods    DirecTag maximum variable modifications per sequence, default is '2'.
-
--directag_max_tag_count   DirecTag maximum tag count, default is '20'.
-
--directag_intensity_weight
-                          DirecTag intensity score weight, default is '1.0'.
-
--directag_fidelity_weight DirecTag fidelity score weight, default is '1.0'.
-
--directag_complement_weight
-                          DirecTag complement_score_weight, default is '1.0'.
-```
-
 ## pNovo advanced parameters ##
 
 ```
@@ -835,6 +969,60 @@ The following parameters allow controlling specific identification algorithms sp
 -novor_fragmentation      Novor fragmentation method, CID or HCD, default is 'HCD'.
 
 -novor_mass_analyzer      Novor mass analyzer, Trap, TOF, or FT, default is 'FT'.
+```
+
+
+## DirecTag advanced parameters ##
+
+```
+
+-directag_tag_length      DirecTag tag length, default is '4'.
+
+-directag_max_var_mods    DirecTag maximum variable modifications per sequence, default is '2'.
+
+-directag_charge_states   DirecTag number of charge states considered, default is '3'.
+
+-directag_duplicate_spectra
+                          DirecTag duplicate spectra per charge, 1: true, 0: false, default is '1'.
+
+-directag_isotope_tolerance
+                          DirecTag isotope mz tolerance, default is '0.25'.
+
+-directag_deisotoping     DirecTag deisotoping mode, default is '0', 0: no deisotoping, 
+                          1: precursor only, 2: precursor and candidate.
+
+-directag_intensity_classes
+                          DirecTag number of intensity classses, default is '3'.
+
+-directag_output_suffix   DirecTag output suffic, default is no suffix.
+
+-directag_max_peak_count  DirecTag max peak count, default is '100'.
+
+-directag_max_tag_count   DirecTag maximum tag count, default is '10'.
+
+-directag_tic_cutoff      DirecTag TIC cutoff in percent, default is '100'.
+
+-directag_complement_tolerance
+                          DirecTag complement mz tolerance, default is '0.1'.
+
+-directag_adjustment_step DirecTag precursor adjustment step, default is '0.1'.
+
+-directag_min_adjustment  DirecTag minimum precursor adjustment, default is '-0.5'.
+
+-directag_max_adjustment  DirecTag maximum precursor adjustment, default is '1.5'.
+
+-directag_intensity_weight
+                          DirecTag intensity score weight, default is '1.0'.
+
+-directag_fidelity_weight DirecTag fidelity score weight, default is '1.0'.
+
+-directag_complement_weight
+                          DirecTag complement_score_weight, default is '1.0'.
+                          
+-directag_adjust_precursor
+                          DirecTag adjust precursor, 1: true, 0: false, default is '0'.
+
+-directag_ms_charge_state DirecTag use charge state from M spectrum, 1: true, 0: false, default is '1'.
 ```
 
 ---
