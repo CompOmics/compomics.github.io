@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.2 (November 6. 2020):**
+
+* BUG FIX: Fixed a bug with a missing temp folder for Andromeda.
+
+----
+
 **Changes in SearchGUI 4.0.1 (November 5. 2020):**
 
 * FEATURE IMPROVEMENT: Added a missing underscore when naming the SearchGUI output file.
