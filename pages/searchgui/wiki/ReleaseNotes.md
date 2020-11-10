@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.3 (November 10. 2020):**
+
+* FEATURE IMPROVEMENT: Updated Comet to version 2020.01 rev. 0.
+
+----
+
 **Changes in SearchGUI 4.0.2 (November 6. 2020):**
 
 * BUG FIX: Fixed a bug with a missing temp folder for Andromeda.
