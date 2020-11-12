@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.2 (November 11. 2020):**
+
+* BUG FIX: Fixed a bug in opening the example dataset.
+
+----
+
 **Changes in PeptideShaker 2.0.1 (November 11. 2020):**
 
 * BUG FIX: Fixed bugs in the gzip options for the MzidCLI and ReportCLI command lines.
