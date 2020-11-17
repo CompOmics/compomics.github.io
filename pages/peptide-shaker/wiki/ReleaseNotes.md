@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.3 (November 17. 2020):**
+
+* BUG FIX: Fixed a drawing bug in the validation plots.
+
+----
+
 **Changes in PeptideShaker 2.0.2 (November 11. 2020):**
 
 * BUG FIX: Fixed a bug in opening the example dataset.
