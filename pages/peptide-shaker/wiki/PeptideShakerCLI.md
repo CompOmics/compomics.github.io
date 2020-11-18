@@ -64,8 +64,8 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [par
 **Optional output parameters**
 
 ```
--out                       PeptideShaker output file (.cpsx). If the file already exists 
-                           it will be silently overwritten. Example: "c:\ps_output.cpsx".
+-out                       PeptideShaker output file (.psdb). If the file already exists 
+                           it will be silently overwritten. Example: "c:\ps_output.psdb".
 
 -zip                       Exports the entire project as a zip file in the file specified.
 
@@ -90,7 +90,7 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI
 -reference myReference -fasta_file "C:\my folder\my_data.fasta"
 -identification_files "C:\my folder" -spectrum_files "C:\my folder" 
 -id_params "C:\my folder\my_search_params.par" 
--out "C:\my folder\myCpsFile.cpsx"
+-out "C:\my folder\myCpsFile.psdb"
 ```
 
 _Note that for readability the command is here split over multiple lines. When used the command should of course be a single line._
@@ -162,7 +162,7 @@ ReportCLI example where _X_, _Y_ and _Z_ have to be replaced by the actual versi
 
 ```java
 java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.ReportCLI 
--in "C:\my folder\myCpsFile.cpsx" -out_reports "C:\my folder" -reports "0, 3" -report_prefix "my_" -gzip 0
+-in "C:\my folder\myCpsFile.psdb" -out_reports "C:\my folder" -reports "0, 3" -report_prefix "my_" -gzip 0
 ```
 
 [Go to top of page](#peptideshakercli)
@@ -285,7 +285,7 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.FollowUpCLI [paramete
 FollowUpCLI example where _X_, _Y_ and _Z_ have to be replaced by the actual version of PeptideShaker and _my folder_ by the folder containing the desired files:
 
 ```java
-java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.FollowUpCLI -in "C:\my folder\myCpsFile.cpsx" -spectrum_folder "C:\my folder" -psm_type 0
+java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.FollowUpCLI -in "C:\my folder\myCpsFile.psdb" -spectrum_folder "C:\my folder" -psm_type 0
 ```
 
 [Go to top of page](#peptideshakercli)
@@ -417,7 +417,7 @@ See also: [JavaTroubleShooting](/projects/compomics-utilities/wiki/JavaTroubleSh
 To open a PeptideShaker project (cps file or zipped cps file) from the command line (for display in PeptideShaker) use the following command:
 
 ```java
-java -jar PeptideShaker-X.Y.Z.jar -cps "C:\my folder\myCpsFile.cpsx"
+java -jar PeptideShaker-X.Y.Z.jar -cps "C:\my folder\myCpsFile.psdb"
 ```
 
 To open a zipped PeptideShaker project via a URL from the command line (for display in PeptideShaker) use the following command:

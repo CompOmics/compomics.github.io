@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.4 (November 18. 2020):**
+
+* BUG FIX: Fixed bugs with locating moved FASTA and spectrum files.
+* BUG FIX: The out option is now mandatory for the PeptideShakerCLI command line if the zip option is used.
+
+----
+
 **Changes in PeptideShaker 2.0.3 (November 17. 2020):**
 
 * BUG FIX: Fixed a drawing bug in the validation plots.
