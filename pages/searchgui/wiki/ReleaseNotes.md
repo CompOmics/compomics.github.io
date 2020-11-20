@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.4 (November 20. 2020):**
+
+* FEATURE IMPROVEMENT: Added support for parsing spectrum titles with leading or trailing white space.
+* LIBRARY UPDATE: Updated utilities to version 5.0.1.
+
+---
+
 **Changes in SearchGUI 4.0.3 (November 10. 2020):**
 
 * FEATURE IMPROVEMENT: Updated Comet to version 2020.01 rev. 0.
