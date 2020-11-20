@@ -11,6 +11,15 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.5 (November 20. 2020):**
+
+* FEATURE IMPROVEMENT: Added support for parsing spectrum titles with leading or trailing white space.
+* FEATURE IMPROVEMENT: Hid the kryo illegal reflective access warning messages.
+* BUG FIX: Added missing mgf file extensions in the follow up exports.
+* LIBRARY UPDATE: Updated utilities to version 5.0.1.
+
+---
+
 **Changes in PeptideShaker 2.0.4 (November 18. 2020):**
 
 * BUG FIX: Fixed bugs with locating moved FASTA and spectrum files.
