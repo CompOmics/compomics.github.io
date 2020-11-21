@@ -34,7 +34,7 @@ permalink: /projects/omssa-parser
 
 |   |   |   |
 | :------------------------- | :---------------: | :--: |
-| [![download](https://github.com/compomics/omssa-parser/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/de/proteinms/omxparser/omssa-parser/2.0.0/omssa-parser-2.0.0.zip) | *v2.0.0 - All platforms* | [ReleaseNotes](/projects/omssa-parser/wiki/ReleaseNotes) |
+| [![download](https://github.com/compomics/omssa-parser/wiki/images/download_button.png)](http://genesis.ugent.be/maven2/de/proteinms/omxparser/omssa-parser/2.0.1/omssa-parser-2.0.1.zip) | *v2.0.1 - All platforms* | [ReleaseNotes](/projects/omssa-parser/wiki/ReleaseNotes) |
 
 ---
 
