@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.5 (November 26. 2020):**
+
+* BUG FIX: Fixed a bug in the Whole Protein digestion for Tide.
+
+----
+
 **Changes in SearchGUI 4.0.4 (November 20. 2020):**
 
 * FEATURE IMPROVEMENT: Added support for parsing spectrum titles with leading or trailing white space.
