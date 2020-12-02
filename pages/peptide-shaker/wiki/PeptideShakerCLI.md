@@ -43,7 +43,7 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [par
 **Mandatory parameters**
 
 ```
--reference                 The reference for the project.
+-reference                 The reference/name for the project.
 
 -fasta_file (*)            The complete path to the FASTA file.
 

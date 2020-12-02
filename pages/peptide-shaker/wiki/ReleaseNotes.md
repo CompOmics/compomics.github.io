@@ -11,6 +11,14 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.6 (December 2. 2020):**
+
+* BUG FIX: Fixed a bug in loading datasets without any validated PSMs.
+
+* LIBRARY UPDATE: Updated utilities to version 5.0.2.
+
+---
+
 **Changes in PeptideShaker 2.0.5 (November 20. 2020):**
 
 * FEATURE IMPROVEMENT: Added support for parsing spectrum titles with leading or trailing white space.
