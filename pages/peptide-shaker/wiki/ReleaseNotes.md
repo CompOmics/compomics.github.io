@@ -11,6 +11,14 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.7 (December 18. 2020):**
+
+* BUG FIX: Fixed an issue with checking for new versions when running in Conda.
+
+* LIBRARY UPDATE: Updated utilities to version 5.0.3.
+
+---
+
 **Changes in PeptideShaker 2.0.6 (December 2. 2020):**
 
 * BUG FIX: Fixed a bug in loading datasets without any validated PSMs.
