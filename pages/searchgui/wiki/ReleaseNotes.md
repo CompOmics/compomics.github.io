@@ -11,6 +11,14 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.6 (December 18. 2020):**
+
+* FEATURE IMPROVEMENT: Updated Comet to version 2020.01 rev. 1.
+* BUG FIX: Fixed an issue with checking for new versions when running in Conda.
+* LIBRARY UPDATE: Updated utilities to version 5.0.3.
+
+----
+
 **Changes in SearchGUI 4.0.5 (November 26. 2020):**
 
 * BUG FIX: Fixed a bug in the Whole Protein digestion for Tide.
@@ -22,7 +30,7 @@ github_project: "https://github.com/compomics/searchgui"
 * FEATURE IMPROVEMENT: Added support for parsing spectrum titles with leading or trailing white space.
 * LIBRARY UPDATE: Updated utilities to version 5.0.1.
 
----
+----
 
 **Changes in SearchGUI 4.0.3 (November 10. 2020):**
 
