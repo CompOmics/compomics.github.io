@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.7 (December 19. 2020):**
+
+* BUG FIX: Fixed a bug in the update checker.
+
+----
+
 **Changes in SearchGUI 4.0.6 (December 18. 2020):**
 
 * FEATURE IMPROVEMENT: Updated Comet to version 2020.01 rev. 1.
