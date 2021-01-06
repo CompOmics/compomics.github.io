@@ -11,10 +11,17 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.9 (January 6. 2020):**
+
+* FEATURE IMPROVEMENT: The temp folders for X! Tandem, MS Amanda, MS-GF+, Comet, MetaMorpheus and Novor can now be controlled via the new search_engine_temp option.
+* BUG FIX: Fixed a bug in the MaxNumberNeutralLossModifications parameter for MS Amanda.
+* LIBRARY UPDATE: Updated utilities to version 5.0.5.
+
+---
+
 **Changes in SearchGUI 4.0.8 (December 22. 2020):**
 
 * BUG FIX: Fixed an issue with indexing mgf files with empty spectra.
-
 * LIBRARY UPDATE: Updated utilities to version 5.0.4.
 
 ---

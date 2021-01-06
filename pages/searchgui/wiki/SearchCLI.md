@@ -190,9 +190,8 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.PathSettingsCLI [parameters]
 ### Specific path setting
 
 ```java
--comet_temp                Folder where Comet temporary files are stored.
-
--andromeda_temp            Folder where Andromeda temporary files are stored.
+-search_engine_temp        Folder where search engine temporary files are stored.
+                           (Note that this does not work for Andromeda, Tide and OMSSA)
 
 -utilities_user_preferences         
                            Folder containing the compomics utilities user preferences file.
