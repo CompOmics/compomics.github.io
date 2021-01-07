@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.10 (January 7. 2020):**
+
+* FEATURE IMPROVEMENT: The temp folder for OMSSA can now also be controlled via the new search_engine_temp option.
+
+---
+
 **Changes in SearchGUI 4.0.9 (January 6. 2020):**
 
 * FEATURE IMPROVEMENT: The temp folders for X! Tandem, MS Amanda, MS-GF+, Comet, MetaMorpheus and Novor can now be controlled via the new search_engine_temp option.
