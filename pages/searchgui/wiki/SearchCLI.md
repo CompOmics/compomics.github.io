@@ -191,7 +191,7 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.PathSettingsCLI [parameters]
 
 ```java
 -search_engine_temp        Folder where search engine temporary files are stored.
-                           (Note that this does not work for Andromeda, Tide and OMSSA)
+                           (Note: does not work for Andromeda!)
 
 -utilities_user_preferences         
                            Folder containing the compomics utilities user preferences file.
