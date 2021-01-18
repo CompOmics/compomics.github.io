@@ -11,10 +11,16 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.9 (January 18. 2021):**
+
+* BUG FIX: Fixed a bug in the protein inference graphs for displaying non-enzymatic peptides.
+* LIBRARY UPDATE: Updated utilities to version 5.0.5.
+
+---
+
 **Changes in PeptideShaker 2.0.8 (December 22. 2020):**
 
 * BUG FIX: Fixed an issue with indexing mgf files with empty spectra.
-
 * LIBRARY UPDATE: Updated utilities to version 5.0.4.
 
 ---
@@ -22,7 +28,6 @@ github_project: "https://github.com/compomics/peptide-shaker"
 **Changes in PeptideShaker 2.0.7 (December 18. 2020):**
 
 * BUG FIX: Fixed an issue with checking for new versions when running in Conda.
-
 * LIBRARY UPDATE: Updated utilities to version 5.0.3.
 
 ---
@@ -30,7 +35,6 @@ github_project: "https://github.com/compomics/peptide-shaker"
 **Changes in PeptideShaker 2.0.6 (December 2. 2020):**
 
 * BUG FIX: Fixed a bug in loading datasets without any validated PSMs.
-
 * LIBRARY UPDATE: Updated utilities to version 5.0.2.
 
 ---
