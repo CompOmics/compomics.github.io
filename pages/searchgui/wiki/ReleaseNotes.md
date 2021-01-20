@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.13 (January 20. 2021):**
+
+* FEATURE IMPROVEMENT: Updated MetaMorpheus to version 0.0.312.
+
+---
+
 **Changes in SearchGUI 4.0.12 (January 11. 2021):**
 
 * FEATURE IMPROVEMENT: The temp folders for Tide can now also be controlled via the search_engine_temp option.
