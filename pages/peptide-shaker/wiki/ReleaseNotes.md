@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.10 (January 21. 2021):**
+
+* BUG FIX: Fixed a bug in the export of non-enzymatic peptides.
+* LIBRARY UPDATE: Updated utilities to version 5.0.6.
+
+---
+
 **Changes in PeptideShaker 2.0.9 (January 18. 2021):**
 
 * BUG FIX: Fixed a bug in the protein inference graphs for displaying non-enzymatic peptides.
