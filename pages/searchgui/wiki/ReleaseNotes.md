@@ -11,6 +11,31 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.17 (January 27. 2021):**
+
+* FEATURE IMPROVEMENT: Updated MetaMorpheus to version 0.0.313.
+
+---
+
+**Changes in SearchGUI 4.0.16 (January 27. 2021):**
+
+* BUG FIX: Fixed a bug in the check for new versions.
+
+---
+
+**Changes in SearchGUI 4.0.15 (January 27. 2021):**
+
+* BUG FIX: Fixed a bug with the conversion of Bruker .d files.
+
+---
+
+**Changes in SearchGUI 4.0.14 (January 27. 2021):**
+
+* FEATURE IMPROVEMENT: Updated Comet to version 2020.01 rev. 2.
+* LIBRARY UPDATE: Updated utilities to version 5.0.6.
+
+---
+
 **Changes in SearchGUI 4.0.13 (January 20. 2021):**
 
 * FEATURE IMPROVEMENT: Updated MetaMorpheus to version 0.0.312.
