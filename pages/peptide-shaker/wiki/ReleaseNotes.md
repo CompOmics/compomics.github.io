@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.11 (January 29. 2021):**
+
+* FEATURE IMPROVEMENT: The Java version warning now appears if using Java 8 or older.
+* LIBRARY UPDATE: Updated utilities to version 5.0.7.
+
+---
+
 **Changes in PeptideShaker 2.0.10 (January 21. 2021):**
 
 * BUG FIX: Fixed a bug in the export of non-enzymatic peptides.
