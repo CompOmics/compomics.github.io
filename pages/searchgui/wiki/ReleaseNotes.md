@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.18 (January 29. 2021):**
+
+* FEATURE IMPROVEMENT: The Java version warning now appears if using Java 8 or older.
+* LIBRARY UPDATE: Updated utilities to version 5.0.7.
+
+---
+
 **Changes in SearchGUI 4.0.17 (January 27. 2021):**
 
 * FEATURE IMPROVEMENT: Updated MetaMorpheus to version 0.0.313.
