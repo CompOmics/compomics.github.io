@@ -11,6 +11,14 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.19 (February 24. 2021):**
+
+* FEATURE IMPROVEMENT: Updated MetaMorpheus to version 0.0.315.
+* BUG FIX: Fixed a bug in the saving of min/max peptide lengths for Comet.
+* LIBRARY UPDATE: Updated utilities to version 5.0.8.
+
+---
+
 **Changes in SearchGUI 4.0.18 (January 29. 2021):**
 
 * FEATURE IMPROVEMENT: The Java version warning now appears if using Java 8 or older.
