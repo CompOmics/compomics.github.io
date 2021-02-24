@@ -11,6 +11,14 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.12 (February 24. 2021):**
+
+* FEATURE IMPROVEMENT: Added the search engine raw score for peptides and tags.
+* LIBRARY UPDATE: Updated omssa-parser to version 2.0.2.
+* LIBRARY UPDATE: Updated utilities to version 5.0.8.
+
+---
+
 **Changes in PeptideShaker 2.0.11 (January 29. 2021):**
 
 * FEATURE IMPROVEMENT: The Java version warning now appears if using Java 8 or older.
