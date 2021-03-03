@@ -8,8 +8,19 @@ github_project: "https://github.com/compomics/reporter"
 ---
 
 # ReleaseNotes
+'# ReleaseNotes
 
 ---
+
+**Changes in Reporter 0.8.0 (March 2. 2021):**
+
+* FEATURE IMPROVEMENT: Added support for TMTpro (i.e. TMT 16-plex).
+* FEATURE IMPROVEMENT: Moved the code to Java 14. Note that Java 9 or newer is now required to run Reporter!
+* LIBRARY UPDATE: Updated JSparklines to version 1.0.12.
+* LIBRARY UPDATE: Updated PeptideShaker to version 2.0.12.
+* LIBRARY UPDATE: Updated utilities to version 5.0.8.
+
+----
 
 **Changes in Reporter 0.7.20 (July 7. 2019):**
 
