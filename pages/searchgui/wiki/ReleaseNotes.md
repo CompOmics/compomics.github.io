@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.20 (March 8. 2021):**
+
+* FEATURE IMPROVEMENT: Made the FASTA header parsing (slightly) more robust.
+* LIBRARY UPDATE: Updated utilities to version 5.0.9.
+
+---
+
 **Changes in SearchGUI 4.0.19 (February 24. 2021):**
 
 * FEATURE IMPROVEMENT: Updated MetaMorpheus to version 0.0.315.
