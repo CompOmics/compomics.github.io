@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.13 (March 8. 2021):**
+
+* FEATURE IMPROVEMENT: Made the FASTA header parsing (slightly) more robust.
+* LIBRARY UPDATE: Updated utilities to version 5.0.9.
+
+---
+
 **Changes in PeptideShaker 2.0.12 (February 24. 2021):**
 
 * FEATURE IMPROVEMENT: Added the search engine raw score for peptides and tags.
