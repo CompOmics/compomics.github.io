@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.14 (March 10. 2021):**
+
+* BUG FIX: Fixed a bug with the fragmentation setting for MS-GF+ when using the command line.
+* LIBRARY UPDATE: Updated utilities to version 5.0.10.
+
+---
+
 **Changes in PeptideShaker 2.0.13 (March 8. 2021):**
 
 * FEATURE IMPROVEMENT: Made the FASTA header parsing (slightly) more robust.
