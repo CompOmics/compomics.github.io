@@ -11,6 +11,19 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.22 (March 10. 2021):**
+
+* BUG FIX: Fixed a bug with the fragmentation setting for MS-GF+ when using the command line.
+* LIBRARY UPDATE: Updated utilities to version 5.0.10.
+
+---
+
+**Changes in SearchGUI 4.0.21 (March 10. 2021):**
+
+* BUG FIX: Fixed a bug with the use of custom enzymes in MS-GF+.
+
+---
+
 **Changes in SearchGUI 4.0.20 (March 8. 2021):**
 
 * FEATURE IMPROVEMENT: Made the FASTA header parsing (slightly) more robust.
