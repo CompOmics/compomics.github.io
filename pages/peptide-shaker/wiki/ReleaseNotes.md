@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.15 (March 14. 2021):**
+
+* BUG FIX: Fixed bugs in parsing the user-defined exports.
+* LIBRARY UPDATE: Updated utilities to version 5.0.11.
+
+---
+
 **Changes in PeptideShaker 2.0.14 (March 10. 2021):**
 
 * BUG FIX: Fixed a bug with the fragmentation setting for MS-GF+ when using the command line.
