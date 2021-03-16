@@ -11,10 +11,10 @@ permalink: /projects/DeepLC
 <img src="https://github.com/compomics/DeepLC/raw/master/img/deeplc_logo.png"
 width="150" height="150" /> <br/><br/>
 
-[![GitHub release](https://flat.badgen.net/github/release/compomics/deeplc)](/projects/DeepLC/releases/latest/)
+[![GitHub release](https://flat.badgen.net/github/release/compomics/deeplc)](https://github.com/compomics/DeepLC/releases/latest/)
 [![PyPI](https://flat.badgen.net/pypi/v/deeplc)](https://pypi.org/project/deeplc/)
 [![Conda](https://img.shields.io/conda/vn/bioconda/deeplc?style=flat-square)](https://bioconda.github.io/recipes/deeplc/README.html)
-[![GitHub Workflow Status](https://flat.badgen.net/github/checks/compomics/deeplc/)](/projects/deeplc/actions/)
+[![GitHub Workflow Status](https://flat.badgen.net/github/checks/compomics/deeplc/)](/projects/deeplc/actions)
 [![License](https://flat.badgen.net/github/license/compomics/deeplc)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Twitter](https://flat.badgen.net/twitter/follow/compomics?icon=twitter)](https://twitter.com/compomics)
 
@@ -50,10 +50,10 @@ module.
 ## Graphical user interface
 ### Installation
 
-[![Download GUI](https://flat.badgen.net/badge/download/GUI/green)](/projects/DeepLC/releases/latest/)
+[![Download GUI](https://flat.badgen.net/badge/download/GUI/green)](https://github.com/compomics/DeepLC/releases/latest/)
 
 1. Download `deeplc_gui.zip` from the
-[latest release](/projects/DeepLC/releases/latest/) and
+[latest release](https://github.com/compomics/DeepLC/releases/latest/) and
 unzip.
 2. Install DeepLC GUI with `install_gui_windows.bat` or `install_gui_linux.sh`,
 depending on your operating system.
