@@ -159,7 +159,7 @@ def url_sub(matches):
     """
     Function for re.sub() that returns a parsed URL
     """
-    url = matches.group(1)
+    url = matches.group(1).rstrip("/")
 
     if url.endswith('wiki'):
         return '/projects' + url + ')'
