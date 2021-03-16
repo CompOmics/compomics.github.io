@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.16 (March 16. 2021):**
+
+* FEATURE IMPROVEMENT: Extended the protein exports to also include organism identifiers for UniProt headers.
+* LIBRARY UPDATE: Updated utilities to version 5.0.12.
+
+---
+
 **Changes in PeptideShaker 2.0.15 (March 14. 2021):**
 
 * BUG FIX: Fixed bugs in parsing the user-defined exports.
