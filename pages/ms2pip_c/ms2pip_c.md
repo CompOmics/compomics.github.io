@@ -11,11 +11,11 @@ permalink: /projects/ms2pip_c
 [<img src="https://github.com/compomics/ms2pip_c/raw/releases/img/ms2pip_logo_1000px.png" width="150" height="150" />](https://iomics.ugent.be/ms2pip/)
 <br/><br/>
 
-[![GitHub release](https://flat.badgen.net/github/release/compomics/ms2pip_c/stable)](/projects/ms2pip_c/releases/latest/)
+[![GitHub release](https://flat.badgen.net/github/release/compomics/ms2pip_c/stable)](https://github.com/compomics/ms2pip_c/releases/latest/)
 [![PyPI](https://flat.badgen.net/pypi/v/ms2pip)](https://pypi.org/project/ms2pip/)
-[![GitHub Workflow Status](https://flat.badgen.net/github/checks/compomics/ms2pip_c/releases)](/projects/ms2pip_c/actions/)
-[![Last commit](https://flat.badgen.net/github/open-issues/compomics/ms2pip_c)](/projects/ms2pip_c/issues/)
-[![Last commit](https://flat.badgen.net/github/last-commit/compomics/ms2pip_c/releases)](/projects/ms2pip_c/commits/releases/)
+[![GitHub Workflow Status](https://flat.badgen.net/github/checks/compomics/ms2pip_c/releases)](/projects/ms2pip_c/actions)
+[![Last commit](https://flat.badgen.net/github/open-issues/compomics/ms2pip_c)](https://github.com/compomics/ms2pip_c/issues/)
+[![Last commit](https://flat.badgen.net/github/last-commit/compomics/ms2pip_c/releases)](https://github.com/compomics/ms2pip_c/commits/releases/)
 [![GitHub](https://flat.badgen.net/github/license/compomics/ms2pip_c)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Twitter](https://flat.badgen.net/twitter/follow/compomics?icon=twitter)](https://twitter.com/compomics)
 
@@ -54,7 +54,7 @@ Fasta2speclib was developed in collaboration with the ProGenTomics group for the
 [MS²PIP for DIA](https://github.com/brvpuyve/MS2PIP-for-DIA) project.
 
 To improve the sensitivity of your peptide identification pipeline with MS²PIP
-predictions, check out [MS²ReScore](/projects/ms2rescore/).
+predictions, check out [MS²ReScore](/projects/ms2rescore).
 
 If you use MS²PIP for your research, please cite the following articles:
 - Gabriels, R., Martens, L., & Degroeve, S. (2019). Updated MS²PIP web server
