@@ -11,6 +11,16 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.23 (March 24. 2021):**
+
+* FEATURE IMPROVEMENT: Updated Comet to version 2020.01 rev. 3.
+* FEATURE IMPROVEMENT: Updated MS-GF+ to version 2021.03.22.
+* FEATURE IMPROVEMENT: Updated MS Amanda to version 2.0.0.17442.
+* FEATURE IMPROVEMENT: Updated MetaMorpheus to version 0.0.316.
+* LIBRARY UPDATE: Updated utilities to version 5.0.12.
+
+---
+
 **Changes in SearchGUI 4.0.22 (March 10. 2021):**
 
 * BUG FIX: Fixed a bug with the fragmentation setting for MS-GF+ when using the command line.
