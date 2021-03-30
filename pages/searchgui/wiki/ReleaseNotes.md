@@ -11,6 +11,20 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.25 (March 30. 2021):**
+
+* FBUG FIX: Fixed a bug in the check for duplicate accession numbers in FASTA files.
+* LIBRARY UPDATE: Updated utilities to version 5.0.14.
+
+---
+
+**Changes in SearchGUI 4.0.24 (March 30. 2021):**
+
+* FEATURE IMPROVEMENT: Re-added the check for duplicate accession numbers in FASTA files.
+* LIBRARY UPDATE: Updated utilities to version 5.0.13.
+
+---
+
 **Changes in SearchGUI 4.0.23 (March 24. 2021):**
 
 * FEATURE IMPROVEMENT: Updated Comet to version 2020.01 rev. 3.
