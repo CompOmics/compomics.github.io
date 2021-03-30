@@ -13,10 +13,10 @@ permalink: /projects/ms2rescore
 
 [![GitHub release](https://img.shields.io/github/release-pre/compomics/ms2rescore.svg?style=flat-square)](https://github.com/compomics/ms2rescore/releases)
 [![PyPI](https://flat.badgen.net/pypi/v/ms2rescore)](https://pypi.org/project/ms2rescore/)
-[![GitHub Workflow Status](https://flat.badgen.net/github/checks/compomics/ms2rescore/master)](/projects/ms2rescore/actions/)
+[![GitHub Workflow Status](https://flat.badgen.net/github/checks/compomics/ms2rescore/master)](/projects/ms2rescore/actions)
 [![GitHub issues](https://img.shields.io/github/issues/compomics/ms2rescore?style=flat-square)](https://github.com/compomics/ms2rescore/issues)
 [![GitHub](https://img.shields.io/github/license/compomics/ms2rescore.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
-[![Last commit](https://flat.badgen.net/github/last-commit/compomics/ms2rescore)](/projects/ms2rescore/commits/)
+[![Last commit](https://flat.badgen.net/github/last-commit/compomics/ms2rescore)](/projects/ms2rescore/commits)
 [![Twitter](https://flat.badgen.net/twitter/follow/compomics?icon=twitter)](https://twitter.com/compomics)
 
 
