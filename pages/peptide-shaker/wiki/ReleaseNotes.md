@@ -11,6 +11,20 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.18 (March 30. 2021):**
+
+* FBUG FIX: Fixed a bug in the check for duplicate accession numbers in FASTA files.
+* LIBRARY UPDATE: Updated utilities to version 5.0.14.
+
+---
+
+**Changes in PeptideShaker 2.0.17 (March 30. 2021):**
+
+* FEATURE IMPROVEMENT: Re-added the check for duplicate accession numbers in FASTA files.
+* LIBRARY UPDATE: Updated utilities to version 5.0.13.
+
+---
+
 **Changes in PeptideShaker 2.0.16 (March 16. 2021):**
 
 * FEATURE IMPROVEMENT: Extended the protein exports to also include organism identifiers for UniProt headers.
