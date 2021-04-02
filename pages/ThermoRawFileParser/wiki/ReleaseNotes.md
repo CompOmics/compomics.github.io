@@ -11,6 +11,17 @@ github_project: "https://github.com/compomics/ThermoRawFileParser"
 
 ---
 
+**Changes in ThermoRawFileParser 1.3.3 (April 01. 2021):**
+
+* Removed BOM prefix in indexed mzML output
+* Addition of MS:1000576 (no compression) CV term when no compression is used
+* Same metadata output for both TEXT and JSON formats
+* FAIMS compensation voltage output
+* Thermo libraries upgrade to 5.0.0.71
+* `-s, --stdout` option addition for writing to standard out (mostly for Windows)
+
+---
+
 **Changes in ThermoRawFileParser 1.3.2 (Oct 02. 2020):**
 
 * Flag -x include reference and exception peaks
