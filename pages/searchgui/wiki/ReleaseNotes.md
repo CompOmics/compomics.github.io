@@ -11,6 +11,18 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.27 (April 13. 2021):**
+
+* NEW FEATURE: Added a new command line option (use_log_folder) that makes it possible to override the log folder and send the log details directly to the standard output.
+
+---
+
+**Changes in SearchGUI 4.0.26 (April 13. 2021):**
+
+* FEATURE IMPROVEMENT: Updated ThermoRawFileParser to version 1.3.3.
+
+---
+
 **Changes in SearchGUI 4.0.25 (March 30. 2021):**
 
 * FBUG FIX: Fixed a bug in the check for duplicate accession numbers in FASTA files.
