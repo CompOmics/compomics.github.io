@@ -9,6 +9,12 @@ github_project: "https://github.com/compomics/ThermoRawFileParserGUI"
 
 # ReleaseNotes
 
+**Changes in ThermoRawFileParserGUI 1.6.1 (April 13. 2020):**
+
+ * FEATURE IMPROVEMENT: Updated ThermoRawFileParser to version 1.3.3.
+
+---
+
 **Changes in ThermoRawFileParserGUI 1.6.0 (October 13. 2020):**
 
  * FEATURE IMPROVEMENT: Added support for including reference and exception data.
