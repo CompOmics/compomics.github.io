@@ -11,6 +11,14 @@ github_project: "https://github.com/compomics/reporter"
 
 ---
 
+**Changes in Reporter 0.8.2 (April 13. 2021):**
+
+* NEW FEATURE: Added a new command line option (use_log_folder) that makes it possible to override the log folder and send the log details directly to the standard output.
+* LIBRARY UPDATE: Updated PeptideShaker to version 2.0.19.
+* LIBRARY UPDATE: Updated utilities to version 5.0.14.
+
+----
+
 **Changes in Reporter 0.8.1 (March 14. 2021):**
 
 * BUG FIX: Fixed bugs in parsing the user-defined exports.
