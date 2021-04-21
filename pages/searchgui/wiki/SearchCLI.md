@@ -186,7 +186,7 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.PathSettingsCLI [parameters]
 
 -log                       Folder where the log files are written.
 
--use_log_folder            Use the log folder. 0: write to standard output, 
+-use_log_folder            Use the log folder. 0: write logs and errors to standard output, 
                            1: use the log folder. Default: 1.
 ```
 

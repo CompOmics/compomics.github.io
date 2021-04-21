@@ -11,6 +11,16 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.28 (April 21. 2021):**
+
+* FEATURE IMPROVEMENT: Greatly sped up the parsing/indexing of the spectrum files.
+* FEATURE IMPROVEMENT: Removed the Java 1.9 requirement, i.e. only Java 1.8 is now required.
+* FEATURE IMPROVEMENT: Made sure that also the error messages are sent to the standard output when not using the log.
+* LIBRARY UPDATE: Updated ThermoRawFileParser to version 1.3.4.
+* LIBRARY UPDATE: Updated utilities to version 5.0.15.
+
+---
+
 **Changes in SearchGUI 4.0.27 (April 13. 2021):**
 
 * NEW FEATURE: Added a new command line option (use_log_folder) that makes it possible to override the log folder and send the log details directly to the standard output.
