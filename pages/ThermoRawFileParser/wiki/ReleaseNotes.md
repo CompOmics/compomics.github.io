@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/ThermoRawFileParser"
 
 ---
 
+**Changes in ThermoRawFileParser 1.3.4 (April 20. 2021):**
+
+* Disable peak picking for specified MS levels
+* Rollback of ThermoRawFileParser CV term until downstream tools update their PSI-MS CV
+
+---
+
 **Changes in ThermoRawFileParser 1.3.3 (April 01. 2021):**
 
 * Removed BOM prefix in indexed mzML output
