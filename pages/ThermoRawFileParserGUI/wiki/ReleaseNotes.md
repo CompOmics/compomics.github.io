@@ -9,7 +9,14 @@ github_project: "https://github.com/compomics/ThermoRawFileParserGUI"
 
 # ReleaseNotes
 
-**Changes in ThermoRawFileParserGUI 1.6.1 (April 13. 2020):**
+**Changes in ThermoRawFileParserGUI 1.7.0 (April 21. 2021):**
+
+ * FEATURE IMPROVEMENT: Added support for controlling which MS levels that are peak picked.
+ * FEATURE IMPROVEMENT: Updated ThermoRawFileParser to version 1.3.4.
+
+---
+
+**Changes in ThermoRawFileParserGUI 1.6.1 (April 13. 2021):**
 
  * FEATURE IMPROVEMENT: Updated ThermoRawFileParser to version 1.3.3.
 
