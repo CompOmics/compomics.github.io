@@ -68,7 +68,7 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
 -andromeda              Turn the Andromeda search on or off. 
                         (1: on, 0: off, default is '0')
 
--metamorpheus           Turn the MetaMorpheus search on or off. 
+-meta_morpheus          Turn the MetaMorpheus search on or off. 
                         (1: on, 0: off, default is '0')
 
 -novor                  Turn the Novor sequencing on or off. 
@@ -145,6 +145,8 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
 
 ```java
 -output_default_name    Optional output default name, default is 'searchgui_out'.
+
+-output_gzip            Gzip result files (0: no, 1: yes, default is '1').
 
 -output_option          Optional result file compression:
                         0: Single zip file,
@@ -269,6 +271,18 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.FastaCLI [parameters]
 -decoy	                Create a concatenated target/decoy database.
 
 -decoy_suffix           Target decoy suffix, defaults to _concatenated_target_decoy.fasta.
+```
+
+### Generic temporary folder
+
+```java
+-temp_folder               A folder for temporary file storage. Use only if 
+                           you encounter problems with the default configuration.
+
+-log                       Folder where the log files are written.
+
+-use_log_folder            Use the log folder. 0: write logs and errors to standard output, 
+                           1: use the log folder. Default: 1.
 ```
 
 The PathSettingsCLI options can also be used directly as options to FastaCLI. 

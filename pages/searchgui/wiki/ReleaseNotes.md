@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.29 (April 23. 2021):**
+
+* BUG FIX: Fixed a bug in X!Tandem in the handling of variable terminal PTMs without specific amino acid targets.
+* LIBRARY UPDATE: Updated utilities to version 5.0.16.
+
+---
+
 **Changes in SearchGUI 4.0.28 (April 21. 2021):**
 
 * FEATURE IMPROVEMENT: Greatly sped up the parsing/indexing of the spectrum files.
@@ -35,7 +42,7 @@ github_project: "https://github.com/compomics/searchgui"
 
 **Changes in SearchGUI 4.0.25 (March 30. 2021):**
 
-* FBUG FIX: Fixed a bug in the check for duplicate accession numbers in FASTA files.
+* BUG FIX: Fixed a bug in the check for duplicate accession numbers in FASTA files.
 * LIBRARY UPDATE: Updated utilities to version 5.0.14.
 
 ---
