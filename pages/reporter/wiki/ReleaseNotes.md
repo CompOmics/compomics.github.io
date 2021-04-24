@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/reporter"
 
 ---
 
+**Changes in Reporter 0.8.4 (April 23. 2021):**
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 2.0.21.
+* LIBRARY UPDATE: Updated utilities to version 5.0.16.
+
+----
+
 **Changes in Reporter 0.8.3 (April 21. 2021):**
 
 * FEATURE IMPROVEMENT: Removed the Java 1.9 requirement, i.e. only Java 1.8 is now required.
