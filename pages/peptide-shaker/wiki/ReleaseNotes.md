@@ -11,6 +11,25 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.24 (April 26. 2021):**
+
+* BUG FIX: Removed a custom settings file that caused the spectrum parsing to fail.
+
+---
+
+**Changes in PeptideShaker 2.0.23 (April 26. 2021):**
+
+* BUG FIX: Fixed a backwards compatibility bug for the cms files.
+* LIBRARY UPDATE: Updated utilities to version 5.0.17.
+
+---
+
+**Changes in PeptideShaker 2.0.22 (April 26. 2021):**
+
+* BUG FIX: Fixed a bug that occurred if not using a log folder and not exporting a psdb file.
+
+---
+
 **Changes in PeptideShaker 2.0.21 (April 23. 2021):**
 
 * LIBRARY UPDATE: Updated utilities to version 5.0.16.
