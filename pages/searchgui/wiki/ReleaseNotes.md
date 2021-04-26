@@ -11,6 +11,19 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.31 (April 26. 2021):**
+
+* BUG FIX: Removed a custom settings file that caused the spectrum parsing to fail.
+
+---
+
+**Changes in SearchGUI 4.0.30 (April 26. 2021):**
+
+* BUG FIX: Fixed a backwards compatibility bug for the cms files.
+* LIBRARY UPDATE: Updated utilities to version 5.0.17.
+
+---
+
 **Changes in SearchGUI 4.0.29 (April 23. 2021):**
 
 * BUG FIX: Fixed a bug in X!Tandem in the handling of variable terminal PTMs without specific amino acid targets.
