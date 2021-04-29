@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.32 (April 29. 2021):**
+
+* FEATURE IMPROVEMENT: Improved the information displayed when indexing spectra.
+* LIBRARY UPDATE: Updated utilities to version 5.0.18, fixing a rare cms-related bug.
+
+---
+
 **Changes in SearchGUI 4.0.31 (April 26. 2021):**
 
 * BUG FIX: Removed a custom settings file that caused the spectrum parsing to fail.
