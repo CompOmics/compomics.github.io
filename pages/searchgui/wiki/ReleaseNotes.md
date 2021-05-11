@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.33 (May 11. 2021):**
+
+* FEATURE IMPROVEMENT: Updated MetaMorpheus to version 0.0.317.
+* FEATURE IMPROVEMENT: MetaMorpheus is executed differently when running in a Conda environment (using conda-forge MetaMorpheus package binaries).
+
+---
+
 **Changes in SearchGUI 4.0.32 (April 29. 2021):**
 
 * FEATURE IMPROVEMENT: Improved the information displayed when indexing spectra.
