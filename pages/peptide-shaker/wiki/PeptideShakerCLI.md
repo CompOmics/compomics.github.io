@@ -11,24 +11,23 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 # PeptideShaker Command Line Interface #
 
-The PeptideShaker command line interface can be used to process identification files and output identification results in various formats.
+PeptideShaker provides several command line interfaces that can be used to process MS identification files produced by search and _de novo_ engines and output results in various formats.
 
-There are six main sections to this page:
-
-  * [A) PeptideShakerCLI](#a---peptideshakercli) - data processing
-  * [B) ReportCLI](#b---reportcli) - identification results exports
-  * [C) FollowUpCLI](#c---followupcli) - export for follow up analysis
-  * [D) MzidCLI](#d---mzidcli) - export as mzIdentML
-  * [E) PathSettingsCLI](#e---pathsettingscli) - set the paths to use
-  * [F) General](#f---general) - general command line help
+  * [A) PeptideShakerCLI](#a---peptideshakercli) - creates a PeptideShaker project
+  * [B) ReportCLI](#b---reportcli) - exports identification results from a PeptideShaker project as text file
+  * [C) FollowUpCLI](#c---followupcli) - export files for follow up analysis from a PeptideShaker project
+  * [D) MzidCLI](#d---mzidcli) - export an mzIdentML file from a PeptideShaker project
+  * [E) StirredCLI](#e---stirredcli) - export an mzIdentML file from a set of MS identification files produced by search and _de novo_ engines
+  * [F) PathSettingsCLI](#f---pathsettingscli) - set the paths to use
+  * [G) General](#g---general) - general command line help
 
 Note that ReportCLI, FollowUpCLI, MzidCLI and PathSettingsCLI options can also be appended directly to PeptideShakerCLI command lines.
 
 All command line options have the same overall structure and only differ in the features and parameters available.
 
-Identification parameters for use in PeptideShakerCLI can be provided as a file. Identification parameter files are in the [json](https://en.wikipedia.org/wiki/JSON) format and can be created in the graphical user interface, using the [IdentificationParametersCLI](/projects/compomics-utilities/wiki/IdentificationParametersCLI), or using third party tools. Alternatively, the parameters can be passed directly to PeptideShakerCLI by using the command line arguments of the [IdentificationParametersCLI](/projects/compomics-utilities/wiki/IdentificationParametersCLI).
+Identification parameters can be provided as a file. Identification parameter files are in the [json](https://en.wikipedia.org/wiki/JSON) format and can be created in the graphical user interface, using the [IdentificationParametersCLI](/projects/compomics-utilities/wiki/IdentificationParametersCLI), or using third party tools. Alternatively, the parameters can be passed directly to PeptideShakerCLI by using the command line arguments of the [IdentificationParametersCLI](/projects/compomics-utilities/wiki/IdentificationParametersCLI).
 
-Temporary folders used in the processing can be set via [PathSettingsCLI](#pathsettingscli). Note that PeptideShaker back-end relies on a database allowing only a single open connection at a time. It is thus important to use a single instance of PeptideShakerCLI at a time. In distributed setups, we recommend keeping a clean copy of PeptideShaker, and distribute it to the different workers prior to execution.
+Temporary folders used in the processing can be set via [PathSettingsCLI](#pathsettingscli). It is recommended to use a single instance of PeptideShakerCLI at a time. In distributed setups, we recommend keeping a clean copy of PeptideShaker, and distribute it to the different nodes prior to execution.
 
 ---
 
@@ -48,14 +47,14 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [par
 -fasta_file (*)            The complete path to the FASTA file.
 
 -identification_files      Identification files in a comma separated list, as compressed zip file, 
-                           or an entire folder. Example: "c:\file1.omx, c:\file1.mzid, c:\file1.t.xml".
+                           or an entire folder. Example: "/myFolder/file1.omx,/myFolder/file1.mzid,/myFolder/file1.t.xml".
 
 -spectrum_files (*)        The spectrum files (mgf or mzML format) in a comma separated list or an 
-                           entire folder. Example: "c:\file1.mgf, c:\file2.mzml".
+                           entire folder. Example: "/myFolder/file1.mzml,/myFolder/file2.mzml".
 
 -id_params (*)             The identification parameters file (.par). 
                            Generated using the GUI or via IdentificationParametersCLI.
-                           Example: "c:\search_parameters.par". 
+                           Example: "/myFolder/search_parameters.par". 
                            Alternatively, IdentificationParametersCLI parameters can be passed directly.
 
 (*) Not mandatory if these files are part of a zip file input with the identification files.
@@ -65,7 +64,7 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [par
 
 ```
 -out                       PeptideShaker output file (.psdb). If the file already exists 
-                           it will be silently overwritten. Example: "c:\ps_output.psdb".
+                           it will be silently overwritten. Example: "/myFolder/ps_output.psdb".
 
 -zip                       Exports the entire project as a zip file in the file specified.
 
@@ -87,10 +86,10 @@ PeptideShakerCLI example where _X_, _Y_ and _Z_ have to be replaced by the actua
 
 ```java
 java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI 
--reference myReference -fasta_file "C:\my folder\my_data.fasta"
--identification_files "C:\my folder" -spectrum_files "C:\my folder" 
--id_params "C:\my folder\my_search_params.par" 
--out "C:\my folder\myCpsFile.psdb"
+-reference myReference -fasta_file "/myFolder/my_data.fasta"
+-identification_files "/myFolder" -spectrum_files "/myFolder" 
+-id_params "/myFolder/my_search_params.par" 
+-out "/myFolder/myCpsFile.psdb"
 ```
 
 _Note that for readability the command is here split over multiple lines. When used the command should of course be a single line._
@@ -162,7 +161,7 @@ ReportCLI example where _X_, _Y_ and _Z_ have to be replaced by the actual versi
 
 ```java
 java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.ReportCLI 
--in "C:\my folder\myCpsFile.psdb" -out_reports "C:\my folder" -reports "0, 3" -report_prefix "my_" -gzip 0
+-in "/myFolder/myCpsFile.psdb" -out_reports "/myFolder" -reports "0, 3" -report_prefix "my_" -gzip 0
 ```
 
 [Go to top of page](#peptideshakercli)
@@ -285,7 +284,7 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.FollowUpCLI [paramete
 FollowUpCLI example where _X_, _Y_ and _Z_ have to be replaced by the actual version of PeptideShaker and _my folder_ by the folder containing the desired files:
 
 ```java
-java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.FollowUpCLI -in "C:\my folder\myCpsFile.psdb" -spectrum_folder "C:\my folder" -psm_type 0
+java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.FollowUpCLI -in "/myFolder/myCpsFile.psdb" -spectrum_folder "/myFolder" -psm_type 0
 ```
 
 [Go to top of page](#peptideshakercli)
@@ -343,7 +342,66 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.MzidCLI [parameters]
 
 ---
 
-## E - PathSettingsCLI ##
+## E - StirredCLI ##
+
+**Standard command line**
+
+```java
+java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.StirredCLI [parameters]
+```
+
+**Mandatory parameters**
+
+```
+
+-i/--input                 Identification files in a comma separated list, as compressed zip file, 
+                           or an entire folder. Example: "/myFolder/file1.omx,/myFolder/file1.mzid,/myFolder/file1.t.xml".
+
+-o/--output                The folder where to write the results..
+
+-f/--fasta (*)             The complete path to the FASTA file.
+
+-s/--spectrum (*)          The spectrum files (mgf or mzML format) in a comma separated list or an 
+                           entire folder. Example: "/myFolder/file1.mzml,/myFolder/file2.mzml".
+
+-p/--id_params (*)         The identification parameters file (.par). 
+                           Generated using the GUI or via IdentificationParametersCLI.
+                           Example: "/myFolder/search_parameters.par". 
+                           Alternatively, IdentificationParametersCLI parameters can be passed directly.
+
+(*) Not mandatory if these files are part of a zip file input with the identification files.
+```
+
+**Optional parameters:**
+
+```
+-cfn/--contactFirstName    The first name of the contact to annotate in the mzIdentML file. 
+                           Default: 'Unknown'.
+
+-cln/--contactLastName     The last name of the contact to annotate in the mzIdentML file. 
+                           Default: 'Unknown'.
+
+-ca/--contactAddress       The address of the contact to annotate in the mzIdentML file.
+                           Default: 'Unknown'.
+
+-ce/--contactEmail         The email of the contact to annotate in the mzIdentML file.
+                           Default: 'Unknown'.
+
+-con/--contactOrgName      The name of the organization of the contact to annotate in the mzIdentML file.
+                           Default: 'Unknown'.
+
+-coa/--contactOrgAddress   The address of the organization of the contact to annotate in the mzIdentML file.
+                           Default: 'Unknown'.
+
+-coe/--contactOrgEmail     The email of the organization of the contact to annotate in the mzIdentML file.
+                           Default: 'Unknown'.
+```
+
+[Go to top of page](#peptideshakercli)
+
+---
+
+## F - PathSettingsCLI ##
 
 **Standard command line**
 
@@ -391,23 +449,23 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PathSettingsCLI [para
 
 ---
 
-## F - General ##
+## G - General ##
 
 **Comma Separated Lists**
 
 When using comma separated lists as input please pay attention to the quotes required. Surround the full content of the option in quotes and not the individual items:
 
 ```java
--spectrum_files "C:\..\file_1.mgf, C:\..\file_2.mgf"
+-spectrum_files "/../file_1.mgf,/../file_2.mgf"
 ```
 
 **Absolute Paths**
 
-In general it is recommended to use absolute paths.
+In general it is recommended to use absolute paths. Its is recommended to avoid spaces and special characters in paths.
 
 **Memory Settings**
 
-Remember that big datasets require more than the default memory provided to the Java virtual machine, so for larger dataset please increase the maximum memory setting. Example, for a maximum of 2GB of memory:
+Remember that big datasets require more than the default memory provided to the Java virtual machine, so for larger dataset please increase the maximum memory setting. Example, for a maximum of 2 GB of memory:
 
 ```java
 java -Xmx2048M -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [parameters]
@@ -415,18 +473,30 @@ java -Xmx2048M -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShak
 
 See also: [JavaTroubleShooting](/projects/compomics-utilities/wiki/JavaTroubleShooting).
 
+**Threads and I/O**
+
+For most commands, you can set the number of variants to process in parallel using the command line options. Note, however, that if the performance on your setup is limited by the I/O, this will not have much of an effect. If this is the case please make sure that PeptideShaker has direct and rapid access to the files (i.e. not accessing them through a network). IO is dramatically improved using SSD discs.
+
+Some tasks are parallelized at a deeper level using all available resources. You can override the number of threads used by default using the `-Djava.util.concurrent.ForkJoinPool.common.parallelism` argument. 
+
+Example with 32 threads:
+```
+java -Djava.util.concurrent.ForkJoinPool.common.parallelism=32 -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [parameters]
+```
+
+
 **Opening PeptideShaker Projects**
 
 To open a PeptideShaker project (cps file or zipped cps file) from the command line (for display in PeptideShaker) use the following command:
 
 ```java
-java -jar PeptideShaker-X.Y.Z.jar -cps "C:\my folder\myCpsFile.psdb"
+java -jar PeptideShaker-X.Y.Z.jar -cps "/myFolder/myCpsFile.psdb"
 ```
 
 To open a zipped PeptideShaker project via a URL from the command line (for display in PeptideShaker) use the following command:
 
 ```java
-java -jar PeptideShaker-X.Y.Z.jar -zipUrl "http://my_url/PS.zip" -zipUrlFolder C:\my folder\"
+java -jar PeptideShaker-X.Y.Z.jar -zipUrl "http://my_url/PS.zip" -zipUrlFolder "/my_folder/"
 ```
 
 **Opening a PX Accession for Reshaking**
