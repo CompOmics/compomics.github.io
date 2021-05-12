@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.34 (May 12. 2021):**
+
+* FEATURE IMPROVEMENT: Updated Comet to version 2020.01 rev. 4.
+
+---
+
 **Changes in SearchGUI 4.0.33 (May 11. 2021):**
 
 * FEATURE IMPROVEMENT: Updated MetaMorpheus to version 0.0.317.
