@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.26 (May 19. 2021):**
+
+* BUG FIX: Fixied an issue with the PTM scoring when there are more than 20 possible sites for the same PTM.
+* LIBRARY UPDATE: Updated utilities to version 5.0.19.
+
+---
+
 **Changes in PeptideShaker 2.0.25 (April 29. 2021):**
 
 * FEATURE IMPROVEMENT: Removed a stack trace that was printed if the export factory was not found.
