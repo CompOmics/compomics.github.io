@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.27 (May 21. 2021):**
+
+* FEATURE IMPROVEMENT: Updated the PDB web service.
+* LIBRARY UPDATE: Updated utilities to version 5.0.20.
+
+---
+
 **Changes in PeptideShaker 2.0.26 (May 19. 2021):**
 
 * BUG FIX: Fixied an issue with the PTM scoring when there are more than 20 possible sites for the same PTM.
