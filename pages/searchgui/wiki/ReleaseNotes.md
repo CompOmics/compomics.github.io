@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.36 (May 28. 2021):**
+
+* LIBRARY UPDATE: Updated utilities to version 5.0.22.
+
+---
+
 **Changes in SearchGUI 4.0.35 (May 24. 2021):**
 
 * FEATURE IMPROVEMENT: Cleaned up the progress display when adding decoys via FastaCLI.
