@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/reporter"
 
 ---
 
+**Changes in Reporter 0.8.7 (May 30. 2021):**
+
+* BUG FIX: Fixed an error stopping the PSM exports.
+
+----
+
 **Changes in Reporter 0.8.6 (May 28. 2021):**
 
 * BUG FIX: Zipped PeptideShaker projects can now be used as input on the command line.
