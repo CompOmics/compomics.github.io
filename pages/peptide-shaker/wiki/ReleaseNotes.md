@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.30 (June 2. 2021):**
+
+* BUG FIX: Updated the cms file in the example dataset.
+
+---
+
 **Changes in PeptideShaker 2.0.29 (June 1. 2021):**
 
 * BUG FIX: Fixed a bug in opening the example dataset on non-Windows setups.
