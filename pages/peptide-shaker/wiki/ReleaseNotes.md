@@ -11,6 +11,15 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.31 (June 15. 2021):**
+
+* FEATURE IMPROVEMENT: Updated the example dataset.
+* FEATURE IMPROVEMENT: Updated Ensembl to version 104 and Ensembl Genomes to version 51.
+* FEATURE IMPROVEMENT: Turned off illegal access log messages for more of the CLIs.
+* LIBRARY UPDATE: Updated utilities to version 5.0.23.
+
+---
+
 **Changes in PeptideShaker 2.0.30 (June 2. 2021):**
 
 * BUG FIX: Updated the cms file in the example dataset.
