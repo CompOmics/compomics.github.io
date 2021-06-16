@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.32 (June 16. 2021):**
+
+* BUG FIX: Fixed a gene mapping issue.
+
+---
+
 **Changes in PeptideShaker 2.0.31 (June 15. 2021):**
 
 * FEATURE IMPROVEMENT: Updated the example dataset.
