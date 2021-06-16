@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.38 (June 16. 2021):**
+
+* BUG FIX: Fixed a gene mapping issue.
+
+---
+
 **Changes in SearchGUI 4.0.37 (June 15. 2021):**
 
 * FEATURE IMPROVEMENT: Updated Ensembl to version 104 and Ensembl Genomes to version 51.
