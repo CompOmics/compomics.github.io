@@ -11,6 +11,14 @@ github_project: "https://github.com/compomics/reporter"
 
 ---
 
+**Changes in Reporter 0.8.8 (June 15. 2021):**
+
+* FEATURE IMPROVEMENT: Updated Ensembl to version 104 and Ensembl Genomes to version 51.
+* LIBRARY UPDATE: Updated PeptideShaker to version 2.0.31.
+* LIBRARY UPDATE: Updated utilities to version 5.0.23.
+
+----
+
 **Changes in Reporter 0.8.7 (May 30. 2021):**
 
 * BUG FIX: Fixed an error stopping the PSM exports.
