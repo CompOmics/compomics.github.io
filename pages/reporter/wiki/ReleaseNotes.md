@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/reporter"
 
 ---
 
+**Changes in Reporter 0.8.9 (June 16. 2021):**
+
+* BUG FIX: Fixed a gene mapping issue.
+
+---
+
 **Changes in Reporter 0.8.8 (June 15. 2021):**
 
 * FEATURE IMPROVEMENT: Updated Ensembl to version 104 and Ensembl Genomes to version 51.
