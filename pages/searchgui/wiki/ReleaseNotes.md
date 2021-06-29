@@ -11,6 +11,16 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.39 (June 29. 2021):**
+
+* FEATURE IMPROVEMENT: Updated Comet to version 2021.01 rev. 0.
+* FEATURE IMPROVEMENT: Re-added the OS-dependent MS Amanda versions (now depending on .NET instead of mono).
+* FEATURE IMPROVEMENT: Added support for Java 16.
+* BUG FIX: Made sure that the search and denovo engines are set to executable before running them.
+* LIBRARY UPDATE: Updated utilities to version 5.0.24.
+
+---
+
 **Changes in SearchGUI 4.0.38 (June 16. 2021):**
 
 * BUG FIX: Fixed a gene mapping issue.
