@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.33 (June 20. 2021):**
+
+* FEATURE IMPROVEMENT: Added support for Java 16.
+* LIBRARY UPDATE: Updated utilities to version 5.0.24.
+
+---
+
 **Changes in PeptideShaker 2.0.32 (June 16. 2021):**
 
 * BUG FIX: Fixed a gene mapping issue.
