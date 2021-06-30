@@ -11,6 +11,14 @@ github_project: "https://github.com/compomics/reporter"
 
 ---
 
+**Changes in Reporter 0.8.10 (June 29. 2021):**
+
+* FEATURE IMPROVEMENT: Added support for Java 16.
+* LIBRARY UPDATE: Updated PeptideShaker to version 2.0.33.
+* LIBRARY UPDATE: Updated utilities to version 5.0.24.
+
+----
+
 **Changes in Reporter 0.8.9 (June 16. 2021):**
 
 * BUG FIX: Fixed a gene mapping issue.
