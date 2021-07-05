@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.41 (July 5. 2021):**
+
+* BUG FIX: Fixed issues with the PTM mappings for Novor and DirecTag when running via the command line.
+
+---
+
 **Changes in SearchGUI 4.0.40 (June 29. 2021):**
 
 * FEATURE IMPROVEMENT: Updated MetaMorpheus to version 0.0.318 (note: [now requires .NET 5.0](https://github.com/smith-chem-wisc/MetaMorpheus/releases/tag/0.0.318).)
