@@ -8,20 +8,11 @@ github_project: "https://github.com/compomics/ms2pip_c"
 ---
 
 # MS2PIP Server API
-MS2PIP Server can be accessed through the webpage or through a RESTful API. While this page provides an example Python script for contacting the API, the Swagger-generated documentation can be found here: https://iomics.ugent.be/ms2pip/api/.
+MS2PIP Server can be accessed through the webpage or through a RESTful API. While this page provides an example Python script for contacting the API, the Swagger-generated documentation can be found here: https://iomics.ugent.be/ms2pip/api/v2.
 
 The following Python function contacts the MS2PIP Server RESTful API:
 ```python
-# Python Standard Library packages
-import json
-from time import sleep
-
-# Third party packages
-import requests
-import pandas as pd
-
-
-def run_ms2pip_server(peptides, frag_method, ptm_list, url='https://iomics.ugent.be/ms2pip/api'):
+def run_ms2pip_server(peptides, frag_method, ptm_list, url='https://iomics.ugent.be/ms2pip/api/v2'):
     # Check if all columns are present in dataframe
     for col in ['spec_id', 'peptide', 'charge', 'modifications']:
         if col not in peptides.columns:
@@ -45,7 +36,7 @@ def run_ms2pip_server(peptides, frag_method, ptm_list, url='https://iomics.ugent
         }
 
         # Post data to server and get task id
-        response = requests.post('{}/run'.format(url), json=input_data)
+        response = requests.post('{}/task'.format(url), json=input_data)
         if 'task_id' not in response.json():
             if 'error' in response.json():
                 print("Server error: {}".format(response.json()['error']))
@@ -57,8 +48,7 @@ def run_ms2pip_server(peptides, frag_method, ptm_list, url='https://iomics.ugent
 
         # Check server task status and get result when ready
         sleep(1)
-        task_id_payload = {"task_id": task_id}
-        response = requests.post('{}/status'.format(url), json=task_id_payload)
+        response = requests.get('{}/task/{}/status'.format(url, task_id))
         state = response.json()['state']
 
         if state != 'SUCCESS':
@@ -69,7 +59,7 @@ def run_ms2pip_server(peptides, frag_method, ptm_list, url='https://iomics.ugent
             while state == 'PENDING' or state == 'PROGRESS':
                 sleep(5)
                 print('.', end='')
-                response = requests.post('{}/status'.format(url), json=task_id_payload)
+                response = requests.get('{}/task/{}/status'.format(url, task_id))
                 state = response.json()['state']
 
                 # Do not keep looping if task state is stuck on PENDING, it might have failed silently
@@ -81,8 +71,8 @@ def run_ms2pip_server(peptides, frag_method, ptm_list, url='https://iomics.ugent
             print('')
 
         if state == 'SUCCESS':
-            response = requests.post('{}/download'.format(url), json=task_id_payload)
-            result_batch = pd.DataFrame.from_dict(response.json()['ms2pip_out'])
+            response = requests.get('{}/task/{}/result'.format(url, task_id))
+            result_batch = pd.DataFrame.from_dict(response.json())['ms2pip_out']
             result_batch = result_batch[['spec_id', 'charge', 'ion', 'ionnumber', 'mz', 'prediction']]
             result = result.append(result_batch)
             print("Result received", end='\n\n')
