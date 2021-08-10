@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.42 (August 10. 2021):**
+
+* FEATURE IMPROVEMENT: Updated MetaMorpheus to version 0.0.319, adding the MinAllowedInternalFragmentLength parameter.
+* LIBRARY UPDATE: Updated utilities to version 5.0.25.
+
+---
+
 **Changes in SearchGUI 4.0.41 (July 5. 2021):**
 
 * BUG FIX: Fixed issues with the PTM mappings for Novor and DirecTag when running via the command line.
