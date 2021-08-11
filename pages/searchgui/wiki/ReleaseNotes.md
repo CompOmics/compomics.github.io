@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.0.43 (August 11. 2021):**
+
+* FEATURE IMPROVEMENT: Added the MetaMorpheus MinAllowedInternalFragmentLength parameter to the command line as well.
+* LIBRARY UPDATE: Updated utilities to version 5.0.26.
+
+---
+
 **Changes in SearchGUI 4.0.42 (August 10. 2021):**
 
 * FEATURE IMPROVEMENT: Updated MetaMorpheus to version 0.0.319, adding the MinAllowedInternalFragmentLength parameter.
