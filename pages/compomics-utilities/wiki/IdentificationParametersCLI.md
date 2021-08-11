@@ -857,6 +857,9 @@ The following parameters allow controlling specific identification algorithms sp
 -meta_morpheus_max_frag_size
                           MetaMorpheus maximum fragmentation size, default is '30000'.
 
+-meta_morpheus_min_internal_fragment_length
+                          MetaMorpheus minimum allowed internal fragment length, default is '0'.
+
 -meta_morpheus_mass_diff_acceptor_type
                           MetaMorpheus mass difference acceptor type, Exact, OneMM, TwoMM, ThreeMM, 
                           PlusOrMinusThreeMM, ModOpen or Open, default is 'OneMM'.
