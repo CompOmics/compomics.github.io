@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.0.35 (August 11. 2021):**
+
+* LIBRARY UPDATE: Updated utilities to version 5.0.26.
+
+---
+
 **Changes in PeptideShaker 2.0.34 (August 10. 2021):**
 
 * LIBRARY UPDATE: Updated utilities to version 5.0.25.
