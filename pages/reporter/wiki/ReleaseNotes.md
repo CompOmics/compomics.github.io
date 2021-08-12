@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/reporter"
 
 ---
 
+**Changes in Reporter 0.8.12 (August 11. 2021):**
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 2.0.35.
+* LIBRARY UPDATE: Updated utilities to version 5.0.26.
+
+----
+
 **Changes in Reporter 0.8.11 (August 10. 2021):**
 
 * LIBRARY UPDATE: Updated PeptideShaker to version 2.0.34.
