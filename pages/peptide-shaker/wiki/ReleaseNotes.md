@@ -11,6 +11,18 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.1.0 (August 13. 2021):**
+
+* LIBRARY UPDATE: Updated xpp3 to version 1.1.6.
+* LIBRARY UPDATE: Replaced commons-lang3 with commons-text version 1.9.
+* LIBRARY UPDATE: Updated poi to version 5.0.0.
+* LIBRARY UPDATE: Updated spring-webmvc to version 5.3.9.
+* LIBRARY UPDATE: Updated jackson-databind to version 2.12.4.
+* LIBRARY UPDATE: Updated jackson-annotations to version 2.12.4.
+* LIBRARY UPDATE: Updated utilities to version 5.0.27.
+
+---
+
 **Changes in PeptideShaker 2.0.35 (August 11. 2021):**
 
 * LIBRARY UPDATE: Updated utilities to version 5.0.26.
