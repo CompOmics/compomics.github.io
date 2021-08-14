@@ -11,6 +11,16 @@ github_project: "https://github.com/compomics/reporter"
 
 ---
 
+**Changes in Reporter 0.9.0 (August 13. 2021):**
+
+* LIBRARY UPDATE: Updated xpp3 to version 1.1.6.
+* LIBRARY UPDATE: Updated ujmp-complete to version 0.3.0.
+* LIBRARY UPDATE: Updated poi to version 5.0.0.
+* LIBRARY UPDATE: Updated PeptideShaker to version 2.1.0.
+* LIBRARY UPDATE: Updated utilities to version 5.0.27.
+
+----
+
 **Changes in Reporter 0.8.12 (August 11. 2021):**
 
 * LIBRARY UPDATE: Updated PeptideShaker to version 2.0.35.
