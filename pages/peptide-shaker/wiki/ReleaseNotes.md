@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.1.1 (August 16. 2021):**
+
+* LIBRARY UPDATE: Updated utilities to version 5.0.28, fixing a multi-threading null pointer in the cache handling.
+
+---
+
 **Changes in PeptideShaker 2.1.0 (August 13. 2021):**
 
 * LIBRARY UPDATE: Updated xpp3 to version 1.1.6.
