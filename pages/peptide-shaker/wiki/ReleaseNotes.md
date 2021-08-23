@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.2.0 (August 23. 2021):**
+
+* LIBRARY UPDATE: Updated utilities to version 5.0.29, fixing a PTM alignment issue.
+
+---
+
 **Changes in PeptideShaker 2.1.1 (August 16. 2021):**
 
 * LIBRARY UPDATE: Updated utilities to version 5.0.28, fixing a multi-threading null pointer in the cache handling.
