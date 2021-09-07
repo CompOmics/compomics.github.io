@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.1.1 (September 7. 2021):**
+
+* FEATURE IMPROVEMENT: Updated MS-GF+ to version 2021.09.06.
+* LIBRARY UPDATE: Updated utilities to version 5.0.29.
+
+---
+
 **Changes in SearchGUI 4.1.0 (August 13. 2021):**
 
 * LIBRARY UPDATE: Updated junit to version 4.13.2.
