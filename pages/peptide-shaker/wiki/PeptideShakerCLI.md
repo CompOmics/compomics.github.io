@@ -75,6 +75,8 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [par
 **Optional processing parameters**
 
 ```
+-project_type              The type of project (0: psm, 1: peptide, 2: protein).
+
 -threads                   The number of threads to use. Defaults to the number of available CPUs.
 
 -gui                       Use a dialog to display the progress (1: true, 0: false, default is '0').
