@@ -11,6 +11,14 @@ github_project: "https://github.com/compomics/reporter"
 
 ---
 
+**Changes in Reporter 0.9.2 (September 10. 2021):**
+
+* BUG FIX: Fixed a bug in the PathSettingsCLI command line.
+* LIBRARY UPDATE: Updated PeptideShaker to version 2.2.0.
+* LIBRARY UPDATE: Updated utilities to version 5.0.29.
+
+----
+
 **Changes in Reporter 0.9.1 (August 16. 2021):**
 
 * LIBRARY UPDATE: Updated PeptideShaker to version 2.1.1.
