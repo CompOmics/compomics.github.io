@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/reporter"
 
 ---
 
+**Changes in Reporter 0.9.3 (September 17. 2021):**
+
+* BUG FIX: Fixed bugs in the export of custom reports.
+
+----
+
 **Changes in Reporter 0.9.2 (September 10. 2021):**
 
 * BUG FIX: Fixed a bug in the PathSettingsCLI command line.
