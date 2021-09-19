@@ -22,7 +22,7 @@ github_project: "https://github.com/compomics/compomics-utilities"
 [PeptideMapper](/projects/compomics-utilities/wiki/PeptideMapper) is distributed in the compomics-utilities package. PeptideMapperCLI can be run from the utilities jar file as detailed below.
 
 ```java
-java -cp utilities-X.Y.Z.jar com.compomics.util.experiment.identification.protein_inference.executable.PeptideMapping -[p|t] <InputFasta> <InputList> <OutputResultList> [<UtilitiesParameterFile>]
+java -cp utilities-X.Y.Z.jar com.compomics.cli.peptide_mapper.PeptideMapperCLI -[p|t] <InputFasta> <InputList> <OutputResultList> [<UtilitiesParameterFile>]
 ```
 
 Please replace _X.Y.Z_ by the version used, _e.g._ 4.7.2.
@@ -74,5 +74,5 @@ The parameters file should be in the json format. Parameters files can be genera
 Example to map a peptide list to a FASTA file:
 
 ```java
-java -cp utilities-X.Y.Z.jar com.compomics.util.experiment.identification.protein_inference.executable.PeptideMapping -p exampleFiles/PeptideMapping/yeast.fasta exampleFiles/PeptideMapping/yeast-pep-1k.csv result-file.csv
+java -cp utilities-X.Y.Z.jar com.compomics.cli.peptide_mapper.PeptideMapperCLI -p exampleFiles/PeptideMapping/yeast.fasta exampleFiles/PeptideMapping/yeast-pep-1k.csv result-file.csv
 ```
