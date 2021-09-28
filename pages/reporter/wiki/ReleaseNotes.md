@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/reporter"
 
 ---
 
+**Changes in Reporter 0.9.4 (September 27. 2021):**
+
+* BUG FIX: Fixed bugs with the progress display when calculating ratios.
+
+----
+
 **Changes in Reporter 0.9.3 (September 17. 2021):**
 
 * BUG FIX: Fixed bugs in the export of custom reports.
