@@ -83,7 +83,7 @@ In addition any files that can be converted to the [supported text file format](
 
 ### Downloading
 
-Download the latest version of `FragmentationAnalyzer_X.Y.zip` (where X and Y represent the version of the software) [here](http://genesis.ugent.be/maven2/no/uib/FragmentationAnalyzer/1.5.17/FragmentationAnalyzer-1.5.17.zip). Unzipping the file, creates the following directory structure:
+Download the latest version of `FragmentationAnalyzer_X.Y.zip` (where X and Y represent the version of the software) [here](https://genesis.ugent.be/maven2/no/uib/FragmentationAnalyzer/1.5.17/FragmentationAnalyzer-1.5.17.zip). Unzipping the file, creates the following directory structure:
 
 ```
   FragmentationAnalyzer_X.Y
@@ -140,7 +140,7 @@ Data can be imported from three different sources:
  * [OMSSA OMX Files](#omssa-omx-files)
 
 ### ms_lims
-For [ms_lims](/projects/ms-lims/) one logs on to the ms_lims database via a dialog in the tool using ones normal login details. When connected all the required details about the identifications will be downloaded, while some details, e.g., the fragment ion information, is not downloaded but extracted when needed. The database connection will therefore be required during the use of the tool. Please note that depending on the size of the database the process of importing data from ms_lims might take a while. However, the progress of the import will be monitored closely and presented to the user.
+For [ms_lims](/projects/ms-lims) one logs on to the ms_lims database via a dialog in the tool using ones normal login details. When connected all the required details about the identifications will be downloaded, while some details, e.g., the fragment ion information, is not downloaded but extracted when needed. The database connection will therefore be required during the use of the tool. Please note that depending on the size of the database the process of importing data from ms_lims might take a while. However, the progress of the import will be monitored closely and presented to the user.
  
 ### Mascot Dat Files
 When importing [Mascot dat files](http://www.matrixscience.com/) one simply selects the set of dat files to import and select the Mascot confidence level to use for the identifications. Only identifications above the selected confidence will be imported.
