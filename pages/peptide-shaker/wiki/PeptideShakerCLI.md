@@ -47,7 +47,8 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI [par
 -fasta_file (*)            The complete path to the FASTA file.
 
 -identification_files      Identification files in a comma separated list, as compressed zip file, 
-                           or an entire folder. Example: "/myFolder/file1.omx,/myFolder/file1.mzid,/myFolder/file1.t.xml".
+                           or an entire folder. 
+                           Example: "/myFolder/file1.omx,/myFolder/file1.mzid,/myFolder/file1.t.xml".
 
 -spectrum_files (*)        The spectrum files (mgf or mzML format) in a comma separated list or an 
                            entire folder. Example: "/myFolder/file1.mzml,/myFolder/file2.mzml".
@@ -261,13 +262,13 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.FollowUpCLI [paramete
                            3: MassLynx.
 
 -inclusion_list_peptide_filters     
-                           Peptide filters to be used for the inclusion list export (comma separated). 
+                           Peptide filters for the inclusion list export (comma separated). 
                            0: Miscleaved Peptides, 
                            1: Reactive Peptides, 
                            2: Degenerated Peptides.
 
 -inclusion_list_protein_filters     
-                           Protein inference filters to be used for the inclusion list export (comma separated). 
+                           Protein inference filters for the inclusion list export (comma separated). 
                            1: Related Proteins, 
                            2: Related and Unrelated Proteins, 
                            3: Unrelated Proteins.
@@ -279,6 +280,39 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.FollowUpCLI [paramete
 
 ```
 -proteoforms_file      Output file for the proteoforms. (Existing file will be overwritten.)
+```
+
+**Optional DeeplLC parameters**
+
+```
+-deeplc_file           Path to the file where to write DeepLC peptide files. If the PeptideShaker project 
+                       was built using multiple MS files, one file per MS file will be exported. 
+                       (Should end with .gz. Existing file will be overwritten.)
+```
+
+**Optional MS2PIP parameters**
+
+```
+-ms2pip_file           Path to the file where to write ms2pip peptide files. If the PeptideShaker project 
+                       was built using multiple MS files, one file will be exported for all. 
+                       (Should end with .gz. Existing file will be overwritten.)
+
+-ms2pip_models         Comma separated list of models to write a config file for. Default: CID,HCD.
+```
+
+**Optional Percolator parameters**
+
+```
+-precolator_rt_file    Path to the file containing the RT predictions to include in the percolator 
+                       training file.
+
+-precolator_fragmentation_file         
+                       Path to the file containing the fragmentation predictions to include in the 
+                       percolator training file.
+
+-precolator_file       Path to the file where to write the percolator training file. DeepLC and ms2pip 
+                       files can be provided using the respective options. 
+                       (Should end with .gz. Existing file will be overwritten.)
 ```
 
 **FollowUpCLI Example**
@@ -357,7 +391,8 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.StirredCLI [parameter
 ```
 
 -i/--input                 Identification files in a comma separated list, as compressed zip file, 
-                           or an entire folder. Example: "/myFolder/file1.omx,/myFolder/file1.mzid,/myFolder/file1.t.xml".
+                           or an entire folder. 
+                           Example: "/myFolder/file1.omx,/myFolder/file1.mzid,/myFolder/file1.t.xml".
 
 -o/--output                The folder where to write the results..
 
