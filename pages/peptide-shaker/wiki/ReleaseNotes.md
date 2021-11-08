@@ -11,6 +11,14 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.2.1 (November 8. 2021):**
+
+* FEATURE IMPROVEMENT: Added support for TMTpro 18-plex.
+* FEATURE IMPROVEMENT: Added a command line option for setting the project type: project_type. 
+* LIBRARY UPDATE: Updated utilities to version 5.0.33.
+
+---
+
 **Changes in PeptideShaker 2.2.0 (August 23. 2021):**
 
 * LIBRARY UPDATE: Updated utilities to version 5.0.29, fixing a PTM alignment issue.
