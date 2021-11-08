@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.1.2 (November 8. 2021):**
+
+* FEATURE IMPROVEMENT: Added support for TMTpro 18-plex.
+* LIBRARY UPDATE: Updated utilities to version 5.0.33.
+
+---
+
 **Changes in SearchGUI 4.1.1 (September 7. 2021):**
 
 * FEATURE IMPROVEMENT: Updated MS-GF+ to version 2021.09.06.
