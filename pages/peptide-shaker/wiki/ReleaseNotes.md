@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.2.2 (November 15. 2021):**
+
+* LIBRARY UPDATE: Updated omssa-parser to version 2.0.3.
+* LIBRARY UPDATE: Updated utilities to version 5.0.34.
+
+---
+
 **Changes in PeptideShaker 2.2.1 (November 8. 2021):**
 
 * FEATURE IMPROVEMENT: Added support for TMTpro 18-plex.
