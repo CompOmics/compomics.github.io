@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/omssa-parser"
 
 ----
 
+**Changes in omssa-parser v2.0.3 - (November 15. 2021):**
+
+* LIBRARY UPDATE: Updated utilities to version 5.0.34.
+
+---
+
 **Changes in omssa-parser v2.0.1 - (November 20. 2020):**
 
 * FEATURE IMPROVEMENT: Added support for parsing spectrum titles with leading or trailing white space.
