@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.1.3 (November 15. 2021):**
+
+* FEATURE IMPROVEMENT: Updated MetaMorpheus to version 0.0.320.
+* LIBRARY UPDATE: Updated utilities to version 5.0.34.
+
+---
+
 **Changes in SearchGUI 4.1.2 (November 8. 2021):**
 
 * FEATURE IMPROVEMENT: Added support for TMTpro 18-plex.
