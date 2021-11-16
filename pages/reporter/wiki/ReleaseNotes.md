@@ -11,7 +11,14 @@ github_project: "https://github.com/compomics/reporter"
 
 ---
 
-**Changes in Reporter 0.9.3 (November 9. 2021):**
+**Changes in Reporter 0.9.6 (November 15. 2021):**
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 2.2.2.
+* LIBRARY UPDATE: Updated utilities to version 5.0.34.
+
+----
+
+**Changes in Reporter 0.9.5 (November 9. 2021):**
 
 * FEATURE IMPROVEMENT: Added support for TMTpro 18-plex.
 * FEATURE IMPROVEMENT: Matches can now be stored in a temp folder set by the user (thanks to heckendorfc!)
