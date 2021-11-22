@@ -8,7 +8,7 @@ tags: project_home, ms2rescore
 permalink: /projects/ms2rescore
 ---
 
-<img src="https://github.com/compomics/ms2rescore/raw/dev/img/ms2rescore_logo.png" width="150" height="150" />
+<img src="https://github.com/compomics/ms2rescore/raw/master/img/ms2rescore_logo.png" width="150" height="150" />
 <br/><br/>
 
 [![GitHub release](https://img.shields.io/github/release-pre/compomics/ms2rescore.svg?style=flat-square)](https://github.com/compomics/ms2rescore/releases)
@@ -30,7 +30,7 @@ Sensitive peptide identification rescoring with predicted spectra using
 - [About MS²Rescore](#about-msrescore)
 - [Installation](#installation)
   - [Python package](#python-package)
-  - [Windows executable](#windows-executable)
+  - [Windows installer](#windows-installer)
 - [Usage](#usage)
   - [GUI](#gui)
   - [Command line interface](#command-line-interface)
@@ -129,10 +129,10 @@ and unzip.
 4. Run `start-gui-windows.bat` to start the MS²Rescore GUI.
 
 If Microsoft Defender SmartScreen displays a warning, click "More info" and then click
-"Run anyway". When starting the GUI, don't mind the terminal windows that opens next
+"Run anyway". When starting the GUI, don't mind the terminal window that opens next
 to the GUI.
 
-To install a newer version of MS³Rescore, run `upgrade-gui-windows.bat`.
+To install a newer version of MS²Rescore, run `upgrade-gui-windows.bat`.
 
 ---
 
