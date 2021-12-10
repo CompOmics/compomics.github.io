@@ -388,13 +388,13 @@ For every database listed above, benchmark data sets D = {D1, D2, D3, D4} of dif
 o.o.m. = out of memory
 
 ## Quick Start ##
-To run PeptideMapper, download the packed zip archive of the latest [compomics-utilities](http://genesis.ugent.be/maven2/com/compomics/utilities/) library, version 4.10.0 or newer.
+To run PeptideMapper, download the packed zip archive of the latest [compomics-utilities](http://genesis.ugent.be/maven2/com/compomics/utilities/) library, version 5.0.34 or newer.
 
 ```java
-wget http://genesis.ugent.be/maven2/com/compomics/utilities/4.10.0/utilities-4.10.0.zip
-unzip utilities-4.10.0.zip
-cd utilities-4.10.0
-java -cp utilities-4.10.0.jar com.compomics.util.experiment.identification.protein_inference.executable.PeptideMapping -p exampleFiles/PeptideMapping/yeast.fasta exampleFiles/PeptideMapping/yeast-pep-1k.csv results.csv
+wget http://genesis.ugent.be/maven2/com/compomics/utilities/5.0.34/utilities-5.0.34.zip
+unzip utilities-5.0.34.zip
+cd utilities-5.0.34
+java -cp utilities-5.0.34.jar com.compomics.util.experiment.identification.protein_inference.executable.PeptideMapping -p exampleFiles/PeptideMapping/yeast.fasta exampleFiles/PeptideMapping/yeast-pep-1k.csv results.csv
 ```
 
 A detailed description of the command line instructions is available [here](/projects/compomics-utilities/wiki/PeptideMapperCLI).
