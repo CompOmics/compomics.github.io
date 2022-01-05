@@ -27,8 +27,8 @@ permalink: /projects/searchgui
 
 |   |   |   |
 | :------------------------- | :--------------- | :--: |
-| [![download](https://github.com/compomics/searchgui/wiki/images/download_button_windows.png)](https://genesis.ugent.be/maven2/eu/isas/searchgui/SearchGUI/4.1.3/SearchGUI-4.1.3-windows.zip) | *v4.1.3 - Windows* | [ReleaseNotes](/projects/searchgui/wiki/ReleaseNotes) | 
-| [![download](https://github.com/compomics/searchgui/wiki/images/download_button_unix.png)](https://genesis.ugent.be/maven2/eu/isas/searchgui/SearchGUI/4.1.3/SearchGUI-4.1.3-mac_and_linux.tar.gz) | *v4.1.3 - Mac and Linux* |[ReleaseNotes](/projects/searchgui/wiki/ReleaseNotes) | 
+| [![download](https://github.com/compomics/searchgui/wiki/images/download_button_windows.png)](https://genesis.ugent.be/maven2/eu/isas/searchgui/SearchGUI/4.1.4/SearchGUI-4.1.4-windows.zip) | *v4.1.4 - Windows* | [ReleaseNotes](/projects/searchgui/wiki/ReleaseNotes) | 
+| [![download](https://github.com/compomics/searchgui/wiki/images/download_button_unix.png)](https://genesis.ugent.be/maven2/eu/isas/searchgui/SearchGUI/4.1.4/SearchGUI-4.1.4-mac_and_linux.tar.gz) | *v4.1.4 - Mac and Linux* |[ReleaseNotes](/projects/searchgui/wiki/ReleaseNotes) | 
 
 ----
 
