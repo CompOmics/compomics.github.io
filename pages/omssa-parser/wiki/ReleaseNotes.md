@@ -11,6 +11,14 @@ github_project: "https://github.com/compomics/omssa-parser"
 
 ----
 
+**Changes in omssa-parser v2.0.4 - (January 5. 2022):**
+
+* LIBRARY UPDATE: Updated log4j-core to version 2.17.1.
+* LIBRARY UPDATE: Updated log4j-api to version 2.17.1.
+* LIBRARY UPDATE: Updated utilities to version 5.0.35.
+
+---
+
 **Changes in omssa-parser v2.0.3 - (November 15. 2021):**
 
 * LIBRARY UPDATE: Updated utilities to version 5.0.34.
