@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.1.5 (January 8. 2022):**
+
+* FEATURE IMPROVEMENT: Updated MS-GF+ to version 2022.01.07.
+
+---
+
 **Changes in SearchGUI 4.1.4 (January 5. 2022):**
 
 * FEATURE IMPROVEMENT: Updated Comet to version 2021.02 rev. 0 (which adds support for OSX and removes support for Windows 32 bit).
