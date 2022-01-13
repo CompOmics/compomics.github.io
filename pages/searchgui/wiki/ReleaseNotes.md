@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.1.6 (January 13. 2022):**
+
+* FEATURE IMPROVEMENT: Updated Tide to version 4.1, adding support for PTMs at the protein terminals.
+* LIBRARY UPDATE: Updated utilities to version 5.0.37.
+
+---
+
 **Changes in SearchGUI 4.1.5 (January 8. 2022):**
 
 * FEATURE IMPROVEMENT: Updated MS-GF+ to version 2022.01.07.
