@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.2.4 (January 13. 2022):**
+
+* LIBRARY UPDATE: Updated utilities to version 5.0.37.
+
+---
+
 **Changes in PeptideShaker 2.2.3 (January 5. 2022):**
 
 * LIBRARY UPDATE: Updated omssa-parser to version 2.0.4.
