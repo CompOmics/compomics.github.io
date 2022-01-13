@@ -701,7 +701,9 @@ The following parameters allow controlling specific identification algorithms sp
 -tide_clip_n_term         Tide clip n term methionine.
                           1: true, 0: false, default is '0'.
 
--tide_num_ptms            Tide max number of PTMs per peptide, default is no limit.
+-tide_min_ptms            Tide min number of PTMs per peptide, default is '0'.
+
+-tide_max_ptms            Tide max number of PTMs per peptide, default is '255'.
 
 -tide_num_ptms_per_type   Tide max number of PTMs of each type per peptide, default is '2'.
 
