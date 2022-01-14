@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.1.7 (January 14. 2022):**
+
+* BUG FIX: Fixed a folder error with Tide for Linux.
+
+---
+
 **Changes in SearchGUI 4.1.6 (January 13. 2022):**
 
 * FEATURE IMPROVEMENT: Updated Tide to version 4.1, adding support for PTMs at the protein terminals.
