@@ -25,7 +25,7 @@ github_project: "https://github.com/compomics/compomics-utilities"
 java -cp utilities-X.Y.Z.jar com.compomics.cli.peptide_mapper.PeptideMapperCLI -[p|t] <InputFasta> <InputList> <OutputResultList> [<UtilitiesParameterFile>]
 ```
 
-Please replace _X.Y.Z_ by the version used, _e.g._ 5.0.34.
+Please replace _X.Y.Z_ by the version used, _e.g._ 5.0.39.
 
 ### Options ###
 
