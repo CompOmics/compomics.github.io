@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.2.5 (January 31. 2022):**
+
+* BUG FIX: Fixed a null pointer in the algorithm matches export.
+* LIBRARY UPDATE: Updated utilities to version 5.0.39.
+
+---
+
 **Changes in PeptideShaker 2.2.4 (January 13. 2022):**
 
 * LIBRARY UPDATE: Updated utilities to version 5.0.37.
