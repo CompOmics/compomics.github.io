@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.1.8 (February 20. 2022):**
+
+* BUG FIX: Comet is no longer automatically disabled on Mac in the user interface.
+* BUG FIX: Fixed minor bugs in the secondary progress display.
+
+---
+
 **Changes in SearchGUI 4.1.7 (January 14. 2022):**
 
 * BUG FIX: Fixed a folder error with Tide for Linux.
