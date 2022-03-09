@@ -85,11 +85,13 @@ Name | Description | Possible values | Default value | Data type
 `charges` | Precusor charges to include | positive integer | `[2, 3]` | array of numbers
 `min_peplen` | Minimum length of peptides to include | positive integer | `8` | number
 `max_peplen` | Maximum length of peptides to include | positive integer | `30` | number
+`cleavage_rule` | Cleavage rule to use. Can be a regex or expasy cleavage rule. See [`pyteomics.parser.cleave`](https://pyteomics.readthedocs.io/en/latest/api/parser.html#pyteomics.parser.cleave) for all options. | string | `"trypsin"` | string
 `missed_cleavages` | Number of missed cleavages to include | positive integer | `2` | number
 `modifications` | Modifications to include. See below for more information | *see below* | modifications object | object
 `ms2pip_model` | MS2PIP model to use for predictions | *see MS2PIPc documentation* | `"HCD"` | string
 `decoy` | Also create decoy spectral library by reversing peptide sequences | `true`, `false` | `true` | boolean
 `add_retention_time` | Add retention times using [DeepLC](/projects/DeepLC) | `true`, `false` | `true` | boolean
+`deeplc` | DeepLC configuration ([DeepLC class options](https://github.com/compomics/DeepLC/blob/master/deeplc/deeplc.py)) | See DeepLC documentation | object
 `elude_model_file` | If not null, predict retention times with this ELUDE model* | `path/to/model.file` or `null` | `null` | string or null
 `peprec_filter` | If not null, do not predict spectra for peptides present in this peprec | `path/to/peprec.file` or `null` | `null` | string or null
 `batch_size` | To reduce memory consumption, the (still unmodified) peptides to predict are split-up into batches. A higher batch size is slightly faster, but requires more RAM. | positive integer | `5000` | number 
@@ -132,6 +134,7 @@ other PTMS for Glu on the first AA, while this is not possible in reality!
     "charges":[2, 3],
     "min_peplen":8,
     "max_peplen":30,
+    "cleavage_rule":"trypsin",
     "missed_cleavages":2,
     "modifications":[
         {"name":"Glu->pyro-Glu", "unimod_accession":27, "mass_shift":-18.0153, "amino_acid":"E", "n_term":true, "fixed":false},
@@ -143,6 +146,7 @@ other PTMS for Glu on the first AA, while this is not possible in reality!
     "ms2pip_model":"HCD",
     "decoy":true,
     "add_retention_time":true,
+    "deeplc": {},
     "elude_model_file":null,
     "rt_predictions_file":null,
     "peprec_filter":null,
