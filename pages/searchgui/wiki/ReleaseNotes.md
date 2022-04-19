@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.1.9 (April 19. 2022):**
+
+* FEATURE IMPROVEMENT: Updated MS-GF+ to version 2022.04.18.
+
+---
+
 **Changes in SearchGUI 4.1.8 (February 20. 2022):**
 
 * BUG FIX: Comet is no longer automatically disabled on Mac in the user interface.
