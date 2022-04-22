@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.1.10 (April 22. 2022):**
+
+* FEATURE IMPROVEMENT: Added support for Cl, Co, Ni and Mn.
+* LIBRARY UPDATE: Updated utilities to version 5.0.40.
+
+---
+
 **Changes in SearchGUI 4.1.9 (April 19. 2022):**
 
 * FEATURE IMPROVEMENT: Updated MS-GF+ to version 2022.04.18.
