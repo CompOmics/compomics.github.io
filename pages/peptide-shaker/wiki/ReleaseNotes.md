@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.2.7 (April 22. 2022):**
+
+* FEATURE IMPROVEMENT: Added support for Cl, Co, Ni and Mn.
+* LIBRARY UPDATE: Updated utilities to version 5.0.40.
+
+---
+
 **Changes in PeptideShaker 2.2.6 (March 1. 2022):**
 
 * BUG FIX: Fixed a null pointer in the algorithm matches export for tags.
