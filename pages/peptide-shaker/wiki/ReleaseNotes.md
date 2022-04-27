@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.2.8 (April 27. 2022):**
+
+* LIBRARY UPDATE: Updated utilities to version 5.0.41, fixing a bug in the Total Spectrum Intensity export.
+
+---
+
 **Changes in PeptideShaker 2.2.7 (April 22. 2022):**
 
 * FEATURE IMPROVEMENT: Added support for Cl, Co, Ni and Mn.
