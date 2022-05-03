@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.1.11 (May 3. 2022):**
+
+* FEATURE IMPROVEMENT: Updated Comet to version 2022.01 rev. 0.
+
+---
+
 **Changes in SearchGUI 4.1.10 (April 22. 2022):**
 
 * FEATURE IMPROVEMENT: Added support for Cl, Co, Ni and Mn.
