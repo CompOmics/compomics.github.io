@@ -11,7 +11,13 @@ github_project: "https://github.com/compomics/denovogui"
 
 ----
 
-**Changes in DeNovoGUI 1.16.6 (January 26. 20120):**
+**Changes in DeNovoGUI 1.16.7 (June 8. 2022):**
+
+* BUG FIX: Updated the link in the check for new versions.
+
+----
+
+**Changes in DeNovoGUI 1.16.6 (January 26. 2020):**
 
 * FEATURE IMPROVEMENT: Moved the code to Java 8.
 * FEATURE IMPROVEMENT: Made the JavaDoc compiler work on Java 9 and newer. 
