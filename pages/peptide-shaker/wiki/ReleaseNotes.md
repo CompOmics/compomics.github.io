@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.2.9 (June 8. 2022):**
+
+* BUG FIX: Updated the link in the check for new versions.
+
+---
+
 **Changes in PeptideShaker 2.2.8 (April 27. 2022):**
 
 * LIBRARY UPDATE: Updated utilities to version 5.0.41, fixing a bug in the Total Spectrum Intensity export.
