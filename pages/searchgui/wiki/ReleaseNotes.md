@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.1.12 (June 8. 2022):**
+
+* BUG FIX: Updated the link in the check for new versions.
+
+---
+
 **Changes in SearchGUI 4.1.11 (May 3. 2022):**
 
 * FEATURE IMPROVEMENT: Updated Comet to version 2022.01 rev. 0.
