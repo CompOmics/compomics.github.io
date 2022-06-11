@@ -11,6 +11,27 @@ github_project: "https://github.com/compomics/ThermoRawFileParser"
 
 ---
 
+**Changes in ThermoRawFileParser 1.4.0 (June 10. 2022):**
+
+* Precursor intensity was added to mzML files
+> Precursor intensity is now included in mzML output, the output should be fairly similar to ProteoWizard. However, the intensity value should be used with caution, see [Issue 125](/projects/ThermoRawFileParser/issues/125) and cited issues.
+* Support for all possible MS levels
+> All MS levels are included in the output, previously only up to MS3; mapping precursor scans using new method [Issue 126](/projects/ThermoRawFileParser/issues/126)
+* `-x` switch has reversed its meaning
+> When `-x` is defined reference and exception data will be excluded from the output, by default they will be included. Similar to Proteowizard.
+* Plain mzML (non-indexed) is forced when using `-s` and mzML format
+> When using output to STDOUT and mzML format, the format will be always non-indexed [Issue 118](/projects/ThermoRawFileParser/issues/118)
+* Updated ontology terms for ionization methods (HUPO PSI-MS version 4.1.79)
+> Added / updated ionization methods, [Issue 128](/projects/ThermoRawFileParser/issues/128) Thank you, @[abdelq](https://github.com/abdelq)
+* Switch to include noise and baseline data (`-N`)
+> With the new switch `-N|noiseData` noise and baseline data can be included in mzML output [Issue 130](/projects/ThermoRawFileParser/issues/130) Thank you, @[GeorgWa](https://github.com/GeorgWa)
+* Spectral points are sorted by mass
+> [Issue 117](/projects/ThermoRawFileParser/issues/117)
+* Metadata, format, and logging switches recognize both numeric and string values of parameters
+> It is possible to use both text representation (case-insensitive) and numeric representation for switches, i.e. `-f mzml` and `-f 1` are the same [Issue 121](/projects/ThermoRawFileParser/issues/121)
+
+---
+
 **Changes in ThermoRawFileParser 1.3.4 (April 20. 2021):**
 
 * Disable peak picking for specified MS levels
