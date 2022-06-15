@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.1.13 (June 15. 2022):**
+
+* LIBRARY UPDATE: Updated ThermoRawFileParser to version 1.4.0.
+
+---
+
 **Changes in SearchGUI 4.1.12 (June 8. 2022):**
 
 * BUG FIX: Updated the link in the check for new versions.
