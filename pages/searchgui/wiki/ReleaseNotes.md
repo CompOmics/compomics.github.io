@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.1.14 (June 30. 2022):**
+
+* LIBRARY UPDATE: Updated utilities to version 5.0.42, fixing a null pointer for TMT-related PTMs.
+
+---
+
 **Changes in SearchGUI 4.1.13 (June 15. 2022):**
 
 * LIBRARY UPDATE: Updated ThermoRawFileParser to version 1.4.0.
