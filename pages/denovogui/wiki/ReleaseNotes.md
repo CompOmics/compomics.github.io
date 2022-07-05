@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/denovogui"
 
 ----
 
+**Changes in DeNovoGUI 1.16.8 (July 5. 2022):**
+
+* FEATURE IMPROVEMENT: Updated BareBonesBrowserLaunch to version 3.1.
+
+----
+
 **Changes in DeNovoGUI 1.16.7 (June 8. 2022):**
 
 * BUG FIX: Updated the link in the check for new versions.
