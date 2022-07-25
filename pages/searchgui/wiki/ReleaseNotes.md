@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.1.15 (July 25. 2022):**
+
+* LIBRARY UPDATE: Updated utilities to version 5.0.44, making sure that already zipped search result files are not zipped twice.
+
+---
+
 **Changes in SearchGUI 4.1.14 (June 30. 2022):**
 
 * LIBRARY UPDATE: Updated utilities to version 5.0.42, fixing a null pointer for TMT-related PTMs.
