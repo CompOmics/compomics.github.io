@@ -313,6 +313,8 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.FollowUpCLI [paramete
 -precolator_file       Path to the file where to write the percolator training file. DeepLC and ms2pip 
                        files can be provided using the respective options. 
                        (Should end with .gz. Existing file will be overwritten.)
+
+-percolator_cache      Enable the caching of Percolator features (1: true, 0: false, default is '0').
 ```
 
 **FollowUpCLI Example**
