@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.1.18 (September 15. 2022):**
+
+* FEATURE IMPROVEMENT: Updated Comet to an updated version of 2022.01 rev. 2, fixing a spectrum title issue in the pep.xml export.
+
+---
+
 **Changes in SearchGUI 4.1.17 (September 13. 2022):**
 
 * FEATURE IMPROVEMENT: Updated Comet to version 2022.01 rev. 2.
