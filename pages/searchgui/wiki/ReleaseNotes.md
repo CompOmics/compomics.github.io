@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.1.20 (September 27. 2022):**
+
+* BUG FIX: Fixed a bug in the Ensembl mappings.
+* LIBRARY UPDATE: Updated utilities to version 5.0.46, fixing a bug for Java versions without decimals, e.g. just 19.
+
+---
+
 **Changes in SearchGUI 4.1.19 (September 20. 2022):**
 
 * FEATURE IMPROVEMENT: Updated Ensembl to version 104 and Ensembl Genomes to version 51.
