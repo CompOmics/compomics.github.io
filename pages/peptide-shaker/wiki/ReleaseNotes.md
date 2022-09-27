@@ -11,6 +11,19 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.2.12 (September 27. 2022):**
+
+* LIBRARY UPDATE: Updated utilities to version 5.0.47, updating from http to https in the software setup dialogs.
+
+---
+
+**Changes in PeptideShaker 2.2.11 (September 27. 2022):**
+
+* BUG FIX: Fixed a bug in the Ensembl mappings.
+* LIBRARY UPDATE: Updated utilities to version 5.0.46, fixing a bug for Java versions without decimals, e.g. just 19.
+
+---
+
 **Changes in PeptideShaker 2.2.10 (September 20. 2022):**
 
 * FEATURE IMPROVEMENT: Updated Ensembl to version 104 and Ensembl Genomes to version 51.
