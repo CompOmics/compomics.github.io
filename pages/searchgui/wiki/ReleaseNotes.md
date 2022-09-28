@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.1.21 (September 27. 2022):**
+
+* LIBRARY UPDATE: Updated utilities to version 5.0.47, updating from http to https in the software setup dialogs.
+
+---
+
 **Changes in SearchGUI 4.1.20 (September 27. 2022):**
 
 * BUG FIX: Fixed a bug in the Ensembl mappings.
