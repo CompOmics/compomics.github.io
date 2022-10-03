@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.2.13 (October 3. 2022):**
+
+* LIBRARY UPDATE: Updated utilities to version 5.0.48, supporting Java version numbers with + as separator.
+
+---
+
 **Changes in PeptideShaker 2.2.12 (September 27. 2022):**
 
 * LIBRARY UPDATE: Updated utilities to version 5.0.47, updating from http to https in the software setup dialogs.
