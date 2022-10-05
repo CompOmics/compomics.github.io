@@ -11,6 +11,21 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.2.15 (October 5. 2022):**
+
+* FEATURE IMPROVEMENT: Minor improvement to the scaling for mirrored spectra.
+* LIBRARY UPDATE: Updated utilities to version 5.0.49.
+
+---
+
+**Changes in PeptideShaker 2.2.14 (October 5. 2022):**
+
+* BUG FIX: Fixed a bug in the Modifications tab where the mirrored spectrum was not always updated correctly.
+* LIBRARY UPDATE: Updated jackson-databind to version 2.13.4.
+* LIBRARY UPDATE: Updated jackson-annotations to version 2.13.4.
+
+---
+
 **Changes in PeptideShaker 2.2.13 (October 3. 2022):**
 
 * LIBRARY UPDATE: Updated utilities to version 5.0.48, supporting Java version numbers with + as separator.
