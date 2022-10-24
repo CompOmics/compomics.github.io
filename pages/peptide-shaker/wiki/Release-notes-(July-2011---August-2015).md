@@ -1,13 +1,13 @@
 ---
-title: "Release notes (until august 2015)"
+title: "Release notes (July 2011   August 2015)"
 layout: default
-permalink: "/projects/peptide-shaker/wiki/Release-notes-%28until-august-2015%29"
+permalink: "/projects/peptide-shaker/wiki/Release-notes-%28July-2011---August-2015%29"
 tags: wiki, peptide-shaker
 project: "peptide-shaker"
 github_project: "https://github.com/compomics/peptide-shaker"
 ---
 
-# ReleaseNotes (until august 2015)
+# ReleaseNotes (July 2011 - August 2015)
 
 ----
 

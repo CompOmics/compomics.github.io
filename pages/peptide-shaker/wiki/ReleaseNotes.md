@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.2.16 (October 24. 2022):**
+
+* BUG FIX: Fixed a bug in the NewEnzymeDialog.
+* LIBRARY UPDATE: Updated utilities to version 5.0.50.
+
+---
+
 **Changes in PeptideShaker 2.2.15 (October 5. 2022):**
 
 * FEATURE IMPROVEMENT: Minor improvement to the scaling for mirrored spectra.
