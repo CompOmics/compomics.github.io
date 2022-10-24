@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.1.23 (October 24. 2022):**
+
+* BUG FIX: Fixed a bug in the NewEnzymeDialog.
+* LIBRARY UPDATE: Updated utilities to version 5.0.50.
+
+---
+
 **Changes in SearchGUI 4.1.22 (October 3. 2022):**
 
 * LIBRARY UPDATE: Updated utilities to version 5.0.48, supporting Java version numbers with + as separator.
