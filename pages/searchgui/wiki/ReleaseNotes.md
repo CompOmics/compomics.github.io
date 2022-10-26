@@ -11,6 +11,14 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.1.24 (October 26. 2022):**
+
+* NEW FEATURE: Added support for the use of multiple enzymes, only supported by X! Tandem, Comet, MyriMatch and Andromeda.
+* LIBRARY UPDATE: Updated ThermoRawFileParser to version 1.4.1.
+* LIBRARY UPDATE: Updated utilities to version 5.0.51.
+
+---
+
 **Changes in SearchGUI 4.1.23 (October 24. 2022):**
 
 * BUG FIX: Fixed a bug in the NewEnzymeDialog.
