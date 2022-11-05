@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/jsparklines"
 
 ----
 
+**Changes in JSparklines 1.1.0 (November 5. 2022):**
+
+* LIBRARY UPDATE: Updated jfreechart to version 1.5.3 (requiring Java 11 or newer).
+
+----
+
 **Changes in JSparklines 1.0.12 (January 26. 2020):**
 
 * FEATURE IMPROVEMENT: Moved the code to Java 8.

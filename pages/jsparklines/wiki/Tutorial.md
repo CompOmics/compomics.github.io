@@ -31,8 +31,6 @@ For the complete source code see the **JSparklines** [Demos](#demos) found with 
 
 To run the main demo, double click the file `jsparklines-X.Y.Z.jar`, or use: `java -jar jsparklines-X.Y.Z.jar`.
 
-A simple heat map demo is also included. To run this double click the file `jsparklines-X.Y.Z_heat_map_demo.jar`, or use: `java -jar jsparklines-X.Y.Z_heat_map_demo.jar`.
-
 **Note:** Remember to first unzip the downloaded zip file before trying to run the demos.
 
 [Go to top of page](# )
@@ -377,7 +375,7 @@ For a complete demo of how to use the heat maps see the `JSparklinesHeatMapDemo`
 <repository>
     <id>genesis-maven2-repository</id>
     <name>Genesis maven2 repository</name>
-    <url>http://genesis.UGent.be/maven2</url>
+    <url>https://genesis.UGent.be/maven2</url>
 </repository>
 ```
 
