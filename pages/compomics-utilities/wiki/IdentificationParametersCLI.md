@@ -38,6 +38,7 @@ Note that most of the advanced settings and algorithm specific parameters listed
     * [Tide advanced parameters](#tide-advanced-parameters)
     * [Andromeda advanced parameters](#andromeda-advanced-parameters)
     * [MetaMorpheus advanced parameters](#metamorpheus-advanced-parameters)
+    * [Sage advanced parameters](#sage-advanced-parameters)
     * [PepNovo advanced parameters](#pepnovo-advanced-parameters)
     * [DirecTag advanced parameters](#directag-advanced-parameters)
     * [pNovo advanced parameters](#pnovo-advanced-parameters)
@@ -932,6 +933,58 @@ The following parameters allow controlling specific identification algorithms sp
                           Common, Common_Biological, Common_Artifact, Metal, Glyco,
                           Less_Common, Labeling, Nucleotide_Substitution_One, 
                           Nucleotide_Substitution_TwoPlus, Other.
+```
+
+## Sage advanced parameters ##
+
+```
+-sage_bucket_size         Sage bucket size, number of fragments in each 
+                          internal mass bucket, default is '32768'.
+
+-sage_min_pep_length      Sage minimum peptide length, default is '8'.
+
+-sage_max_pep_length      Sage maximum peptide length, default is '30'.
+
+-sage_min_frag_mz         Sage minimum fragment mz, default is '200.0'.
+
+-sage_max_frag_mz         Sage maximum fragment mz, default is '2000.0'.
+
+-sage_min_pep_mass        Sage minimum peptide mass, default is '600.0'.
+
+-sage_max_pep_mass        Sage maximum peptide mass, default is '5000.0'.
+
+-sage_min_ion_index       Sage minimum ion index for the preliminary search, 
+                          default is '2', i.e. skip b1/b2/y1/y2 ions.
+
+-sage_max_var_mods        Sage maximum number of variable modifications, default is '2'.
+
+-sage_decoy_tag           Sage decoy tag, default is 'rev_'.
+
+-sage_generate_decoys     Sage generate decoys, default is 'true'.
+
+-sage_tmt                 Sage TMT: Tmt6, Tmt10, Tmt11, Tmt16, or Tmt18.
+
+-sage_lfq                 Sage LFQ: default is 'false'.
+
+-sage_deisotope           Sage deisotope, perform deisotoping and charge state deconvolution, 
+                          default is 'false'.
+
+-sage_chimera             Sage search for chimeric/co-fragmenting PSMS, default is 'false'.
+
+-sage_predict_rt          Sage use of retention time prediction model as an feature for LDA, 
+                          default is 'true'.
+
+-sage_min_peaks           Sage min number of peaks for a spectrum, default is '15'.
+
+-sage_max_peaks           Sage max number of peaks for a spectrum, default is '150'.
+
+-sage_max_frag_charge     Sage maximum fragment charge, default is 'null'.
+
+-sage_num_psms            Sage number of PSMs to report for each spectra. 
+                          Recommend setting to 1, higher values might disrupt LDA, default is '1'.
+
+-sage_parallel            Sage search files in parallel. For large numbers of files or low RAM, 
+                          set this to false, default is 'true'.
 ```
 
 ## PepNovo advanced parameters ##
