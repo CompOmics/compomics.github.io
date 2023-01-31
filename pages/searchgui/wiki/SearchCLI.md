@@ -13,7 +13,7 @@ github_project: "https://github.com/compomics/searchgui"
 
 The command line interface to SearchGUI, referred to as SearchCLI, makes it possible to run all search engines and _de novo_ algorithms supported by SearchGUI using a single command line.
 
-SearchCLI searches spectrum files according to search parameters using [X! Tandem](http://www.thegpm.org/tandem), [MyriMatch](http://forge.fenchurch.mc.vanderbilt.edu/scm/viewvc.php/*checkout*/trunk/doc/index.html?root=myrimatch), [MS Amanda](http://ms.imp.ac.at/?goto=msamanda), [MS-GF+](https://github.com/MSGFPlus/msgfplus), [OMSSA](http://www.ncbi.nlm.nih.gov/pubmed/15473683), [Comet](http://comet-ms.sourceforge.net/), [Tide](http://cruxtoolkit.sourceforge.net), [Andromeda](http://www.andromeda-search.org), [MetaMorpheus](https://github.com/smith-chem-wisc/MetaMorpheus), [Novor](http://rapidnovor.com) and [DirecTag](http://fenchurch.mc.vanderbilt.edu/bumbershoot/directag/).
+SearchCLI searches spectrum files according to search parameters using [X! Tandem](http://www.thegpm.org/tandem), [MyriMatch](http://forge.fenchurch.mc.vanderbilt.edu/scm/viewvc.php/*checkout*/trunk/doc/index.html?root=myrimatch), [MS Amanda](http://ms.imp.ac.at/?goto=msamanda), [MS-GF+](https://github.com/MSGFPlus/msgfplus), [OMSSA](http://www.ncbi.nlm.nih.gov/pubmed/15473683), [Comet](http://comet-ms.sourceforge.net/), [Tide](http://cruxtoolkit.sourceforge.net), [Andromeda](http://www.andromeda-search.org), [MetaMorpheus](https://github.com/smith-chem-wisc/MetaMorpheus), [Sage](https://github.com/lazear/sage), [Novor](http://rapidnovor.com) and [DirecTag](http://fenchurch.mc.vanderbilt.edu/bumbershoot/directag/).
 
 Identification parameters for use in SearchCLI can be provided as a file. Identification parameter files are in the [json](https://en.wikipedia.org/wiki/JSON) format and can be created in the graphical user interface, using the [IdentificationParametersCLI](/projects/compomics-utilities/wiki/IdentificationParametersCLI), or using third party tools. Alternatively, the parameters can be passed directly to SearchCLI by using the command line arguments of the [IdentificationParametersCLI](/projects/compomics-utilities/wiki/IdentificationParametersCLI).
 
@@ -71,6 +71,9 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
 -meta_morpheus          Turn the MetaMorpheus search on or off. 
                         (1: on, 0: off, default is '0')
 
+-sage                   Turn the Sage search on or off. 
+                        (1: on, 0: off, default is '0')
+
 -novor                  Turn the Novor sequencing on or off. 
                         (1: on, 0: off, default is '0')
 
@@ -106,6 +109,9 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
                         to the provided version for the given OS.
 
 -metamorpheus_folder    The folder where MetaMorpheus is installed, defaults                        
+                        to the provided version for the given OS.
+
+-sage_folder            The folder where Sage is installed, defaults                        
                         to the provided version for the given OS.
 
 -novor_folder           The folder where Novor is installed, defaults                        
