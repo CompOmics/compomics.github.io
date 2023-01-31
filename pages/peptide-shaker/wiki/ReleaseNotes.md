@@ -11,6 +11,19 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.2.18 (January 30. 2023):**
+
+* NEW FEATURE: Added support for parsing Sage output.
+* FEATURE IMPROVEMENT: Added high resolution versions of the charts.
+* BUG FIX: Removed a potential null pointer for custom PTMs in the mzml export.
+* LIBRARY UPDATE: Updated poi to version 5.2.3.
+* LIBRARY UPDATE: Updatedspring-webmvc to version 5.3.23.
+* LIBRARY UPDATE: Updated jackson-databind to version 2.14.0.
+* LIBRARY UPDATE: Updated jackson-annotations to version 2.14.0.
+* LIBRARY UPDATE: Updated utilities to version 5.0.61.
+
+---
+
 **Changes in PeptideShaker 2.2.17 (October 26. 2022):**
 
 * LIBRARY UPDATE: Updated utilities to version 5.0.51.
