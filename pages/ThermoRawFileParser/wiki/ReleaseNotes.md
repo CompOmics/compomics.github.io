@@ -10,6 +10,21 @@ github_project: "https://github.com/compomics/ThermoRawFileParser"
 # ReleaseNotes
 
 ---
+**Changes in ThermoRawFileParser 1.4.2 (February 11. 2023):**
+
+* Proper handling of precursors in decision tree methods from tribrids
+> RAW files acquired on tribrid platform with methods employing so-called *decision tree* have unusual precursor information. The fix implements proper handling of such files. Refer to [Issue 147](/projects/ThermoRawFileParser/issues/147) for details. 
+* Output file extension always follows the file format and (if employed) gzip compression
+> Refer to [Issue 148](/projects/ThermoRawFileParser/issues/148) for details.
+* Support for input files provided as symlinks
+> Earlier versions of TRFP failed if the input argument was a symlink. Currently, TRFP can detect such cases and resolve symlink target to process it. Refer to [Issue 146](/projects/ThermoRawFileParser/issues/146) for details.
+* Support for single file output for `xic` subcommand
+> Added an option `-b|--output_file` allowing control over output file name. Works only for single file input. The short command line key `-b` is the same as for other subcommands. **NOTE This change breaks command line compatibility with earlier versions - `-b` was previously used to produce base64-encoded output; now the short key for base64-encoding is `-6`, the long key compatibility is preserved.
+* Allowing optional field `comment` in XIC input json file
+> The comment field is preserved during XIC extraction and can be used as a key to identify different XICs in the output.
+* Thermo .NET assemblies were updated to version 5.0.0.88
+
+---
 **Changes in ThermoRawFileParser 1.4.1 (October 10. 2022):**
 
 * Files with missing trailer information can be processed
