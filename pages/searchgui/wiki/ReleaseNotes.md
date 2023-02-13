@@ -11,6 +11,17 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.2.2 (February 46. 2023):**
+
+* NEW FEATURE: Added support for extracting all spectra (and not just MS2) when parsing mzML files (beta).
+* FEATURE IMPROVEMENT: Updated MetaMorpheus to version 1.0.1 (NB: Requires [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)).
+* FEATURE IMPROVEMENT: Updated Sage to version 0.8.1.
+* FEATURE IMPROVEMENT: Sage is now using the decoy tag from the FASTA parameters (to avoid the use of two different decoy tags).
+* LIBRARY UPDATE: Updated ThermoRawFileParser to version 1.4.2.
+* LIBRARY UPDATE: Updated utilities to version 5.0.65.
+
+---
+
 **Changes in SearchGUI 4.2.1 (February 2. 2023):**
 
 * FEATURE IMPROVEMENT: Updated Comet to version 2023.01 rev. 0.
