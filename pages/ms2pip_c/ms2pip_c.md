@@ -1,7 +1,7 @@
 ---
 title: "ms2pip_c"
 project: "ms2pip_c"
-github_project: "https://github.com/compomics/ms2pip_c"
+github_project: "https://github.com/compomics/ms2pip"
 description: "MS2PIP: MS2 Peak Intensity Prediction"
 layout: default
 tags: project_home, ms2pip_c

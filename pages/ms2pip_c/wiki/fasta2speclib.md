@@ -4,7 +4,7 @@ layout: default
 permalink: "/projects/ms2pip_c/wiki/fasta2speclib"
 tags: wiki, ms2pip_c
 project: "ms2pip_c"
-github_project: "https://github.com/compomics/ms2pip_c"
+github_project: "https://github.com/compomics/ms2pip"
 ---
 
 # fasta2speclib: generate MS²PIP-predicted spectral libraries
