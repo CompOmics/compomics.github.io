@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/jsparklines"
 
 ----
 
+**Changes in JSparklines 1.1.1 (February 26. 2023):**
+
+* BUG FIX: Fixed an issue with unwanted shadows in some of the bar charts.
+
+----
+
 **Changes in JSparklines 1.1.0 (November 5. 2022):**
 
 * LIBRARY UPDATE: Updated jfreechart to version 1.5.3 (requiring Java 11 or newer).
