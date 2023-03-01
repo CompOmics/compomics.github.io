@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/jsparklines"
 
 ----
 
+**Changes in JSparklines 1.1.2 (March 1. 2023):**
+
+* BUG FIX: Fixed an issue with unwanted shadows in the box plots.
+
+----
+
 **Changes in JSparklines 1.1.1 (February 26. 2023):**
 
 * BUG FIX: Fixed an issue with unwanted shadows in some of the bar charts.
