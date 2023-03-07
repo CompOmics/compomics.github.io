@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.2.21 (March 7. 2023):**
+
+* FEATURE IMPROVEMENT: Improved the MS3 support when parsing mzML files.
+* LIBRARY UPDATE: Updated utilities to version 5.0.66.
+
+---
+
 **Changes in PeptideShaker 2.2.20 (February 13. 2023):**
 
 * NEW FEATURE: Added support for extracting all spectra (and not just MS2) when parsing mzML files (beta).
