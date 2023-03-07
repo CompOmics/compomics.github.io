@@ -11,7 +11,21 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
-**Changes in SearchGUI 4.2.2 (February 46. 2023):**
+**Changes in SearchGUI 4.2.4 (March 7. 2023):**
+
+* FEATURE IMPROVEMENT: Updated Sage to version 0.9.0 adding support for more enzyme types.
+
+---
+
+**Changes in SearchGUI 4.2.3 (March 7. 2023):**
+
+* FEATURE IMPROVEMENT: Improved the MS3 support when parsing mzML files.
+* BUG FIX: Only MS2 spectra are now (again) included when creating mgf, ms2 and apl spectrum files.
+* LIBRARY UPDATE: Updated utilities to version 5.0.65.
+
+---
+
+**Changes in SearchGUI 4.2.2 (February 13. 2023):**
 
 * NEW FEATURE: Added support for extracting all spectra (and not just MS2) when parsing mzML files (beta).
 * FEATURE IMPROVEMENT: Updated MetaMorpheus to version 1.0.1 (NB: Requires [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)).
