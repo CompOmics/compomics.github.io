@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.2.5 (March 8. 2023):**
+
+* FEATURE IMPROVEMENT: Updated Sage to version 0.9.1 adding support for more enzyme types.
+
+---
+
 **Changes in SearchGUI 4.2.4 (March 7. 2023):**
 
 * FEATURE IMPROVEMENT: Updated Sage to version 0.9.0 adding support for more enzyme types.
