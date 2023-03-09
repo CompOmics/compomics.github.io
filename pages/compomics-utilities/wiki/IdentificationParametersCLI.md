@@ -958,11 +958,13 @@ The following parameters allow controlling specific identification algorithms sp
 
 -sage_max_var_mods        Sage maximum number of variable modifications, default is '2'.
 
--sage_decoy_tag           Sage decoy tag, default is 'rev_'.
-
 -sage_generate_decoys     Sage generate decoys, default is 'true'.
 
 -sage_tmt                 Sage TMT: Tmt6, Tmt10, Tmt11, Tmt16, or Tmt18.
+
+-sage_tmt_level           Sage TMT level: MS-level to perform TMT quantification on, default is '3'.
+
+-sage_tmt_sn              Sage use signal/noise instead of intensity for TMT quant, default is 'false'.
 
 -sage_lfq                 Sage LFQ: default is 'false'.
 
@@ -977,6 +979,8 @@ The following parameters allow controlling specific identification algorithms sp
 -sage_min_peaks           Sage min number of peaks for a spectrum, default is '15'.
 
 -sage_max_peaks           Sage max number of peaks for a spectrum, default is '150'.
+
+-sage_min_matched_peaks   Sage minimum matched peaks, default is '4'
 
 -sage_max_frag_charge     Sage maximum fragment charge, default is 'null'.
 
