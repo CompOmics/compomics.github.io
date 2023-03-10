@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/reporter"
 
 ---
 
+**Changes in Reporter 0.10.1 (March 9. 2023):**
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 2.2.22.
+* LIBRARY UPDATE: Updated utilities to version 5.0.67.
+
+----
+
 **Changes in Reporter 0.10.0 (March 7. 2023):**
 
 * NEW FEATURE: Added support for MS3-based TMT quantification.
