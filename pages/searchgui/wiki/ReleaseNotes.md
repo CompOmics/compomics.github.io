@@ -11,6 +11,14 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.2.8 (March 20. 2023):**
+
+* FEATURE IMPROVEMENT: Updated Sage to version 0.10.0.
+* FEATURE IMPROVEMENT: Updated Comet to version 2023.01 rev. 1.
+* LIBRARY UPDATE: Updated utilities to version 5.0.68.
+
+---
+
 **Changes in SearchGUI 4.2.7 (March 9. 2023):**
 
 * BUG FIX: Fixed a bug in the Sage TMT level setting. 
