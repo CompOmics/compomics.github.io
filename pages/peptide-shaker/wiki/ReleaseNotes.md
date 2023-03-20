@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 2.2.3 (March 20. 2023):**
+
+* NEW FEATURE: Added initial support for displaying the Sage LFQ values (beta).
+* LIBRARY UPDATE: Updated utilities to version 5.0.68.
+
+---
+
 **Changes in PeptideShaker 2.2.22 (March 8. 2023):**
 
 * LIBRARY UPDATE: Updated utilities to version 5.0.67.
