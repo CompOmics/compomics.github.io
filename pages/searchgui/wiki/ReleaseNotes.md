@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.2.10 (May 8. 2023):**
+
+* FEATURE IMPROVEMENT: The Tide FASTA index can now be reused (see Tide advanced settings).
+* LIBRARY UPDATE: Updated utilities to version 5.0.69.
+
+---
+
 **Changes in SearchGUI 4.2.9 (March 31. 2023):**
 
 * FEATURE IMPROVEMENT: Updated Comet to version 2023.01 rev. 2.
