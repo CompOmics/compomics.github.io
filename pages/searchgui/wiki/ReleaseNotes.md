@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.2.11 (May 9. 2023):**
+
+* FEATURE IMPROVEMENT: Updated Sage to version 0.12.0.
+* LIBRARY UPDATE: Updated utilities to version 5.0.70.
+
+---
+
 **Changes in SearchGUI 4.2.10 (May 8. 2023):**
 
 * FEATURE IMPROVEMENT: The Tide FASTA index can now be reused (see Tide advanced settings).
