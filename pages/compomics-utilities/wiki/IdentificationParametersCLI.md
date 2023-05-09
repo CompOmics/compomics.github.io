@@ -968,10 +968,21 @@ The following parameters allow controlling specific identification algorithms sp
 
 -sage_lfq                 Sage LFQ: default is 'false'.
 
+-sage_lfq_peak_scoring    Sage LFQ peak scoring: Hybrid, RetentionTime or SpectralAngle. Default is 'Hybrid'.
+
+-sage_lfq_intergration    Sage LFQ integration: Sum or Max. Default is 'Sum'.
+
+-sage_lfq_spectral_angle  Sage LFQ spectral angle, default is '0.7'.
+
+-sage_lfq_ppm_tolerance   Sage LFQ ppm tolerance, default is '0.5'.
+
 -sage_deisotope           Sage deisotope, perform deisotoping and charge state deconvolution, 
                           default is 'false'.
 
--sage_chimera             Sage search for chimeric/co-fragmenting PSMS, default is 'false'.
+-sage_chimera             Sage search for chimeric/co-fragmenting PSMs, default is 'false'.
+
+-sage_wide_window         Sage ignore `precursor_tol` and search spectra in wide-window/dynamic 
+                          precursor tolerance mode, default is 'false'.
 
 -sage_predict_rt          Sage use of retention time prediction model as an feature for LDA, 
                           default is 'true'.
@@ -987,8 +998,7 @@ The following parameters allow controlling specific identification algorithms sp
 -sage_num_psms            Sage number of PSMs to report for each spectra. 
                           Recommend setting to 1, higher values might disrupt LDA, default is '1'.
 
--sage_parallel            Sage search files in parallel. For large numbers of files or low RAM, 
-                          set this to false, default is 'true'.
+-sage_batch_size          Sage batch size, default is the number of CPUs/2.
 ```
 
 ## PepNovo advanced parameters ##
