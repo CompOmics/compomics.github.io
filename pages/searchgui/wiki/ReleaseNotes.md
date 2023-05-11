@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.2.12 (May 11. 2023):**
+
+* BUG FIX: Fixed a bug in the command line parameter checks.
+
+---
+
 **Changes in SearchGUI 4.2.11 (May 9. 2023):**
 
 * FEATURE IMPROVEMENT: Updated Sage to version 0.12.0.
