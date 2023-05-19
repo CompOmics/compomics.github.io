@@ -11,6 +11,12 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.2.14 (May 19. 2023):**
+
+* FEATURE IMPROVEMENT: Updated Sage to version 0.13.1.
+
+---
+
 **Changes in SearchGUI 4.2.13 (May 17. 2023):**
 
 * FEATURE IMPROVEMENT: Updated Sage to version 0.13.0, adding support for more PTM types.
