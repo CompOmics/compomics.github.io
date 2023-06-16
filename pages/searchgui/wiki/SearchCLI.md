@@ -105,10 +105,17 @@ java -cp SearchGUI-X.Y.Z.jar eu.isas.searchgui.cmd.SearchCLI [parameters]
 -tide_folder            The folder where Tide is installed, defaults                        
                         to the provided version for the given OS.
 
+-tide_index_file        The file where the Tide index should be stored. 
+                        If this option is provided and the index is found,
+                        the creation of the index will be skipped. If this 
+                        option is not provided, the index will always be
+                        created and stored either in the Tide or the temp 
+                        folder.
+
 -andromeda_folder       The folder where Andromeda is installed, defaults                        
                         to the provided version for the given OS.
 
--metamorpheus_folder    The folder where MetaMorpheus is installed, defaults                        
+-meta_morpheus_folder   The folder where MetaMorpheus is installed, defaults                        
                         to the provided version for the given OS.
 
 -sage_folder            The folder where Sage is installed, defaults                        

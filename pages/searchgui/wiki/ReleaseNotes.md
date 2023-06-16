@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.2.15 (June 16. 2023):**
+
+* FEATURE IMPROVEMENT: Allowed the user to overwrite the location of the Tide index.
+* FEATURE IMPROVEMENT: Made sure the local version of MetaMorpheus is used when setting the folder.
+
+---
+
 **Changes in SearchGUI 4.2.14 (May 19. 2023):**
 
 * FEATURE IMPROVEMENT: Updated Sage to version 0.13.1.
