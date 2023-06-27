@@ -11,6 +11,13 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.2.17 (June 27. 2023):**
+
+* FEATURE IMPROVEMENT: Updated Sage to version 0.13.3.
+* BUG FIX: Re-added search engine executables that had disappeared in the previous release.
+
+---
+
 **Changes in SearchGUI 4.2.16 (June 19. 2023):**
 
 * FEATURE IMPROVEMENT: Updated Sage to version 0.13.2.
