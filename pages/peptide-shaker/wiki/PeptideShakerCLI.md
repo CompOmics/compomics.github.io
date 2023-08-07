@@ -314,6 +314,24 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.FollowUpCLI [paramete
                        files can be provided using the respective options. 
                        (Should end with .gz. Existing file will be overwritten.)
 
+-rt_obs_pred_file      Path to the file where to write the observed and predicted RT values for each PSM. 
+                       (Existing file will be overwritten.)
+
+-peaks_intensities_file
+                       Path to the file where to write the observed and predicted peaks intensities for 
+                       each PSM. (Existing file will be overwritten.)
+
+-psm_ids_for_peaks_export
+                       Path to the file which includes the IDs of the PSMs for which the peaks of the 
+                       predicted and observed spectra will be exported.
+
+-percolator_benchmark_results
+                       Path to the file containing Percolator results for each PSM. 
+                       (Existing file will be overwritten.)
+
+-psm_identifiers_file  Path to the file where to write the existing identifiers for each PSM. 
+                       (Existing file will be overwritten.)
+
 -percolator_cache      Enable the caching of Percolator features (1: true, 0: false, default is '0').
 ```
 
