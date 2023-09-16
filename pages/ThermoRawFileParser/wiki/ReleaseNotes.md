@@ -10,6 +10,21 @@ github_project: "https://github.com/compomics/ThermoRawFileParser"
 # ReleaseNotes
 
 ---
+**Changes in ThermoRawFileParser 1.4.3 (September 15. 2023):**
+
+* Added support for Thermo Astral RAW files
+* Update Thermo .NET assemblies to version 5.0.0.93
+> These two changes allow for converting RAW files produced by Thermo Astral mass spectrometer
+* Added support for PRM files without MS1 (shout-out to @lazear, fixes [#163](/projects/ThermoRawFileParser/issues/163) [#164](/projects/ThermoRawFileParser/issues/164))
+> Files lacking MS1 scan completely (such as, for example, PRM runs) can be processed
+* Fix for negative values in isolation window (fixes [#162](/projects/ThermoRawFileParser/issues/162))
+> A bug that results in negative isolation width for some RAW files is fixed
+* Complete support for raw files without MS data (only for MzML and metadata output) (shout-out to @wolfgangcolsman, fixes [#157](/projects/ThermoRawFileParser/issues/157))
+> Files without MS data, for example, only UV chromatograms are supported. MzML and metadata outputs are supported, since MGF and Parquet contain only MS-related infromation
+* Added expected runtime to metadata output (shout-out to @wolfgangcolsman, fixes [#166](/projects/ThermoRawFileParser/issues/166))
+> New value `expected runtime` is added to metadata output
+
+---
 **Changes in ThermoRawFileParser 1.4.2 (February 11. 2023):**
 
 * Proper handling of precursors in decision tree methods from tribrids
@@ -36,7 +51,7 @@ github_project: "https://github.com/compomics/ThermoRawFileParser"
 * Proper processing of empty RAW files
 > The program does not crash when empty (0 MS scans) file is provided [Issue 144](/projects/ThermoRawFileParser/issues/144)
 * Fixed a bug in handling isolation offset in mzML output
-> Isolation window borders account for isolation offset if it is used by the instrument
+>  If the isolation offset feature (isolation window shifted compared to the isolated mass) was used during the data acquisition, isolation window borders were calculated incorrectly
 * Refining OS exit codes reporting and "warning as error" key
 > The exit code now shows the number of errors encountered during processing, i.e. non-zero code indicates possible problems. If a key `-w` `--warningsAreErrors` is specified, the exit code is the number of warnings and errors (warnings still will be reported as warnings in the log) [Issue 140](/projects/ThermoRawFileParser/issues/140) Some of the error and warning messages have been rewritten
 * More logging levels
@@ -63,6 +78,8 @@ github_project: "https://github.com/compomics/ThermoRawFileParser"
 > [Issue 117](/projects/ThermoRawFileParser/issues/117)
 * Metadata, format, and logging switches recognize both numeric and string values of parameters
 > It is possible to use both text representation (case-insensitive) and numeric representation for switches, i.e. `-f mzml` and `-f 1` are the same [Issue 121](/projects/ThermoRawFileParser/issues/121)
+* Support for isolation window offset
+>  Added support for isolation offset feature (isolation window shifted compared to the isolated mass) when it is used during the data acquisition
 
 ---
 
