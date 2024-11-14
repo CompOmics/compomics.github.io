@@ -474,6 +474,53 @@ The following parameters allow controlling specific identification algorithms sp
 -ms_amanda_output         MS Amanda output format option, csv or mzIdentML.
                           default is 'csv'.
 
+-ms_amanda_max_charge_state
+                          MS Amanda maximum charge state of calculated fragment ions 
+                          (+2, +3, +4, Precursor - 1), default is '+2'.
+
+-ms_amanda_min_peak_depth MS Amanda minimum number of selected peaks within peak picking 
+                          window (1-30), default is '1'.
+
+-ms_amanda_max_peak_depth MS Amanda maximum number of selected peaks within peak picking 
+                          window (1-30), default is '10'.
+
+-ms_amanda_second_search  MS Amanda perform second search to identify mixed spectra window, 
+                          0: false, 1: true, default is '0'.
+
+-ms_amanda_keep_y1        MS Amanda whether y1 ion shall be kept for second search, 
+                          0: false, 1: true, default is '1'.
+
+-ms_amanda_remove_water_losses
+                          MS Amanda whether water losses shall be removed for second search, 
+                          0: false, 1: true, default is '1'.
+
+-ms_amanda_remove_ammonia_losses
+                          MS Amanda whether ammonia losses shall be removed for second search, 
+                          0: false, 1: true, default is '1'.
+
+-ms_amanda_exclude_first_precusor
+                          MS Amanda exclude original precursor in second search, 
+                          0: false, 1: true, default is '1'.
+
+-ms_amanda_max_multiple_precursors
+                          MS Amanda maximum number of different precursors for 
+                          second search (1-10), default is '5'.
+
+-ms_amanda_considered_charge_states
+                          MS Amanda charges to be tested for precursors (no deisotoping) 
+                          where the charge cannot be defined (+2; +3; +2, +3; +2, +3, +4; +3, +4; 
+                          +2, +3, +4, +5), default is '+2,+3'.
+
+-ms_amanda_combine_charge_states
+                          MS Amanda considered charges combined in one result, 
+                          0: false, 1: true, default is '1'.
+
+-ms_amanda_run_percolator MS Amanda automatically run percolator and add q-values to 
+                          output file, 0: false, 1: true, default is '0'.
+
+-ms_amanda_pin_file       MS Amanda Generate file for percolator; filename is the same as stated in 
+                          output filename with suffix _pin.tsv., 0: false, 1: true, default is '0'.
+
 ```
 
 ## MS-GF advanced parameters ##
@@ -734,8 +781,6 @@ The following parameters allow controlling specific identification algorithms sp
 
 -tide_min_spectrum_peaks  Tide min spectrum peaks, default is '20'.
 
--tide_spectrum_charges    Tide spectrum charges (1|2|3|all), default is 'all'.
-
 -tide_remove_prec         Tide remove precursor.
                           1: true, 0: false, default is '0'.
 
@@ -975,6 +1020,9 @@ The following parameters allow controlling specific identification algorithms sp
 -sage_lfq_spectral_angle  Sage LFQ spectral angle, default is '0.7'.
 
 -sage_lfq_ppm_tolerance   Sage LFQ ppm tolerance, default is '0.5'.
+
+-sage_lfq_combine_charge_states
+                          Sage LFQ combine charge states, default is 'true'.
 
 -sage_deisotope           Sage deisotope, perform deisotoping and charge state deconvolution, 
                           default is 'false'.

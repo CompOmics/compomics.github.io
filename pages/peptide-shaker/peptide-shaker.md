@@ -26,7 +26,7 @@ permalink: /projects/peptide-shaker
 
 |   |   |   |
 | :------------------------- | :---------------: | :--: |
-| [![download](https://github.com/compomics/peptide-shaker/wiki/images/download_button.png)](https://genesis.ugent.be/maven2/eu/isas/peptideshaker/PeptideShaker/2.2.25/PeptideShaker-2.2.25.zip) | *v2.2.25 - All platforms* | [ReleaseNotes](/projects/peptide-shaker/wiki/ReleaseNotes) |
+| [![download](https://github.com/compomics/peptide-shaker/wiki/images/download_button.png)](https://genesis.ugent.be/maven2/eu/isas/peptideshaker/PeptideShaker/3.0.11/PeptideShaker-3.0.11.zip) | *v3.0.11 - All platforms* | [ReleaseNotes](/projects/peptide-shaker/wiki/ReleaseNotes) |
 
 ---
 

@@ -9,6 +9,12 @@ github_project: "https://github.com/compomics/ThermoRawFileParserGUI"
 
 # ReleaseNotes
 
+**Changes in ThermoRawFileParserGUI 1.7.4 (July 5. 2024):**
+
+ * FEATURE IMPROVEMENT: Updated ThermoRawFileParser to version 1.4.4.
+
+---
+
 **Changes in ThermoRawFileParserGUI 1.7.3 (February 13. 2023):**
 
  * FEATURE IMPROVEMENT: Updated ThermoRawFileParser to version 1.4.2.

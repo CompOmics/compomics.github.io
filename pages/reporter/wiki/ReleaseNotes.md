@@ -11,6 +11,72 @@ github_project: "https://github.com/compomics/reporter"
 
 ---
 
+**Changes in Reporter 0.12.8 (September 10. 2024):**
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 3.0.10.
+* LIBRARY UPDATE: Updated utilities to version 5.1.15.
+
+---
+
+**Changes in Reporter 0.12.7 (September 4. 2024):**
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 3.0.9.
+* LIBRARY UPDATE: Updated utilities to version 5.1.14.
+
+---
+
+**Changes in Reporter 0.12.6 (April 15. 2024):**
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 3.0.8.
+* LIBRARY UPDATE: Updated utilities to version 5.1.11.
+
+---
+
+**Changes in Reporter 0.12.5 (April 12. 2024):**
+
+* FEATURE IMPROVEMENT: Added support for larger spectrum files.
+* LIBRARY UPDATE: Updated PeptideShaker to version 3.0.7.
+* LIBRARY UPDATE: Updated utilities to version 5.1.10.
+
+---
+
+**Changes in Reporter 0.12.4 (February 14. 2024):**
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 3.0.6.
+* LIBRARY UPDATE: Updated utilities to version 5.1.8.
+
+---
+
+**Changes in Reporter 0.12.3 (December 14. 2023):**
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 3.0.4.
+* LIBRARY UPDATE: Updated utilities to version 5.1.6.
+
+---
+
+**Changes in Reporter 0.12.2 (November 29. 2023):**
+
+* BUG FIX: Fixed a bug in parsing organism names with trailing parenthesis information.
+* LIBRARY UPDATE: Updated PeptideShaker to version 3.0.3.
+* LIBRARY UPDATE: Updated utilities to version 5.1.5.
+
+---
+
+**Changes in Reporter 0.12.1 (November 29. 2023):**
+
+* FEATURE IMPROVEMENT: Updated Ensembl to version 110 and Ensembl Genomes to version 57.
+* LIBRARY UPDATE: Updated PeptideShaker to version 3.0.2.
+* LIBRARY UPDATE: Updated utilities to version 5.1.4.
+
+---
+
+**Changes in Reporter 0.12.0 (September 28. 2023):**
+
+* LIBRARY UPDATE: Updated PeptideShaker to version 3.0.0.
+* LIBRARY UPDATE: Updated utilities to version 5.1.3.
+
+----
+
 **Changes in Reporter 0.10.4 (May 9. 2023):**
 
 * LIBRARY UPDATE: Updated PeptideShaker to version 2.2.25.
