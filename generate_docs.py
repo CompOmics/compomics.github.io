@@ -21,8 +21,7 @@ from glob import glob
 
 import yaml
 import git
-from git import Repo
-from github import Github
+from github import Github, Auth
 
 
 # Globals
@@ -45,8 +44,6 @@ def argument_parser():
                         help='Name of GitHub profile to parse from.')
     parser.add_argument('-a', action='store_true', default=False,
                         dest='update_all', help='Update all existing projects')
-    parser.add_argument('-g', action='store_true', default=False,
-                        dest='update_github', help='Push changes to GitHub')
     args = parser.parse_args()
     return args
 
@@ -182,7 +179,7 @@ def file_parser(line, config):
     return line
 
 
-def get_readme_file(config, repo_meta):
+def get_readme_file(config, repo_meta, github_instance):
     """
     Download default branch README.md file from GitHub and parse for github.io
     pages.
@@ -191,8 +188,7 @@ def get_readme_file(config, repo_meta):
     project_dir = os.path.join("pages", project_name)
 
     # Get README.md contents of default branch
-    g = Github(config['github_token'])
-    repo = g.get_repo("{}/{}".format(config['user'], config['project_name']))
+    repo = github_instance.get_repo("{}/{}".format(config['user'], config['project_name']))
     readme_raw = repo.get_readme().content
 
     # Write to file
@@ -257,21 +253,6 @@ Disable wiki in GitHub repository options to prevent warning.")
     shutil.rmtree("tmp_wiki_clone")
 
 
-def git_get_repo(path, token, user, repo_name):
-    """
-    Define GitPython repository and set remote URL to include access token.
-    """
-    remote_url = "https://{}:x-oauth-basic@github.com/{}/{}".format(
-        token, user, repo_name
-    )
-    repo = Repo(path)
-    if "origin" in repo.remotes:
-        repo.remotes["origin"].set_url(remote_url)
-    else:
-        repo.create_remote('origin_with_token', url=remote_url)
-    return repo
-
-
 def git_pull(repo):
     """
     Pull from remote using GitPython.
@@ -306,15 +287,14 @@ def main():
     args = argument_parser()
     config = load_config(args)
 
-    if args.update_github:
-        pages_repo = git_get_repo("./", config['github_token'], PUSH_USER, PUSH_REPO_NAME)
-        git_pull(pages_repo)
+    # Login into GitHub
+    auth = Auth.Token(config['github_token'])
+    g = Github(auth=auth)
 
     for project in config['projects']:
         config['project_name'] = project
 
         # Get project meta data
-        g = Github(config['github_token'])
         try:
             repo = g.get_repo("{}/{}".format(config['user'], config['project_name']))
         except Exception:
@@ -337,7 +317,7 @@ def main():
         os.makedirs(project_dir)
 
         # Get and parse README file (project home)
-        get_readme_file(config, repo_meta)
+        get_readme_file(config, repo_meta, g)
 
         # Get and parse wiki files
         if repo_meta['has_wiki']:
@@ -345,19 +325,10 @@ def main():
         else:
             logging.info("Project has no wiki.")
 
-        if args.update_github:
-            git_add_commit(pages_repo, "Update {} documentation".format(
-                config['project_name']
-            ))
-
         logging.info(
             "Succesfully parsed %s/%s", config['user'],
             config['project_name']
         )
-
-    if args.update_github:
-        logging.info("Pushing changes to GitHub...")
-        git_push(pages_repo)
 
     logging.info("Ready")
 
