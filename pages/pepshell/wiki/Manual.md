@@ -129,7 +129,7 @@ If your file type is not supported automatically, it is possible to provide PepS
 
 ### Connecting to a proteomics database
 
-PepShell supports data stored in an [ms-lims](/projects/ms-lims/) database out of the box, while [colims](/projects/colims/) support is currently being implemented as well. 
+PepShell supports data stored in an [ms-lims](/projects/ms-lims) database out of the box, while [colims](/projects/colims) support is currently being implemented as well. 
 
 For the inclusion of another database, you can contact the developers, or you can build your own importer if desired.
 
