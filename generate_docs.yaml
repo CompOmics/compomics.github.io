@@ -12,7 +12,8 @@ projects:
  - mappi-dat
  - mascotdatfile
  - ms-lims
- - ms2pip_c
+ - ms2pip
+ - ms2rescore
  - ols-dialog
  - omssa-parser
  - pepshell

@@ -1,9 +1,9 @@
 ---
 title: "Training new MS2PIP models"
 layout: default
-permalink: "/projects/ms2pip_c/wiki/Training-new-MS2PIP-models"
-tags: wiki, ms2pip_c
-project: "ms2pip_c"
+permalink: "/projects/ms2pip/wiki/Training-new-MS2PIP-models"
+tags: wiki, ms2pip
+project: "ms2pip"
 github_project: "https://github.com/compomics/ms2pip"
 ---
 

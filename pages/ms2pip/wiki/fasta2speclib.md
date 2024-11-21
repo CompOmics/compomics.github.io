@@ -1,9 +1,9 @@
 ---
 title: "fasta2speclib"
 layout: default
-permalink: "/projects/ms2pip_c/wiki/fasta2speclib"
-tags: wiki, ms2pip_c
-project: "ms2pip_c"
+permalink: "/projects/ms2pip/wiki/fasta2speclib"
+tags: wiki, ms2pip
+project: "ms2pip"
 github_project: "https://github.com/compomics/ms2pip"
 ---
 
