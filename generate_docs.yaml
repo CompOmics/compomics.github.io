@@ -3,6 +3,7 @@ projects:
  - colims
  - compomics-utilities
  - dbtoolkit
+ - deeplc
  - denovogui
  - fragmentation-analyzer
  - iceLogo
@@ -11,6 +12,7 @@ projects:
  - jtraml
  - mappi-dat
  - mascotdatfile
+ - meta-proteome-analyzer
  - ms-lims
  - ms2pip
  - ms2rescore
@@ -23,7 +25,6 @@ projects:
  - reporter
  - search-all-assess-subset
  - searchgui
- - spectrum_similarity
  - tabloidproteome
  - thermo-msf-parser
  - ThermoRawFileParser
