@@ -2,3 +2,4 @@ requests
 PyYAML
 GitPython
 PyGithub
+rst-to-myst
