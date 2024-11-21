@@ -92,7 +92,7 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.PeptideShakerCLI
 -reference myReference -fasta_file "/myFolder/my_data.fasta"
 -identification_files "/myFolder" -spectrum_files "/myFolder" 
 -id_params "/myFolder/my_search_params.par" 
--out "/myFolder/myCpsFile.psdb"
+-out "/myFolder/myPsdbFile.psdb"
 ```
 
 _Note that for readability the command is here split over multiple lines. When used the command should of course be a single line._
@@ -164,7 +164,7 @@ ReportCLI example where _X_, _Y_ and _Z_ have to be replaced by the actual versi
 
 ```java
 java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.ReportCLI 
--in "/myFolder/myCpsFile.psdb" -out_reports "/myFolder" -reports "0, 3" -report_prefix "my_" -gzip 0
+-in "/myFolder/myPsdbFile.psdb" -out_reports "/myFolder" -reports "0, 3" -report_prefix "my_" -gzip 0
 ```
 
 [Go to top of page](#peptideshakercli)
@@ -340,7 +340,7 @@ java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.FollowUpCLI [paramete
 FollowUpCLI example where _X_, _Y_ and _Z_ have to be replaced by the actual version of PeptideShaker and _my folder_ by the folder containing the desired files:
 
 ```java
-java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.FollowUpCLI -in "/myFolder/myCpsFile.psdb" -spectrum_folder "/myFolder" -psm_type 0
+java -cp PeptideShaker-X.Y.Z.jar eu.isas.peptideshaker.cmd.FollowUpCLI -in "/myFolder/myPsdbFile.psdb" -spectrum_folder "/myFolder" -psm_type 0
 ```
 
 [Go to top of page](#peptideshakercli)
@@ -544,10 +544,10 @@ java -Djava.util.concurrent.ForkJoinPool.common.parallelism=32 -cp PeptideShaker
 
 **Opening PeptideShaker Projects**
 
-To open a PeptideShaker project (cps file or zipped cps file) from the command line (for display in PeptideShaker) use the following command:
+To open a PeptideShaker project (psdb file or zipped psdb file) from the command line (for display in PeptideShaker) use the following command:
 
 ```java
-java -jar PeptideShaker-X.Y.Z.jar -cps "/myFolder/myCpsFile.psdb"
+java -jar PeptideShaker-X.Y.Z.jar -psdb "/myFolder/myPsdbFile.psdb"
 ```
 
 To open a zipped PeptideShaker project via a URL from the command line (for display in PeptideShaker) use the following command:

@@ -11,6 +11,101 @@ github_project: "https://github.com/compomics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.3.11 (September 19. 2024):**
+
+* FEATURE IMPROVEMENT: Updated MetaMorpheus to version 1.0.6.
+* LIBRARY UPDATE: Updated utilities to version 5.1.15.
+
+---
+
+**Changes in SearchGUI 4.3.10 (September 4. 2024):**
+
+* FEATURE IMPROVEMENT: Updated MS Amanda to version 3.0.22.071.
+* FEATURE IMPROVEMENT: Updated Comet to version 2024.01 rev. 1.
+* FEATURE IMPROVEMENT: Updated ThermoRawFileParser to version v1.4.4.
+* BUG FIX: Fixed an error with using fixed n-terminal PTMs in Sage.
+* BUG FIX: Fixed a bug in the Sage batch-size option.
+* LIBRARY UPDATE: Updated utilities to version 5.1.14.
+
+---
+
+**Changes in SearchGUI 4.3.9 (April 15. 2024):**
+
+* FEATURE IMPROVEMENT: Updated Tide to version 4.2. 
+* LIBRARY UPDATE: Updated utilities to version 5.1.11.
+
+---
+
+**Changes in SearchGUI 4.3.8 (April 12. 2024):**
+
+* FEATURE IMPROVEMENT: Added support for larger spectrum files.
+* LIBRARY UPDATE: Updated utilities to version 5.1.10.
+
+---
+
+**Changes in SearchGUI 4.3.7 (March 6. 2024):**
+
+* FEATURE IMPROVEMENT: Added support for more raw file types for msconvert, including .d folders.
+* FEATURE IMPROVEMENT: Added a method to control the behavior when SeachCLI completes or crashes.
+* BUG FIX: Fixed a bug in the Comet enzyme indexing where the last enzyme was ignored.
+* BUG FIX: Added the EBI repositories to the pom file.
+* LIBRARY UPDATE: Updated utilities to version 5.1.9.
+
+---
+
+**Changes in SearchGUI 4.3.6 (February 14. 2024):**
+
+* FEATURE IMPROVEMENT: Updated MS Amanda to version 3.0.21.532.
+* FEATURE IMPROVEMENT: MS Amanda now uses mzML files directly (and not via mgf).
+* FEATURE IMPROVEMENT: Updated Sage to version 0.14.6.
+* FEATURE IMPROVEMENT: Added support for more than one modification per residue for Sage.
+* LIBRARY UPDATE: Updated utilities to version 5.1.8.
+
+---
+
+**Changes in SearchGUI 4.3.5 (December 15. 2023):**
+
+* FEATURE IMPROVEMENT: Updated MetaMorpheus to version 1.0.5.
+
+---
+
+**Changes in SearchGUI 4.3.4 (December 14. 2023):**
+
+* FEATURE IMPROVEMENT: Updated Sage to version 0.14.5.
+* LIBRARY UPDATE: Updated utilities to version 5.1.6.
+
+---
+
+**Changes in SearchGUI 4.3.3 (November 29. 2023):**
+
+* BUG FIX: Fixed a bug in parsing organism names with trailing parenthesis information.
+* LIBRARY UPDATE: Updated utilities to version 5.1.5.
+
+---
+
+**Changes in SearchGUI 4.3.2 (November 29. 2023):**
+
+* FEATURE IMPROVEMENT: Updated Ensembl to version 110 and Ensembl Genomes to version 57.
+* LIBRARY UPDATE: Updated utilities to version 5.1.4.
+
+---
+
+**Changes in SearchGUI 4.3.1 (October 4. 2023):**
+
+* BUG FIX: Fixed a potential null pointer in SearchCLI.
+
+---
+
+**Changes in SearchGUI 4.3.0 (September 28. 2023):**
+
+* FEATURE IMPROVEMENT: Updated Sage to version 0.14.3.
+* FEATURE IMPROVEMENT: Updated MetaMorpheus to version 1.0.4.
+* FEATURE IMPROVEMENT: Updated MS Amanda to version 3.0.21.049.
+* BUG FIX: Fixed an issue with setting the Tide index.
+* LIBRARY UPDATE: Updated utilities to version 5.1.3.
+
+---
+
 **Changes in SearchGUI 4.2.17 (June 27. 2023):**
 
 * FEATURE IMPROVEMENT: Updated Sage to version 0.13.3.

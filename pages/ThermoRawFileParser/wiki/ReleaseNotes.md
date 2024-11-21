@@ -10,6 +10,21 @@ github_project: "https://github.com/compomics/ThermoRawFileParser"
 # ReleaseNotes
 
 ---
+**Changes in ThermoRawFileParser 1.4.5 (Oct 14. 2024):**
+
+- Fixing CV annotations in PROXI format
+
+---
+**Changes in ThermoRawFileParser 1.4.4 (May 10. 2024):**
+
+- Speedup the processing of files when only some MS levels are written to the output (closes [#176](/projects/ThermoRawFileParser/issues/176))
+- Handling of raw files missing the supplementary activation flag (closes [#175](/projects/ThermoRawFileParser/issues/175))
+- Using CVTerm "Orbitap" instead of "FTICR" for Orbitrap-based instruments (closes [#177](/projects/ThermoRawFileParser/issues/177))
+- Unification of command line arguments ([#179](/projects/ThermoRawFileParser/issues/179)), shout-out to [@xjasg](https://github.com/xjasg)
+- Fixing metadata output for files missing MS part, shout-out to [@wolfgangcolsman](https://github.com/wolfgangcolsman)  
+- Minor fixes to mzML output and cleaning unused code
+
+---
 **Changes in ThermoRawFileParser 1.4.3 (September 15. 2023):**
 
 * Added support for Thermo Astral RAW files

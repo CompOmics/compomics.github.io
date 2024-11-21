@@ -11,6 +11,97 @@ github_project: "https://github.com/compomics/peptide-shaker"
 
 ---
 
+**Changes in PeptideShaker 3.0.11 (September 12. 2024):**
+
+* BUG FIX: Fixed an indexing bug in the PTM coverage plot.
+* BUG FIX: Fixed a bug in the PTM indexing in the protein reports.
+
+---
+
+**Changes in PeptideShaker 3.0.10 (September 10. 2024):**
+
+* BUG FIX: Fixed bugs in the gzip option for ReportCLI.
+* LIBRARY UPDATE: Updated utilities to version 5.1.15.
+
+---
+
+**Changes in PeptideShaker 3.0.9 (September 4. 2024):**
+
+* FEATURE IMPROVEMENT: Doubled the chunk size for the FMIndex as a quick fix to support larger databases.
+* LIBRARY UPDATE: Updated jackson-annotations to version 2.17.0.
+* LIBRARY UPDATE: Updated jackson-databind to version 2.17.0.
+* LIBRARY UPDATE: Updated httpclient to version 4.5.14.
+* LIBRARY UPDATE: Updated spring-webmvc to version 6.1.5.
+* LIBRARY UPDATE: Updated commons-text to version 1.11.0.
+* LIBRARY UPDATE: Updated poi to version 5.2.5.
+* LIBRARY UPDATE: Updated utilities to version 5.1.14.
+
+---
+
+**Changes in PeptideShaker 3.0.8 (April 15. 2024):**
+
+* LIBRARY UPDATE: Updated utilities to version 5.1.11.
+
+---
+
+**Changes in PeptideShaker 3.0.7 (April 12. 2024):**
+
+* FEATURE IMPROVEMENT: Added support for larger spectrum files.
+* LIBRARY UPDATE: Updated utilities to version 5.1.10.
+
+---
+
+**Changes in PeptideShaker 3.0.6 (February 14. 2024):**
+
+* LIBRARY UPDATE: Updated utilities to version 5.1.8.
+
+---
+
+**Changes in PeptideShaker 3.0.5 (December 20. 2023):**
+
+* BUG FIX: Bug fixes related to the filtering of proteins, peptides and PSMs.
+* LIBRARY UPDATE: Updated utilities to version 5.1.7.
+
+---
+
+**Changes in PeptideShaker 3.0.4 (December 14. 2023):**
+
+* FEATURE IMPROVEMENT: Updated the Example dataset.
+* LIBRARY UPDATE: Updated utilities to version 5.1.6.
+
+---
+
+**Changes in PeptideShaker 3.0.3 (November 29. 2023):**
+
+* BUG FIX: Fixed a bug in parsing organism names with trailing parenthesis information.
+* LIBRARY UPDATE: Updated utilities to version 5.1.5.
+
+---
+
+**Changes in PeptideShaker 3.0.2 (November 29. 2023):**
+
+* FEATURE IMPROVEMENT: Updated Ensembl to version 110 and Ensembl Genomes to version 57.
+* LIBRARY UPDATE: Updated utilities to version 5.1.4.
+
+---
+
+**Changes in PeptideShaker 3.0.1 (October 3. 2023):**
+
+* FEATURE IMPROVEMENT: Updated the example dataset.
+
+---
+
+**Changes in PeptideShaker 3.0.0 (September 28. 2023):**
+
+* NEW FEATURE: Added export of [SDRF](https://psidev.info/srdf) next to the mzIdentML exports.
+* FEATURE IMPROVEMENT: Improved the PTM mapping.
+* FEATURE IMPROVEMENT: Backend improvements to (hopefully) improve stability.
+* LIBRARY UPDATE: Updated utilities to version 5.1.3.
+
+_Note: Due to the backend changes older PeptideShaker projects can not be opened in this new version. Please use version 2.2.5 to open older projects._ 
+
+---
+
 **Changes in PeptideShaker 2.2.5 (May 9. 2023):**
 
 * LIBRARY UPDATE: Updated utilities to version 5.0.70.
