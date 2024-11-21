@@ -26,34 +26,9 @@ jobs:
           GH_ACCESS_TOKEN: ${{ secrets.GH_ACCESS_TOKEN}}
         run: python generate_docs.py -c generate_docs.yaml -t "$GH_ACCESS_TOKEN"
       
-      - name: Create pull request
-        id: cpr
-        uses: peter-evans/create-pull-request@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: Update docs
-          committer: GitHub <noreply@github.com>
-          author: GitHub <noreply@github.com>
-          branch: updated-docs
-          delete-branch: true
-          title: 'Update docs'
-          body: |
-            This automated PR updates the documentation pages.
-          labels: |
-            pages update
-            automated pr
-
-      - name: Approve pull request
-        if: (steps.cpr.outputs.pull-request-operation == 'created' ||	steps.cpr.outputs.pull-request-operation == 'updated')
-        uses: juliangruber/approve-pull-request-action@v1
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          number: ${{ steps.cpr.outputs.pull-request-number }}
-
-      - name: Merge pull request
-        if: (steps.cpr.outputs.pull-request-operation == 'created' ||	steps.cpr.outputs.pull-request-operation == 'updated')
-        uses: peter-evans/enable-pull-request-automerge@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
-          merge-method: squash
+      - name: Push changes
+        run: |
+          git config --global user.name "GitHub"
+          git config --global user.email "noreply@github.com"
+          git commit -a -m "Update pages"
+          git push
