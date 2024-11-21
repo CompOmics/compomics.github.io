@@ -11,13 +11,13 @@ compomics.github.io pages.
 
 import re
 import os
-import sys
 import shutil
 import base64
 import logging
 import argparse
 import urllib.parse
 from glob import glob
+from pathlib import Path
 
 import yaml
 import git
@@ -141,18 +141,6 @@ github_project: "{github_project}"
     return header
 
 
-def file_parser_old(line, config):
-    """
-    Parse Markdown page for compomics.github.io pages:
-     - Replace wiki URLs to pages URLs
-    """
-    line = line.replace(
-        "https://github.com/{}/{}/wiki/".format(config['user'], config['project_name']),
-        "https://compomics.github.io/projects/{}/wiki/".format(config['project_name'])
-    )
-    return line
-
-
 def url_sub(matches):
     """
     Function for re.sub() that returns a parsed URL
@@ -167,7 +155,7 @@ def url_sub(matches):
         return '/projects' + url + ')'
 
 
-def file_parser(line, config):
+def file_parser(line):
     """
     Parse Markdown page for compomics.github.io pages:
      - Replace wiki URLs to pages URLs
@@ -188,20 +176,23 @@ def get_readme_file(config, repo_meta, github_instance):
     project_name = config['project_name']
     project_dir = os.path.join("pages", project_name)
 
-    # Get README.md contents of default branch
+    # Get README contents of default branch
     repo = github_instance.get_repo("{}/{}".format(config['user'], config['project_name']))
     readme = repo.get_readme()
     readme_content = base64.b64decode(readme.content).decode()
-
-    if readme.is_rest():
+    readme_suffix = Path(readme.download_url).suffix.lower()
+    
+    if readme_suffix == ".rst":
         readme_md = rst_to_myst.rst_to_myst(readme_content, use_sphinx=False).text
-    else:
+    elif readme_suffix == ".md":
         readme_md = readme_content
+    else:
+        raise ValueError("README in unsupported filetype")
 
     # Write to file
     with open(os.path.join(project_dir, project_name + '.md'), 'wt') as readme_out:
         readme_out.write(construct_project_home_header(project_name, repo_meta))
-        readme_out.write(file_parser(readme_md, config))
+        readme_out.write(file_parser(readme_md))
 
 
 
@@ -254,32 +245,10 @@ Disable wiki in GitHub repository options to prevent warning.")
                     if i == 0:
                         if not line.startswith('# '):
                             f_out.write("# {}\n".format(wiki_meta['title']))
-                    f_out.write(file_parser(line, config))
+                    f_out.write(file_parser(line))
 
     # Remove tmp files
     shutil.rmtree("tmp_wiki_clone")
-
-
-def git_pull(repo):
-    """
-    Pull from remote using GitPython.
-    """
-    repo.remotes["origin"].pull(refspec='master:master')
-
-
-def git_add_commit(repo, commit_message):
-    """
-    Add all changes and commit with given message using GitPython.
-    """
-    repo.git.add(all=True)
-    repo.index.commit(commit_message)
-
-
-def git_push(repo):
-    """
-    Push changes to GitHub using GitPython.
-    """
-    repo.remotes["origin"].push(refspec='master:master', force=True, quiet=True)
 
 
 def main():
