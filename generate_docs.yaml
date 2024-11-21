@@ -27,5 +27,4 @@ projects:
  - thermo-msf-parser
  - ThermoRawFileParser
  - ThermoRawFileParserGUI
- - xilmass
  - xtandem-parser
