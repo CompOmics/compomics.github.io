@@ -21,6 +21,7 @@ from glob import glob
 
 import yaml
 import git
+import rst_to_myst
 from github import Github, Auth
 
 
@@ -189,12 +190,18 @@ def get_readme_file(config, repo_meta, github_instance):
 
     # Get README.md contents of default branch
     repo = github_instance.get_repo("{}/{}".format(config['user'], config['project_name']))
-    readme_raw = repo.get_readme().content
+    readme = repo.get_readme()
+    readme_content = base64.b64decode(readme.content).decode()
+
+    if readme.is_rest():
+        readme_md = rst_to_myst.rst_to_myst(readme_content, use_sphinx=False).text
+    else:
+        readme_md = readme_content
 
     # Write to file
     with open(os.path.join(project_dir, project_name + '.md'), 'wt') as readme_out:
         readme_out.write(construct_project_home_header(project_name, repo_meta))
-        readme_out.write(file_parser(base64.b64decode(readme_raw).decode(), config))
+        readme_out.write(file_parser(readme_md, config))
 
 
 
@@ -295,14 +302,7 @@ def main():
         config['project_name'] = project
 
         # Get project meta data
-        try:
-            repo = g.get_repo("{}/{}".format(config['user'], config['project_name']))
-        except Exception:
-            logging.error(
-                'Repository %s/%s not found. Exiting',
-                config['user'], config['project_name']
-            )
-            sys.exit(1)
+        repo = g.get_repo("{}/{}".format(config['user'], config['project_name']))
         repo_meta = {
             'html_url': repo.html_url,
             'has_wiki': repo.has_wiki,
