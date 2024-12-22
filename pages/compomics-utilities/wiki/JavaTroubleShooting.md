@@ -20,7 +20,7 @@ The aim of this wiki page is to provide help with common Java related issues tha
 
 ## Installing Java ##
 
-  * Do you have Java installed? Download the latest version of Java  [here](http://java.sun.com/javase/downloads/index.jsp). (You only need the JRE version (and not the JDK version) to run CompOmics tools.) [64 bit is always recommended!](#32-bit-vs-64-bit)
+  * Do you have Java installed? Download the latest version of Java  [here](https://adoptium.net/temurin/releases/). (You only need the JRE version (and not the JDK version) to run CompOmics tools.) [64 bit is always recommended!](#32-bit-vs-64-bit)
 
 ---
 
@@ -28,7 +28,7 @@ The aim of this wiki page is to provide help with common Java related issues tha
 
   * **Memory Issues I** - Big datasets can require a lot of memory. If the software fails on a big project, and the software mentions that it ran out of memory, try to give the program more memory. This can be done by selecting `Java Options` on the `Edit` menu in most tools. Set the memory limit in MB, e.g., `4000` for a maximum of appr. 4 GB of memory. _Please note that on a 32-bit operating system you cannot increase this value beyond 2000 (and usually the maximum limit is lower than this)._
 
-  * **Memory Issues II** - Using more than 2 GB of memory requires 64 bit Java. Downloaded from the same location as the 32 bit version: [Java](http://java.sun.com/javase/downloads/index.jsp). _Note that 64 bit Java only works on 64 bit operating systems!_
+  * **Memory Issues II** - Using more than 2 GB of memory requires 64 bit Java. Downloaded from the same location as the 32 bit version: [Java](https://adoptium.net/temurin/releases/). _Note that 64 bit Java only works on 64 bit operating systems!_
 
 ---
 
@@ -42,7 +42,7 @@ The aim of this wiki page is to provide help with common Java related issues tha
 
 ## Tool Does Not Start ##
 
-  * **Does Not Start I** - Do you have Java installed? Download the latest version of Java  [here](http://java.sun.com/javase/downloads/index.jsp) and try again. (You only need the JRE version (and not the JDK version) to run CompOmics tools.) [64 bit is always recommended!](#32-bit-vs-64-bit)
+  * **Does Not Start I** - Do you have Java installed? Download the latest version of Java  [here](https://adoptium.net/temurin/releases/) and try again. (You only need the JRE version (and not the JDK version) to run CompOmics tools.) [64 bit is always recommended!](#32-bit-vs-64-bit)
 
   * **Does Not Start II** - Have you unzipped the zip file? You need to unzip the file before double clicking the jar file. If you get the message "A Java Exception has occurred", you are most likely trying to run the tool from within the zip file. Unzip the file and try again.
 
