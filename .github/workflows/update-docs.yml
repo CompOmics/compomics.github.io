@@ -31,5 +31,10 @@ jobs:
         run: |
           git config --global user.name "GitHub"
           git config --global user.email "noreply@github.com"
-          git commit -a -m "Update pages"
+          if git diff-index --quiet HEAD --; then
+            echo "No changes to commit. Exiting."
+            exit 0
+          fi
+          git add -A
+          git commit -m "Update pages"
           git push
