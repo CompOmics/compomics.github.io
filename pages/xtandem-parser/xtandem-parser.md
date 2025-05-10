@@ -1,7 +1,7 @@
 ---
 title: "xtandem-parser"
 project: "xtandem-parser"
-github_project: "https://github.com/compomics/xtandem-parser"
+github_project: "https://github.com/CompOmics/xtandem-parser"
 description: "Java-based parser for X!Tandem output xml files "
 layout: default
 tags: project_home, xtandem-parser

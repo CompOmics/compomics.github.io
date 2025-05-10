@@ -4,7 +4,7 @@ layout: default
 permalink: "/projects/mascotdatfile/wiki/UsageAndExamples"
 tags: wiki, mascotdatfile
 project: "mascotdatfile"
-github_project: "https://github.com/compomics/mascotdatfile"
+github_project: "https://github.com/CompOmics/mascotdatfile"
 ---
 
 # Usage And Examples

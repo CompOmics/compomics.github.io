@@ -4,7 +4,7 @@ layout: default
 permalink: "/projects/pepshell/wiki/Manual"
 tags: wiki, pepshell
 project: "pepshell"
-github_project: "https://github.com/compomics/pepshell"
+github_project: "https://github.com/CompOmics/pepshell"
 ---
 
 # Manual

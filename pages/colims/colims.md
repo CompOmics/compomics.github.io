@@ -1,7 +1,7 @@
 ---
 title: "colims"
 project: "colims"
-github_project: "https://github.com/compomics/colims"
+github_project: "https://github.com/CompOmics/colims"
 description: "A lims system to automate and expedite proteomics data management, processing and analysis."
 layout: default
 tags: project_home, colims

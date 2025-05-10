@@ -4,7 +4,7 @@ layout: default
 permalink: "/projects/searchgui/wiki/ReleaseNotes"
 tags: wiki, searchgui
 project: "searchgui"
-github_project: "https://github.com/compomics/searchgui"
+github_project: "https://github.com/CompOmics/searchgui"
 ---
 
 # ReleaseNotes

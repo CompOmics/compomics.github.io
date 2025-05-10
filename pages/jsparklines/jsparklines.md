@@ -1,7 +1,7 @@
 ---
 title: "jsparklines"
 project: "jsparklines"
-github_project: "https://github.com/compomics/jsparklines"
+github_project: "https://github.com/CompOmics/jsparklines"
 description: "Sparklines for java tables"
 layout: default
 tags: project_home, jsparklines

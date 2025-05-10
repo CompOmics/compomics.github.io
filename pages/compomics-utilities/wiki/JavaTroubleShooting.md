@@ -4,7 +4,7 @@ layout: default
 permalink: "/projects/compomics-utilities/wiki/JavaTroubleShooting"
 tags: wiki, compomics-utilities
 project: "compomics-utilities"
-github_project: "https://github.com/compomics/compomics-utilities"
+github_project: "https://github.com/CompOmics/compomics-utilities"
 ---
 
 # Java Troubleshooting #

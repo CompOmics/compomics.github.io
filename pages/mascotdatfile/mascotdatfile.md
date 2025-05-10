@@ -1,7 +1,7 @@
 ---
 title: "mascotdatfile"
 project: "mascotdatfile"
-github_project: "https://github.com/compomics/mascotdatfile"
+github_project: "https://github.com/CompOmics/mascotdatfile"
 description: "Java API for MS/MS search results by Mascot (Matrix Science)."
 layout: default
 tags: project_home, mascotdatfile

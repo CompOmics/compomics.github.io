@@ -4,7 +4,7 @@ layout: default
 permalink: "/projects/jtraml/wiki/UsageAndExamples"
 tags: wiki, jtraml
 project: "jtraml"
-github_project: "https://github.com/compomics/jtraml"
+github_project: "https://github.com/CompOmics/jtraml"
 ---
 
 # Usage And Examples

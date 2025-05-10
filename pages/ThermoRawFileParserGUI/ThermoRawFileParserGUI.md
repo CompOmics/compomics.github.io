@@ -1,7 +1,7 @@
 ---
 title: "ThermoRawFileParserGUI"
 project: "ThermoRawFileParserGUI"
-github_project: "https://github.com/compomics/ThermoRawFileParserGUI"
+github_project: "https://github.com/CompOmics/ThermoRawFileParserGUI"
 description: "Graphical user interface for the ThermoRawFileParser"
 layout: default
 tags: project_home, ThermoRawFileParserGUI

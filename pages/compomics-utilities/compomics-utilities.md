@@ -1,7 +1,7 @@
 ---
 title: "compomics-utilities"
 project: "compomics-utilities"
-github_project: "https://github.com/compomics/compomics-utilities"
+github_project: "https://github.com/CompOmics/compomics-utilities"
 description: "Open source Java library for computational proteomics"
 layout: default
 tags: project_home, compomics-utilities

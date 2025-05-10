@@ -1,7 +1,7 @@
 ---
 title: "omssa-parser"
 project: "omssa-parser"
-github_project: "https://github.com/compomics/omssa-parser"
+github_project: "https://github.com/CompOmics/omssa-parser"
 description: "Java based parser for OMSSA OMX files "
 layout: default
 tags: project_home, omssa-parser

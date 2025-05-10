@@ -1,7 +1,7 @@
 ---
 title: "deeplc"
 project: "deeplc"
-github_project: "https://github.com/compomics/DeepLC"
+github_project: "https://github.com/CompOmics/DeepLC"
 description: "DeepLC: Retention time prediction for (modified) peptides using Deep Learning."
 layout: default
 tags: project_home, deeplc

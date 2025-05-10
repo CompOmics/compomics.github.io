@@ -4,7 +4,7 @@ layout: default
 permalink: "/projects/jsparklines/wiki/Tutorial"
 tags: wiki, jsparklines
 project: "jsparklines"
-github_project: "https://github.com/compomics/jsparklines"
+github_project: "https://github.com/CompOmics/jsparklines"
 ---
 
 # Tutorial [ ](# )

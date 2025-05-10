@@ -1,7 +1,7 @@
 ---
 title: "peptide-shaker"
 project: "peptide-shaker"
-github_project: "https://github.com/compomics/peptide-shaker"
+github_project: "https://github.com/CompOmics/peptide-shaker"
 description: "Interpretation of proteomics identification results"
 layout: default
 tags: project_home, peptide-shaker

@@ -4,7 +4,7 @@ layout: default
 permalink: "/projects/colims/wiki/DatabaseRequirementsAndSetup"
 tags: wiki, colims
 project: "colims"
-github_project: "https://github.com/compomics/colims"
+github_project: "https://github.com/CompOmics/colims"
 ---
 
 # Database requirements and setup 

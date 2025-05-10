@@ -4,7 +4,7 @@ layout: default
 permalink: "/projects/ms-lims/wiki/DatabaseUpdates"
 tags: wiki, ms-lims
 project: "ms-lims"
-github_project: "https://github.com/compomics/ms-lims"
+github_project: "https://github.com/CompOmics/ms-lims"
 ---
 
 # Database updates

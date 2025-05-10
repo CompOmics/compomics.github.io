@@ -1,7 +1,7 @@
 ---
 title: "ols-dialog"
 project: "ols-dialog"
-github_project: "https://github.com/compomics/ols-dialog"
+github_project: "https://github.com/CompOmics/ols-dialog"
 description: "Java front end to the ontology lookup service (OLS)"
 layout: default
 tags: project_home, ols-dialog

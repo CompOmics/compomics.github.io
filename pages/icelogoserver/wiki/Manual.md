@@ -4,7 +4,7 @@ layout: default
 permalink: "/projects/icelogoserver/wiki/Manual"
 tags: wiki, icelogoserver
 project: "icelogoserver"
-github_project: "https://github.com/compomics/icelogoserver"
+github_project: "https://github.com/CompOmics/icelogoserver"
 ---
 
 # Installation instructions

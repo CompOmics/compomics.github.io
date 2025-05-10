@@ -4,7 +4,7 @@ layout: default
 permalink: "/projects/searchgui/wiki/DatabaseHelp"
 tags: wiki, searchgui
 project: "searchgui"
-github_project: "https://github.com/compomics/searchgui"
+github_project: "https://github.com/CompOmics/searchgui"
 ---
 
 # Database Help [ ](# )

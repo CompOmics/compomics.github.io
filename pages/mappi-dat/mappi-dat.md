@@ -1,7 +1,7 @@
 ---
 title: "mappi-dat"
 project: "mappi-dat"
-github_project: "https://github.com/compomics/MAPPI-DAT"
+github_project: "https://github.com/CompOmics/MAPPI-DAT"
 description: "analysis and data management tool for high-throughput protein-protein interaction data generated from microarray-MAPPIT system"
 layout: default
 tags: project_home, mappi-dat

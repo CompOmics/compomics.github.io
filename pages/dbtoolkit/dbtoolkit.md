@@ -1,7 +1,7 @@
 ---
 title: "dbtoolkit"
 project: "dbtoolkit"
-github_project: "https://github.com/compomics/dbtoolkit"
+github_project: "https://github.com/CompOmics/dbtoolkit"
 description: "Manipulating fasta sequence databases"
 layout: default
 tags: project_home, dbtoolkit

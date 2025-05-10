@@ -4,7 +4,7 @@ layout: default
 permalink: "/projects/omssa-parser/wiki/ReleaseNotes"
 tags: wiki, omssa-parser
 project: "omssa-parser"
-github_project: "https://github.com/compomics/omssa-parser"
+github_project: "https://github.com/CompOmics/omssa-parser"
 ---
 
 # Release Notes

@@ -1,7 +1,7 @@
 ---
 title: "thermo-msf-parser"
 project: "thermo-msf-parser"
-github_project: "https://github.com/compomics/thermo-msf-parser"
+github_project: "https://github.com/CompOmics/thermo-msf-parser"
 description: "Parser and viewer for thermo msf files."
 layout: default
 tags: project_home, thermo-msf-parser

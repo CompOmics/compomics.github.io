@@ -4,7 +4,7 @@ layout: default
 permalink: "/projects/ols-dialog/wiki/ReleaseNotes"
 tags: wiki, ols-dialog
 project: "ols-dialog"
-github_project: "https://github.com/compomics/ols-dialog"
+github_project: "https://github.com/CompOmics/ols-dialog"
 ---
 
 # ReleaseNotes

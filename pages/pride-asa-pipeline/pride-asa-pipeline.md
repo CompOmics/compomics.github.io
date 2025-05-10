@@ -1,7 +1,7 @@
 ---
 title: "pride-asa-pipeline"
 project: "pride-asa-pipeline"
-github_project: "https://github.com/compomics/pride-asa-pipeline"
+github_project: "https://github.com/CompOmics/pride-asa-pipeline"
 description: "Uniform annotation of identified spectra."
 layout: default
 tags: project_home, pride-asa-pipeline

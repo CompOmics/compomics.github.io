@@ -4,7 +4,7 @@ layout: default
 permalink: "/projects/denovogui/wiki/ReleaseNotes"
 tags: wiki, denovogui
 project: "denovogui"
-github_project: "https://github.com/compomics/denovogui"
+github_project: "https://github.com/CompOmics/denovogui"
 ---
 
 # ReleaseNotes

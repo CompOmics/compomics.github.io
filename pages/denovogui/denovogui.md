@@ -1,7 +1,7 @@
 ---
 title: "denovogui"
 project: "denovogui"
-github_project: "https://github.com/compomics/denovogui"
+github_project: "https://github.com/CompOmics/denovogui"
 description: "Graphical user interface for de novo sequencing of tandem mass spectra"
 layout: default
 tags: project_home, denovogui

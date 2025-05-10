@@ -1,7 +1,7 @@
 ---
 title: "meta-proteome-analyzer"
 project: "meta-proteome-analyzer"
-github_project: "https://github.com/compomics/meta-proteome-analyzer"
+github_project: "https://github.com/CompOmics/meta-proteome-analyzer"
 description: "MetaProteomeAnalyzer (MPA) software for analyzing and visualizing MS-based metaproteomics data."
 layout: default
 tags: project_home, meta-proteome-analyzer

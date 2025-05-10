@@ -4,7 +4,7 @@ layout: default
 permalink: "/projects/pride-asa-pipeline/wiki/Manual"
 tags: wiki, pride-asa-pipeline
 project: "pride-asa-pipeline"
-github_project: "https://github.com/compomics/pride-asa-pipeline"
+github_project: "https://github.com/CompOmics/pride-asa-pipeline"
 ---
 
 # Manual

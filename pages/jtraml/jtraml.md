@@ -1,7 +1,7 @@
 ---
 title: "jtraml"
 project: "jtraml"
-github_project: "https://github.com/compomics/jtraml"
+github_project: "https://github.com/CompOmics/jtraml"
 description: "Java implementation of the PSI-MS Transitions Markup Language (TraML) specification."
 layout: default
 tags: project_home, jtraml

@@ -1,7 +1,7 @@
 ---
 title: "fragmentation-analyzer"
 project: "fragmentation-analyzer"
-github_project: "https://github.com/compomics/fragmentation-analyzer"
+github_project: "https://github.com/CompOmics/fragmentation-analyzer"
 description: "A standalone java tool for analyzing ms/ms fragmentation data."
 layout: default
 tags: project_home, fragmentation-analyzer

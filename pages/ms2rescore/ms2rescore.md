@@ -1,7 +1,7 @@
 ---
 title: "ms2rescore"
 project: "ms2rescore"
-github_project: "https://github.com/compomics/ms2rescore"
+github_project: "https://github.com/CompOmics/ms2rescore"
 description: "Modular and user-friendly platform for AI-assisted rescoring of peptide identifications"
 layout: default
 tags: project_home, ms2rescore

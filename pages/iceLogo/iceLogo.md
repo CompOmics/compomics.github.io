@@ -1,7 +1,7 @@
 ---
 title: "iceLogo"
 project: "iceLogo"
-github_project: "https://github.com/compomics/icelogo"
+github_project: "https://github.com/CompOmics/icelogo"
 description: "Next-generation visualization of protein consensus sequences by iceLogo."
 layout: default
 tags: project_home, iceLogo

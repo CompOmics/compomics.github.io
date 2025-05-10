@@ -4,7 +4,7 @@ layout: default
 permalink: "/projects/meta-proteome-analyzer/wiki/Home"
 tags: wiki, meta-proteome-analyzer
 project: "meta-proteome-analyzer"
-github_project: "https://github.com/compomics/meta-proteome-analyzer"
+github_project: "https://github.com/CompOmics/meta-proteome-analyzer"
 ---
 
 # Home

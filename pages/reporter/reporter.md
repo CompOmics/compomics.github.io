@@ -1,7 +1,7 @@
 ---
 title: "reporter"
 project: "reporter"
-github_project: "https://github.com/compomics/reporter"
+github_project: "https://github.com/CompOmics/reporter"
 description: "Protein quantification based on reporter ions"
 layout: default
 tags: project_home, reporter

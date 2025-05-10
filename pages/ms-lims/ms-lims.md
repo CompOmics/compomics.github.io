@@ -1,7 +1,7 @@
 ---
 title: "ms-lims"
 project: "ms-lims"
-github_project: "https://github.com/compomics/ms-lims"
+github_project: "https://github.com/CompOmics/ms-lims"
 description: "Mass spectrometry based proteomics information management system."
 layout: default
 tags: project_home, ms-lims

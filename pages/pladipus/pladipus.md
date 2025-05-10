@@ -1,7 +1,7 @@
 ---
 title: "pladipus"
 project: "pladipus"
-github_project: "https://github.com/compomics/pladipus"
+github_project: "https://github.com/CompOmics/pladipus"
 description: "Platform for Distributed Proteomics Software"
 layout: default
 tags: project_home, pladipus

@@ -1,7 +1,7 @@
 ---
 title: "ThermoRawFileParser"
 project: "ThermoRawFileParser"
-github_project: "https://github.com/compomics/ThermoRawFileParser"
+github_project: "https://github.com/CompOmics/ThermoRawFileParser"
 description: "Thermo RAW file parser that runs on Linux/Mac and all other platforms that support Mono"
 layout: default
 tags: project_home, ThermoRawFileParser

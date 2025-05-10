@@ -1,7 +1,7 @@
 ---
 title: "search-all-assess-subset"
 project: "search-all-assess-subset"
-github_project: "https://github.com/compomics/search-all-assess-subset"
+github_project: "https://github.com/CompOmics/search-all-assess-subset"
 description: "An implementation of the Search All, Asses Subset strategy for FDR estimation in shotgun proteomics."
 layout: default
 tags: project_home, search-all-assess-subset

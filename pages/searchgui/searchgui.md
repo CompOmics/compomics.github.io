@@ -1,7 +1,7 @@
 ---
 title: "searchgui"
 project: "searchgui"
-github_project: "https://github.com/compomics/searchgui"
+github_project: "https://github.com/CompOmics/searchgui"
 description: "Highly adaptable common interface for proteomics search and de novo engines"
 layout: default
 tags: project_home, searchgui

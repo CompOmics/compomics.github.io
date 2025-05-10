@@ -1,7 +1,7 @@
 ---
 title: "ms2pip"
 project: "ms2pip"
-github_project: "https://github.com/compomics/ms2pip"
+github_project: "https://github.com/CompOmics/ms2pip"
 description: "MS²PIP: Fast and accurate peptide spectrum prediction for multiple fragmentation methods, instruments, and labeling techniques."
 layout: default
 tags: project_home, ms2pip

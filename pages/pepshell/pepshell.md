@@ -1,7 +1,7 @@
 ---
 title: "pepshell"
 project: "pepshell"
-github_project: "https://github.com/compomics/pepshell"
+github_project: "https://github.com/CompOmics/pepshell"
 description: "Visualization of conformational proteomics data."
 layout: default
 tags: project_home, pepshell

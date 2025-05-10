@@ -4,7 +4,7 @@ layout: default
 permalink: "/projects/ThermoRawFileParserGUI/wiki/ReleaseNotes"
 tags: wiki, ThermoRawFileParserGUI
 project: "ThermoRawFileParserGUI"
-github_project: "https://github.com/compomics/ThermoRawFileParserGUI"
+github_project: "https://github.com/CompOmics/ThermoRawFileParserGUI"
 ---
 
 # ReleaseNotes

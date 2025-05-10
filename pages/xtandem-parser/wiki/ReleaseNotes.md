@@ -4,7 +4,7 @@ layout: default
 permalink: "/projects/xtandem-parser/wiki/ReleaseNotes"
 tags: wiki, xtandem-parser
 project: "xtandem-parser"
-github_project: "https://github.com/compomics/xtandem-parser"
+github_project: "https://github.com/CompOmics/xtandem-parser"
 ---
 
 # ReleaseNotes

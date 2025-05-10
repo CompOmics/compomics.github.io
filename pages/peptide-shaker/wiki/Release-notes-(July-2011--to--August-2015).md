@@ -4,7 +4,7 @@ layout: default
 permalink: "/projects/peptide-shaker/wiki/Release-notes-%28July-2011--to--August-2015%29"
 tags: wiki, peptide-shaker
 project: "peptide-shaker"
-github_project: "https://github.com/compomics/peptide-shaker"
+github_project: "https://github.com/CompOmics/peptide-shaker"
 ---
 
 # ReleaseNotes (July 2011 to August 2015)

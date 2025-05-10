@@ -4,7 +4,7 @@ layout: default
 permalink: "/projects/thermo-msf-parser/wiki/Home"
 tags: wiki, thermo-msf-parser
 project: "thermo-msf-parser"
-github_project: "https://github.com/compomics/thermo-msf-parser"
+github_project: "https://github.com/CompOmics/thermo-msf-parser"
 ---
 
 # Home

@@ -4,7 +4,7 @@ layout: default
 permalink: "/projects/fragmentation-analyzer/wiki/Tutorial"
 tags: wiki, fragmentation-analyzer
 project: "fragmentation-analyzer"
-github_project: "https://github.com/compomics/fragmentation-analyzer"
+github_project: "https://github.com/CompOmics/fragmentation-analyzer"
 ---
 
 # Tutorial

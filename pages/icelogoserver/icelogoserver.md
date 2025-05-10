@@ -1,7 +1,7 @@
 ---
 title: "icelogoserver"
 project: "icelogoserver"
-github_project: "https://github.com/compomics/icelogoserver"
+github_project: "https://github.com/CompOmics/icelogoserver"
 description: "The server edition of the iceLogo tool."
 layout: default
 tags: project_home, icelogoserver
