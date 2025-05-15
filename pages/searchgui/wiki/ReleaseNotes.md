@@ -11,6 +11,12 @@ github_project: "https://github.com/CompOmics/searchgui"
 
 ----
 
+**Changes in SearchGUI 4.3.15 (May 14. 2025):**
+
+* FEATURE IMPROVEMENT: Updated MetaMorpheus to version 1.0.9.
+
+---
+
 **Changes in SearchGUI 4.3.14 (March 18. 2025):**
 
 * FEATURE IMPROVEMENT: Updated Comet to version 2025.01 rev. 1.
