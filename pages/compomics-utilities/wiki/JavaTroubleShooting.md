@@ -70,7 +70,7 @@ If you have a very high resolution screen the text and icons in your Java tools 
 
 **Note: This fix is for advanced users only, and is done at your own risk!**
 
-1) Download an exe decompiler/editor. (For example the free Resource Hacker: http://angusj.com/resourcehacker/)
+1) Download an exe decompiler/editor. (For example the free Resource Hacker: http://angusj.com/resourcehacker/ or [Resource Cracker](https://www.pelock.com/products/resource-cracker))
 
 2) Edit the applicable java.exe and javaw.exe files (make sure to pick the right ones; you may have multiple JDK and JRE installations!)
 
@@ -86,9 +86,9 @@ If you have a very high resolution screen the text and icons in your Java tools 
 
 Change the value of the `<dpiAware>true</dpiAware>` tag to `false`.
 
-4) Recompile the manifest (green 'Play' button in Resource Hacker).
+4) Recompile the manifest (green 'Play' button in Resource Hacker or [Resource Cracker](https://www.pelock.com/products/resource-cracker)).
 
-5) Save the altered exe file (Resource Hacker automatically creates a backup called `[filename]_original.exe`; in other tools, make sure that you make a backup of the original yourself!).
+5) Save the altered exe file (Resource Hacker or [Resource Cracker](https://www.pelock.com/products/resource-cracker) automatically creates a backup called `[filename]_original.exe`; in other tools, make sure that you make a backup of the original yourself!).
 
 6) Reboot the computer (if your exe was run before, Windows caches the exe file in memory, which prevent sit from re-reading the updated manifest. A restart fixes this.)
 
